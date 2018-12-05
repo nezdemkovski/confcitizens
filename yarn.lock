@@ -3938,10 +3938,10 @@ neo-async@^2.5.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
 
-next-server@^7.0.2-canary.35:
-  version "7.0.2-canary.35"
-  resolved "https://registry.yarnpkg.com/next-server/-/next-server-7.0.2-canary.35.tgz#aaf446f30d3350e3d3a0cf86f82b44fa25dc3faa"
-  integrity sha512-9pi6shUuyOSu4p9eUvoB3a1tcJ9GA9NVnfOry3FxvxsfBs8dZxcVOYVrXnrOeELU35p8Jkpx4zseKmiBZKKB0A==
+next-server@^7.0.2-canary.40:
+  version "7.0.2-canary.40"
+  resolved "https://registry.yarnpkg.com/next-server/-/next-server-7.0.2-canary.40.tgz#86919b1d1f01f27eae66ed314b7bee03375a619b"
+  integrity sha512-O5OwuWGMe/5WSHtyrqS3asp4Y8cLG5HSBDZ7UWx71F1aZ74FEoGPpwiYiz+DXyXMrLAJz7AdOlZBT/YDUtbmqw==
   dependencies:
     etag "1.8.1"
     find-up "3.0.0"
@@ -3951,10 +3951,10 @@ next-server@^7.0.2-canary.35:
     send "0.16.1"
     url "0.11.0"
 
-next@^7.0.2-canary.35:
-  version "7.0.2-canary.35"
-  resolved "https://registry.yarnpkg.com/next/-/next-7.0.2-canary.35.tgz#04a20665bf1105c7d2bf19ddbf6b576fec5277a1"
-  integrity sha512-Ahovk8sds68KgPpdohv9iCoP4fJdBHvmdail4tOWpmTXeepPMRQwiL9LjdBAjjjKpJdJ9U6vomhuO3gHMhTIzw==
+next@^7.0.2-canary.40:
+  version "7.0.2-canary.40"
+  resolved "https://registry.yarnpkg.com/next/-/next-7.0.2-canary.40.tgz#95e610540d4409c5e1ad2f9cbc90a7db30a8c614"
+  integrity sha512-b3lG22iskHWhtB8P5UFZb4lJQwsSZMlVrLXWkrEqEim5ECBarIDNb0GZMZHTNvOiEUdxmWVdwrkoJVpONKzcuw==
   dependencies:
     "@babel/core" "7.1.2"
     "@babel/plugin-proposal-class-properties" "7.1.0"
@@ -3989,7 +3989,7 @@ next@^7.0.2-canary.35:
     minimist "1.2.0"
     mkdirp-then "1.2.0"
     nanoid "1.2.1"
-    next-server "^7.0.2-canary.35"
+    next-server "^7.0.2-canary.40"
     prop-types "15.6.2"
     prop-types-exact "1.2.0"
     react-error-overlay "4.0.0"
@@ -4917,7 +4917,7 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-qs@^6.5.1, qs@^6.6.0:
+qs@^6.5.1:
   version "6.6.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.6.0.tgz#a99c0f69a8d26bf7ef012f871cdabb0aee4424c2"
   integrity sha512-KIJqT9jQJDQx5h5uAVPimw6yVg2SekOKu959OCtktD3FjzbpvaPr8i4zzg07DOMz+igA4W/aNM7OV8H37pFYfA==

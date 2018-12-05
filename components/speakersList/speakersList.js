@@ -2,7 +2,6 @@ import {
   Configure,
   CurrentRefinements,
   PoweredBy
-  // SearchBox
 } from "react-instantsearch-dom";
 import styled from "styled-components";
 // import debounce from "lodash.debounce";
@@ -37,32 +36,29 @@ const AlgoliaLogo = styled(PoweredBy)`
   margin-bottom: 50px;
 `;
 
-const SpeakersList = ({ resultsState, searchState, onSearchStateChange }) => {
-  console.log({ searchState });
-  return (
-    <InstantSearch
-      appId={ALGOLIA_APPLICATION_ID}
-      apiKey={ALGOLIA_SEARCH_ONLY_API_KEY}
-      indexName={ALGOLIA_INDEX_NAME}
-      resultsState={resultsState}
-      onSearchStateChange={onSearchStateChange}
-      searchState={searchState}
-    >
-      <Configure hitsPerPage={10} />
-      <Wrapper>
-        <SearchBox />
-        <RefinementList
-          attribute="currentLocation.continent"
-          transformItems={items =>
-            orderby(items, ["label", "count"], ["asc", "desc"])
-          }
-        />
-        <Cards />
-      </Wrapper>
+const SpeakersList = ({ resultsState, searchState, onSearchStateChange }) => (
+  <InstantSearch
+    appId={ALGOLIA_APPLICATION_ID}
+    apiKey={ALGOLIA_SEARCH_ONLY_API_KEY}
+    indexName={ALGOLIA_INDEX_NAME}
+    resultsState={resultsState}
+    onSearchStateChange={onSearchStateChange}
+    searchState={searchState}
+  >
+    <Configure hitsPerPage={10} />
+    <Wrapper>
+      <SearchBox />
+      <RefinementList
+        attribute="currentLocation.continent"
+        transformItems={items =>
+          orderby(items, ["label", "count"], ["asc", "desc"])
+        }
+      />
+      <Cards />
+    </Wrapper>
 
-      <AlgoliaLogo />
-    </InstantSearch>
-  );
-};
+    <AlgoliaLogo />
+  </InstantSearch>
+);
 
 export default SpeakersList;

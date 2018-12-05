@@ -1,70 +1,79 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Router from "next/router";
-import qs from "qs";
-import styled from "styled-components";
-
-const Logo = styled.h1`
-  text-align: center;
-  margin: 50px 0;
-  font-weight: 700;
-  font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue",
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
-`;
+import debounce from "lodash.debounce";
 
 import SpeakersList from "../components/speakersList/speakersList";
+import Logo from "../components/Logo";
 import { findResultsState } from "../components/instantSearch";
 
-const searchStateToUrl = searchState =>
-  searchState ? `${window.location.pathname}?${qs.stringify(searchState)}` : "";
+const useUrlState = initial => {
+  const [state, setState] = useState(initial);
 
-export default class extends React.Component {
-  static async getInitialProps(params) {
-    const searchState = qs.parse(
-      params.asPath.substring(params.asPath.indexOf("?") + 1)
-    );
-    const resultsState = await findResultsState(SpeakersList, { searchState });
+  return {
+    state,
+    setState
+  };
+};
 
-    return { resultsState, searchState };
-  }
+const Index = ({ searchState, resultsState }) => {
+  const urlState = useUrlState({});
 
-  onSearchStateChange = searchState => {
-    clearTimeout(this.debouncedSetState);
-    this.debouncedSetState = setTimeout(() => {
-      const href = searchStateToUrl(searchState);
+  const changeRoute = searchState => {
+    const href = {
+      pathname: "/",
+      query: {
+        ...(searchState.query && { search: searchState.query }),
+        ...(searchState.refinementList &&
+          searchState.refinementList["currentLocation.continent"] && {
+            continents: searchState.refinementList[
+              "currentLocation.continent"
+            ].join()
+          })
+      }
+    };
 
-      console.log({ href });
-      Router.push(href, href, {
-        shallow: true
-      });
-    }, 500);
-    this.setState({ searchState });
+    Router.push(href, href, { shallow: true });
   };
 
-  componentDidMount() {
-    this.setState({ searchState: qs.parse(window.location.search.slice(1)) });
-  }
+  const onSearchStateChange = searchState => {
+    clearTimeout(debouncedSetState);
 
-  componentWillReceiveProps() {
-    this.setState({ searchState: qs.parse(window.location.search.slice(1)) });
-  }
+    const debouncedSetState = setTimeout(() => {
+      changeRoute(searchState);
+    }, 500);
 
-  render() {
-    return (
-      <React.Fragment>
-        <Logo>Let's speak about IT!</Logo>
+    urlState.setState({ searchState });
+  };
 
-        <SpeakersList
-          resultsState={this.props.resultsState}
-          onSearchStateChange={this.onSearchStateChange}
-          searchState={
-            this.state && this.state.searchState
-              ? this.state.searchState
-              : this.props.searchState
-          }
-        />
-      </React.Fragment>
-    );
-  }
-}
+  return (
+    <React.Fragment>
+      <Logo>Let's speak about IT!</Logo>
+
+      <SpeakersList
+        resultsState={resultsState}
+        onSearchStateChange={onSearchStateChange}
+        searchState={
+          urlState.state && urlState.state.searchState
+            ? urlState.state.searchState
+            : searchState
+        }
+      />
+    </React.Fragment>
+  );
+};
+
+Index.getInitialProps = async ({ query }) => {
+  const searchState = {
+    ...(query.search && { query: query.search }),
+    ...(query.continents && {
+      refinementList: {
+        "currentLocation.continent": query.continents.split(",")
+      }
+    })
+  };
+  const resultsState = await findResultsState(SpeakersList, { searchState });
+
+  return { resultsState, searchState };
+};
+
+export default Index;
