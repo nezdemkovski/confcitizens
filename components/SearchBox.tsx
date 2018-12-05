@@ -1,5 +1,5 @@
-import { connectSearchBox } from "react-instantsearch-dom";
 import { Input } from "antd";
+import { connectSearchBox } from "react-instantsearch-dom";
 import styled from "styled-components";
 
 const StyledInput = styled(Input.Search)`

@@ -1,21 +1,16 @@
-import {
-  Configure,
-  CurrentRefinements,
-  PoweredBy
-} from "react-instantsearch-dom";
-import styled from "styled-components";
-// import debounce from "lodash.debounce";
-import orderby from "lodash.orderby";
+import orderby from 'lodash.orderby';
+import { Configure, PoweredBy } from 'react-instantsearch-dom';
+import styled from 'styled-components';
 
-import { InstantSearch } from "../instantSearch";
-import SearchBox from "../SearchBox";
-import Cards from "../card/Cards";
-import RefinementList from "../RefinementList";
 import {
   ALGOLIA_APPLICATION_ID,
+  ALGOLIA_INDEX_NAME,
   ALGOLIA_SEARCH_ONLY_API_KEY,
-  ALGOLIA_INDEX_NAME
-} from "../../config";
+} from '../../config';
+import RefinementList from '../RefinementList';
+import SearchBox from '../SearchBox';
+import Cards from '../card/Cards';
+import { InstantSearch } from '../instantSearch';
 
 const Wrapper = styled.div`
   display: grid;
@@ -51,7 +46,7 @@ const SpeakersList = ({ resultsState, searchState, onSearchStateChange }) => (
       <RefinementList
         attribute="currentLocation.continent"
         transformItems={items =>
-          orderby(items, ["label", "count"], ["asc", "desc"])
+          orderby(items, ['label', 'count'], ['asc', 'desc'])
         }
       />
       <Cards />

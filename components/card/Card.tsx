@@ -1,17 +1,22 @@
-import styled from "styled-components";
-import { Input, Tooltip, Button, Tag } from "antd";
+import { Button, Tag, Tooltip } from 'antd';
+import styled from 'styled-components';
+import { Speaker } from '../../content/speakersData';
+
+interface Props {
+  hit: Speaker;
+}
 
 const Wrapper = styled.div`
   display: grid;
   grid-gap: 20px;
   grid-template-columns: auto 1fr;
-  grid-template-areas: "image content" "links links";
+  grid-template-areas: 'image content' 'links links';
   background: white;
   padding: 15px 20px;
 
   @media (min-width: 768px) {
     grid-template-columns: auto 1fr auto;
-    grid-template-areas: "image content links";
+    grid-template-areas: 'image content links';
   }
 `;
 
@@ -43,10 +48,10 @@ const Links = styled.div`
   }
 `;
 
-const Card = ({ hit }) => (
+const Card = ({ hit }: Props) => (
   <Wrapper>
     <Image
-      src={`http://avatars.io/twitter/${hit.social.twitter}/medium`}
+      src={`https://avatars.io/twitter/${hit.social.twitter}/medium`}
       width={70}
       height={70}
       alt={hit.fullName}

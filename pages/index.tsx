@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from "react";
-import Router from "next/router";
-import debounce from "lodash.debounce";
+import Router from 'next/router';
+import React, { useState } from 'react';
+// import debounce from "lodash.debounce";
 
-import SpeakersList from "../components/speakersList/speakersList";
-import Logo from "../components/Logo";
-import { findResultsState } from "../components/instantSearch";
+import Logo from '../components/Logo';
+import { findResultsState } from '../components/instantSearch';
+import SpeakersList from '../components/speakersList/speakersList';
 
 const useUrlState = initial => {
   const [state, setState] = useState(initial);
 
   return {
     state,
-    setState
+    setState,
   };
 };
 
@@ -20,16 +20,16 @@ const Index = ({ searchState, resultsState }) => {
 
   const changeRoute = searchState => {
     const href = {
-      pathname: "/",
+      pathname: '/',
       query: {
         ...(searchState.query && { search: searchState.query }),
         ...(searchState.refinementList &&
-          searchState.refinementList["currentLocation.continent"] && {
+          searchState.refinementList['currentLocation.continent'] && {
             continents: searchState.refinementList[
-              "currentLocation.continent"
-            ].join()
-          })
-      }
+              'currentLocation.continent'
+            ].join(),
+          }),
+      },
     };
 
     Router.push(href, href, { shallow: true });
@@ -67,9 +67,9 @@ Index.getInitialProps = async ({ query }) => {
     ...(query.search && { query: query.search }),
     ...(query.continents && {
       refinementList: {
-        "currentLocation.continent": query.continents.split(",")
-      }
-    })
+        'currentLocation.continent': query.continents.split(','),
+      },
+    }),
   };
   const resultsState = await findResultsState(SpeakersList, { searchState });
 

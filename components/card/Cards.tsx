@@ -1,5 +1,6 @@
-import { connectInfiniteHits } from "react-instantsearch-dom";
 import { Button } from "antd";
+import React from "react";
+import { connectInfiniteHits } from "react-instantsearch-dom";
 
 import Card from "../card/Card";
 
@@ -16,7 +17,7 @@ const Cards = connectInfiniteHits(({ hits, hasMore, refine }) => (
         type="primary"
         icon="download"
         size="large"
-        block
+        block={true}
         onClick={() => {
           if (hasMore) {
             refine();
