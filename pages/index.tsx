@@ -47,7 +47,7 @@ const Index = ({ searchState, resultsState }) => {
 
   return (
     <React.Fragment>
-      <Logo>Let's speak about IT!</Logo>
+      <Logo>ConfCitizens</Logo>
 
       <SpeakersList
         resultsState={resultsState}

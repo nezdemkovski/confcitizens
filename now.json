@@ -1,5 +1,5 @@
 {
   "version": 2,
-  "name": "nextjs",
+  "name": "confcitizens",
   "builds": [{ "src": "next.config.js", "use": "@now/next" }]
 }

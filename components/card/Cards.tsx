@@ -1,8 +1,8 @@
-import { Button } from "antd";
-import React from "react";
-import { connectInfiniteHits } from "react-instantsearch-dom";
+import { Button } from 'antd';
+import React from 'react';
+import { connectInfiniteHits } from 'react-instantsearch-dom';
 
-import Card from "../card/Card";
+import Card from '../card/Card';
 
 const Cards = connectInfiniteHits(({ hits, hasMore, refine }) => (
   <React.Fragment>
@@ -15,7 +15,6 @@ const Cards = connectInfiniteHits(({ hits, hasMore, refine }) => (
     {hasMore && (
       <Button
         type="primary"
-        icon="download"
         size="large"
         block={true}
         onClick={() => {

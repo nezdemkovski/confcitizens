@@ -831,10 +831,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-instantsearch-dom@^5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@types/react-instantsearch-dom/-/react-instantsearch-dom-5.2.1.tgz#810f0c1dfc4e0f80f17eecc0b993ae186f22065f"
-  integrity sha512-fTU1qkdML0n7UljPa87G61Fsam8vqVBtuNsCOtW4dVnlnkFYabZLWVkwHvpPubu3vyJHkHMK6vpviFz1faMZuw==
+"@types/react-instantsearch-dom@^5.2.2":
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/@types/react-instantsearch-dom/-/react-instantsearch-dom-5.2.2.tgz#6428ac043646c4eeeda5f7ad967be53dccf54b11"
+  integrity sha512-p5rTXMDOMMUQfkD5JtooxSB+y0ZRER4TOhF0XDkHiJGGsKQUyfgeYWqm6oL0EVd7q68dDkki4ymYI3z++bDauQ==
   dependencies:
     "@types/react" "*"
     "@types/react-instantsearch-core" "*"
