@@ -18,14 +18,14 @@ const useUrlState = initial => {
 const Index = ({ searchState, resultsState }) => {
   const urlState = useUrlState({});
 
-  const changeRoute = searchState => {
+  const changeRoute = state => {
     const href = {
       pathname: '/',
       query: {
-        ...(searchState.query && { search: searchState.query }),
-        ...(searchState.refinementList &&
-          searchState.refinementList['currentLocation.continent'] && {
-            continents: searchState.refinementList[
+        ...(state.query && { search: state.query }),
+        ...(state.refinementList &&
+          state.refinementList['currentLocation.continent'] && {
+            continents: state.refinementList[
               'currentLocation.continent'
             ].join(),
           }),
@@ -35,14 +35,15 @@ const Index = ({ searchState, resultsState }) => {
     Router.push(href, href, { shallow: true });
   };
 
-  const onSearchStateChange = searchState => {
+  const onSearchStateChange = state => {
+    // @ts-ignore
     clearTimeout(debouncedSetState);
 
     const debouncedSetState = setTimeout(() => {
-      changeRoute(searchState);
+      changeRoute(state);
     }, 500);
 
-    urlState.setState({ searchState });
+    urlState.setState({ searchState: state });
   };
 
   return (

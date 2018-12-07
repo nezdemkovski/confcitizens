@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "node"
+  - 'node'
 
 cache:
   yarn: true
@@ -11,3 +11,25 @@ notifications:
   email:
     on_success: change
     on_failure: always
+
+stages:
+  - test
+  - build
+  - name: deploy
+    if: (NOT type IN (pull_request)) AND (branch = master)
+
+jobs:
+  include:
+    - stage: test
+      script:
+        - yarn test-ci
+
+    - stage: build
+      script:
+        - yarn build
+
+    - stage: deploy
+      script: yarn deploy
+      after_script:
+        - yarn alias
+        - yarn clear-deployments

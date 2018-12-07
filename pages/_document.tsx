@@ -31,6 +31,7 @@ export default class MyDocument extends Document {
     const initialProps = await Document.getInitialProps(ctx);
     return {
       ...initialProps,
+      // @ts-ignore
       styles: [...initialProps.styles, ...sheet.getStyleElement()],
     };
   }

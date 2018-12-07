@@ -20,6 +20,6 @@
   },
   "rulesDirectory": [],
   "linterOptions": {
-    "exclude": []
+    "exclude": ["next.config.js"]
   }
 }
