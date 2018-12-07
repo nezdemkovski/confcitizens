@@ -1,4 +1,5 @@
 import { Button, Tag, Tooltip } from 'antd';
+import Link from 'next/link';
 import styled from 'styled-components';
 
 import { Speaker } from '../../data/speakers';
@@ -49,6 +50,14 @@ const Links = styled.div`
   }
 `;
 
+// const Flag = styled.span`
+//   font-size: 1.5em;
+// `;
+
+const TagWrapper = styled(Tag)`
+  margin-bottom: 10px;
+`;
+
 const Card = ({ hit }: Props) => (
   <Wrapper>
     <Image
@@ -59,18 +68,23 @@ const Card = ({ hit }: Props) => (
     />
 
     <Content>
-      <Title>{hit.fullName}</Title>
-      <div>
-        {`Current location: ${hit.currentLocation.country}, ${
-          hit.currentLocation.city
-        }`}
-      </div>
+      <Title>
+        {hit.fullName}
+        <Tooltip
+          title={`${hit.currentLocation.country}, ${hit.currentLocation.city}`}
+        >
+          {' '}
+          ({hit.currentLocation.country})
+        </Tooltip>
+      </Title>
 
       <div>
         {hit.tags.map((tag, id) => (
-          <Tag color="#108ee9" key={id}>
-            {tag}
-          </Tag>
+          <TagWrapper color="blue" key={id}>
+            <Link href={{ pathname: '/', query: { search: tag } }}>
+              <a>{tag}</a>
+            </Link>
+          </TagWrapper>
         ))}
       </div>
     </Content>

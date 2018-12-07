@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/yakovlevyuri/confcitizens.svg?branch=master)](https://travis-ci.com/yakovlevyuri/confcitizens)
 
-[https//concitizens.com](https//concitizens.com)
+[https://confcitizens.com](https://confcitizens.com)
 
 > A place where all speakers come together!
 
