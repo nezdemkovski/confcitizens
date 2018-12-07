@@ -11,6 +11,7 @@ export interface Speaker {
     linkedin?: string;
     email?: string;
   };
+  availableForHire: boolean;
   currentLocation: {
     continent: string;
     country: string;
@@ -39,6 +40,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
@@ -53,6 +55,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
@@ -75,6 +78,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
@@ -89,6 +93,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Africa',
       country: 'South Africa',
@@ -115,6 +120,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Pakistan',
@@ -138,6 +144,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Pakistan',
@@ -166,6 +173,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Pakistan',
@@ -193,6 +201,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Pakistan',
@@ -219,6 +228,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Pakistan',
@@ -243,6 +253,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -261,6 +272,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -279,6 +291,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -306,6 +319,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -324,6 +338,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -342,6 +357,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -360,6 +376,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -378,6 +395,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -396,6 +414,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Lebanon',
@@ -414,6 +433,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Singapore',
@@ -432,6 +452,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Singapore',
@@ -450,6 +471,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Singapore',
@@ -468,6 +490,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Australia',
       country: 'Australia',
@@ -486,6 +509,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Australia',
       country: 'Australia',
@@ -504,6 +528,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Australia',
       country: 'Australia',
@@ -522,6 +547,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Australia',
       country: 'Australia',
@@ -540,6 +566,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -558,6 +585,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -576,6 +604,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -594,6 +623,7 @@ export const speakers: Speaker[] = [
       website: 'https://okonet.ru/',
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -612,6 +642,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -630,6 +661,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -648,6 +680,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -673,6 +706,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -691,6 +725,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -709,6 +744,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -727,6 +763,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -745,6 +782,7 @@ export const speakers: Speaker[] = [
       website: 'https://mxstbr.com/',
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -763,6 +801,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -781,6 +820,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -799,6 +839,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -817,6 +858,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -835,6 +877,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -853,6 +896,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Belgium',
@@ -871,6 +915,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Bulgaria',
@@ -889,6 +934,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Denmark',
@@ -907,6 +953,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Denmark',
@@ -925,6 +972,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Denmark',
@@ -951,6 +999,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Finland',
@@ -969,6 +1018,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Finland',
@@ -994,6 +1044,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'France',
@@ -1021,6 +1072,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'France',
@@ -1047,6 +1099,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'France',
@@ -1065,6 +1118,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1083,6 +1137,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1101,6 +1156,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1119,6 +1175,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1137,6 +1194,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1155,6 +1213,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1173,6 +1232,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1191,6 +1251,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1209,6 +1270,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1227,6 +1289,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1245,6 +1308,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1264,6 +1328,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: 'hey@iamsaravieira.com',
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1282,6 +1347,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1307,6 +1373,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1325,6 +1392,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1343,6 +1411,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1361,6 +1430,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1379,6 +1449,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1397,6 +1468,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1415,6 +1487,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1433,6 +1506,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1451,6 +1525,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1469,6 +1544,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1487,6 +1563,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1505,6 +1582,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Greece',
@@ -1523,6 +1601,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1541,6 +1620,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1559,6 +1639,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1583,6 +1664,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1601,6 +1683,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1619,6 +1702,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1637,6 +1721,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1655,6 +1740,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1673,6 +1759,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1691,6 +1778,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1709,6 +1797,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1727,6 +1816,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1745,6 +1835,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1763,6 +1854,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1787,6 +1879,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1805,6 +1898,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1823,6 +1917,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1841,6 +1936,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1859,6 +1955,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1877,6 +1974,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1895,6 +1993,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1913,6 +2012,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1931,6 +2031,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1949,6 +2050,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1967,6 +2069,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -1985,6 +2088,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2003,6 +2107,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2021,6 +2126,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2039,6 +2145,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2057,6 +2164,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: 'https://www.linkedin.com/in/nirgn/',
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Israel',
@@ -2075,6 +2183,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Israel',
@@ -2098,6 +2207,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Israel',
@@ -2116,6 +2226,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Italy',
@@ -2134,6 +2245,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Italy',
@@ -2152,6 +2264,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2177,6 +2290,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2195,6 +2309,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2213,6 +2328,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2231,6 +2347,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2249,6 +2366,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2267,6 +2385,7 @@ export const speakers: Speaker[] = [
       website: 'https://double-r.nl/speaking/',
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2291,6 +2410,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2309,6 +2429,7 @@ export const speakers: Speaker[] = [
       website: null,
       linkedin: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2328,6 +2449,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: 'kristijan.mkd@gmail.com',
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2347,6 +2469,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2366,6 +2489,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2385,6 +2509,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2404,6 +2529,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2423,6 +2549,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2442,6 +2569,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2461,6 +2589,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2480,6 +2609,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2499,6 +2629,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2518,6 +2649,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2537,6 +2669,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Portugal',
@@ -2556,6 +2689,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Portugal',
@@ -2575,6 +2709,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Portugal',
@@ -2600,6 +2735,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Romania',
@@ -2619,6 +2755,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Russia',
@@ -2638,6 +2775,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Russia',
@@ -2657,6 +2795,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Russia',
@@ -2676,6 +2815,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Russia',
@@ -2695,10 +2835,670 @@ export const speakers: Speaker[] = [
       linkedin: null,
       email: null,
     },
+    availableForHire: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Russia',
       city: 'St. Petersburg',
+    },
+  },
+  {
+    id: 140,
+    fullName: 'Aleksandar Simovic',
+    tags: ['Serverless'],
+    social: {
+      twitter: 'simalexan',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Serbia',
+      city: 'Belgrade',
+    },
+  },
+  {
+    id: 141,
+    fullName: 'Slobodan Stojanović',
+    tags: ['Serverless', 'Offline Web', 'Chat Bots'],
+    social: {
+      twitter: 'slobodan',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Serbia',
+      city: 'Belgrade',
+    },
+  },
+  {
+    id: 142,
+    fullName: 'Flavio Corpa',
+    tags: ['JavaScript', 'Functional Programming'],
+    social: {
+      twitter: 'flaviocorpa',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Spain',
+      city: 'Alicante',
+    },
+  },
+  {
+    id: 143,
+    fullName: 'Javi Velasco',
+    tags: ['React', 'CSS-in-JS', 'React Toolbox'],
+    social: {
+      twitter: 'javivelasco',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Spain',
+      city: 'Córdoba',
+    },
+  },
+  {
+    id: 144,
+    fullName: 'Vincenzo Chianese',
+    tags: ['WebAPI', 'Microservices', 'JavaScript'],
+    social: {
+      twitter: 'D3DVincent',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Spain',
+      city: 'Madrid',
+    },
+  },
+  {
+    id: 145,
+    fullName: 'Erik Rasmussen',
+    tags: ['React', 'Redux', 'Redux-Form', 'Forms'],
+    social: {
+      twitter: 'erikras',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Spain',
+      city: 'Santander',
+    },
+  },
+  {
+    id: 146,
+    fullName: 'Martin Splitt',
+    tags: ['Virtual Reality', 'Web Performance'],
+    social: {
+      twitter: 'g33konaut',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Switzerland',
+      city: 'Zurich',
+    },
+  },
+  {
+    id: 147,
+    fullName: 'Sebastian Siemssen',
+    tags: ['React', 'GraphQL', 'Tooling'],
+    social: {
+      twitter: 'thefubhy',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Switzerland',
+      city: 'Zurich',
+    },
+  },
+  {
+    id: 148,
+    fullName: 'Denys Dovhan',
+    tags: ['JavaScript', 'DevTools', 'Shell scripting'],
+    social: {
+      twitter: 'denysdovhan',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Ukraine',
+      city: 'Chernivtsi',
+    },
+  },
+  {
+    id: 149,
+    fullName: 'Illya Klymov',
+    tags: ['Teaching', 'Coaching', 'JavaScript'],
+    social: {
+      twitter: 'xanf_ua',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Ukraine',
+      city: 'Kharkiv',
+    },
+  },
+  {
+    id: 150,
+    fullName: 'Aleksey Shvayka',
+    tags: [
+      'Browsers',
+      'Web Standards',
+      'Open Source',
+      'Front End',
+      'Smalltalk',
+    ],
+    social: {
+      twitter: 'shvaikalesh',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Ukraine',
+      city: 'Kyiv',
+    },
+  },
+  {
+    id: 151,
+    fullName: 'Andrey Listochkin',
+    tags: ['Rust', 'JavaScript', 'Skills', 'Architecture'],
+    social: {
+      twitter: 'listochkin',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Ukraine',
+      city: 'Kyiv',
+    },
+  },
+  {
+    id: 152,
+    fullName: 'Andrii Shumada',
+    tags: ['JavaScript', 'Node.js', 'Streams'],
+    social: {
+      twitter: 'eagleeye_s',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Ukraine',
+      city: 'Kyiv',
+    },
+  },
+  {
+    id: 153,
+    fullName: 'Anton Nemtsev',
+    tags: ['HTML', 'CSS', 'Web Standards'],
+    social: {
+      twitter: 'SilentImp',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Ukraine',
+      city: 'Kyiv',
+    },
+  },
+  {
+    id: 154,
+    fullName: 'Artem Yavorsky',
+    tags: ['Babel', 'ECMAScript', 'Compilers'],
+    social: {
+      twitter: 'yavorsky',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Ukraine',
+      city: 'Kyiv',
+    },
+  },
+  {
+    id: 155,
+    fullName: 'Roman Liutikov',
+    tags: ['ClojureScript', 'React', 'Compilers'],
+    social: {
+      twitter: 'roman01la',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Ukraine',
+      city: 'Kyiv',
+    },
+  },
+  {
+    id: 156,
+    fullName: 'Vladimir Agafonkin',
+    tags: ['Maps', 'Algorithms'],
+    social: {
+      twitter: 'mourner',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Ukraine',
+      city: 'Kyiv',
+    },
+  },
+  {
+    id: 157,
+    fullName: 'Yuri Artyukh',
+    tags: ['HTML', 'CSS', 'JavaScript', 'WebGL'],
+    social: {
+      twitter: 'akella',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Ukraine',
+      city: 'Kyiv',
+    },
+  },
+  {
+    id: 158,
+    fullName: 'Artem Zakharchenko',
+    tags: ['React', 'Forms', 'CSS Grid'],
+    social: {
+      twitter: 'kettanaito',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Ukraine',
+      city: 'Poltava',
+    },
+  },
+  {
+    id: 159,
+    fullName: 'Artem Denysov',
+    tags: ['Performance', 'Dev Tools'],
+    social: {
+      twitter: 'denar90',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Ukraine',
+      city: 'Vinnytsia',
+    },
+  },
+  {
+    id: 160,
+    fullName: 'Timofey Lavrenyuk',
+    tags: ['Progressive Web Apps', 'Modern Browser APIs'],
+    social: {
+      twitter: 'geek_timofey',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Ukraine',
+      city: 'Odessa',
+    },
+  },
+  {
+    id: 161,
+    fullName: 'Bruce Lawson',
+    tags: ['Standards', 'Performance'],
+    social: {
+      twitter: 'brucel',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'United Kingdom',
+      city: 'Birmingham',
+    },
+  },
+  {
+    id: 162,
+    fullName: 'Jeremy Keith',
+    tags: [
+      'Standards',
+      'Web Development',
+      'Web Design',
+      'CSS',
+      'Accessibility',
+    ],
+    social: {
+      twitter: 'adactio',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'United Kingdom',
+      city: 'Brighton',
+    },
+  },
+  {
+    id: 163,
+    fullName: 'Paul Robert Lloyd',
+    tags: ['Design', 'Web Design', 'Architecture', 'Design Systems', 'Trains'],
+    social: {
+      twitter: 'paulrobertlloyd',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'United Kingdom',
+      city: 'Brighton',
+    },
+  },
+  {
+    id: 164,
+    fullName: 'Léonie Watson',
+    tags: ['Accessibility', 'Web Standards', 'Screen Readers'],
+    social: {
+      twitter: 'LeonieWatson',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'United Kingdom',
+      city: 'Bristol',
+    },
+  },
+  {
+    id: 165,
+    fullName: 'Rachel Andrew',
+    tags: ['CSS'],
+    social: {
+      twitter: 'rachelandrew',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'United Kingdom',
+      city: 'Bristol',
+    },
+  },
+  {
+    id: 166,
+    fullName: 'Ruth John',
+    tags: ['Browser Technologies', 'Web Audio', 'Web MIDI'],
+    social: {
+      twitter: 'Rumyra',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'United Kingdom',
+      city: 'Bristol',
+    },
+  },
+  {
+    id: 167,
+    fullName: 'Caroline Jarrett',
+    tags: ['Forms Usability', 'User Research'],
+    social: {
+      twitter: 'cjforms',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'United Kingdom',
+      city: 'Leighton Buzzard',
+    },
+  },
+  {
+    id: 168,
+    fullName: 'Luke Bonaccorsi',
+    tags: ['Node', 'JavaScript', 'Automation'],
+    social: {
+      twitter: 'LukeB_UK',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'United Kingdom',
+      city: 'Leeds',
+    },
+  },
+  {
+    id: 169,
+    fullName: 'Ada Rose Cannon',
+    tags: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'WebVR',
+      'Web Technologies',
+      'Progressive Web Apps',
+    ],
+    social: {
+      twitter: 'lady_ada_king',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'United Kingdom',
+      city: 'London',
+    },
+  },
+  {
+    id: 170,
+    fullName: 'Alessandro Cinelli',
+    tags: ['JavaScript'],
+    social: {
+      twitter: 'cirpo',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'United Kingdom',
+      city: 'London',
+    },
+  },
+  {
+    id: 171,
+    fullName: 'Alex Lobera',
+    tags: ['JavaScript', 'React', 'Redux', 'GraphQL'],
+    social: {
+      twitter: 'alex_lobera',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'United Kingdom',
+      city: 'London',
     },
   },
 ];

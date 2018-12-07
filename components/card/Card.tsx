@@ -1,6 +1,7 @@
 import { Button, Tag, Tooltip } from 'antd';
 import styled from 'styled-components';
-import { Speaker } from '../../content/speakersData';
+
+import { Speaker } from '../../data/speakers';
 
 interface Props {
   hit: Speaker;
