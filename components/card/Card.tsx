@@ -2,6 +2,7 @@ import { Button, Tag, Tooltip } from 'antd';
 import Link from 'next/link';
 import styled from 'styled-components';
 
+import { countries } from '../../data/countries';
 import { Speaker } from '../../data/speakers';
 
 interface Props {
@@ -50,9 +51,11 @@ const Links = styled.div`
   }
 `;
 
-// const Flag = styled.span`
-//   font-size: 1.5em;
-// `;
+const Flag = styled.span`
+  font-size: 1.5em;
+  vertical-align: middle;
+  margin-left: 10px;
+`;
 
 const TagWrapper = styled(Tag)`
   margin-bottom: 10px;
@@ -71,10 +74,14 @@ const Card = ({ hit }: Props) => (
       <Title>
         {hit.fullName}
         <Tooltip
-          title={`${hit.currentLocation.country}, ${hit.currentLocation.city}`}
+          title={`${hit.currentLocation.country.name}, ${
+            hit.currentLocation.city
+          }`}
         >
-          {' '}
-          ({hit.currentLocation.country})
+          <Flag>
+            {countries[hit.currentLocation.country.name] &&
+              countries[hit.currentLocation.country.name].emoji}
+          </Flag>
         </Tooltip>
       </Title>
 

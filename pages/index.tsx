@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 // import debounce from "lodash.debounce";
 
 import Logo from '../components/Logo';
-import { findResultsState } from '../components/instantSearch';
-import SpeakersList from '../components/speakersList/speakersList';
+import SpeakersList from '../components/SpeakersList';
+import { findResultsState } from '../utils/instantSearch';
 
 const useUrlState = initial => {
   const [state, setState] = useState(initial);
