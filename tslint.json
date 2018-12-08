@@ -16,7 +16,8 @@
     "no-switch-case-fall-through": true,
     "max-classes-per-file": false,
     "jsx-no-lambda": false,
-    "no-implicit-dependencies": [true, "dev"]
+    "no-implicit-dependencies": [true, "dev"],
+    "no-var-requires": false
   },
   "rulesDirectory": [],
   "linterOptions": {

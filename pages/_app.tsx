@@ -1,7 +1,7 @@
 import App, { Container } from 'next/app';
 import React from 'react';
 
-import Layout from '../components/Layout';
+import Layout from '../components/layout/Layout';
 
 class MyApp extends App {
   public render() {

@@ -1,9 +1,9 @@
-import { Input } from "antd";
-import { connectSearchBox } from "react-instantsearch-dom";
-import styled from "styled-components";
+import { Input } from 'antd';
+import { connectSearchBox } from 'react-instantsearch-dom';
+import styled from 'styled-components';
 
 const StyledInput = styled(Input.Search)`
-  margin-bottom: 20px;
+  padding: 20px 0;
 `;
 
 const SearchBox = connectSearchBox(({ refine, currentRefinement }) => (

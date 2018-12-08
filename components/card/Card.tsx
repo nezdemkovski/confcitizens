@@ -74,13 +74,11 @@ const Card = ({ hit }: Props) => (
       <Title>
         {hit.fullName}
         <Tooltip
-          title={`${hit.currentLocation.country.name}, ${
-            hit.currentLocation.city
-          }`}
+          title={`${hit.currentLocation.country}, ${hit.currentLocation.city}`}
         >
           <Flag>
-            {countries[hit.currentLocation.country.name] &&
-              countries[hit.currentLocation.country.name].emoji}
+            {countries[hit.currentLocation.country] &&
+              countries[hit.currentLocation.country].emoji}
           </Flag>
         </Tooltip>
       </Title>

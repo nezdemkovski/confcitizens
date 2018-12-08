@@ -7,7 +7,6 @@ import {
   ALGOLIA_SEARCH_ONLY_API_KEY,
 } from '../config';
 import { InstantSearch } from '../utils/instantSearch';
-import AlgoliaLogo from './AlgoliaLogo';
 import RefinementList from './RefinementList';
 import SearchBox from './SearchBox';
 import Cards from './card/Cards';
@@ -24,14 +23,12 @@ const SpeakersList = ({ resultsState, searchState, onSearchStateChange }) => (
     <Configure hitsPerPage={10} />
     <SearchBox />
     <RefinementList
-      attribute="currentLocation.continent.name"
+      attribute="currentLocation.continent"
       transformItems={items =>
         orderby(items, ['label', 'count'], ['asc', 'desc'])
       }
     />
     <Cards />
-
-    <AlgoliaLogo />
   </InstantSearch>
 );
 

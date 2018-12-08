@@ -10,6 +10,15 @@ const Wrapper = styled.div`
   grid-gap: 10px;
 `;
 
+const ButtonWrapper = styled.div`
+  display: grid;
+  margin-top: 25px;
+
+  @media (min-width: 992px) {
+    justify-items: center;
+  }
+`;
+
 const Cards = connectInfiniteHits(({ hits, hasMore, refine }) => (
   <React.Fragment>
     {hits.length ? (
@@ -23,18 +32,19 @@ const Cards = connectInfiniteHits(({ hits, hasMore, refine }) => (
     )}
 
     {hasMore && (
-      <Button
-        type="primary"
-        size="large"
-        block={true}
-        onClick={() => {
-          if (hasMore) {
-            refine();
-          }
-        }}
-      >
-        Load more speakers
-      </Button>
+      <ButtonWrapper>
+        <Button
+          type="primary"
+          size="large"
+          onClick={() => {
+            if (hasMore) {
+              refine();
+            }
+          }}
+        >
+          Load more speakers
+        </Button>
+      </ButtonWrapper>
     )}
   </React.Fragment>
 ));

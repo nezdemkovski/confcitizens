@@ -12,14 +12,8 @@ export interface Speaker {
   };
   availableForHire: boolean;
   currentLocation: {
-    continent: {
-      name: string;
-      emoji: string;
-    };
-    country: {
-      name: string;
-      emoji: string;
-    };
+    continent: string;
+    country: string;
     city: string;
   };
 }
@@ -45,17 +39,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
     },
     availableForHire: null,
-    currentLocation: {
-      continent: {
-        name: 'Africa',
-        emoji: '🌍',
-      },
-      country: {
-        name: 'Nigeria',
-        emoji: '',
-      },
-      city: 'Lagos',
-    },
+    currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
     fullName: 'Ire Aderinokun',
@@ -69,17 +53,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
     },
     availableForHire: null,
-    currentLocation: {
-      continent: {
-        name: 'Africa',
-        emoji: '🌍',
-      },
-      country: {
-        name: 'Nigeria',
-        emoji: '',
-      },
-      city: 'Lagos',
-    },
+    currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
     fullName: 'Otemuyiwa Prosper',
@@ -101,17 +75,7 @@ export const speakers: Speaker[] = [
       linkedin: null,
     },
     availableForHire: null,
-    currentLocation: {
-      continent: {
-        name: 'Africa',
-        emoji: '🌍',
-      },
-      country: {
-        name: 'Nigeria',
-        emoji: '',
-      },
-      city: 'Lagos',
-    },
+    currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
     fullName: 'Rebecca Franks',
@@ -126,14 +90,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Africa',
-        emoji: '🌍',
-      },
-      country: {
-        name: 'South Africa',
-        emoji: '',
-      },
+      continent: 'Africa',
+      country: 'South Africa',
       city: 'Johannesburg',
     },
   },
@@ -158,14 +116,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'Pakistan',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'Pakistan',
       city: 'Karachi',
     },
   },
@@ -187,14 +139,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'Pakistan',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'Pakistan',
       city: 'Karachi',
     },
   },
@@ -221,14 +167,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'Pakistan',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'Pakistan',
       city: 'Karachi',
     },
   },
@@ -254,14 +194,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'Pakistan',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'Pakistan',
       city: 'Karachi',
     },
   },
@@ -286,14 +220,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'Pakistan',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'Pakistan',
       city: 'Karachi',
     },
   },
@@ -316,14 +244,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'India',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'India',
       city: 'Bangalore',
     },
   },
@@ -340,14 +262,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'India',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'India',
       city: 'Bangalore',
     },
   },
@@ -364,14 +280,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'India',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'India',
       city: 'Bangalore',
     },
   },
@@ -397,14 +307,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'India',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'India',
       city: 'Mumbai',
     },
   },
@@ -421,14 +325,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'India',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'India',
       city: 'Mumbai',
     },
   },
@@ -445,14 +343,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'India',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'India',
       city: 'Mumbai',
     },
   },
@@ -469,14 +361,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'India',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'India',
       city: 'Mumbai',
     },
   },
@@ -493,14 +379,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'India',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'India',
       city: 'New Delhi',
     },
   },
@@ -517,14 +397,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'Lebanon',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'Lebanon',
       city: 'Tyre',
     },
   },
@@ -541,14 +415,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'Singapore',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'Singapore',
       city: 'Singapore',
     },
   },
@@ -565,14 +433,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'Singapore',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'Singapore',
       city: 'Singapore',
     },
   },
@@ -589,14 +451,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'Singapore',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'Singapore',
       city: 'Singapore',
     },
   },
@@ -613,14 +469,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Oceania',
-        emoji: '🏄',
-      },
-      country: {
-        name: 'Australia',
-        emoji: '',
-      },
+      continent: 'Australia',
+      country: 'Australia',
       city: 'Melbourne',
     },
   },
@@ -637,14 +487,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Oceania',
-        emoji: '🏄',
-      },
-      country: {
-        name: 'Australia',
-        emoji: '',
-      },
+      continent: 'Australia',
+      country: 'Australia',
       city: 'Melbourne',
     },
   },
@@ -661,14 +505,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Oceania',
-        emoji: '🏄',
-      },
-      country: {
-        name: 'Australia',
-        emoji: '',
-      },
+      continent: 'Australia',
+      country: 'Australia',
       city: 'Melbourne',
     },
   },
@@ -685,14 +523,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Oceania',
-        emoji: '🏄',
-      },
-      country: {
-        name: 'Australia',
-        emoji: '',
-      },
+      continent: 'Australia',
+      country: 'Australia',
       city: 'Melbourne',
     },
   },
@@ -709,14 +541,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Linz',
     },
   },
@@ -733,14 +559,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Salzburg',
     },
   },
@@ -757,14 +577,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -781,14 +595,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -805,14 +613,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -829,14 +631,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -853,14 +649,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -884,14 +674,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -908,14 +692,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -932,14 +710,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -956,14 +728,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -980,14 +746,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -1004,14 +764,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -1028,14 +782,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -1052,14 +800,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -1076,14 +818,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -1100,14 +836,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Austria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Austria',
       city: 'Vienna',
     },
   },
@@ -1124,14 +854,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Belgium',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Belgium',
       city: 'Hasselt',
     },
   },
@@ -1148,14 +872,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Bulgaria',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Bulgaria',
       city: 'Sofia',
     },
   },
@@ -1172,14 +890,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Denmark',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Denmark',
       city: 'Copenhagen',
     },
   },
@@ -1196,14 +908,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Denmark',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Denmark',
       city: 'Copenhagen',
     },
   },
@@ -1220,14 +926,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Denmark',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Denmark',
       city: 'Copenhagen',
     },
   },
@@ -1252,14 +952,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Finland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Finland',
       city: 'Helsinki',
     },
   },
@@ -1276,14 +970,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Finland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Finland',
       city: 'Helsinki',
     },
   },
@@ -1307,14 +995,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'France',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'France',
       city: 'Lille',
     },
   },
@@ -1340,14 +1022,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'France',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'France',
       city: 'Paris',
     },
   },
@@ -1372,15 +1048,45 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'France',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'France',
       city: 'Strasbourg',
+    },
+  },
+  {
+    fullName: 'Yuri Yakovlev',
+    tags: ['JavaScript', 'GraphQL', 'Apollo Server', 'Apollo Client'],
+    social: {
+      twitter: 'yakovlevyuri',
+      github: 'yakovlevyuri',
+      blog: null,
+      slides: null,
+      website: 'https://mynameisyuri.com',
+      linkedin: 'https://linkedin.com/in/yakovlevyuri',
+    },
+    availableForHire: true,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Czech Republic',
+      city: 'Prague',
+    },
+  },
+  {
+    fullName: 'Alex Alexeev',
+    tags: ['JavaScript', 'GraphQL'],
+    social: {
+      twitter: 'alexedev',
+      github: 'alexedev',
+      blog: null,
+      slides: null,
+      website: 'https://alexedev.github.io/',
+      linkedin: 'https://linkedin.com/in/alex-alexeev-ma-62550a1b',
+    },
+    availableForHire: true,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Czech Republic',
+      city: 'Prague',
     },
   },
   {
@@ -1396,14 +1102,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Augsburg',
     },
   },
@@ -1420,14 +1120,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Berlin',
     },
   },
@@ -1444,14 +1138,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Berlin',
     },
   },
@@ -1468,14 +1156,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Berlin',
     },
   },
@@ -1492,14 +1174,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Berlin',
     },
   },
@@ -1516,14 +1192,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Berlin',
     },
   },
@@ -1540,14 +1210,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Berlin',
     },
   },
@@ -1564,14 +1228,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Berlin',
     },
   },
@@ -1588,14 +1246,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Berlin',
     },
   },
@@ -1612,14 +1264,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Berlin',
     },
   },
@@ -1636,14 +1282,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Berlin',
     },
   },
@@ -1661,14 +1301,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Berlin',
     },
   },
@@ -1685,14 +1319,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Berlin',
     },
   },
@@ -1716,14 +1344,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Berlin',
     },
   },
@@ -1740,14 +1362,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Berlin',
     },
   },
@@ -1764,14 +1380,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Düsseldorf',
     },
   },
@@ -1788,14 +1398,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Freiburg',
     },
   },
@@ -1812,14 +1416,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Hamburg',
     },
   },
@@ -1836,14 +1434,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Hamburg',
     },
   },
@@ -1860,14 +1452,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Hamburg',
     },
   },
@@ -1884,14 +1470,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Höchst im Odenwald',
     },
   },
@@ -1908,14 +1488,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Karlsruhe',
     },
   },
@@ -1932,14 +1506,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Munich',
     },
   },
@@ -1956,14 +1524,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Germany',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Germany',
       city: 'Munich',
     },
   },
@@ -1980,14 +1542,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Greece',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Greece',
       city: 'Athens',
     },
   },
@@ -2004,14 +1560,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Cork',
     },
   },
@@ -2028,14 +1578,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Cork',
     },
   },
@@ -2052,14 +1596,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Cork',
     },
   },
@@ -2082,14 +1620,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Cork',
     },
   },
@@ -2106,14 +1638,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Cork',
     },
   },
@@ -2130,14 +1656,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2154,14 +1674,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2178,14 +1692,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2202,14 +1710,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2226,14 +1728,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2250,14 +1746,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2274,14 +1764,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2298,14 +1782,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2322,14 +1800,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2352,14 +1824,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2376,14 +1842,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2400,14 +1860,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2424,14 +1878,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2448,14 +1896,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2472,14 +1914,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2496,14 +1932,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2520,14 +1950,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2544,14 +1968,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2568,14 +1986,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2592,14 +2004,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2616,14 +2022,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2640,14 +2040,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Dublin',
     },
   },
@@ -2664,14 +2058,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Galway',
     },
   },
@@ -2688,14 +2076,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ireland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ireland',
       city: 'Waterford',
     },
   },
@@ -2712,14 +2094,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'Israel',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'Israel',
       city: null,
     },
   },
@@ -2736,14 +2112,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'Israel',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'Israel',
       city: null,
     },
   },
@@ -2765,14 +2135,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Asia',
-        emoji: '⛩',
-      },
-      country: {
-        name: 'Israel',
-        emoji: '',
-      },
+      continent: 'Asia',
+      country: 'Israel',
       city: null,
     },
   },
@@ -2789,14 +2153,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Italy',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Italy',
       city: 'Milan',
     },
   },
@@ -2813,14 +2171,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Italy',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Italy',
       city: 'Verona',
     },
   },
@@ -2837,14 +2189,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Netherlands',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Netherlands',
       city: 'Amsterdam',
     },
   },
@@ -2868,14 +2214,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Netherlands',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Netherlands',
       city: 'Amsterdam',
     },
   },
@@ -2892,14 +2232,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Netherlands',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Netherlands',
       city: 'Amsterdam',
     },
   },
@@ -2916,14 +2250,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Netherlands',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Netherlands',
       city: 'Amsterdam',
     },
   },
@@ -2940,14 +2268,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Netherlands',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Netherlands',
       city: 'Amsterdam',
     },
   },
@@ -2964,14 +2286,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Netherlands',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Netherlands',
       city: 'Breda',
     },
   },
@@ -2988,14 +2304,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Netherlands',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Netherlands',
       city: 'Breda',
     },
   },
@@ -3018,14 +2328,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Netherlands',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Netherlands',
       city: 'Zwolle',
     },
   },
@@ -3042,14 +2346,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Poland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Poland',
       city: 'Gdańsk',
     },
   },
@@ -3067,14 +2365,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Poland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Poland',
       city: 'Gdańsk',
     },
   },
@@ -3092,14 +2384,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Poland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Poland',
       city: 'Krakow',
     },
   },
@@ -3117,14 +2403,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Poland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Poland',
       city: 'Krakow',
     },
   },
@@ -3142,14 +2422,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Poland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Poland',
       city: 'Krakow',
     },
   },
@@ -3167,14 +2441,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Poland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Poland',
       city: 'Poznań',
     },
   },
@@ -3192,14 +2460,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Poland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Poland',
       city: 'Warsaw',
     },
   },
@@ -3217,14 +2479,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Poland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Poland',
       city: 'Wrocław',
     },
   },
@@ -3242,14 +2498,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Poland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Poland',
       city: 'Wrocław',
     },
   },
@@ -3267,14 +2517,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Poland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Poland',
       city: 'Wrocław',
     },
   },
@@ -3292,14 +2536,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Poland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Poland',
       city: 'Wrocław',
     },
   },
@@ -3317,14 +2555,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Poland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Poland',
       city: 'Wrocław',
     },
   },
@@ -3342,14 +2574,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Portugal',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Portugal',
       city: 'Lisbon',
     },
   },
@@ -3367,14 +2593,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Portugal',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Portugal',
       city: 'Lisbon',
     },
   },
@@ -3392,14 +2612,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Portugal',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Portugal',
       city: 'Porto',
     },
   },
@@ -3423,14 +2637,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Romania',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Romania',
       city: null,
     },
   },
@@ -3448,14 +2656,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Russia',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Russia',
       city: 'Moscow',
     },
   },
@@ -3473,14 +2675,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Russia',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Russia',
       city: 'Moscow',
     },
   },
@@ -3498,14 +2694,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Russia',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Russia',
       city: 'Moscow',
     },
   },
@@ -3523,14 +2713,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Russia',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Russia',
       city: 'Moscow',
     },
   },
@@ -3548,14 +2732,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Russia',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Russia',
       city: 'St. Petersburg',
     },
   },
@@ -3573,14 +2751,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Serbia',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Serbia',
       city: 'Belgrade',
     },
   },
@@ -3598,14 +2770,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Serbia',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Serbia',
       city: 'Belgrade',
     },
   },
@@ -3623,14 +2789,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Spain',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Spain',
       city: 'Alicante',
     },
   },
@@ -3648,14 +2808,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Spain',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Spain',
       city: 'Córdoba',
     },
   },
@@ -3673,14 +2827,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Spain',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Spain',
       city: 'Madrid',
     },
   },
@@ -3698,14 +2846,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Spain',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Spain',
       city: 'Santander',
     },
   },
@@ -3723,14 +2865,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Switzerland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Switzerland',
       city: 'Zurich',
     },
   },
@@ -3748,14 +2884,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Switzerland',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Switzerland',
       city: 'Zurich',
     },
   },
@@ -3773,14 +2903,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ukraine',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ukraine',
       city: 'Chernivtsi',
     },
   },
@@ -3798,14 +2922,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ukraine',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ukraine',
       city: 'Kharkiv',
     },
   },
@@ -3829,14 +2947,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ukraine',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ukraine',
       city: 'Kyiv',
     },
   },
@@ -3854,14 +2966,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ukraine',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ukraine',
       city: 'Kyiv',
     },
   },
@@ -3879,14 +2985,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ukraine',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ukraine',
       city: 'Kyiv',
     },
   },
@@ -3904,14 +3004,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ukraine',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ukraine',
       city: 'Kyiv',
     },
   },
@@ -3929,14 +3023,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ukraine',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ukraine',
       city: 'Kyiv',
     },
   },
@@ -3954,14 +3042,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ukraine',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ukraine',
       city: 'Kyiv',
     },
   },
@@ -3979,14 +3061,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ukraine',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ukraine',
       city: 'Kyiv',
     },
   },
@@ -4004,14 +3080,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ukraine',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ukraine',
       city: 'Kyiv',
     },
   },
@@ -4029,14 +3099,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ukraine',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ukraine',
       city: 'Poltava',
     },
   },
@@ -4054,14 +3118,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ukraine',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ukraine',
       city: 'Vinnytsia',
     },
   },
@@ -4079,14 +3137,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'Ukraine',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'Ukraine',
       city: 'Odessa',
     },
   },
@@ -4104,14 +3156,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'Birmingham',
     },
   },
@@ -4135,14 +3181,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'Brighton',
     },
   },
@@ -4160,14 +3200,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'Brighton',
     },
   },
@@ -4185,14 +3219,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'Bristol',
     },
   },
@@ -4210,14 +3238,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'Bristol',
     },
   },
@@ -4235,14 +3257,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'Bristol',
     },
   },
@@ -4260,14 +3276,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'Leighton Buzzard',
     },
   },
@@ -4285,14 +3295,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'Leeds',
     },
   },
@@ -4317,14 +3321,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4342,14 +3340,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4367,14 +3359,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4392,14 +3378,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4417,14 +3397,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4442,14 +3416,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4467,14 +3435,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4492,14 +3454,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4517,14 +3473,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4542,14 +3492,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4567,14 +3511,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4592,14 +3530,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4617,14 +3549,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4642,14 +3568,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4667,14 +3587,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4692,14 +3606,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4717,14 +3625,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4742,14 +3644,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4772,14 +3668,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'London',
     },
   },
@@ -4797,14 +3687,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'Norwich',
     },
   },
@@ -4822,14 +3706,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'Europe',
-        emoji: '🇪🇺',
-      },
-      country: {
-        name: 'United Kingdom',
-        emoji: '',
-      },
+      continent: 'Europe',
+      country: 'United Kingdom',
       city: 'Oxford',
     },
   },
@@ -4847,14 +3725,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'Canada',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'Canada',
       city: 'Kingston',
     },
   },
@@ -4872,14 +3744,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'Canada',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'Canada',
       city: 'Montréal',
     },
   },
@@ -4897,14 +3763,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'Canada',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'Canada',
       city: 'Ottawa',
     },
   },
@@ -4922,14 +3782,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'Canada',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'Canada',
       city: 'Toronto',
     },
   },
@@ -4947,14 +3801,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'Canada',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'Canada',
       city: 'Toronto',
     },
   },
@@ -4972,14 +3820,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'Canada',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'Canada',
       city: 'Toronto',
     },
   },
@@ -4997,14 +3839,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'Canada',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'Canada',
       city: 'Hamilton',
     },
   },
@@ -5022,14 +3858,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Boston',
     },
   },
@@ -5047,14 +3877,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Boston',
     },
   },
@@ -5072,14 +3896,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Boston',
     },
   },
@@ -5097,14 +3915,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Buffalo',
     },
   },
@@ -5127,14 +3939,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Mountain View',
     },
   },
@@ -5152,14 +3958,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Carlsbad',
     },
   },
@@ -5187,14 +3987,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Cedar Rapids',
     },
   },
@@ -5212,14 +4006,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Cincinnati',
     },
   },
@@ -5237,14 +4025,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Chapel Hill',
     },
   },
@@ -5262,14 +4044,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Chicago',
     },
   },
@@ -5287,14 +4063,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Denver',
     },
   },
@@ -5312,14 +4082,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Madison',
     },
   },
@@ -5337,14 +4101,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Nashville',
     },
   },
@@ -5362,14 +4120,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'New Jersey',
     },
   },
@@ -5395,14 +4147,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'New Orleans',
     },
   },
@@ -5420,14 +4166,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'New Orleans',
     },
   },
@@ -5445,14 +4185,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'New York',
     },
   },
@@ -5476,14 +4210,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'New York',
     },
   },
@@ -5501,14 +4229,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'New York',
     },
   },
@@ -5526,14 +4248,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'New York',
     },
   },
@@ -5551,14 +4267,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'New York',
     },
   },
@@ -5581,14 +4291,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'New York',
     },
   },
@@ -5606,14 +4310,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'New York',
     },
   },
@@ -5631,14 +4329,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'New York',
     },
   },
@@ -5663,14 +4355,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'New York',
     },
   },
@@ -5688,14 +4374,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'New York',
     },
   },
@@ -5720,14 +4400,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'New York',
     },
   },
@@ -5745,14 +4419,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Omaha',
     },
   },
@@ -5770,14 +4438,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Palo Alto',
     },
   },
@@ -5795,14 +4457,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Palo Alto',
     },
   },
@@ -5820,14 +4476,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Philadelphia',
     },
   },
@@ -5845,14 +4495,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Philadelphia',
     },
   },
@@ -5870,14 +4514,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Pittsburgh',
     },
   },
@@ -5895,14 +4533,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Pittsburgh',
     },
   },
@@ -5920,14 +4552,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Portland',
     },
   },
@@ -5945,14 +4571,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Portland',
     },
   },
@@ -5970,14 +4590,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Portland',
     },
   },
@@ -5995,14 +4609,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Portland',
     },
   },
@@ -6020,14 +4628,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Redwood City',
     },
   },
@@ -6045,14 +4647,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Salt Lake City',
     },
   },
@@ -6073,14 +4669,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6098,14 +4688,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6123,14 +4707,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6148,14 +4726,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6173,14 +4745,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6198,14 +4764,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6223,14 +4783,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6248,14 +4802,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6279,14 +4827,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6304,14 +4846,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6329,14 +4865,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6354,14 +4884,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6379,14 +4903,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6404,14 +4922,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6429,14 +4941,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6462,14 +4968,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6487,14 +4987,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6512,14 +5006,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6537,14 +5025,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6562,14 +5044,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6587,14 +5063,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6612,14 +5082,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'San Francisco',
     },
   },
@@ -6637,14 +5101,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Seattle',
     },
   },
@@ -6662,14 +5120,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'North America',
-        emoji: '🌎',
-      },
-      country: {
-        name: 'United States',
-        emoji: '',
-      },
+      continent: 'North America',
+      country: 'United States',
       city: 'Seattle',
     },
   },
@@ -6687,14 +5139,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'South America',
-        emoji: '☀️',
-      },
-      country: {
-        name: 'Argentina',
-        emoji: '',
-      },
+      continent: 'South America',
+      country: 'Argentina',
       city: 'Buenos Aires',
     },
   },
@@ -6718,14 +5164,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'South America',
-        emoji: '☀️',
-      },
-      country: {
-        name: 'Brazil',
-        emoji: '',
-      },
+      continent: 'South America',
+      country: 'Brazil',
       city: 'Belo Horizonte',
     },
   },
@@ -6743,14 +5183,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'South America',
-        emoji: '☀️',
-      },
-      country: {
-        name: 'Brazil',
-        emoji: '',
-      },
+      continent: 'South America',
+      country: 'Brazil',
       city: 'Curitiba',
     },
   },
@@ -6774,14 +5208,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'South America',
-        emoji: '☀️',
-      },
-      country: {
-        name: 'Brazil',
-        emoji: '',
-      },
+      continent: 'South America',
+      country: 'Brazil',
       city: 'Joinville',
     },
   },
@@ -6799,14 +5227,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'South America',
-        emoji: '☀️',
-      },
-      country: {
-        name: 'Brazil',
-        emoji: '',
-      },
+      continent: 'South America',
+      country: 'Brazil',
       city: 'Rio de Janeiro',
     },
   },
@@ -6824,14 +5246,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'South America',
-        emoji: '☀️',
-      },
-      country: {
-        name: 'Brazil',
-        emoji: '',
-      },
+      continent: 'South America',
+      country: 'Brazil',
       city: 'São Paulo',
     },
   },
@@ -6849,14 +5265,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'South America',
-        emoji: '☀️',
-      },
-      country: {
-        name: 'Brazil',
-        emoji: '',
-      },
+      continent: 'South America',
+      country: 'Brazil',
       city: 'São Paulo',
     },
   },
@@ -6874,14 +5284,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'South America',
-        emoji: '☀️',
-      },
-      country: {
-        name: 'Brazil',
-        emoji: '',
-      },
+      continent: 'South America',
+      country: 'Brazil',
       city: 'São Paulo',
     },
   },
@@ -6908,14 +5312,8 @@ export const speakers: Speaker[] = [
     },
     availableForHire: null,
     currentLocation: {
-      continent: {
-        name: 'South America',
-        emoji: '☀️',
-      },
-      country: {
-        name: 'Brazil',
-        emoji: '',
-      },
+      continent: 'South America',
+      country: 'Brazil',
       city: 'São Paulo',
     },
   },

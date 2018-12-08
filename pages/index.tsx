@@ -2,7 +2,6 @@ import Router from 'next/router';
 import React, { useState } from 'react';
 // import debounce from "lodash.debounce";
 
-import Logo from '../components/Logo';
 import SpeakersList from '../components/SpeakersList';
 import { findResultsState } from '../utils/instantSearch';
 
@@ -48,8 +47,6 @@ const Index = ({ searchState, resultsState }) => {
 
   return (
     <React.Fragment>
-      <Logo>ConfCitizens</Logo>
-
       <SpeakersList
         resultsState={resultsState}
         onSearchStateChange={onSearchStateChange}

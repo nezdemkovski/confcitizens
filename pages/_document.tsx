@@ -6,6 +6,12 @@ const GlobalStyle = createGlobalStyle`
   body {
     background: #F0F2F5;
     font-size: 14px;
+  }
+
+  body,
+  .ant-input,
+  .ant-tag,
+  .ant-checkbox-wrapper {
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
               DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
               serif;
