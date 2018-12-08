@@ -1,5 +1,4 @@
 export interface Speaker {
-  id: number;
   fullName: string;
   tags: string[];
   social: {
@@ -21,7 +20,6 @@ export interface Speaker {
 
 export const speakers: Speaker[] = [
   {
-    id: 0,
     fullName: 'Christian Nwamba',
     tags: [
       'JavaScript',
@@ -44,7 +42,6 @@ export const speakers: Speaker[] = [
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
-    id: 1,
     fullName: 'Ire Aderinokun',
     tags: ['Progressive Web Apps', 'CSS', 'Standards'],
     social: {
@@ -59,7 +56,6 @@ export const speakers: Speaker[] = [
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
-    id: 2,
     fullName: 'Otemuyiwa Prosper',
     tags: [
       'JavaScript',
@@ -82,7 +78,6 @@ export const speakers: Speaker[] = [
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
-    id: 3,
     fullName: 'Rebecca Franks',
     tags: ['Android', 'Android Things', 'Firebase', 'IoT'],
     social: {
@@ -101,7 +96,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 4,
     fullName: 'Ahsan Ayaz',
     tags: [
       'JavaScript',
@@ -128,7 +122,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 5,
     fullName: 'Mashhood Rastgar',
     tags: [
       'Progressive Web Apps',
@@ -152,7 +145,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 6,
     fullName: 'Muhammad Kamran',
     tags: [
       'Angular',
@@ -181,7 +173,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 7,
     fullName: 'Narain Sagar',
     tags: [
       'Angular',
@@ -209,7 +200,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 8,
     fullName: 'Nasir Hussain',
     tags: [
       'Blockchain',
@@ -236,7 +226,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 9,
     fullName: 'Ashrith Kulai',
     tags: [
       'Progressive Web Apps',
@@ -261,7 +250,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 10,
     fullName: 'Kumar Anirudha',
     tags: ['Python', 'Node.js', 'Blockchain', 'Architecture', 'Cryptocurrency'],
     social: {
@@ -280,7 +268,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 11,
     fullName: 'Siddharth Kshetrapal',
     tags: ['CSS', 'Web Performance', 'React', 'CSS-in-JS', 'Node', 'Testing'],
     social: {
@@ -299,7 +286,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 12,
     fullName: 'Jayesh Katta Ramalingaiah',
     tags: [
       'Rust',
@@ -327,7 +313,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 13,
     fullName: 'Manjula Dube',
     tags: ['JavaScript', 'React', 'Progressive Web Apps', 'Node', 'Testing'],
     social: {
@@ -346,7 +331,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 14,
     fullName: 'Neehar Venugopal',
     tags: ['Code Splitting', 'Standards'],
     social: {
@@ -365,7 +349,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 15,
     fullName: 'Sidhartha Chatterjee',
     tags: ['React', 'Progressive Web Apps', 'Web Performance'],
     social: {
@@ -384,7 +367,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 16,
     fullName: 'Arun Michael Dsouza',
     tags: ['Webpack', 'React', 'ES6', 'Tooling', 'CSS'],
     social: {
@@ -403,7 +385,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 17,
     fullName: 'Arun Michael Dsouza',
     tags: ['Animations', 'CSS', 'SVG'],
     social: {
@@ -422,7 +403,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 18,
     fullName: 'Aysha Anggraini',
     tags: ['Animations', 'CSS'],
     social: {
@@ -441,7 +421,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 19,
     fullName: 'Chen Hui Jing',
     tags: ['CSS'],
     social: {
@@ -460,7 +439,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 20,
     fullName: 'Zell Liew',
     tags: ['CSS', 'JavaScript'],
     social: {
@@ -479,7 +457,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 21,
     fullName: 'Glen Maddern',
     tags: ['CSS', 'Styled Components', 'React', 'JavaScript'],
     social: {
@@ -498,7 +475,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 22,
     fullName: 'Karolina Szczur',
     tags: ['CSS', 'HTML', 'Web', 'Inclusivity', 'Diversity'],
     social: {
@@ -517,7 +493,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 23,
     fullName: 'Mark Dalgleish',
     tags: ['Design Systems', 'Web Design'],
     social: {
@@ -536,7 +511,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 24,
     fullName: 'Phil Nash',
     tags: ['JavaScript', 'Web Development', 'Progressive Web Apps'],
     social: {
@@ -555,7 +529,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 25,
     fullName: 'Stefan Baumgartner',
     tags: ['Web Ops', 'JavaScript', 'CSS', 'Tooling'],
     social: {
@@ -574,7 +547,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 26,
     fullName: 'Lisi Linhart',
     tags: ['CSS', 'Web Animations'],
     social: {
@@ -593,7 +565,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 27,
     fullName: 'Ali Sharif',
     tags: ['Functional Programming', 'Agile', 'Product Development'],
     social: {
@@ -612,7 +583,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 28,
     fullName: 'Andrey Okonetchnikov',
     tags: ['CSS-in-JS', 'Linting', 'Tooling'],
     social: {
@@ -631,7 +601,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 29,
     fullName: 'Christoph Rumpel',
     tags: ['PHP', 'Laravel', 'Chatbots'],
     social: {
@@ -650,7 +619,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 30,
     fullName: 'Eva Lettner',
     tags: ['CSS', 'Web'],
     social: {
@@ -669,7 +637,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 31,
     fullName: 'Glenn Reyes',
     tags: ['Code Splitting', 'React'],
     social: {
@@ -688,7 +655,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 32,
     fullName: 'Jan Hruby',
     tags: [
       'React',
@@ -714,7 +680,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 33,
     fullName: 'Juho Vepsäläinen',
     tags: ['3D Graphics', 'Business', 'React', 'Webpack', 'Writing'],
     social: {
@@ -733,7 +698,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 34,
     fullName: 'Manuel Matuzović',
     tags: ['CSS', 'Grid', 'Accessibility'],
     social: {
@@ -752,7 +716,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 35,
     fullName: 'Max Böck',
     tags: ['CSS', 'JavaScript', 'Progressive Web Apps'],
     social: {
@@ -771,7 +734,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 36,
     fullName: 'Max Stoiber',
     tags: ['React', 'Styled Components', 'OSS'],
     social: {
@@ -790,7 +752,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 37,
     fullName: 'Nik Graf',
     tags: ['ReasonML', 'Serverless', 'GraphQL', 'Virtual Reality', 'React'],
     social: {
@@ -809,7 +770,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 38,
     fullName: 'Oliver Schöndorfer',
     tags: ['Typography', 'CSS'],
     social: {
@@ -828,7 +788,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 39,
     fullName: 'Patrick Stapfer',
     tags: ['ReasonML', 'Static Typing', 'Flow'],
     social: {
@@ -847,7 +806,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 40,
     fullName: 'Peter Ferak',
     tags: ['Functional Programming', 'Computer Science'],
     social: {
@@ -866,7 +824,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 41,
     fullName: 'Timo Obereder',
     tags: ['React', 'Composition', 'Android', 'RXJava', 'Kotlin'],
     social: {
@@ -885,7 +842,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 42,
     fullName: 'Sam Bellen',
     tags: ['Web Audio', 'Browser APIs'],
     social: {
@@ -904,7 +860,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 43,
     fullName: 'Radoslav Stankov',
     tags: ['React', 'Redux', 'Ruby', 'Testing', 'GraphQL'],
     social: {
@@ -923,7 +878,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 44,
     fullName: 'Mathias Buus',
     tags: ['Peer to Peer', 'Node.js'],
     social: {
@@ -942,7 +896,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 45,
     fullName: 'Olga Dmitricenko',
     tags: ['Virtual Reality', 'Web Image Processing'],
     social: {
@@ -961,7 +914,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 46,
     fullName: 'Tereza Sokol',
     tags: ['Elm', 'Visualizations'],
     social: {
@@ -980,7 +932,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 47,
     fullName: 'Juha Lindstedt',
     tags: [
       'JavaScript',
@@ -1007,7 +958,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 48,
     fullName: 'Varya Stepanova',
     tags: ['CSS-in-JS', 'Style Guides', 'Visual Regression Testing'],
     social: {
@@ -1026,7 +976,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 49,
     fullName: 'Emmanuel Demey',
     tags: [
       'Angular',
@@ -1052,7 +1001,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 50,
     fullName: 'Wassim Chegham',
     tags: [
       'Angular',
@@ -1080,7 +1028,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 51,
     fullName: 'Sven Sauleau',
     tags: [
       'JavaScript',
@@ -1107,7 +1054,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 52,
     fullName: 'Johannes Ewald',
     tags: ['Tooling', 'Standards', 'Webpack'],
     social: {
@@ -1126,7 +1072,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 53,
     fullName: 'Ally Long',
     tags: ['CSS', 'Performance'],
     social: {
@@ -1145,7 +1090,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 54,
     fullName: 'Artem Sapegin',
     tags: ['Styleguides', 'UI', 'CSS'],
     social: {
@@ -1164,7 +1108,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 55,
     fullName: 'Charlie Owen',
     tags: ['CSS', 'Accessibility'],
     social: {
@@ -1183,7 +1126,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 56,
     fullName: 'Hernán Magrini',
     tags: ['Web Performance', 'Service Workers'],
     social: {
@@ -1202,7 +1144,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 57,
     fullName: 'Hugo Giraudel',
     tags: ['Accessibility', 'Diversity', 'Inclusivity'],
     social: {
@@ -1221,7 +1162,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 58,
     fullName: 'Karl Horky',
     tags: ['Tooling', 'Standards', 'Intersectionality', 'OSS', 'Psychology'],
     social: {
@@ -1240,7 +1180,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 59,
     fullName: 'Lu Yu',
     tags: ['Graphic Design', 'Typography', 'Branding', 'User Experience'],
     social: {
@@ -1259,7 +1198,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 60,
     fullName: 'Natalie Pistunovich',
     tags: ['Mobile Apps', 'Go'],
     social: {
@@ -1278,7 +1216,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 61,
     fullName: 'Oleg Slobodskoi',
     tags: ['CSS-in-JS', 'React'],
     social: {
@@ -1297,7 +1234,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 62,
     fullName: 'Robin Pokorny',
     tags: ['Jest', 'React', 'AMP', 'Elm'],
     social: {
@@ -1316,7 +1252,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 63,
     fullName: 'Sara Vieira',
     tags: ['Styleguides', 'React', 'CSS', 'Preact', 'CSS-in-JS'],
     social: {
@@ -1336,7 +1271,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 64,
     fullName: 'Srushtika Neelakantam',
     tags: ['WebVR', 'A-Frame', 'Realtime Web', 'JavaScript Frameworks'],
     social: {
@@ -1355,7 +1289,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 65,
     fullName: 'Tejas Kumar',
     tags: [
       'JavaScript',
@@ -1381,7 +1314,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 66,
     fullName: 'Yoshua Wuyts',
     tags: ['Frameworks', 'Simplicity', 'Standards', 'Libraries'],
     social: {
@@ -1400,7 +1332,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 67,
     fullName: 'Joy Clark',
     tags: ['Clojure', 'Web Apps', 'Security'],
     social: {
@@ -1419,7 +1350,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 68,
     fullName: 'Vitaly Friedman',
     tags: ['Web Design', 'Web Development', 'Responsive Web Design'],
     social: {
@@ -1438,7 +1368,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 69,
     fullName: 'Gregor Adams',
     tags: ['Fractals', 'CSS', 'JavaScript', 'Web Animations'],
     social: {
@@ -1457,7 +1386,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 70,
     fullName: 'Mario Nebl',
     tags: ['JavaScript', 'Node', 'JS Architecture'],
     social: {
@@ -1476,7 +1404,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 71,
     fullName: 'Mauricio Palma',
     tags: ['CSS, JavaScript'],
     social: {
@@ -1495,7 +1422,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 72,
     fullName: 'Tim Pietrusky',
     tags: ['JS Art', 'JS Music', 'JavaScript'],
     social: {
@@ -1514,7 +1440,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 73,
     fullName: 'Robin Frischmann',
     tags: ['CSS', 'CSS-in-JS', 'React'],
     social: {
@@ -1533,7 +1458,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 74,
     fullName: 'Franziska Hinkelmann',
     tags: ['Node', 'V8'],
     social: {
@@ -1552,7 +1476,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 75,
     fullName: 'Mathias Bynens',
     tags: ['JavaScript (TC39)', 'V8', 'Chrome'],
     social: {
@@ -1571,7 +1494,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 76,
     fullName: 'Nick Palladinos',
     tags: ['F#'],
     social: {
@@ -1590,7 +1512,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 77,
     fullName: 'Dave Jeffery',
     tags: ['JavaScript', 'Electron', 'Node.js'],
     social: {
@@ -1609,7 +1530,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 78,
     fullName: 'Eoin Shanaghy',
     tags: ['Java', 'Elixir', 'Node.js'],
     social: {
@@ -1628,7 +1548,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 79,
     fullName: 'James Sugrue',
     tags: ['Swift', 'JavaScript', 'Java'],
     social: {
@@ -1647,7 +1566,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 80,
     fullName: 'Joe Minichino',
     tags: [
       'Artificial Intelligence',
@@ -1672,7 +1590,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 81,
     fullName: 'Oscar Brito',
     tags: ['Linux', 'Node.js', 'JavaScript', 'Python'],
     social: {
@@ -1691,7 +1608,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 82,
     fullName: 'Anton Whalley',
     tags: ['Node.js', 'Decentralization', 'FreeBSD', 'Open Source'],
     social: {
@@ -1710,7 +1626,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 83,
     fullName: 'Augusto Evangelisti',
     tags: ['Testing', 'Agile', 'Bitcoin'],
     social: {
@@ -1729,7 +1644,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 84,
     fullName: "Barry O'Sullivan",
     tags: ['PHP', 'Testing', 'Domain-Driven Design', 'Event Sourcing'],
     social: {
@@ -1748,7 +1662,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 85,
     fullName: 'Chris Manson',
     tags: ['JavaScript', 'Ember', 'React'],
     social: {
@@ -1767,7 +1680,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 86,
     fullName: 'Cian Mac Mahon',
     tags: ['JavaScript', 'React'],
     social: {
@@ -1786,7 +1698,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 87,
     fullName: 'Claudio Procida',
     tags: ['JavaScript', 'React', 'Node.js', 'Diversity'],
     social: {
@@ -1805,7 +1716,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 88,
     fullName: 'Donovan Hutchinson',
     tags: ['HTML', 'CSS', 'JavaScript'],
     social: {
@@ -1824,7 +1734,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 89,
     fullName: 'Ingrid Epure',
     tags: ['Security', 'Psychology'],
     social: {
@@ -1843,7 +1752,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 90,
     fullName: 'John Brett',
     tags: ['JavaScript', 'Hapi', 'Nomad Work', 'Bitcoin'],
     social: {
@@ -1862,7 +1770,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 91,
     fullName: 'Luciano Mammino',
     tags: [
       'Node.js',
@@ -1887,7 +1794,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 92,
     fullName: 'Lynsey Duncan',
     tags: ['UX', 'UI', 'Design Systems'],
     social: {
@@ -1906,7 +1812,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 93,
     fullName: 'Maja Grubic',
     tags: ['Node.js', 'JavaScript', 'React', 'Monitoring', 'D3', 'SVG'],
     social: {
@@ -1925,7 +1830,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 94,
     fullName: 'Mario Casciaro',
     tags: ['Node.js', 'JavaScript', 'Design Patterns', 'Startups'],
     social: {
@@ -1944,7 +1848,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 95,
     fullName: 'Michael Flanagan',
     tags: ['PHP', 'JavaScript', 'REST', 'Testing'],
     social: {
@@ -1963,7 +1866,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 96,
     fullName: 'Mustafa Turan',
     tags: ['Elixir', 'Ruby', 'Functional Programming'],
     social: {
@@ -1982,7 +1884,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 97,
     fullName: "Padraig O'Brien",
     tags: ['Serverless', 'Big Data', 'Databases'],
     social: {
@@ -2001,7 +1902,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 98,
     fullName: 'Panpan Lin',
     tags: ['JavaScript', 'GraphQL', 'Swift', 'Hackathons'],
     social: {
@@ -2020,7 +1920,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 99,
     fullName: "Pat O'Callaghan",
     tags: ['JavaScript', 'Node.js', 'Ember'],
     social: {
@@ -2039,7 +1938,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 100,
     fullName: 'Serg Hospodarets',
     tags: ['JavaScript', 'CSS', 'CSS Houdini'],
     social: {
@@ -2058,7 +1956,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 101,
     fullName: 'Serena Fritsch',
     tags: ['JavaScript', 'Ember', 'Developer Workflows'],
     social: {
@@ -2077,7 +1974,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 102,
     fullName: 'Thomas Shaw',
     tags: ['Docker', 'Jenkins', 'Devops'],
     social: {
@@ -2096,7 +1992,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 103,
     fullName: 'Yevgeniy Brikman',
     tags: ['Terraform', 'Devops', 'Scalability'],
     social: {
@@ -2115,7 +2010,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 104,
     fullName: 'Mark Conroy',
     tags: ['Frontend', 'Drupal', 'Web Development'],
     social: {
@@ -2134,7 +2028,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 105,
     fullName: 'Richard Rodger',
     tags: ['Node.js', 'Microservices'],
     social: {
@@ -2153,7 +2046,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 106,
     fullName: 'Nir Galon',
     tags: ['Python', 'API Star', 'Open Source', 'Node.js', 'Angular'],
     social: {
@@ -2172,7 +2064,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 107,
     fullName: 'Nir Kaufman',
     tags: ['Angular', 'Firebase', 'Redux'],
     social: {
@@ -2191,7 +2082,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 108,
     fullName: 'Uri Shaked',
     tags: [
       'Web Bluetooth',
@@ -2215,7 +2105,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 109,
     fullName: 'Maurizio Mangione',
     tags: ['Web Components', 'Polymer', 'Progressive Web Apps'],
     social: {
@@ -2234,7 +2123,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 110,
     fullName: 'Matteo Ronchi',
     tags: ['React', 'JavaScript', 'Flow', 'Web Architectures', 'Frontend Ops'],
     social: {
@@ -2253,7 +2141,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 111,
     fullName: 'Alexey Kureev',
     tags: ['React Native'],
     social: {
@@ -2272,7 +2159,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 112,
     fullName: 'Carmen Popoviciu',
     tags: [
       'Angular',
@@ -2298,7 +2184,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 113,
     fullName: 'Michel Weststrate',
     tags: ['MobX', 'React', 'mobx-state-tree', 'Typescript', 'Open Source'],
     social: {
@@ -2317,7 +2202,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 114,
     fullName: 'Narendra Shetty',
     tags: ['React', 'Progressive Web Apps'],
     social: {
@@ -2336,7 +2220,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 115,
     fullName: 'Peter-Paul Koch',
     tags: ['HTML', 'CSS', 'JavaScript', 'Cross-Browser Compatibility'],
     social: {
@@ -2355,7 +2238,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 116,
     fullName: 'Job van Achterberg',
     tags: ['Accessibility'],
     social: {
@@ -2374,7 +2256,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 117,
     fullName: 'Rowdy Rabouw',
     tags: ['NativeScript', 'Browser APIs'],
     social: {
@@ -2393,7 +2274,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 118,
     fullName: 'Norbert de Langen',
     tags: [
       'Component Libraries',
@@ -2418,7 +2298,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 119,
     fullName: 'Kasia Jastrzębska',
     tags: ['React', 'Redux', 'Async', 'CSS-in-JS', 'ClojureScript'],
     social: {
@@ -2437,7 +2316,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 120,
     fullName: 'Kitze',
     tags: ['MobX', 'State Management', 'GraphQL', 'CSS-in-JS'],
     social: {
@@ -2457,7 +2335,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 121,
     fullName: 'Anna Migas',
     tags: ['HTML', 'CSS', 'JavaScript', 'Web Animations', 'Web Performance'],
     social: {
@@ -2477,7 +2354,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 122,
     fullName: 'Kacper Sokołowski',
     tags: ['JavaScript', 'Security', 'Service Workers'],
     social: {
@@ -2497,7 +2373,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 123,
     fullName: 'Konrad Dzwinel',
     tags: ['Developer Tools', 'JavaScript'],
     social: {
@@ -2517,7 +2392,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 124,
     fullName: 'Tomasz Łakomy',
     tags: ['React', 'Virtual Reality', 'jQuery'],
     social: {
@@ -2537,7 +2411,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 125,
     fullName: 'Aga Naplocha',
     tags: ['CSS', 'Teaching Web Technologies'],
     social: {
@@ -2557,7 +2430,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 126,
     fullName: 'Ferran Negre',
     tags: ['React Native', 'React', 'Testing', 'JavaScript', 'Android'],
     social: {
@@ -2577,7 +2449,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 127,
     fullName: 'Mike Grabowski',
     tags: ['React Native', 'JavaScript', 'Tooling'],
     social: {
@@ -2597,7 +2468,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 128,
     fullName: 'Michał Pierzchała',
     tags: ['React Native', 'Jest', 'Testing', 'CSS'],
     social: {
@@ -2617,7 +2487,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 129,
     fullName: 'Mike Chudziak',
     tags: ['React', 'React Native', 'iOS', 'Android'],
     social: {
@@ -2637,7 +2506,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 130,
     fullName: 'Satyajit Sahoo',
     tags: ['React', 'React Native', 'CSS-in-JS', 'Tooling'],
     social: {
@@ -2657,7 +2525,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 131,
     fullName: 'Daniela Matos de Carvalho',
     tags: ['HTTP/2', 'JavaScript', 'React', 'Offline First'],
     social: {
@@ -2677,7 +2544,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 132,
     fullName: 'David Dias',
     tags: ['IPFS', 'Peer to Peer', 'JavaScript', 'Node.js'],
     social: {
@@ -2697,7 +2563,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 133,
     fullName: 'Miguel Andrade',
     tags: ['Ember', 'JavaScript'],
     social: {
@@ -2717,7 +2582,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 134,
     fullName: 'Márton Kodok',
     tags: [
       'BigQuery',
@@ -2743,7 +2607,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 135,
     fullName: 'Nikita Prokopov',
     tags: ['Clojure', 'DataScript', 'Rum', 'FiraCode', 'AnyBar'],
     social: {
@@ -2763,7 +2626,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 136,
     fullName: 'Sergey Rubanov',
     tags: ['Standards', 'Web Assembly'],
     social: {
@@ -2783,7 +2645,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 137,
     fullName: 'Nikita Sobolev',
     tags: ['Elixir', 'Python'],
     social: {
@@ -2803,7 +2664,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 138,
     fullName: 'Oleksii Okhrymenko',
     tags: ['Angular', 'JavaScript', 'RxJS', 'i18n', 'HTML', 'CSS'],
     social: {
@@ -2823,7 +2683,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 139,
     fullName: 'Vadim Makeev',
     tags: ['HTML', 'CSS', 'Web Standards', 'Accessibility'],
     social: {
@@ -2843,7 +2702,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 140,
     fullName: 'Aleksandar Simovic',
     tags: ['Serverless'],
     social: {
@@ -2863,7 +2721,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 141,
     fullName: 'Slobodan Stojanović',
     tags: ['Serverless', 'Offline Web', 'Chat Bots'],
     social: {
@@ -2883,7 +2740,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 142,
     fullName: 'Flavio Corpa',
     tags: ['JavaScript', 'Functional Programming'],
     social: {
@@ -2903,7 +2759,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 143,
     fullName: 'Javi Velasco',
     tags: ['React', 'CSS-in-JS', 'React Toolbox'],
     social: {
@@ -2923,7 +2778,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 144,
     fullName: 'Vincenzo Chianese',
     tags: ['WebAPI', 'Microservices', 'JavaScript'],
     social: {
@@ -2943,7 +2797,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 145,
     fullName: 'Erik Rasmussen',
     tags: ['React', 'Redux', 'Redux-Form', 'Forms'],
     social: {
@@ -2963,7 +2816,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 146,
     fullName: 'Martin Splitt',
     tags: ['Virtual Reality', 'Web Performance'],
     social: {
@@ -2983,7 +2835,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 147,
     fullName: 'Sebastian Siemssen',
     tags: ['React', 'GraphQL', 'Tooling'],
     social: {
@@ -3003,7 +2854,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 148,
     fullName: 'Denys Dovhan',
     tags: ['JavaScript', 'DevTools', 'Shell scripting'],
     social: {
@@ -3023,7 +2873,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 149,
     fullName: 'Illya Klymov',
     tags: ['Teaching', 'Coaching', 'JavaScript'],
     social: {
@@ -3043,7 +2892,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 150,
     fullName: 'Aleksey Shvayka',
     tags: [
       'Browsers',
@@ -3069,7 +2917,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 151,
     fullName: 'Andrey Listochkin',
     tags: ['Rust', 'JavaScript', 'Skills', 'Architecture'],
     social: {
@@ -3089,7 +2936,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 152,
     fullName: 'Andrii Shumada',
     tags: ['JavaScript', 'Node.js', 'Streams'],
     social: {
@@ -3109,7 +2955,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 153,
     fullName: 'Anton Nemtsev',
     tags: ['HTML', 'CSS', 'Web Standards'],
     social: {
@@ -3129,7 +2974,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 154,
     fullName: 'Artem Yavorsky',
     tags: ['Babel', 'ECMAScript', 'Compilers'],
     social: {
@@ -3149,7 +2993,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 155,
     fullName: 'Roman Liutikov',
     tags: ['ClojureScript', 'React', 'Compilers'],
     social: {
@@ -3169,7 +3012,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 156,
     fullName: 'Vladimir Agafonkin',
     tags: ['Maps', 'Algorithms'],
     social: {
@@ -3189,7 +3031,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 157,
     fullName: 'Yuri Artyukh',
     tags: ['HTML', 'CSS', 'JavaScript', 'WebGL'],
     social: {
@@ -3209,7 +3050,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 158,
     fullName: 'Artem Zakharchenko',
     tags: ['React', 'Forms', 'CSS Grid'],
     social: {
@@ -3229,7 +3069,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 159,
     fullName: 'Artem Denysov',
     tags: ['Performance', 'Dev Tools'],
     social: {
@@ -3249,7 +3088,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 160,
     fullName: 'Timofey Lavrenyuk',
     tags: ['Progressive Web Apps', 'Modern Browser APIs'],
     social: {
@@ -3269,7 +3107,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 161,
     fullName: 'Bruce Lawson',
     tags: ['Standards', 'Performance'],
     social: {
@@ -3289,7 +3126,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 162,
     fullName: 'Jeremy Keith',
     tags: [
       'Standards',
@@ -3315,7 +3151,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 163,
     fullName: 'Paul Robert Lloyd',
     tags: ['Design', 'Web Design', 'Architecture', 'Design Systems', 'Trains'],
     social: {
@@ -3335,7 +3170,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 164,
     fullName: 'Léonie Watson',
     tags: ['Accessibility', 'Web Standards', 'Screen Readers'],
     social: {
@@ -3355,7 +3189,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 165,
     fullName: 'Rachel Andrew',
     tags: ['CSS'],
     social: {
@@ -3375,7 +3208,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 166,
     fullName: 'Ruth John',
     tags: ['Browser Technologies', 'Web Audio', 'Web MIDI'],
     social: {
@@ -3395,7 +3227,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 167,
     fullName: 'Caroline Jarrett',
     tags: ['Forms Usability', 'User Research'],
     social: {
@@ -3415,7 +3246,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 168,
     fullName: 'Luke Bonaccorsi',
     tags: ['Node', 'JavaScript', 'Automation'],
     social: {
@@ -3435,7 +3265,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 169,
     fullName: 'Ada Rose Cannon',
     tags: [
       'HTML',
@@ -3462,7 +3291,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 170,
     fullName: 'Alessandro Cinelli',
     tags: ['JavaScript'],
     social: {
@@ -3482,7 +3310,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 171,
     fullName: 'Alex Lobera',
     tags: ['JavaScript', 'React', 'Redux', 'GraphQL'],
     social: {
@@ -3502,7 +3329,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 172,
     fullName: 'Alexandra Deschamps-Sonsino',
     tags: ['Internet of Things', 'Smart Homes', 'Connected Devices'],
     social: {
@@ -3522,7 +3348,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 173,
     fullName: 'Alla Kholmatova',
     tags: ['Design Systems'],
     social: {
@@ -3542,7 +3367,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 174,
     fullName: 'Andrew Betts',
     tags: ['Networks', 'Performance', 'Web'],
     social: {
@@ -3562,7 +3386,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 175,
     fullName: 'Anna Doubková',
     tags: ['React', 'Testing'],
     social: {
@@ -3582,7 +3405,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 176,
     fullName: 'Bodil Stokke',
     tags: ['Programming', 'Functional Programming'],
     social: {
@@ -3602,7 +3424,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 177,
     fullName: 'Chris Noring',
     tags: ['JavaScript', 'RxJS', 'Angular', 'React'],
     social: {
@@ -3622,7 +3443,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 178,
     fullName: 'Cristiano Rastelli',
     tags: ['CSS', 'CSS-in-JS'],
     social: {
@@ -3642,7 +3462,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 179,
     fullName: 'Dan Abramov',
     tags: ['JavaScript', 'React', 'Redux', 'Tooling'],
     social: {
@@ -3662,7 +3481,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 180,
     fullName: 'Davide "Folletto" Casali',
     tags: ['Design', 'User Experience', 'Management', 'Leadership', 'Startups'],
     social: {
@@ -3682,7 +3500,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 181,
     fullName: 'Gerard Sans',
     tags: ['Angular', 'React', 'GraphQL', 'CSS Animations', 'RxJS'],
     social: {
@@ -3702,7 +3519,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 182,
     fullName: 'Gojko Adzic',
     tags: ['Testing', 'Requirements', 'Serverless'],
     social: {
@@ -3722,7 +3538,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 183,
     fullName: 'Michele Bertoli',
     tags: ['React', 'Testing'],
     social: {
@@ -3742,7 +3557,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 184,
     fullName: 'Phil Plückthun',
     tags: ['React', 'CSS-in-JS'],
     social: {
@@ -3762,7 +3576,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 185,
     fullName: 'Sani Yusuf',
     tags: ['Ionic', 'Angular', 'JavaScript', 'Progressive Web Apps'],
     social: {
@@ -3782,7 +3595,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 186,
     fullName: 'Sebastian Witalec',
     tags: ['NativeScript', 'Angular', 'Bots', 'JavaScript'],
     social: {
@@ -3802,7 +3614,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 187,
     fullName: 'Inayaili de León',
     tags: [
       'Design Systems',
@@ -3827,7 +3638,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 188,
     fullName: 'Heydon Pickering',
     tags: ['Accessibility', 'Performance', 'Web'],
     social: {
@@ -3847,7 +3657,6 @@ export const speakers: Speaker[] = [
     },
   },
   {
-    id: 189,
     fullName: 'Seren Davies',
     tags: ['Accessibility'],
     social: {
@@ -3864,6 +3673,1612 @@ export const speakers: Speaker[] = [
       continent: 'Europe',
       country: 'United Kingdom',
       city: 'Oxford',
+    },
+  },
+  {
+    fullName: 'Scott Vinkle',
+    tags: ['Accessibility'],
+    social: {
+      twitter: 'svinkle',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'Canada',
+      city: 'Kingston',
+    },
+  },
+  {
+    fullName: 'Aurélien Loyer',
+    tags: ['JavaScript', 'Angular', 'Vue.js', 'Node.js', 'TypeScript', 'IoT'],
+    social: {
+      twitter: 'AurelienLoyer',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'Canada',
+      city: 'Montréal',
+    },
+  },
+  {
+    fullName: 'Tanya Janca',
+    tags: ['InfoSec', 'Web App Security'],
+    social: {
+      twitter: 'shehackspurple',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'Canada',
+      city: 'Ottawa',
+    },
+  },
+  {
+    fullName: "Brenna O'Brien",
+    tags: ['Motivation', 'Psychology', 'Developer Culture', 'Public Speaking'],
+    social: {
+      twitter: 'brnnbrn',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'Canada',
+      city: 'Toronto',
+    },
+  },
+  {
+    fullName: 'Hala Anwar',
+    tags: ['Accessibility'],
+    social: {
+      twitter: 'halathinkeths',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'Canada',
+      city: 'Toronto',
+    },
+  },
+  {
+    fullName: 'Tiff Nogueira',
+    tags: ['CSS Grids', 'React', 'Redux', 'Firebase', 'Flexbox'],
+    social: {
+      twitter: 'tiffcodes',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'Canada',
+      city: 'Toronto',
+    },
+  },
+  {
+    fullName: 'Wes Bos',
+    tags: ['Fullstack Dev', 'JavaScript', 'CSS', 'Node', 'React'],
+    social: {
+      twitter: 'wesbos',
+      github: 'wesbos',
+      blog: null,
+      slides: null,
+      website: 'https://wesbos.com',
+      linkedin: null,
+      email: 'hey@wesbos.com',
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'Canada',
+      city: 'Hamilton',
+    },
+  },
+  {
+    fullName: 'Eric Bailey',
+    tags: ['Accessibility'],
+    social: {
+      twitter: 'ericwbailey',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Boston',
+    },
+  },
+  {
+    fullName: 'Gleb Bahmutov',
+    tags: ['Computer Science', 'JavaScript', 'Reactive Programming'],
+    social: {
+      twitter: 'bahmutov',
+      github: null,
+      blog: null,
+      slides: 'https://slides.com/bahmutov',
+      website: 'https://glebbahmutov.com',
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Boston',
+    },
+  },
+  {
+    fullName: 'Lea Verou',
+    tags: ['CSS', 'HTML'],
+    social: {
+      twitter: 'leaverou',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Boston',
+    },
+  },
+  {
+    fullName: 'Adrian Roselli',
+    tags: ['Accessibility'],
+    social: {
+      twitter: 'aardrian',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Buffalo',
+    },
+  },
+  {
+    fullName: 'Addy Osmani',
+    tags: [
+      'Google Chrome devtool',
+      'TodoMVC',
+      'Yeoman',
+      'Material Design Lite',
+    ],
+    social: {
+      twitter: 'addyosmani',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Mountain View',
+    },
+  },
+  {
+    fullName: 'Michael Jackson',
+    tags: ['React', 'JavaScript', 'React Router'],
+    social: {
+      twitter: 'mjackson',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Carlsbad',
+    },
+  },
+  {
+    fullName: 'Levi Bostian',
+    tags: [
+      'Android',
+      'RxJava',
+      'Kotlin',
+      'Freelancing',
+      'Swift',
+      'iOS',
+      'Productivity',
+      'Startups',
+      'Bootstrapping',
+    ],
+    social: {
+      twitter: 'levibostian',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Cedar Rapids',
+    },
+  },
+  {
+    fullName: 'Carin Meier',
+    tags: ['Clojure', 'Machine Learning', 'Programming'],
+    social: {
+      twitter: 'gigasquid',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Cincinnati',
+    },
+  },
+  {
+    fullName: 'Doug Schepers',
+    tags: ['Data visualization', 'Accessibility', 'SVG'],
+    social: {
+      twitter: 'shepazu',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Chapel Hill',
+    },
+  },
+  {
+    fullName: 'Karl Hughes',
+    tags: ['Microservices', 'PHP', 'JavaScript', 'Docker'],
+    social: {
+      twitter: 'KarlLHughes',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Chicago',
+    },
+  },
+  {
+    fullName: 'Miriam Suzanne',
+    tags: ['CSS', 'Sass', 'Architecture', 'Design Systems'],
+    social: {
+      twitter: 'mirisuzanne',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Denver',
+    },
+  },
+  {
+    fullName: 'Carie Fisher',
+    tags: ['Accessibility'],
+    social: {
+      twitter: 'cariefisher',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Madison',
+    },
+  },
+  {
+    fullName: 'Aimee Knight',
+    tags: ['JavaScript', 'CSS', 'Angular', 'Growing Junior Developers'],
+    social: {
+      twitter: 'Aimee_Knight',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Nashville',
+    },
+  },
+  {
+    fullName: 'Ken Wheeler',
+    tags: ['React', 'React Native', 'ReasonML'],
+    social: {
+      twitter: 'ken_wheeler',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'New Jersey',
+    },
+  },
+  {
+    fullName: 'Gant Laborde',
+    tags: [
+      'JavaScript',
+      'React Native',
+      'Leadership',
+      'Redux',
+      'Open Source',
+      'Tooling',
+      'Public Speaking',
+    ],
+    social: {
+      twitter: 'GantLaborde',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'New Orleans',
+    },
+  },
+  {
+    fullName: 'Sia Karamalegos',
+    tags: ['React', 'JavaScript', 'React Native', 'Front-End Performance'],
+    social: {
+      twitter: 'thegreengreek',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'New Orleans',
+    },
+  },
+  {
+    fullName: 'Andrey Sitnik',
+    tags: ['PostCSS', 'CRDT'],
+    social: {
+      twitter: 'sitnikcode',
+      github: 'ai',
+      blog: null,
+      slides: null,
+      website: 'https://sitnik.ru/en',
+      linkedin: null,
+      email: 'andrey@sitnik.ru',
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'New York',
+    },
+  },
+  {
+    fullName: 'David Nolen',
+    tags: [
+      'Clojure',
+      'ClojureScript',
+      'Om',
+      'Functional Programming',
+      'Computer Science',
+    ],
+    social: {
+      twitter: 'swannodette',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'New York',
+    },
+  },
+  {
+    fullName: 'Diana Mounter',
+    tags: ['Design Systems', 'CSS', 'Product Design'],
+    social: {
+      twitter: 'broccolini',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'New York',
+    },
+  },
+  {
+    fullName: 'Henry Zhu',
+    tags: ['Open Source', 'Babel'],
+    social: {
+      twitter: 'left_pad',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'New York',
+    },
+  },
+  {
+    fullName: 'Jen Simmons',
+    tags: ['Design', 'CSS', 'HTML', 'Web'],
+    social: {
+      twitter: 'jensimmons',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'New York',
+    },
+  },
+  {
+    fullName: 'Lara Hogan',
+    tags: [
+      'Design',
+      'Performance',
+      'Engineering Management',
+      'Public Speaking',
+    ],
+    social: {
+      twitter: 'lara_hogan',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'New York',
+    },
+  },
+  {
+    fullName: 'Kurtis Kemple',
+    tags: ['React', 'React Native', 'GraphQL', 'Universal Components'],
+    social: {
+      twitter: 'kurtiskemple',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'New York',
+    },
+  },
+  {
+    fullName: 'Mariko Kosaka',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Web'],
+    social: {
+      twitter: 'kosamari',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'New York',
+    },
+  },
+  {
+    fullName: 'Peggy Rayzis',
+    tags: [
+      'React',
+      'React Native',
+      'GraphQL',
+      'Apollo',
+      'Apollo Client',
+      'Apollo Server',
+    ],
+    social: {
+      twitter: 'peggyrayzis',
+      github: 'peggyrayzis',
+      blog: 'https://blog.apollographql.com/@peggyrayzis',
+      slides: null,
+      website: null,
+      linkedin: 'https://www.linkedin.com/in/peggyrayzis',
+      email: 'peggyrayzis@gmail.com',
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'New York',
+    },
+  },
+  {
+    fullName: 'Una Kravets',
+    tags: ['CSS', 'Web'],
+    social: {
+      twitter: 'una',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'New York',
+    },
+  },
+  {
+    fullName: 'Jared Palmer',
+    tags: [
+      'React',
+      'React Native',
+      'Developer Tools',
+      'Forms',
+      'TypeScript',
+      'CSS',
+    ],
+    social: {
+      twitter: 'jaredpalmer',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'New York',
+    },
+  },
+  {
+    fullName: 'Courtney Heitman',
+    tags: ['UX Development', 'Usability', 'Accessibility', 'Scrum', 'Agile'],
+    social: {
+      twitter: 'courtneyxann',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Omaha',
+    },
+  },
+  {
+    fullName: 'Paul Irish',
+    tags: ['Developer Tools'],
+    social: {
+      twitter: 'paul_irish',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Palo Alto',
+    },
+  },
+  {
+    fullName: 'Cheng Lou',
+    tags: ['ReasonML', 'React', 'Software Philosophy'],
+    social: {
+      twitter: '_chenglou',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Palo Alto',
+    },
+  },
+  {
+    fullName: 'Lis Pardi',
+    tags: ['Web'],
+    social: {
+      twitter: 'lispardi',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Philadelphia',
+    },
+  },
+  {
+    fullName: 'Richard Feldman',
+    tags: ['Elm'],
+    social: {
+      twitter: 'rtfeldman',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Philadelphia',
+    },
+  },
+  {
+    fullName: 'Brad Frost',
+    tags: ['Web Design', 'Atomic Design', 'Web Development'],
+    social: {
+      twitter: 'brad_frost',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Pittsburgh',
+    },
+  },
+  {
+    fullName: 'Lin Clark',
+    tags: ['React', 'WebAssembly', 'Browsers Internals'],
+    social: {
+      twitter: 'linclark',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Pittsburgh',
+    },
+  },
+  {
+    fullName: 'Scott Hanselman',
+    tags: ['.NET', 'Azure'],
+    social: {
+      twitter: 'linclark',
+      github: 'shanselman',
+      blog: 'https://hanselman.com/blog',
+      slides: null,
+      website: 'https://hanselman.com',
+      linkedin: 'https://linkedin.com/in/scotthanselman',
+      email: 'scott@hanselman.com',
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Portland',
+    },
+  },
+  {
+    fullName: 'Kyle Shevlin',
+    tags: ['React', 'Redux', 'JavaScript'],
+    social: {
+      twitter: 'kyleshevlin',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Portland',
+    },
+  },
+  {
+    fullName: 'Micah Godbolt',
+    tags: ['Front-End Architecture', 'CSS', 'Design Systems'],
+    social: {
+      twitter: 'micahgodbolt',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Portland',
+    },
+  },
+  {
+    fullName: 'Violet Peña',
+    tags: ['React', 'Socket.IO', 'Storybook', 'Accessibility'],
+    social: {
+      twitter: 'micahgodbolt',
+      github: 'vgpena',
+      blog: 'https://vgpena.github.io/',
+      slides: null,
+      website: 'https://violet.is',
+      linkedin: 'https://linkedin.com/in/violet-peña-b02b0163',
+      email: 'violetpena@gmail.com',
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Portland',
+    },
+  },
+  {
+    fullName: 'Jesse Beach',
+    tags: ['Accessibility', 'React'],
+    social: {
+      twitter: 'jessebeach',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Redwood City',
+    },
+  },
+  {
+    fullName: 'Kent C. Dodds',
+    tags: ['OSS', 'React', 'Testing'],
+    social: {
+      twitter: 'kentcdodds',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Salt Lake City',
+    },
+  },
+  {
+    fullName: 'Anjana Vakil',
+    tags: [
+      'Programming Language Paradigms',
+      'Functional Programming (with JavaScript)',
+    ],
+    social: {
+      twitter: 'AnjanaVakil',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Beth Dean',
+    tags: ['Design', 'Illustration'],
+    social: {
+      twitter: 'bethdean',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Adam Menges',
+    tags: ['Artificial Intelligence', 'Design', 'Computer Science'],
+    social: {
+      twitter: 'adammenges',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Boris Cherny',
+    tags: ['TypeScript', 'React', 'Computer Science'],
+    social: {
+      twitter: 'bcherny',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Brynn Evans',
+    tags: ['Design', 'Management'],
+    social: {
+      twitter: 'brynn',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Cordelia Dillon',
+    tags: ['Accessibility'],
+    social: {
+      twitter: 'cordeliadillon',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Estelle Weyl',
+    tags: ['CSS', 'Performance', 'Responsive Web Design'],
+    social: {
+      twitter: 'standardista',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Gregory Shehet',
+    tags: ['Functional Reactive Programming', 'MobX', 'CSS-in-JS', 'React'],
+    social: {
+      twitter: 'AGambit95',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Jafar Husain',
+    tags: [
+      'JavaScript',
+      'ES7',
+      'Observables',
+      'Reactive Programming',
+      'Falcor',
+    ],
+    social: {
+      twitter: 'jhusain',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Jennifer Wong',
+    tags: ['Design Systems'],
+    social: {
+      twitter: 'mybluewristband',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Jon Gold',
+    tags: ['Design', 'Design Systems', 'React', 'Artificial Intelligence'],
+    social: {
+      twitter: 'jongold',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Lisa Huang',
+    tags: ['AMP', 'Offline-First Mobile Apps', 'React'],
+    social: {
+      twitter: 'lisaychuang',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Mike Matas',
+    tags: ['Human Interface Design'],
+    social: {
+      twitter: 'mike_matas',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Mina Markham',
+    tags: ['CSS Architecture', 'Sass', 'Community', 'Design Systems'],
+    social: {
+      twitter: 'MinaMarkham',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Monica Dinculescu',
+    tags: ['Web Components', 'Polymer', 'Emoji'],
+    social: {
+      twitter: 'notwaldorfStapleton',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Patrick Stapleton',
+    tags: [
+      'OSS',
+      'Serverless',
+      'GraphQL',
+      'Vue.js',
+      'React',
+      'Angular',
+      'TypeScript',
+    ],
+    social: {
+      twitter: 'gdi2290',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Preethi Kasireddy',
+    tags: ['Machine Learning', 'Natural Language Processing', 'React'],
+    social: {
+      twitter: 'iam_preethi',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Sarah Drasner',
+    tags: ['CSS', 'SVG', 'Animations', 'Vue.js', 'React'],
+    social: {
+      twitter: 'sarah_edo',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Sean Grove',
+    tags: ['GraphQL', 'ReasonML', 'OCaml'],
+    social: {
+      twitter: 'sgrove',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Stephanie Rewis',
+    tags: ['Design Systems', 'CSS'],
+    social: {
+      twitter: 'stefsull',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Tracy Lee',
+    tags: ['Reactive Programming', 'Angular', 'Ember.js'],
+    social: {
+      twitter: 'ladyleet',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Guillermo Rauch',
+    tags: ['Zeit', 'Now.sh', 'Next.js', 'Serverless'],
+    social: {
+      twitter: 'rauchg',
+      github: 'rauchg',
+      blog: 'https://rauchg.com/essays',
+      slides: null,
+      website: 'https://rauchg.com/',
+      linkedin: null,
+      email: 'rauchg@gmail.com',
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'San Francisco',
+    },
+  },
+  {
+    fullName: 'Jaime Lopez',
+    tags: ['iOS', 'Swift', 'Software Architecture', 'Development Processes'],
+    social: {
+      twitter: 'DevWithTheHair',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Seattle',
+    },
+  },
+  {
+    fullName: 'Shell Little',
+    tags: ['Accessibility'],
+    social: {
+      twitter: 'ShellELittle',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'USA',
+      city: 'Seattle',
+    },
+  },
+  {
+    fullName: 'Evangelina Ferreira',
+    tags: ['CSS', 'Animations'],
+    social: {
+      twitter: 'evaferreira92',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'South America',
+      country: 'Argentina',
+      city: 'Buenos Aires',
+    },
+  },
+  {
+    fullName: 'Beto Muniz',
+    tags: [
+      'React',
+      'JavaScript',
+      'Progressive Web Apps',
+      'Polymer',
+      'Community',
+    ],
+    social: {
+      twitter: 'obetomuniz',
+      github: 'obetomuniz',
+      blog: 'https://betomuniz.com/blog',
+      slides: null,
+      website: 'https://betomuniz.com',
+      linkedin: 'https://linkedin.com/in/obetomuniz',
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'South America',
+      country: 'Brazil',
+      city: 'Belo Horizonte',
+    },
+  },
+  {
+    fullName: 'Fernando Daciuk',
+    tags: ['React', 'JavaScript'],
+    social: {
+      twitter: 'fdaciuk',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'South America',
+      country: 'Brazil',
+      city: 'Curitiba',
+    },
+  },
+  {
+    fullName: 'Marcelo Camargo',
+    tags: [
+      'Functional Programming',
+      'Compilers',
+      'Type Theory',
+      'Category Theory',
+      'Lambda Calculus',
+    ],
+    social: {
+      twitter: 'nexwire',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'South America',
+      country: 'Brazil',
+      city: 'Joinville',
+    },
+  },
+  {
+    fullName: 'Raphael Amorim',
+    tags: ['React', 'JavaScript', 'jQuery'],
+    social: {
+      twitter: 'raphamorims',
+      github: 'raphamorim',
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'South America',
+      country: 'Brazil',
+      city: 'Rio de Janeiro',
+    },
+  },
+  {
+    fullName: 'Caroline Soares',
+    tags: ['Frontend development', "Woman's inspiration", 'JavaScript', 'CSS'],
+    social: {
+      twitter: 'carolcode',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'South America',
+      country: 'Brazil',
+      city: 'São Paulo',
+    },
+  },
+  {
+    fullName: 'Fernanda Bernardo',
+    tags: ['CSS', 'JavaScript', 'HTML'],
+    social: {
+      twitter: 'Feh_Bernardo',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'South America',
+      country: 'Brazil',
+      city: 'São Paulo',
+    },
+  },
+  {
+    fullName: 'João Victor Dias',
+    tags: ['Computer Vision', 'Keras', 'CNN', 'R', 'Data Science path'],
+    social: {
+      twitter: 'JoaoVictor_AC',
+      github: null,
+      blog: null,
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: null,
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'South America',
+      country: 'Brazil',
+      city: 'São Paulo',
+    },
+  },
+  {
+    fullName: 'Sibelius Seraphini',
+    tags: [
+      'React',
+      'React Native',
+      'Node.js',
+      'GraphQL',
+      'Relay Modern',
+      'Open Source',
+      'Machine Learning',
+      'Blockchain',
+    ],
+    social: {
+      twitter: 'sseraphini',
+      github: 'sibelius',
+      blog: 'https://medium.com/@sibelius',
+      slides: null,
+      website: null,
+      linkedin: null,
+      email: 'sibeliusseraphini@gmail.com',
+    },
+    availableForHire: null,
+    currentLocation: {
+      continent: 'South America',
+      country: 'Brazil',
+      city: 'São Paulo',
     },
   },
 ];
