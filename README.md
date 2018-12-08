@@ -37,6 +37,10 @@ You can also use my files if you want. Full list is located [here](./data/speake
 If you'd like to contribute, please fork the repository and make changes as
 you'd like. Pull requests are warmly welcome.
 
+## Thank you Thank you Thank you
+
+I want to thank [@karlhorky](https://github.com/karlhorky) and every contributor for an amazing job you did for [awesome-speakers](https://github.com/karlhorky/awesome-speakers). ConfCitizens is based on the `awesome-speakers` data.
+
 ## Licensing
 
 This project is licensed under MIT license.
