@@ -1,6 +1,5 @@
 import Router from 'next/router';
 import React, { useState } from 'react';
-// import debounce from "lodash.debounce";
 
 import SpeakersList from '../components/SpeakersList';
 import { findResultsState } from '../utils/instantSearch';
@@ -35,13 +34,7 @@ const Index = ({ searchState, resultsState }) => {
   };
 
   const onSearchStateChange = state => {
-    // @ts-ignore
-    clearTimeout(debouncedSetState);
-
-    const debouncedSetState = setTimeout(() => {
-      changeRoute(state);
-    }, 500);
-
+    changeRoute(state);
     urlState.setState({ searchState: state });
   };
 
