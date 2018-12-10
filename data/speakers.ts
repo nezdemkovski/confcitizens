@@ -1,4 +1,5 @@
 export interface Speaker {
+  objectID: number;
   fullName: string;
   tags: string[];
   social: {
@@ -18,8 +19,9 @@ export interface Speaker {
   };
 }
 
-export const speakers: Speaker[] = [
+const speakers: Speaker[] = [
   {
+    objectID: 0,
     fullName: 'Christian Nwamba',
     tags: [
       'JavaScript',
@@ -42,6 +44,7 @@ export const speakers: Speaker[] = [
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
+    objectID: 1,
     fullName: 'Ire Aderinokun',
     tags: ['Progressive Web Apps', 'CSS', 'Standards'],
     social: {
@@ -56,6 +59,7 @@ export const speakers: Speaker[] = [
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
+    objectID: 2,
     fullName: 'Otemuyiwa Prosper',
     tags: [
       'JavaScript',
@@ -78,6 +82,7 @@ export const speakers: Speaker[] = [
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
+    objectID: 3,
     fullName: 'Rebecca Franks',
     tags: ['Android', 'Android Things', 'Firebase', 'IoT'],
     social: {
@@ -96,6 +101,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 4,
     fullName: 'Ahsan Ayaz',
     tags: [
       'JavaScript',
@@ -122,6 +128,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 5,
     fullName: 'Mashhood Rastgar',
     tags: [
       'Progressive Web Apps',
@@ -145,6 +152,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 6,
     fullName: 'Muhammad Kamran',
     tags: [
       'Angular',
@@ -173,6 +181,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 7,
     fullName: 'Narain Sagar',
     tags: [
       'Angular',
@@ -200,6 +209,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 8,
     fullName: 'Nasir Hussain',
     tags: [
       'Blockchain',
@@ -226,6 +236,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 9,
     fullName: 'Ashrith Kulai',
     tags: [
       'Progressive Web Apps',
@@ -250,6 +261,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 10,
     fullName: 'Kumar Anirudha',
     tags: ['Python', 'Node.js', 'Blockchain', 'Architecture', 'Cryptocurrency'],
     social: {
@@ -268,6 +280,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 11,
     fullName: 'Siddharth Kshetrapal',
     tags: ['CSS', 'Web Performance', 'React', 'CSS-in-JS', 'Node', 'Testing'],
     social: {
@@ -286,6 +299,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 12,
     fullName: 'Jayesh Katta Ramalingaiah',
     tags: [
       'Rust',
@@ -313,6 +327,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 13,
     fullName: 'Manjula Dube',
     tags: ['JavaScript', 'React', 'Progressive Web Apps', 'Node', 'Testing'],
     social: {
@@ -331,6 +346,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 14,
     fullName: 'Neehar Venugopal',
     tags: ['Code Splitting', 'Standards'],
     social: {
@@ -349,6 +365,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 15,
     fullName: 'Sidhartha Chatterjee',
     tags: ['React', 'Progressive Web Apps', 'Web Performance'],
     social: {
@@ -367,6 +384,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 16,
     fullName: 'Arun Michael Dsouza',
     tags: ['Webpack', 'React', 'ES6', 'Tooling', 'CSS'],
     social: {
@@ -385,6 +403,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 17,
     fullName: 'Arun Michael Dsouza',
     tags: ['Animations', 'CSS', 'SVG'],
     social: {
@@ -403,6 +422,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 18,
     fullName: 'Aysha Anggraini',
     tags: ['Animations', 'CSS'],
     social: {
@@ -421,6 +441,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 19,
     fullName: 'Chen Hui Jing',
     tags: ['CSS'],
     social: {
@@ -439,6 +460,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 20,
     fullName: 'Zell Liew',
     tags: ['CSS', 'JavaScript'],
     social: {
@@ -457,6 +479,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 21,
     fullName: 'Glen Maddern',
     tags: ['CSS', 'Styled Components', 'React', 'JavaScript'],
     social: {
@@ -475,6 +498,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 22,
     fullName: 'Karolina Szczur',
     tags: ['CSS', 'HTML', 'Web', 'Inclusivity', 'Diversity'],
     social: {
@@ -493,6 +517,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 23,
     fullName: 'Mark Dalgleish',
     tags: ['Design Systems', 'Web Design'],
     social: {
@@ -511,6 +536,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 24,
     fullName: 'Phil Nash',
     tags: ['JavaScript', 'Web Development', 'Progressive Web Apps'],
     social: {
@@ -529,6 +555,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 25,
     fullName: 'Stefan Baumgartner',
     tags: ['Web Ops', 'JavaScript', 'CSS', 'Tooling'],
     social: {
@@ -547,6 +574,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 26,
     fullName: 'Lisi Linhart',
     tags: ['CSS', 'Web Animations'],
     social: {
@@ -565,6 +593,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 27,
     fullName: 'Ali Sharif',
     tags: ['Functional Programming', 'Agile', 'Product Development'],
     social: {
@@ -583,6 +612,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 28,
     fullName: 'Andrey Okonetchnikov',
     tags: ['CSS-in-JS', 'Linting', 'Tooling'],
     social: {
@@ -601,6 +631,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 29,
     fullName: 'Christoph Rumpel',
     tags: ['PHP', 'Laravel', 'Chatbots'],
     social: {
@@ -619,6 +650,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 30,
     fullName: 'Eva Lettner',
     tags: ['CSS', 'Web'],
     social: {
@@ -637,6 +669,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 31,
     fullName: 'Glenn Reyes',
     tags: ['Code Splitting', 'React'],
     social: {
@@ -655,6 +688,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 32,
     fullName: 'Jan Hruby',
     tags: [
       'React',
@@ -680,6 +714,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 33,
     fullName: 'Juho Vepsäläinen',
     tags: ['3D Graphics', 'Business', 'React', 'Webpack', 'Writing'],
     social: {
@@ -698,6 +733,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 34,
     fullName: 'Manuel Matuzović',
     tags: ['CSS', 'Grid', 'Accessibility'],
     social: {
@@ -716,6 +752,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 35,
     fullName: 'Max Böck',
     tags: ['CSS', 'JavaScript', 'Progressive Web Apps'],
     social: {
@@ -734,6 +771,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 36,
     fullName: 'Max Stoiber',
     tags: ['React', 'Styled Components', 'OSS'],
     social: {
@@ -752,6 +790,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 37,
     fullName: 'Nik Graf',
     tags: ['ReasonML', 'Serverless', 'GraphQL', 'Virtual Reality', 'React'],
     social: {
@@ -770,6 +809,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 38,
     fullName: 'Oliver Schöndorfer',
     tags: ['Typography', 'CSS'],
     social: {
@@ -788,6 +828,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 39,
     fullName: 'Patrick Stapfer',
     tags: ['ReasonML', 'Static Typing', 'Flow'],
     social: {
@@ -806,6 +847,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 40,
     fullName: 'Peter Ferak',
     tags: ['Functional Programming', 'Computer Science'],
     social: {
@@ -824,6 +866,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 41,
     fullName: 'Timo Obereder',
     tags: ['React', 'Composition', 'Android', 'RXJava', 'Kotlin'],
     social: {
@@ -842,6 +885,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 42,
     fullName: 'Sam Bellen',
     tags: ['Web Audio', 'Browser APIs'],
     social: {
@@ -860,6 +904,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 43,
     fullName: 'Radoslav Stankov',
     tags: ['React', 'Redux', 'Ruby', 'Testing', 'GraphQL'],
     social: {
@@ -878,6 +923,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 44,
     fullName: 'Mathias Buus',
     tags: ['Peer to Peer', 'Node.js'],
     social: {
@@ -896,6 +942,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 45,
     fullName: 'Olga Dmitricenko',
     tags: ['Virtual Reality', 'Web Image Processing'],
     social: {
@@ -914,6 +961,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 46,
     fullName: 'Tereza Sokol',
     tags: ['Elm', 'Visualizations'],
     social: {
@@ -932,6 +980,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 47,
     fullName: 'Juha Lindstedt',
     tags: [
       'JavaScript',
@@ -958,6 +1007,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 48,
     fullName: 'Varya Stepanova',
     tags: ['CSS-in-JS', 'Style Guides', 'Visual Regression Testing'],
     social: {
@@ -976,6 +1026,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 49,
     fullName: 'Emmanuel Demey',
     tags: [
       'Angular',
@@ -1001,6 +1052,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 50,
     fullName: 'Wassim Chegham',
     tags: [
       'Angular',
@@ -1028,6 +1080,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 51,
     fullName: 'Sven Sauleau',
     tags: [
       'JavaScript',
@@ -1054,6 +1107,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 52,
     fullName: 'Yuri Yakovlev',
     tags: ['JavaScript', 'GraphQL', 'Apollo Server', 'Apollo Client'],
     social: {
@@ -1072,6 +1126,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 53,
     fullName: 'Alex Alexeev',
     tags: ['JavaScript', 'GraphQL'],
     social: {
@@ -1090,6 +1145,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 54,
     fullName: 'Johannes Ewald',
     tags: ['Tooling', 'Standards', 'Webpack'],
     social: {
@@ -1108,6 +1164,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 55,
     fullName: 'Ally Long',
     tags: ['CSS', 'Performance'],
     social: {
@@ -1126,6 +1183,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 56,
     fullName: 'Artem Sapegin',
     tags: ['Styleguides', 'UI', 'CSS'],
     social: {
@@ -1144,6 +1202,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 57,
     fullName: 'Charlie Owen',
     tags: ['CSS', 'Accessibility'],
     social: {
@@ -1162,6 +1221,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 58,
     fullName: 'Hernán Magrini',
     tags: ['Web Performance', 'Service Workers'],
     social: {
@@ -1180,6 +1240,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 59,
     fullName: 'Hugo Giraudel',
     tags: ['Accessibility', 'Diversity', 'Inclusivity'],
     social: {
@@ -1198,6 +1259,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 60,
     fullName: 'Karl Horky',
     tags: ['Tooling', 'Standards', 'Intersectionality', 'OSS', 'Psychology'],
     social: {
@@ -1216,6 +1278,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 61,
     fullName: 'Lu Yu',
     tags: ['Graphic Design', 'Typography', 'Branding', 'User Experience'],
     social: {
@@ -1234,6 +1297,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 62,
     fullName: 'Natalie Pistunovich',
     tags: ['Mobile Apps', 'Go'],
     social: {
@@ -1252,6 +1316,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 63,
     fullName: 'Oleg Slobodskoi',
     tags: ['CSS-in-JS', 'React'],
     social: {
@@ -1270,6 +1335,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 64,
     fullName: 'Robin Pokorny',
     tags: ['Jest', 'React', 'AMP', 'Elm'],
     social: {
@@ -1288,6 +1354,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 65,
     fullName: 'Sara Vieira',
     tags: ['Styleguides', 'React', 'CSS', 'Preact', 'CSS-in-JS'],
     social: {
@@ -1307,6 +1374,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 66,
     fullName: 'Srushtika Neelakantam',
     tags: ['WebVR', 'A-Frame', 'Realtime Web', 'JavaScript Frameworks'],
     social: {
@@ -1325,6 +1393,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 67,
     fullName: 'Tejas Kumar',
     tags: [
       'JavaScript',
@@ -1350,6 +1419,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 68,
     fullName: 'Yoshua Wuyts',
     tags: ['Frameworks', 'Simplicity', 'Standards', 'Libraries'],
     social: {
@@ -1368,6 +1438,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 69,
     fullName: 'Joy Clark',
     tags: ['Clojure', 'Web Apps', 'Security'],
     social: {
@@ -1386,6 +1457,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 70,
     fullName: 'Vitaly Friedman',
     tags: ['Web Design', 'Web Development', 'Responsive Web Design'],
     social: {
@@ -1404,6 +1476,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 71,
     fullName: 'Gregor Adams',
     tags: ['Fractals', 'CSS', 'JavaScript', 'Web Animations'],
     social: {
@@ -1422,6 +1495,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 72,
     fullName: 'Mario Nebl',
     tags: ['JavaScript', 'Node', 'JS Architecture'],
     social: {
@@ -1440,6 +1514,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 73,
     fullName: 'Mauricio Palma',
     tags: ['CSS, JavaScript'],
     social: {
@@ -1458,6 +1533,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 74,
     fullName: 'Tim Pietrusky',
     tags: ['JS Art', 'JS Music', 'JavaScript'],
     social: {
@@ -1476,6 +1552,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 75,
     fullName: 'Robin Frischmann',
     tags: ['CSS', 'CSS-in-JS', 'React'],
     social: {
@@ -1494,6 +1571,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 76,
     fullName: 'Franziska Hinkelmann',
     tags: ['Node', 'V8'],
     social: {
@@ -1512,6 +1590,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 77,
     fullName: 'Mathias Bynens',
     tags: ['JavaScript (TC39)', 'V8', 'Chrome'],
     social: {
@@ -1530,6 +1609,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 78,
     fullName: 'Nick Palladinos',
     tags: ['F#'],
     social: {
@@ -1548,6 +1628,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 79,
     fullName: 'Dave Jeffery',
     tags: ['JavaScript', 'Electron', 'Node.js'],
     social: {
@@ -1566,6 +1647,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 80,
     fullName: 'Eoin Shanaghy',
     tags: ['Java', 'Elixir', 'Node.js'],
     social: {
@@ -1584,6 +1666,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 81,
     fullName: 'James Sugrue',
     tags: ['Swift', 'JavaScript', 'Java'],
     social: {
@@ -1602,6 +1685,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 82,
     fullName: 'Joe Minichino',
     tags: [
       'Artificial Intelligence',
@@ -1626,6 +1710,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 83,
     fullName: 'Oscar Brito',
     tags: ['Linux', 'Node.js', 'JavaScript', 'Python'],
     social: {
@@ -1644,6 +1729,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 84,
     fullName: 'Anton Whalley',
     tags: ['Node.js', 'Decentralization', 'FreeBSD', 'Open Source'],
     social: {
@@ -1662,6 +1748,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 85,
     fullName: 'Augusto Evangelisti',
     tags: ['Testing', 'Agile', 'Bitcoin'],
     social: {
@@ -1680,6 +1767,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 86,
     fullName: "Barry O'Sullivan",
     tags: ['PHP', 'Testing', 'Domain-Driven Design', 'Event Sourcing'],
     social: {
@@ -1698,6 +1786,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 87,
     fullName: 'Chris Manson',
     tags: ['JavaScript', 'Ember', 'React'],
     social: {
@@ -1716,6 +1805,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 88,
     fullName: 'Cian Mac Mahon',
     tags: ['JavaScript', 'React'],
     social: {
@@ -1734,6 +1824,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 89,
     fullName: 'Claudio Procida',
     tags: ['JavaScript', 'React', 'Node.js', 'Diversity'],
     social: {
@@ -1752,6 +1843,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 90,
     fullName: 'Donovan Hutchinson',
     tags: ['HTML', 'CSS', 'JavaScript'],
     social: {
@@ -1770,6 +1862,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 91,
     fullName: 'Ingrid Epure',
     tags: ['Security', 'Psychology'],
     social: {
@@ -1788,6 +1881,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 92,
     fullName: 'John Brett',
     tags: ['JavaScript', 'Hapi', 'Nomad Work', 'Bitcoin'],
     social: {
@@ -1806,6 +1900,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 93,
     fullName: 'Luciano Mammino',
     tags: [
       'Node.js',
@@ -1830,6 +1925,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 94,
     fullName: 'Lynsey Duncan',
     tags: ['UX', 'UI', 'Design Systems'],
     social: {
@@ -1848,6 +1944,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 95,
     fullName: 'Maja Grubic',
     tags: ['Node.js', 'JavaScript', 'React', 'Monitoring', 'D3', 'SVG'],
     social: {
@@ -1866,6 +1963,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 96,
     fullName: 'Mario Casciaro',
     tags: ['Node.js', 'JavaScript', 'Design Patterns', 'Startups'],
     social: {
@@ -1884,6 +1982,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 97,
     fullName: 'Michael Flanagan',
     tags: ['PHP', 'JavaScript', 'REST', 'Testing'],
     social: {
@@ -1902,6 +2001,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 98,
     fullName: 'Mustafa Turan',
     tags: ['Elixir', 'Ruby', 'Functional Programming'],
     social: {
@@ -1920,6 +2020,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 99,
     fullName: "Padraig O'Brien",
     tags: ['Serverless', 'Big Data', 'Databases'],
     social: {
@@ -1938,6 +2039,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 100,
     fullName: 'Panpan Lin',
     tags: ['JavaScript', 'GraphQL', 'Swift', 'Hackathons'],
     social: {
@@ -1956,6 +2058,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 101,
     fullName: "Pat O'Callaghan",
     tags: ['JavaScript', 'Node.js', 'Ember'],
     social: {
@@ -1974,6 +2077,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 102,
     fullName: 'Serg Hospodarets',
     tags: ['JavaScript', 'CSS', 'CSS Houdini'],
     social: {
@@ -1992,6 +2096,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 103,
     fullName: 'Serena Fritsch',
     tags: ['JavaScript', 'Ember', 'Developer Workflows'],
     social: {
@@ -2010,6 +2115,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 104,
     fullName: 'Thomas Shaw',
     tags: ['Docker', 'Jenkins', 'Devops'],
     social: {
@@ -2028,6 +2134,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 105,
     fullName: 'Yevgeniy Brikman',
     tags: ['Terraform', 'Devops', 'Scalability'],
     social: {
@@ -2046,6 +2153,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 106,
     fullName: 'Mark Conroy',
     tags: ['Frontend', 'Drupal', 'Web Development'],
     social: {
@@ -2064,6 +2172,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 107,
     fullName: 'Richard Rodger',
     tags: ['Node.js', 'Microservices'],
     social: {
@@ -2082,6 +2191,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 108,
     fullName: 'Nir Galon',
     tags: ['Python', 'API Star', 'Open Source', 'Node.js', 'Angular'],
     social: {
@@ -2100,6 +2210,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 109,
     fullName: 'Nir Kaufman',
     tags: ['Angular', 'Firebase', 'Redux'],
     social: {
@@ -2118,6 +2229,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 110,
     fullName: 'Uri Shaked',
     tags: [
       'Web Bluetooth',
@@ -2141,6 +2253,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 111,
     fullName: 'Maurizio Mangione',
     tags: ['Web Components', 'Polymer', 'Progressive Web Apps'],
     social: {
@@ -2159,6 +2272,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 112,
     fullName: 'Matteo Ronchi',
     tags: ['React', 'JavaScript', 'Flow', 'Web Architectures', 'Frontend Ops'],
     social: {
@@ -2177,6 +2291,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 113,
     fullName: 'Alexey Kureev',
     tags: ['React Native'],
     social: {
@@ -2195,6 +2310,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 114,
     fullName: 'Carmen Popoviciu',
     tags: [
       'Angular',
@@ -2220,6 +2336,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 115,
     fullName: 'Michel Weststrate',
     tags: ['MobX', 'React', 'mobx-state-tree', 'Typescript', 'Open Source'],
     social: {
@@ -2238,6 +2355,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 116,
     fullName: 'Narendra Shetty',
     tags: ['React', 'Progressive Web Apps'],
     social: {
@@ -2256,6 +2374,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 117,
     fullName: 'Peter-Paul Koch',
     tags: ['HTML', 'CSS', 'JavaScript', 'Cross-Browser Compatibility'],
     social: {
@@ -2274,6 +2393,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 118,
     fullName: 'Job van Achterberg',
     tags: ['Accessibility'],
     social: {
@@ -2292,6 +2412,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 119,
     fullName: 'Rowdy Rabouw',
     tags: ['NativeScript', 'Browser APIs'],
     social: {
@@ -2310,6 +2431,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 120,
     fullName: 'Norbert de Langen',
     tags: [
       'Component Libraries',
@@ -2334,6 +2456,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 121,
     fullName: 'Kasia Jastrzębska',
     tags: ['React', 'Redux', 'Async', 'CSS-in-JS', 'ClojureScript'],
     social: {
@@ -2352,6 +2475,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 122,
     fullName: 'Kitze',
     tags: ['MobX', 'State Management', 'GraphQL', 'CSS-in-JS'],
     social: {
@@ -2371,6 +2495,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 123,
     fullName: 'Anna Migas',
     tags: ['HTML', 'CSS', 'JavaScript', 'Web Animations', 'Web Performance'],
     social: {
@@ -2390,6 +2515,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 124,
     fullName: 'Kacper Sokołowski',
     tags: ['JavaScript', 'Security', 'Service Workers'],
     social: {
@@ -2409,6 +2535,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 125,
     fullName: 'Konrad Dzwinel',
     tags: ['Developer Tools', 'JavaScript'],
     social: {
@@ -2428,6 +2555,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 126,
     fullName: 'Tomasz Łakomy',
     tags: ['React', 'Virtual Reality', 'jQuery'],
     social: {
@@ -2447,6 +2575,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 127,
     fullName: 'Aga Naplocha',
     tags: ['CSS', 'Teaching Web Technologies'],
     social: {
@@ -2466,6 +2595,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 128,
     fullName: 'Ferran Negre',
     tags: ['React Native', 'React', 'Testing', 'JavaScript', 'Android'],
     social: {
@@ -2485,6 +2615,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 129,
     fullName: 'Mike Grabowski',
     tags: ['React Native', 'JavaScript', 'Tooling'],
     social: {
@@ -2504,6 +2635,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 130,
     fullName: 'Michał Pierzchała',
     tags: ['React Native', 'Jest', 'Testing', 'CSS'],
     social: {
@@ -2523,6 +2655,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 131,
     fullName: 'Mike Chudziak',
     tags: ['React', 'React Native', 'iOS', 'Android'],
     social: {
@@ -2542,6 +2675,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 132,
     fullName: 'Satyajit Sahoo',
     tags: ['React', 'React Native', 'CSS-in-JS', 'Tooling'],
     social: {
@@ -2561,6 +2695,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 133,
     fullName: 'Daniela Matos de Carvalho',
     tags: ['HTTP/2', 'JavaScript', 'React', 'Offline First'],
     social: {
@@ -2580,6 +2715,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 134,
     fullName: 'David Dias',
     tags: ['IPFS', 'Peer to Peer', 'JavaScript', 'Node.js'],
     social: {
@@ -2599,6 +2735,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 135,
     fullName: 'Miguel Andrade',
     tags: ['Ember', 'JavaScript'],
     social: {
@@ -2618,6 +2755,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 136,
     fullName: 'Márton Kodok',
     tags: [
       'BigQuery',
@@ -2643,6 +2781,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 137,
     fullName: 'Nikita Prokopov',
     tags: ['Clojure', 'DataScript', 'Rum', 'FiraCode', 'AnyBar'],
     social: {
@@ -2662,6 +2801,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 138,
     fullName: 'Sergey Rubanov',
     tags: ['Standards', 'Web Assembly'],
     social: {
@@ -2681,6 +2821,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 139,
     fullName: 'Nikita Sobolev',
     tags: ['Elixir', 'Python'],
     social: {
@@ -2700,6 +2841,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 140,
     fullName: 'Oleksii Okhrymenko',
     tags: ['Angular', 'JavaScript', 'RxJS', 'i18n', 'HTML', 'CSS'],
     social: {
@@ -2719,6 +2861,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 141,
     fullName: 'Vadim Makeev',
     tags: ['HTML', 'CSS', 'Web Standards', 'Accessibility'],
     social: {
@@ -2738,6 +2881,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 142,
     fullName: 'Aleksandar Simovic',
     tags: ['Serverless'],
     social: {
@@ -2757,6 +2901,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 143,
     fullName: 'Slobodan Stojanović',
     tags: ['Serverless', 'Offline Web', 'Chat Bots'],
     social: {
@@ -2776,6 +2921,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 144,
     fullName: 'Flavio Corpa',
     tags: ['JavaScript', 'Functional Programming'],
     social: {
@@ -2795,6 +2941,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 145,
     fullName: 'Javi Velasco',
     tags: ['React', 'CSS-in-JS', 'React Toolbox'],
     social: {
@@ -2814,6 +2961,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 146,
     fullName: 'Vincenzo Chianese',
     tags: ['WebAPI', 'Microservices', 'JavaScript'],
     social: {
@@ -2833,6 +2981,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 147,
     fullName: 'Erik Rasmussen',
     tags: ['React', 'Redux', 'Redux-Form', 'Forms'],
     social: {
@@ -2852,6 +3001,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 148,
     fullName: 'Martin Splitt',
     tags: ['Virtual Reality', 'Web Performance'],
     social: {
@@ -2871,6 +3021,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 149,
     fullName: 'Sebastian Siemssen',
     tags: ['React', 'GraphQL', 'Tooling'],
     social: {
@@ -2890,6 +3041,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 150,
     fullName: 'Denys Dovhan',
     tags: ['JavaScript', 'DevTools', 'Shell scripting'],
     social: {
@@ -2909,6 +3061,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 151,
     fullName: 'Illya Klymov',
     tags: ['Teaching', 'Coaching', 'JavaScript'],
     social: {
@@ -2928,6 +3081,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 152,
     fullName: 'Aleksey Shvayka',
     tags: [
       'Browsers',
@@ -2953,6 +3107,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 153,
     fullName: 'Andrey Listochkin',
     tags: ['Rust', 'JavaScript', 'Skills', 'Architecture'],
     social: {
@@ -2972,6 +3127,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 154,
     fullName: 'Andrii Shumada',
     tags: ['JavaScript', 'Node.js', 'Streams'],
     social: {
@@ -2991,6 +3147,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 155,
     fullName: 'Anton Nemtsev',
     tags: ['HTML', 'CSS', 'Web Standards'],
     social: {
@@ -3010,6 +3167,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 156,
     fullName: 'Artem Yavorsky',
     tags: ['Babel', 'ECMAScript', 'Compilers'],
     social: {
@@ -3029,6 +3187,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 157,
     fullName: 'Roman Liutikov',
     tags: ['ClojureScript', 'React', 'Compilers'],
     social: {
@@ -3048,6 +3207,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 158,
     fullName: 'Vladimir Agafonkin',
     tags: ['Maps', 'Algorithms'],
     social: {
@@ -3067,6 +3227,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 159,
     fullName: 'Yuri Artyukh',
     tags: ['HTML', 'CSS', 'JavaScript', 'WebGL'],
     social: {
@@ -3086,6 +3247,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 160,
     fullName: 'Artem Zakharchenko',
     tags: ['React', 'Forms', 'CSS Grid'],
     social: {
@@ -3105,6 +3267,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 161,
     fullName: 'Artem Denysov',
     tags: ['Performance', 'Dev Tools'],
     social: {
@@ -3124,6 +3287,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 162,
     fullName: 'Timofey Lavrenyuk',
     tags: ['Progressive Web Apps', 'Modern Browser APIs'],
     social: {
@@ -3143,6 +3307,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 163,
     fullName: 'Bruce Lawson',
     tags: ['Standards', 'Performance'],
     social: {
@@ -3162,6 +3327,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 164,
     fullName: 'Jeremy Keith',
     tags: [
       'Standards',
@@ -3187,6 +3353,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 165,
     fullName: 'Paul Robert Lloyd',
     tags: ['Design', 'Web Design', 'Architecture', 'Design Systems', 'Trains'],
     social: {
@@ -3206,6 +3373,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 166,
     fullName: 'Léonie Watson',
     tags: ['Accessibility', 'Web Standards', 'Screen Readers'],
     social: {
@@ -3225,6 +3393,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 167,
     fullName: 'Rachel Andrew',
     tags: ['CSS'],
     social: {
@@ -3244,6 +3413,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 168,
     fullName: 'Ruth John',
     tags: ['Browser Technologies', 'Web Audio', 'Web MIDI'],
     social: {
@@ -3263,6 +3433,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 169,
     fullName: 'Caroline Jarrett',
     tags: ['Forms Usability', 'User Research'],
     social: {
@@ -3282,6 +3453,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 170,
     fullName: 'Luke Bonaccorsi',
     tags: ['Node', 'JavaScript', 'Automation'],
     social: {
@@ -3301,6 +3473,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 171,
     fullName: 'Ada Rose Cannon',
     tags: [
       'HTML',
@@ -3327,6 +3500,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 172,
     fullName: 'Alessandro Cinelli',
     tags: ['JavaScript'],
     social: {
@@ -3346,6 +3520,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 173,
     fullName: 'Alex Lobera',
     tags: ['JavaScript', 'React', 'Redux', 'GraphQL'],
     social: {
@@ -3365,6 +3540,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 174,
     fullName: 'Alexandra Deschamps-Sonsino',
     tags: ['Internet of Things', 'Smart Homes', 'Connected Devices'],
     social: {
@@ -3384,6 +3560,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 175,
     fullName: 'Alla Kholmatova',
     tags: ['Design Systems'],
     social: {
@@ -3403,6 +3580,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 176,
     fullName: 'Andrew Betts',
     tags: ['Networks', 'Performance', 'Web'],
     social: {
@@ -3422,6 +3600,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 177,
     fullName: 'Anna Doubková',
     tags: ['React', 'Testing'],
     social: {
@@ -3441,6 +3620,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 178,
     fullName: 'Bodil Stokke',
     tags: ['Programming', 'Functional Programming'],
     social: {
@@ -3460,6 +3640,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 179,
     fullName: 'Chris Noring',
     tags: ['JavaScript', 'RxJS', 'Angular', 'React'],
     social: {
@@ -3479,6 +3660,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 180,
     fullName: 'Cristiano Rastelli',
     tags: ['CSS', 'CSS-in-JS'],
     social: {
@@ -3498,6 +3680,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 181,
     fullName: 'Dan Abramov',
     tags: ['JavaScript', 'React', 'Redux', 'Tooling'],
     social: {
@@ -3517,6 +3700,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 182,
     fullName: 'Davide "Folletto" Casali',
     tags: ['Design', 'User Experience', 'Management', 'Leadership', 'Startups'],
     social: {
@@ -3536,6 +3720,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 183,
     fullName: 'Gerard Sans',
     tags: ['Angular', 'React', 'GraphQL', 'CSS Animations', 'RxJS'],
     social: {
@@ -3555,6 +3740,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 184,
     fullName: 'Gojko Adzic',
     tags: ['Testing', 'Requirements', 'Serverless'],
     social: {
@@ -3574,6 +3760,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 185,
     fullName: 'Michele Bertoli',
     tags: ['React', 'Testing'],
     social: {
@@ -3593,6 +3780,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 186,
     fullName: 'Phil Plückthun',
     tags: ['React', 'CSS-in-JS'],
     social: {
@@ -3612,6 +3800,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 187,
     fullName: 'Sani Yusuf',
     tags: ['Ionic', 'Angular', 'JavaScript', 'Progressive Web Apps'],
     social: {
@@ -3631,6 +3820,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 188,
     fullName: 'Sebastian Witalec',
     tags: ['NativeScript', 'Angular', 'Bots', 'JavaScript'],
     social: {
@@ -3650,6 +3840,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 189,
     fullName: 'Inayaili de León',
     tags: [
       'Design Systems',
@@ -3674,6 +3865,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 190,
     fullName: 'Heydon Pickering',
     tags: ['Accessibility', 'Performance', 'Web'],
     social: {
@@ -3693,6 +3885,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 191,
     fullName: 'Seren Davies',
     tags: ['Accessibility'],
     social: {
@@ -3712,6 +3905,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 192,
     fullName: 'Scott Vinkle',
     tags: ['Accessibility'],
     social: {
@@ -3731,6 +3925,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 193,
     fullName: 'Aurélien Loyer',
     tags: ['JavaScript', 'Angular', 'Vue.js', 'Node.js', 'TypeScript', 'IoT'],
     social: {
@@ -3750,6 +3945,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 194,
     fullName: 'Tanya Janca',
     tags: ['InfoSec', 'Web App Security'],
     social: {
@@ -3769,6 +3965,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 195,
     fullName: "Brenna O'Brien",
     tags: ['Motivation', 'Psychology', 'Developer Culture', 'Public Speaking'],
     social: {
@@ -3788,6 +3985,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 196,
     fullName: 'Hala Anwar',
     tags: ['Accessibility'],
     social: {
@@ -3807,6 +4005,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 197,
     fullName: 'Tiff Nogueira',
     tags: ['CSS Grids', 'React', 'Redux', 'Firebase', 'Flexbox'],
     social: {
@@ -3826,6 +4025,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 198,
     fullName: 'Wes Bos',
     tags: ['Fullstack Dev', 'JavaScript', 'CSS', 'Node', 'React'],
     social: {
@@ -3845,6 +4045,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 199,
     fullName: 'Eric Bailey',
     tags: ['Accessibility'],
     social: {
@@ -3864,6 +4065,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 200,
     fullName: 'Gleb Bahmutov',
     tags: ['Computer Science', 'JavaScript', 'Reactive Programming'],
     social: {
@@ -3883,6 +4085,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 201,
     fullName: 'Lea Verou',
     tags: ['CSS', 'HTML'],
     social: {
@@ -3902,6 +4105,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 202,
     fullName: 'Adrian Roselli',
     tags: ['Accessibility'],
     social: {
@@ -3921,6 +4125,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 203,
     fullName: 'Addy Osmani',
     tags: [
       'Google Chrome devtool',
@@ -3945,6 +4150,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 204,
     fullName: 'Michael Jackson',
     tags: ['React', 'JavaScript', 'React Router'],
     social: {
@@ -3964,6 +4170,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 205,
     fullName: 'Levi Bostian',
     tags: [
       'Android',
@@ -3993,6 +4200,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 206,
     fullName: 'Carin Meier',
     tags: ['Clojure', 'Machine Learning', 'Programming'],
     social: {
@@ -4012,6 +4220,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 207,
     fullName: 'Doug Schepers',
     tags: ['Data visualization', 'Accessibility', 'SVG'],
     social: {
@@ -4031,6 +4240,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 208,
     fullName: 'Karl Hughes',
     tags: ['Microservices', 'PHP', 'JavaScript', 'Docker'],
     social: {
@@ -4050,6 +4260,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 209,
     fullName: 'Miriam Suzanne',
     tags: ['CSS', 'Sass', 'Architecture', 'Design Systems'],
     social: {
@@ -4069,6 +4280,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 210,
     fullName: 'Carie Fisher',
     tags: ['Accessibility'],
     social: {
@@ -4088,6 +4300,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 211,
     fullName: 'Aimee Knight',
     tags: ['JavaScript', 'CSS', 'Angular', 'Growing Junior Developers'],
     social: {
@@ -4107,6 +4320,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 212,
     fullName: 'Ken Wheeler',
     tags: ['React', 'React Native', 'ReasonML'],
     social: {
@@ -4126,6 +4340,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 213,
     fullName: 'Gant Laborde',
     tags: [
       'JavaScript',
@@ -4153,6 +4368,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 214,
     fullName: 'Sia Karamalegos',
     tags: ['React', 'JavaScript', 'React Native', 'Front-End Performance'],
     social: {
@@ -4172,6 +4388,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 215,
     fullName: 'Andrey Sitnik',
     tags: ['PostCSS', 'CRDT'],
     social: {
@@ -4191,6 +4408,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 216,
     fullName: 'David Nolen',
     tags: [
       'Clojure',
@@ -4216,6 +4434,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 217,
     fullName: 'Diana Mounter',
     tags: ['Design Systems', 'CSS', 'Product Design'],
     social: {
@@ -4235,6 +4454,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 218,
     fullName: 'Henry Zhu',
     tags: ['Open Source', 'Babel'],
     social: {
@@ -4254,6 +4474,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 219,
     fullName: 'Jen Simmons',
     tags: ['Design', 'CSS', 'HTML', 'Web'],
     social: {
@@ -4273,6 +4494,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 220,
     fullName: 'Lara Hogan',
     tags: [
       'Design',
@@ -4297,6 +4519,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 221,
     fullName: 'Kurtis Kemple',
     tags: ['React', 'React Native', 'GraphQL', 'Universal Components'],
     social: {
@@ -4316,6 +4539,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 222,
     fullName: 'Mariko Kosaka',
     tags: ['HTML', 'CSS', 'JavaScript', 'Web'],
     social: {
@@ -4335,6 +4559,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 223,
     fullName: 'Peggy Rayzis',
     tags: [
       'React',
@@ -4361,6 +4586,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 224,
     fullName: 'Una Kravets',
     tags: ['CSS', 'Web'],
     social: {
@@ -4380,6 +4606,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 225,
     fullName: 'Jared Palmer',
     tags: [
       'React',
@@ -4406,6 +4633,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 226,
     fullName: 'Courtney Heitman',
     tags: ['UX Development', 'Usability', 'Accessibility', 'Scrum', 'Agile'],
     social: {
@@ -4425,6 +4653,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 227,
     fullName: 'Paul Irish',
     tags: ['Developer Tools'],
     social: {
@@ -4444,6 +4673,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 228,
     fullName: 'Cheng Lou',
     tags: ['ReasonML', 'React', 'Software Philosophy'],
     social: {
@@ -4463,6 +4693,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 229,
     fullName: 'Lis Pardi',
     tags: ['Web'],
     social: {
@@ -4482,6 +4713,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 230,
     fullName: 'Richard Feldman',
     tags: ['Elm'],
     social: {
@@ -4501,6 +4733,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 231,
     fullName: 'Brad Frost',
     tags: ['Web Design', 'Atomic Design', 'Web Development'],
     social: {
@@ -4520,6 +4753,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 232,
     fullName: 'Lin Clark',
     tags: ['React', 'WebAssembly', 'Browsers Internals'],
     social: {
@@ -4539,6 +4773,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 233,
     fullName: 'Scott Hanselman',
     tags: ['.NET', 'Azure'],
     social: {
@@ -4558,6 +4793,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 234,
     fullName: 'Kyle Shevlin',
     tags: ['React', 'Redux', 'JavaScript'],
     social: {
@@ -4577,6 +4813,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 235,
     fullName: 'Micah Godbolt',
     tags: ['Front-End Architecture', 'CSS', 'Design Systems'],
     social: {
@@ -4596,6 +4833,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 236,
     fullName: 'Violet Peña',
     tags: ['React', 'Socket.IO', 'Storybook', 'Accessibility'],
     social: {
@@ -4615,6 +4853,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 237,
     fullName: 'Jesse Beach',
     tags: ['Accessibility', 'React'],
     social: {
@@ -4634,6 +4873,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 238,
     fullName: 'Kent C. Dodds',
     tags: ['OSS', 'React', 'Testing'],
     social: {
@@ -4653,6 +4893,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 239,
     fullName: 'Anjana Vakil',
     tags: [
       'Programming Language Paradigms',
@@ -4675,6 +4916,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 240,
     fullName: 'Beth Dean',
     tags: ['Design', 'Illustration'],
     social: {
@@ -4694,6 +4936,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 241,
     fullName: 'Adam Menges',
     tags: ['Artificial Intelligence', 'Design', 'Computer Science'],
     social: {
@@ -4713,6 +4956,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 242,
     fullName: 'Boris Cherny',
     tags: ['TypeScript', 'React', 'Computer Science'],
     social: {
@@ -4732,6 +4976,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 243,
     fullName: 'Brynn Evans',
     tags: ['Design', 'Management'],
     social: {
@@ -4751,6 +4996,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 244,
     fullName: 'Cordelia Dillon',
     tags: ['Accessibility'],
     social: {
@@ -4770,6 +5016,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 245,
     fullName: 'Estelle Weyl',
     tags: ['CSS', 'Performance', 'Responsive Web Design'],
     social: {
@@ -4789,6 +5036,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 246,
     fullName: 'Gregory Shehet',
     tags: ['Functional Reactive Programming', 'MobX', 'CSS-in-JS', 'React'],
     social: {
@@ -4808,6 +5056,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 247,
     fullName: 'Jafar Husain',
     tags: [
       'JavaScript',
@@ -4833,6 +5082,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 248,
     fullName: 'Jennifer Wong',
     tags: ['Design Systems'],
     social: {
@@ -4852,6 +5102,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 249,
     fullName: 'Jon Gold',
     tags: ['Design', 'Design Systems', 'React', 'Artificial Intelligence'],
     social: {
@@ -4871,6 +5122,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 250,
     fullName: 'Lisa Huang',
     tags: ['AMP', 'Offline-First Mobile Apps', 'React'],
     social: {
@@ -4890,6 +5142,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 251,
     fullName: 'Mike Matas',
     tags: ['Human Interface Design'],
     social: {
@@ -4909,6 +5162,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 252,
     fullName: 'Mina Markham',
     tags: ['CSS Architecture', 'Sass', 'Community', 'Design Systems'],
     social: {
@@ -4928,6 +5182,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 253,
     fullName: 'Monica Dinculescu',
     tags: ['Web Components', 'Polymer', 'Emoji'],
     social: {
@@ -4947,6 +5202,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 254,
     fullName: 'Patrick Stapleton',
     tags: [
       'OSS',
@@ -4974,6 +5230,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 255,
     fullName: 'Preethi Kasireddy',
     tags: ['Machine Learning', 'Natural Language Processing', 'React'],
     social: {
@@ -4993,6 +5250,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 256,
     fullName: 'Sarah Drasner',
     tags: ['CSS', 'SVG', 'Animations', 'Vue.js', 'React'],
     social: {
@@ -5012,6 +5270,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 257,
     fullName: 'Sean Grove',
     tags: ['GraphQL', 'ReasonML', 'OCaml'],
     social: {
@@ -5031,6 +5290,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 258,
     fullName: 'Stephanie Rewis',
     tags: ['Design Systems', 'CSS'],
     social: {
@@ -5050,6 +5310,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 259,
     fullName: 'Tracy Lee',
     tags: ['Reactive Programming', 'Angular', 'Ember.js'],
     social: {
@@ -5069,6 +5330,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 260,
     fullName: 'Guillermo Rauch',
     tags: ['Zeit', 'Now.sh', 'Next.js', 'Serverless'],
     social: {
@@ -5088,6 +5350,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 261,
     fullName: 'Jaime Lopez',
     tags: ['iOS', 'Swift', 'Software Architecture', 'Development Processes'],
     social: {
@@ -5107,6 +5370,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 262,
     fullName: 'Shell Little',
     tags: ['Accessibility'],
     social: {
@@ -5126,6 +5390,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 263,
     fullName: 'Evangelina Ferreira',
     tags: ['CSS', 'Animations'],
     social: {
@@ -5145,6 +5410,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 264,
     fullName: 'Beto Muniz',
     tags: [
       'React',
@@ -5170,6 +5436,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 265,
     fullName: 'Fernando Daciuk',
     tags: ['React', 'JavaScript'],
     social: {
@@ -5189,6 +5456,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 266,
     fullName: 'Marcelo Camargo',
     tags: [
       'Functional Programming',
@@ -5214,6 +5482,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 267,
     fullName: 'Raphael Amorim',
     tags: ['React', 'JavaScript', 'jQuery'],
     social: {
@@ -5233,6 +5502,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 268,
     fullName: 'Caroline Soares',
     tags: ['Frontend development', "Woman's inspiration", 'JavaScript', 'CSS'],
     social: {
@@ -5252,6 +5522,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 269,
     fullName: 'Fernanda Bernardo',
     tags: ['CSS', 'JavaScript', 'HTML'],
     social: {
@@ -5271,6 +5542,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 270,
     fullName: 'João Victor Dias',
     tags: ['Computer Vision', 'Keras', 'CNN', 'R', 'Data Science path'],
     social: {
@@ -5290,6 +5562,7 @@ export const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 271,
     fullName: 'Sibelius Seraphini',
     tags: [
       'React',
@@ -5318,3 +5591,5 @@ export const speakers: Speaker[] = [
     },
   },
 ];
+
+export default speakers;

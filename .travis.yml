@@ -17,6 +17,8 @@ stages:
   - build
   - name: deploy
     if: (NOT type IN (pull_request)) AND (branch = master)
+  - name: update-algolia
+    if: (NOT type IN (pull_request)) AND (branch = master)
 
 jobs:
   include:
@@ -33,3 +35,6 @@ jobs:
       after_script:
         - yarn alias
         - yarn clear-deployments
+
+    - stage: update-algolia
+      script: yarn update-speakers

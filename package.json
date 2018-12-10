@@ -14,8 +14,9 @@
     "@zeit/next-css": "^1.0.2-canary.2",
     "@zeit/next-typescript": "^1.1.2-canary.0",
     "algoliasearch": "^3.31.0",
-    "antd": "^3.11.0",
+    "antd": "^3.11.1",
     "babel-plugin-import": "^1.11.0",
+    "dotenv": "^6.2.0",
     "lodash.debounce": "^4.0.8",
     "lodash.orderby": "^4.6.0",
     "next": "^7.0.2-canary.41",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "@types/algoliasearch": "^3.30.1",
+    "@types/dotenv": "^6.1.0",
     "@types/lodash.debounce": "^4.0.4",
     "@types/lodash.orderby": "^4.6.4",
     "@types/next": "^7.0.5",
@@ -37,6 +39,7 @@
     "babel-plugin-inline-react-svg": "^1.0.1",
     "babel-plugin-styled-components": "^1.9.2",
     "now": "^13.0.0-canary.23",
+    "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.17.0",
     "tslint-react": "^3.6.0",
@@ -51,6 +54,7 @@
     "test-ci": "yarn lint",
     "deploy": "now --token $NOW_TOKEN",
     "alias": "now alias --token=$NOW_TOKEN",
-    "clear-deployments": "now rm --safe --yes confcitizens --token=$NOW_TOKEN"
+    "clear-deployments": "now rm --safe --yes confcitizens --token=$NOW_TOKEN",
+    "update-speakers": "ts-node scripts/updateSpeakers.ts"
   }
 }
