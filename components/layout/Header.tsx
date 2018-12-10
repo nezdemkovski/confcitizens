@@ -16,7 +16,16 @@ const Logo = styled.h1`
 
 const Header = () => (
   <FooterWrapper>
-    <Logo>ConfCitizens</Logo>
+    <Logo>ConfCitizens</Logo>(
+    <a
+      href="https://github.com/yakovlevyuri/confcitizens"
+      title="Source code on Github"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      source code
+    </a>
+    )
   </FooterWrapper>
 );
 
