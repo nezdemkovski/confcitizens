@@ -404,7 +404,7 @@ const speakers: Speaker[] = [
   },
   {
     objectID: 17,
-    fullName: 'Arun Michael Dsouza',
+    fullName: 'Sara Soueidan',
     tags: ['Animations', 'CSS', 'SVG'],
     social: {
       twitter: 'sarasoueidan',
