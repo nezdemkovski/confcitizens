@@ -1756,7 +1756,7 @@ const speakers: Speaker[] = [
     email: 'tejas@tejas.qa',
     website: null,
     social: {
-      twitter: 'tejaskumar',
+      twitter: 'tejaskumar_',
       github: 'TejasQ',
       blog: null,
       linkedin: null,
@@ -5165,9 +5165,9 @@ const speakers: Speaker[] = [
     website: null,
     social: {
       twitter: 'linclark',
-      github: null,
+      github: "linclark",
       blog: null,
-      linkedin: null,
+      linkedin: "https://www.linkedin.com/in/linclark/",
     },
     talks: [],
     availableForHire: null,
@@ -5184,7 +5184,7 @@ const speakers: Speaker[] = [
     email: 'scott@hanselman.com',
     website: 'https://hanselman.com',
     social: {
-      twitter: 'linclark',
+      twitter: 'shanselman',
       github: 'shanselman',
       blog: 'https://hanselman.com/blog',
       linkedin: 'https://linkedin.com/in/scotthanselman',
