@@ -6042,6 +6042,26 @@ const speakers: Speaker[] = [
       city: 'New York',
     },
   },
+  {
+    objectID: 274,
+    fullName: 'Fernando Migliorini Tenório',
+    tags: ['Open Source', 'Community', 'Node.js', 'JavaScript', 'Now', 'Zeit', 'Serverless', 'Angular'],
+    email: null,
+    website: 'https://dotenorio.com/',
+    social: {
+      twitter: 'dotenorio',
+      github: 'dotenorio',
+      blog: 'https://blog.dotenorio.com/',
+      linkedin: null,
+    },
+    talks: [],
+    availableForHire: null,
+    currentLocation: {
+      continent: 'South America',
+      country: 'Brazil',
+      city: 'Maringá',
+    },
+  },
 ];
 
 export default speakers;
