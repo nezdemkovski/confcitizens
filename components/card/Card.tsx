@@ -95,19 +95,6 @@ const Card = ({ hit }: Props) => (
     </Content>
 
     <Links>
-      {hit.social.slides && (
-        <Tooltip title="Slides">
-          <Button
-            shape="circle"
-            icon="file-ppt"
-            size="large"
-            href={hit.social.slides}
-            target="_blank"
-            rel="noopener noreferrer"
-          />
-        </Tooltip>
-      )}
-
       {hit.social.blog && (
         <Tooltip title="Blog">
           <Button
@@ -134,13 +121,13 @@ const Card = ({ hit }: Props) => (
         </Tooltip>
       )}
 
-      {hit.social.website && (
+      {hit.website && (
         <Tooltip title="Website">
           <Button
             shape="circle"
             icon="global"
             size="large"
-            href={hit.social.website}
+            href={hit.website}
             target="_blank"
             rel="noopener noreferrer"
           />
