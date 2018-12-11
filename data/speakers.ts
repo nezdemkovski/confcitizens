@@ -1594,7 +1594,8 @@ const speakers: Speaker[] = [
         event: 'React Alicante',
         date: '2017-10-30',
         videoUrl: 'https://www.youtube.com/watch?v=JjXnmhNW8Cs',
-        slidesUrl: 'https://github.com/SaraVieira/styleguide-driven-development',
+        slidesUrl:
+          'https://github.com/SaraVieira/styleguide-driven-development',
         location: {
           continent: 'Europe',
           country: 'Spain',
@@ -1607,7 +1608,8 @@ const speakers: Speaker[] = [
         event: 'React Girls London',
         date: '2017-09-26',
         videoUrl: null,
-        slidesUrl: 'https://github.com/SaraVieira/styleguide-driven-development',
+        slidesUrl:
+          'https://github.com/SaraVieira/styleguide-driven-development',
         location: {
           continent: 'Europe',
           country: 'United Kingdom',
@@ -1689,7 +1691,8 @@ const speakers: Speaker[] = [
         description: null,
         event: 'QCon London 2015',
         date: '2015-06-20',
-        videoUrl: 'https://www.infoq.com/presentations/front-end-tools-workflows',
+        videoUrl:
+          'https://www.infoq.com/presentations/front-end-tools-workflows',
         slidesUrl: null,
         location: {
           continent: 'Europe',
@@ -1750,11 +1753,11 @@ const speakers: Speaker[] = [
       'Teams',
       'Humanities',
     ],
-    email: null,
+    email: 'tejas@tejas.qa',
     website: null,
     social: {
       twitter: 'tejaskumar',
-      github: null,
+      github: 'TejasQ',
       blog: null,
       linkedin: null,
     },
