@@ -39,17 +39,15 @@ const Index = ({ searchState, resultsState }) => {
   };
 
   return (
-    <React.Fragment>
-      <SpeakersList
-        resultsState={resultsState}
-        onSearchStateChange={onSearchStateChange}
-        searchState={
-          urlState.state && urlState.state.searchState
-            ? urlState.state.searchState
-            : searchState
-        }
-      />
-    </React.Fragment>
+    <SpeakersList
+      resultsState={resultsState}
+      onSearchStateChange={onSearchStateChange}
+      searchState={
+        urlState.state && urlState.state.searchState
+          ? urlState.state.searchState
+          : searchState
+      }
+    />
   );
 };
 

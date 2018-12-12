@@ -18,6 +18,7 @@ declare global {
 
 const Content = styled(AntLayout.Content)`
   padding: 0 15px;
+  background: #ffffff;
 
   @media (min-width: 992px) {
     padding: 0 100px;

@@ -1,5 +1,5 @@
 export interface Speaker {
-  objectID: number;
+  objectID: string;
   fullName: string;
   tags: string[];
   email?: string;
@@ -13,7 +13,7 @@ export interface Speaker {
   talks: Array<{
     title: string;
     description: string;
-    event: string;
+    eventName: string;
     date: string;
     videoUrl: string;
     slidesUrl: string;
@@ -31,7 +31,7 @@ interface Location {
 
 const speakers: Speaker[] = [
   {
-    objectID: 0,
+    objectID: 'codebeast',
     fullName: 'Christian Nwamba',
     tags: [
       'JavaScript',
@@ -55,7 +55,7 @@ const speakers: Speaker[] = [
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
-    objectID: 1,
+    objectID: 'ireaderinokun',
     fullName: 'Ire Aderinokun',
     tags: ['Progressive Web Apps', 'CSS', 'Standards'],
     email: null,
@@ -71,7 +71,7 @@ const speakers: Speaker[] = [
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
-    objectID: 2,
+    objectID: 'unicodeveloper',
     fullName: 'Otemuyiwa Prosper',
     tags: [
       'JavaScript',
@@ -95,7 +95,7 @@ const speakers: Speaker[] = [
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
-    objectID: 3,
+    objectID: 'riggaroo',
     fullName: 'Rebecca Franks',
     tags: ['Android', 'Android Things', 'Firebase', 'IoT'],
     email: null,
@@ -115,7 +115,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 4,
+    objectID: 'ahsan_ayz',
     fullName: 'Ahsan Ayaz',
     tags: [
       'JavaScript',
@@ -143,7 +143,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 5,
+    objectID: 'mashhoodr',
     fullName: 'Mashhood Rastgar',
     tags: [
       'Progressive Web Apps',
@@ -168,7 +168,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 6,
+    objectID: 'smkamranqadri',
     fullName: 'Muhammad Kamran',
     tags: [
       'Angular',
@@ -198,7 +198,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 7,
+    objectID: 'narainsagar',
     fullName: 'Narain Sagar',
     tags: [
       'Angular',
@@ -227,7 +227,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 8,
+    objectID: 'i_am_the_dev',
     fullName: 'Nasir Hussain',
     tags: [
       'Blockchain',
@@ -255,7 +255,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 9,
+    objectID: 'ashrith_kulai',
     fullName: 'Ashrith Kulai',
     tags: [
       'Progressive Web Apps',
@@ -281,7 +281,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 10,
+    objectID: 'kranirudha',
     fullName: 'Kumar Anirudha',
     tags: ['Python', 'Node.js', 'Blockchain', 'Architecture', 'Cryptocurrency'],
     email: 'anirudhastark@yahoo.com',
@@ -301,7 +301,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 11,
+    objectID: 'siddharthkp',
     fullName: 'Siddharth Kshetrapal',
     tags: ['CSS', 'Web Performance', 'React', 'CSS-in-JS', 'Node', 'Testing'],
     email: null,
@@ -321,7 +321,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 12,
+    objectID: 'jayeshkattar',
     fullName: 'Jayesh Katta Ramalingaiah',
     tags: [
       'Rust',
@@ -350,7 +350,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 13,
+    objectID: 'manjula_dube',
     fullName: 'Manjula Dube',
     tags: ['JavaScript', 'React', 'Progressive Web Apps', 'Node', 'Testing'],
     email: 'dube.manjula668@gmail.com',
@@ -370,7 +370,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 14,
+    objectID: 'neeharv',
     fullName: 'Neehar Venugopal',
     tags: ['Code Splitting', 'Standards'],
     email: 'neeharv@gmail.com',
@@ -390,7 +390,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 15,
+    objectID: 'chatsidhartha',
     fullName: 'Sidhartha Chatterjee',
     tags: ['React', 'Progressive Web Apps', 'Web Performance'],
     email: 'me@sidharthachatterjee.com',
@@ -410,7 +410,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 16,
+    objectID: 'amdsouza92',
     fullName: 'Arun Michael Dsouza',
     tags: ['Webpack', 'React', 'ES6', 'Tooling', 'CSS'],
     email: 'amdsouza92@gmail.com',
@@ -430,7 +430,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 17,
+    objectID: 'sarasoueidan',
     fullName: 'Sara Soueidan',
     tags: ['Animations', 'CSS', 'SVG'],
     email: null,
@@ -450,7 +450,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 18,
+    objectID: 'RenettaRenula',
     fullName: 'Aysha Anggraini',
     tags: ['Animations', 'CSS'],
     email: 'ren.aysha@gmail.com',
@@ -470,7 +470,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 19,
+    objectID: 'hj_chen',
     fullName: 'Chen Hui Jing',
     tags: ['CSS'],
     email: null,
@@ -490,7 +490,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 20,
+    objectID: 'zellwk',
     fullName: 'Zell Liew',
     tags: ['CSS', 'JavaScript'],
     email: 'zellwk@gmail.com',
@@ -510,7 +510,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 21,
+    objectID: 'glenmaddern',
     fullName: 'Glen Maddern',
     tags: ['CSS', 'Styled Components', 'React', 'JavaScript'],
     email: 'glenmaddern@gmail.com',
@@ -530,7 +530,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 22,
+    objectID: 'fox',
     fullName: 'Karolina Szczur',
     tags: ['CSS', 'HTML', 'Web', 'Inclusivity', 'Diversity'],
     email: 'hi@thefox.is',
@@ -550,7 +550,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 23,
+    objectID: 'markdalgleish',
     fullName: 'Mark Dalgleish',
     tags: ['Design Systems', 'Web Design'],
     email: null,
@@ -570,7 +570,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 24,
+    objectID: 'philnash',
     fullName: 'Phil Nash',
     tags: ['JavaScript', 'Web Development', 'Progressive Web Apps'],
     email: null,
@@ -590,7 +590,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 25,
+    objectID: 'ddprrt',
     fullName: 'Stefan Baumgartner',
     tags: ['Web Ops', 'JavaScript', 'CSS', 'Tooling'],
     email: 'sbaumg@gmail.com',
@@ -610,7 +610,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 26,
+    objectID: 'lisi_linhart',
     fullName: 'Lisi Linhart',
     tags: ['CSS', 'Web Animations'],
     email: 'hello@lisilinhart.info',
@@ -630,7 +630,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 27,
+    objectID: 'sharifsbeat',
     fullName: 'Ali Sharif',
     tags: ['Functional Programming', 'Agile', 'Product Development'],
     email: null,
@@ -650,7 +650,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 28,
+    objectID: 'okonetchnikov',
     fullName: 'Andrey Okonetchnikov',
     tags: ['CSS-in-JS', 'Linting', 'Tooling'],
     email: null,
@@ -670,7 +670,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 29,
+    objectID: 'christophrumpel',
     fullName: 'Christoph Rumpel',
     tags: ['PHP', 'Laravel', 'Chatbots'],
     email: null,
@@ -690,7 +690,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 30,
+    objectID: 'eva_trostlos',
     fullName: 'Eva Lettner',
     tags: ['CSS', 'Web'],
     email: null,
@@ -710,7 +710,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 31,
+    objectID: 'glnnrys',
     fullName: 'Glenn Reyes',
     tags: ['Code Splitting', 'React'],
     email: 'glenn@glennreyes.com',
@@ -730,7 +730,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 32,
+    objectID: 'mrozilla',
     fullName: 'Jan Hruby',
     tags: [
       'React',
@@ -757,7 +757,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 33,
+    objectID: 'bebraw',
     fullName: 'Juho Vepsäläinen',
     tags: ['3D Graphics', 'Business', 'React', 'Webpack', 'Writing'],
     email: 'bebraw@gmail.com',
@@ -777,7 +777,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 34,
+    objectID: 'mmatuzo',
     fullName: 'Manuel Matuzović',
     tags: ['CSS', 'Grid', 'Accessibility'],
     email: null,
@@ -797,7 +797,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 35,
+    objectID: 'mxbck',
     fullName: 'Max Böck',
     tags: ['CSS', 'JavaScript', 'Progressive Web Apps'],
     email: 'hello@mxb.at',
@@ -817,7 +817,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 36,
+    objectID: 'mxstbr',
     fullName: 'Max Stoiber',
     tags: ['React', 'Styled Components', 'OSS'],
     email: 'contact@mxstbr.com',
@@ -837,7 +837,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 37,
+    objectID: 'nikgraf',
     fullName: 'Nik Graf',
     tags: ['ReasonML', 'Serverless', 'GraphQL', 'Virtual Reality', 'React'],
     email: 'nik@nikgraf.com',
@@ -857,7 +857,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 38,
+    objectID: 'glyphe',
     fullName: 'Oliver Schöndorfer',
     tags: ['Typography', 'CSS'],
     email: 'oliver@zeichenschatz.net',
@@ -877,7 +877,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 39,
+    objectID: 'ryyppy',
     fullName: 'Patrick Stapfer',
     tags: ['ReasonML', 'Static Typing', 'Flow'],
     email: null,
@@ -897,7 +897,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 40,
+    objectID: 'ferakpeter',
     fullName: 'Peter Ferak',
     tags: ['Functional Programming', 'Computer Science'],
     email: null,
@@ -917,7 +917,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 41,
+    objectID: 'defuex',
     fullName: 'Timo Obereder',
     tags: ['React', 'Composition', 'Android', 'RXJava', 'Kotlin'],
     email: null,
@@ -937,7 +937,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 42,
+    objectID: 'sambego',
     fullName: 'Sam Bellen',
     tags: ['Web Audio', 'Browser APIs'],
     email: null,
@@ -957,7 +957,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 43,
+    objectID: 'rstankov',
     fullName: 'Radoslav Stankov',
     tags: ['React', 'Redux', 'Ruby', 'Testing', 'GraphQL'],
     email: null,
@@ -977,7 +977,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 44,
+    objectID: 'mafintosh',
     fullName: 'Mathias Buus',
     tags: ['Peer to Peer', 'Node.js'],
     email: 'mathiasbuus@gmail.com',
@@ -997,7 +997,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 45,
+    objectID: 'enthusiasto',
     fullName: 'Olga Dmitricenko',
     tags: ['Virtual Reality', 'Web Image Processing'],
     email: null,
@@ -1017,7 +1017,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 46,
+    objectID: 'terezk_a',
     fullName: 'Tereza Sokol',
     tags: ['Elm', 'Visualizations'],
     email: 'terezasokol@gmail.com',
@@ -1037,7 +1037,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 47,
+    objectID: 'pakastin',
     fullName: 'Juha Lindstedt',
     tags: [
       'JavaScript',
@@ -1065,7 +1065,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 48,
+    objectID: 'varya_en',
     fullName: 'Varya Stepanova',
     tags: ['CSS-in-JS', 'Style Guides', 'Visual Regression Testing'],
     email: 'mail@varya.me',
@@ -1085,7 +1085,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 49,
+    objectID: 'EmmanuelDemey',
     fullName: 'Emmanuel Demey',
     tags: [
       'Angular',
@@ -1112,7 +1112,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 50,
+    objectID: 'manekinekko',
     fullName: 'Wassim Chegham',
     tags: [
       'Angular',
@@ -1141,7 +1141,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 51,
+    objectID: 'svensauleau',
     fullName: 'Sven Sauleau',
     tags: [
       'JavaScript',
@@ -1169,7 +1169,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 52,
+    objectID: 'yakovlevyuri',
     fullName: 'Yuri Yakovlev',
     tags: ['JavaScript', 'GraphQL', 'Apollo Server', 'Apollo Client'],
     email: null,
@@ -1189,7 +1189,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 53,
+    objectID: 'alexedev',
     fullName: 'Alex Alexeev',
     tags: ['JavaScript', 'GraphQL'],
     email: null,
@@ -1209,7 +1209,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 54,
+    objectID: 'Jhnnns',
     fullName: 'Johannes Ewald',
     tags: ['Tooling', 'Standards', 'Webpack'],
     email: null,
@@ -1229,7 +1229,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 55,
+    objectID: 'allyelle',
     fullName: 'Ally Long',
     tags: ['CSS', 'Performance'],
     email: null,
@@ -1249,7 +1249,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 56,
+    objectID: 'iamsapegin',
     fullName: 'Artem Sapegin',
     tags: ['Styleguides', 'UI', 'CSS'],
     email: null,
@@ -1269,7 +1269,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 57,
+    objectID: 'sonniesedge',
     fullName: 'Charlie Owen',
     tags: ['CSS', 'Accessibility'],
     email: null,
@@ -1289,7 +1289,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 58,
+    objectID: 'hermagrini',
     fullName: 'Hernán Magrini',
     tags: ['Web Performance', 'Service Workers'],
     email: null,
@@ -1309,7 +1309,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 59,
+    objectID: 'HugoGiraudel',
     fullName: 'Hugo Giraudel',
     tags: ['Accessibility', 'Diversity', 'Inclusivity'],
     email: null,
@@ -1329,7 +1329,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 60,
+    objectID: 'karlhorky',
     fullName: 'Karl Horky',
     tags: ['Tooling', 'Standards', 'Intersectionality', 'OSS', 'Psychology'],
     email: null,
@@ -1349,7 +1349,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 61,
+    objectID: 'Lugotype',
     fullName: 'Lu Yu',
     tags: ['Graphic Design', 'Typography', 'Branding', 'User Experience'],
     email: null,
@@ -1369,7 +1369,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 62,
+    objectID: 'nataliepis',
     fullName: 'Natalie Pistunovich',
     tags: ['Mobile Apps', 'Go'],
     email: null,
@@ -1389,7 +1389,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 63,
+    objectID: 'oleg008',
     fullName: 'Oleg Slobodskoi',
     tags: ['CSS-in-JS', 'React'],
     email: null,
@@ -1409,7 +1409,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 64,
+    objectID: 'robinpokorny',
     fullName: 'Robin Pokorny',
     tags: ['Jest', 'React', 'AMP', 'Elm'],
     email: null,
@@ -1429,7 +1429,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 65,
+    objectID: 'NikkitaFTW',
     fullName: 'Sara Vieira',
     tags: ['Styleguides', 'React', 'CSS', 'Preact', 'CSS-in-JS'],
     email: 'hey@iamsaravieira.com',
@@ -1444,7 +1444,7 @@ const speakers: Speaker[] = [
       {
         title: 'We need to talk about Preact',
         description: null,
-        event: 'EnterJS',
+        eventName: 'EnterJS',
         date: '2018-06-20',
         videoUrl: null,
         slidesUrl: null,
@@ -1458,7 +1458,7 @@ const speakers: Speaker[] = [
         title: 'GraphQL + Apollo + Vue = Magic',
         description:
           "We all here love GraphQL and we have seen how amazing Apollo can be in combination with React. But what about Vue? Vue is by itself reactive and that makes it so perfect for GraphQL and Apollo. Let's look at how to use this awesome combination to make awesomer things.",
-        event: 'Graphql Europe',
+        eventName: 'Graphql Europe',
         date: '2018-06-15',
         videoUrl: null,
         slidesUrl: null,
@@ -1471,7 +1471,7 @@ const speakers: Speaker[] = [
       {
         title: null,
         description: null,
-        event: 'Frontend United',
+        eventName: 'Frontend United',
         date: '2018-05-31',
         videoUrl: null,
         slidesUrl: null,
@@ -1484,7 +1484,7 @@ const speakers: Speaker[] = [
       {
         title: 'Testing React Applications',
         description: null,
-        event: 'React Finland',
+        eventName: 'React Finland',
         date: '2018-04-25',
         videoUrl: null,
         slidesUrl: null,
@@ -1497,7 +1497,7 @@ const speakers: Speaker[] = [
       {
         title: null,
         description: null,
-        event: 'JSHeroes',
+        eventName: 'JSHeroes',
         date: '2018-04-18',
         videoUrl: null,
         slidesUrl: null,
@@ -1510,7 +1510,7 @@ const speakers: Speaker[] = [
       {
         title: "Your brain doesn't have a --fix flag",
         description: null,
-        event: 'Front End NE',
+        eventName: 'Front End NE',
         date: '2018-04-05',
         videoUrl: null,
         slidesUrl: 'https://brain-fix.now.sh',
@@ -1523,7 +1523,7 @@ const speakers: Speaker[] = [
       {
         title: 'The lonely and dark road to Styling in React',
         description: null,
-        event: 'React Fest',
+        eventName: 'React Fest',
         date: '2018-03-09',
         videoUrl: null,
         slidesUrl: null,
@@ -1536,7 +1536,7 @@ const speakers: Speaker[] = [
       {
         title: "Your brain doesn't have a --fix flag",
         description: null,
-        event: 'Agent Conf',
+        eventName: 'Agent Conf',
         date: '2018-01-25',
         videoUrl: null,
         slidesUrl: 'https://brain-fix.now.sh',
@@ -1549,7 +1549,7 @@ const speakers: Speaker[] = [
       {
         title: 'We need to talk about Preact',
         description: null,
-        event: 'React Day Berlin',
+        eventName: 'React Day Berlin',
         date: '2017-12-02',
         videoUrl: 'https://www.youtube.com/watch?v=jqXRSvXWYf8',
         slidesUrl:
@@ -1563,7 +1563,7 @@ const speakers: Speaker[] = [
       {
         title: 'CSS Hates You',
         description: null,
-        event: 'Formidable & Friends Birthday Bash!',
+        eventName: 'Formidable & Friends Birthday Bash!',
         date: '2017-11-17',
         videoUrl: null,
         slidesUrl:
@@ -1577,7 +1577,7 @@ const speakers: Speaker[] = [
       {
         title: 'We need to talk about Preact',
         description: null,
-        event: 'JS Roundabout',
+        eventName: 'JS Roundabout',
         date: '2017-11-08',
         videoUrl: 'https://www.youtube.com/watch?v=Bb3Vyj0KTd4',
         slidesUrl:
@@ -1591,7 +1591,7 @@ const speakers: Speaker[] = [
       {
         title: 'Styleguide Driven Development',
         description: null,
-        event: 'React Alicante',
+        eventName: 'React Alicante',
         date: '2017-10-30',
         videoUrl: 'https://www.youtube.com/watch?v=JjXnmhNW8Cs',
         slidesUrl:
@@ -1605,7 +1605,7 @@ const speakers: Speaker[] = [
       {
         title: 'Styleguide Driven Development',
         description: null,
-        event: 'React Girls London',
+        eventName: 'React Girls London',
         date: '2017-09-26',
         videoUrl: null,
         slidesUrl:
@@ -1619,7 +1619,7 @@ const speakers: Speaker[] = [
       {
         title: "There's a whole new world offline",
         description: null,
-        event: 'Require("lx")',
+        eventName: 'Require("lx")',
         date: '2017-07-06',
         videoUrl: 'https://www.youtube.com/watch?v=ZvA41uuyujA',
         slidesUrl:
@@ -1633,7 +1633,7 @@ const speakers: Speaker[] = [
       {
         title: 'CSS Hates You',
         description: null,
-        event: 'Mtalks',
+        eventName: 'Mtalks',
         date: '2017-06-14',
         videoUrl: 'https://youtu.be/gwW36kV9TV4?t=10s',
         slidesUrl:
@@ -1647,7 +1647,7 @@ const speakers: Speaker[] = [
       {
         title: 'We need to talk about Preact',
         description: null,
-        event: 'React Vienna',
+        eventName: 'React Vienna',
         date: '2017-01-18',
         videoUrl: 'https://www.youtube.com/watch?v=bYdeMvr5Aus',
         slidesUrl:
@@ -1661,7 +1661,7 @@ const speakers: Speaker[] = [
       {
         title: "The Hitchhiker's Guide to the Webpack",
         description: null,
-        event: 'Codemotion Amsterdam',
+        eventName: 'Codemotion Amsterdam',
         date: '2016-05-16',
         videoUrl: 'https://www.youtube.com/watch?v=Zor8E6_ZoVA',
         slidesUrl:
@@ -1675,7 +1675,7 @@ const speakers: Speaker[] = [
       {
         title: 'CSS3 Layouts: Flexbox vs CSS Grid',
         description: null,
-        event: 'Codemotion Milan',
+        eventName: 'Codemotion Milan',
         date: '2015-11-20',
         videoUrl: 'https://www.youtube.com/watch?v=b-in0QpvDiQ',
         slidesUrl:
@@ -1689,7 +1689,7 @@ const speakers: Speaker[] = [
       {
         title: 'Front-end Tools and Workflows',
         description: null,
-        event: 'QCon London 2015',
+        eventName: 'QCon London 2015',
         date: '2015-06-20',
         videoUrl:
           'https://www.infoq.com/presentations/front-end-tools-workflows',
@@ -1703,7 +1703,7 @@ const speakers: Speaker[] = [
       {
         title: 'CSS as a programming language',
         description: null,
-        event: 'Front Trends',
+        eventName: 'Front Trends',
         date: '2014-05-20',
         videoUrl: 'https://vimeo.com/105956446',
         slidesUrl:
@@ -1723,7 +1723,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 66,
+    objectID: 'Srushtika',
     fullName: 'Srushtika Neelakantam',
     tags: ['WebVR', 'A-Frame', 'Realtime Web', 'JavaScript Frameworks'],
     email: null,
@@ -1743,7 +1743,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 67,
+    objectID: 'tejaskumar_',
     fullName: 'Tejas Kumar',
     tags: [
       'JavaScript',
@@ -1770,7 +1770,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 68,
+    objectID: 'yoshuawuyts',
     fullName: 'Yoshua Wuyts',
     tags: ['Frameworks', 'Simplicity', 'Standards', 'Libraries'],
     email: null,
@@ -1790,7 +1790,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 69,
+    objectID: 'iamjoyclark',
     fullName: 'Joy Clark',
     tags: ['Clojure', 'Web Apps', 'Security'],
     email: null,
@@ -1810,7 +1810,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 70,
+    objectID: 'iamjoyclark',
     fullName: 'Vitaly Friedman',
     tags: ['Web Design', 'Web Development', 'Responsive Web Design'],
     email: null,
@@ -1830,7 +1830,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 71,
+    objectID: 'pixelass',
     fullName: 'Gregor Adams',
     tags: ['Fractals', 'CSS', 'JavaScript', 'Web Animations'],
     email: null,
@@ -1850,7 +1850,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 72,
+    objectID: 'marionebl',
     fullName: 'Mario Nebl',
     tags: ['JavaScript', 'Node', 'JS Architecture'],
     email: null,
@@ -1870,7 +1870,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 73,
+    objectID: 'PalmaSwell',
     fullName: 'Mauricio Palma',
     tags: ['CSS, JavaScript'],
     email: null,
@@ -1890,7 +1890,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 74,
+    objectID: 'TimPietrusky',
     fullName: 'Tim Pietrusky',
     tags: ['JS Art', 'JS Music', 'JavaScript'],
     email: null,
@@ -1910,7 +1910,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 75,
+    objectID: 'rofrischmann',
     fullName: 'Robin Frischmann',
     tags: ['CSS', 'CSS-in-JS', 'React'],
     email: null,
@@ -1930,7 +1930,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 76,
+    objectID: 'fhinkel',
     fullName: 'Franziska Hinkelmann',
     tags: ['Node', 'V8'],
     email: null,
@@ -1950,7 +1950,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 77,
+    objectID: 'mathias',
     fullName: 'Mathias Bynens',
     tags: ['JavaScript (TC39)', 'V8', 'Chrome'],
     email: null,
@@ -1970,7 +1970,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 78,
+    objectID: 'NickPalladinos',
     fullName: 'Nick Palladinos',
     tags: ['F#'],
     email: null,
@@ -1990,7 +1990,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 79,
+    objectID: 'DaveJ',
     fullName: 'Dave Jeffery',
     tags: ['JavaScript', 'Electron', 'Node.js'],
     email: null,
@@ -2010,7 +2010,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 80,
+    objectID: 'eoins',
     fullName: 'Eoin Shanaghy',
     tags: ['Java', 'Elixir', 'Node.js'],
     email: null,
@@ -2030,7 +2030,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 81,
+    objectID: 'sugrue',
     fullName: 'James Sugrue',
     tags: ['Swift', 'JavaScript', 'Java'],
     email: null,
@@ -2050,7 +2050,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 82,
+    objectID: 'tech_fort',
     fullName: 'Joe Minichino',
     tags: [
       'Artificial Intelligence',
@@ -2076,7 +2076,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 83,
+    objectID: 'aetheon',
     fullName: 'Oscar Brito',
     tags: ['Linux', 'Node.js', 'JavaScript', 'Python'],
     email: null,
@@ -2096,7 +2096,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 84,
+    objectID: 'dhigit9',
     fullName: 'Anton Whalley',
     tags: ['Node.js', 'Decentralization', 'FreeBSD', 'Open Source'],
     email: null,
@@ -2116,7 +2116,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 85,
+    objectID: 'augeva',
     fullName: 'Augusto Evangelisti',
     tags: ['Testing', 'Agile', 'Bitcoin'],
     email: null,
@@ -2136,7 +2136,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 86,
+    objectID: 'barryosull',
     fullName: "Barry O'Sullivan",
     tags: ['PHP', 'Testing', 'Domain-Driven Design', 'Event Sourcing'],
     email: null,
@@ -2156,7 +2156,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 87,
+    objectID: 'real_ate',
     fullName: 'Chris Manson',
     tags: ['JavaScript', 'Ember', 'React'],
     email: null,
@@ -2176,7 +2176,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 88,
+    objectID: 'cianmm',
     fullName: 'Cian Mac Mahon',
     tags: ['JavaScript', 'React'],
     email: null,
@@ -2196,7 +2196,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 89,
+    objectID: 'claudiopro',
     fullName: 'Claudio Procida',
     tags: ['JavaScript', 'React', 'Node.js', 'Diversity'],
     email: null,
@@ -2216,7 +2216,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 90,
+    objectID: 'donovanh',
     fullName: 'Donovan Hutchinson',
     tags: ['HTML', 'CSS', 'JavaScript'],
     email: null,
@@ -2236,7 +2236,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 91,
+    objectID: 'ingridepure',
     fullName: 'Ingrid Epure',
     tags: ['Security', 'Psychology'],
     email: null,
@@ -2256,7 +2256,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 92,
+    objectID: 'johnbrett',
     fullName: 'John Brett',
     tags: ['JavaScript', 'Hapi', 'Nomad Work', 'Bitcoin'],
     email: null,
@@ -2276,7 +2276,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 93,
+    objectID: 'loige',
     fullName: 'Luciano Mammino',
     tags: [
       'Node.js',
@@ -2302,7 +2302,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 94,
+    objectID: 'Lynsey_Duncan',
     fullName: 'Lynsey Duncan',
     tags: ['UX', 'UI', 'Design Systems'],
     email: null,
@@ -2322,7 +2322,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 95,
+    objectID: 'princessmaja',
     fullName: 'Maja Grubic',
     tags: ['Node.js', 'JavaScript', 'React', 'Monitoring', 'D3', 'SVG'],
     email: null,
@@ -2342,7 +2342,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 96,
+    objectID: 'mariocasciaro',
     fullName: 'Mario Casciaro',
     tags: ['Node.js', 'JavaScript', 'Design Patterns', 'Startups'],
     email: null,
@@ -2362,7 +2362,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 97,
+    objectID: 'micflan',
     fullName: 'Michael Flanagan',
     tags: ['PHP', 'JavaScript', 'REST', 'Testing'],
     email: null,
@@ -2382,7 +2382,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 98,
+    objectID: 'mustafaturan',
     fullName: 'Mustafa Turan',
     tags: ['Elixir', 'Ruby', 'Functional Programming'],
     email: null,
@@ -2402,7 +2402,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 99,
+    objectID: 'Podgeypoos79',
     fullName: "Padraig O'Brien",
     tags: ['Serverless', 'Big Data', 'Databases'],
     email: null,
@@ -2422,7 +2422,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 100,
+    objectID: 'CatKlavier',
     fullName: 'Panpan Lin',
     tags: ['JavaScript', 'GraphQL', 'Swift', 'Hackathons'],
     email: null,
@@ -2442,7 +2442,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 101,
+    objectID: 'patocallaghan',
     fullName: "Pat O'Callaghan",
     tags: ['JavaScript', 'Node.js', 'Ember'],
     email: null,
@@ -2462,7 +2462,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 102,
+    objectID: 'malyw',
     fullName: 'Serg Hospodarets',
     tags: ['JavaScript', 'CSS', 'CSS Houdini'],
     email: null,
@@ -2482,7 +2482,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 103,
+    objectID: 'serifritsch',
     fullName: 'Serena Fritsch',
     tags: ['JavaScript', 'Ember', 'Developer Workflows'],
     email: null,
@@ -2502,7 +2502,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 104,
+    objectID: 'tomwillfixit',
     fullName: 'Thomas Shaw',
     tags: ['Docker', 'Jenkins', 'Devops'],
     email: null,
@@ -2522,7 +2522,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 105,
+    objectID: 'brikis98',
     fullName: 'Yevgeniy Brikman',
     tags: ['Terraform', 'Devops', 'Scalability'],
     email: null,
@@ -2542,7 +2542,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 106,
+    objectID: 'markconroy',
     fullName: 'Mark Conroy',
     tags: ['Frontend', 'Drupal', 'Web Development'],
     email: null,
@@ -2562,7 +2562,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 107,
+    objectID: 'rjrodger',
     fullName: 'Richard Rodger',
     tags: ['Node.js', 'Microservices'],
     email: null,
@@ -2582,7 +2582,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 108,
+    objectID: 'nirgn975',
     fullName: 'Nir Galon',
     tags: ['Python', 'API Star', 'Open Source', 'Node.js', 'Angular'],
     email: null,
@@ -2602,7 +2602,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 109,
+    objectID: 'nirkaufman',
     fullName: 'Nir Kaufman',
     tags: ['Angular', 'Firebase', 'Redux'],
     email: null,
@@ -2622,7 +2622,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 110,
+    objectID: 'UriShaked',
     fullName: 'Uri Shaked',
     tags: [
       'Web Bluetooth',
@@ -2647,7 +2647,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 111,
+    objectID: 'granze',
     fullName: 'Maurizio Mangione',
     tags: ['Web Components', 'Polymer', 'Progressive Web Apps'],
     email: null,
@@ -2667,7 +2667,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 112,
+    objectID: 'cef62',
     fullName: 'Matteo Ronchi',
     tags: ['React', 'JavaScript', 'Flow', 'Web Architectures', 'Frontend Ops'],
     email: null,
@@ -2687,7 +2687,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 113,
+    objectID: 'kureevalexey',
     fullName: 'Alexey Kureev',
     tags: ['React Native'],
     email: null,
@@ -2707,7 +2707,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 114,
+    objectID: 'carmenpopoviciu',
     fullName: 'Carmen Popoviciu',
     tags: [
       'Angular',
@@ -2734,7 +2734,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 115,
+    objectID: 'mweststrate',
     fullName: 'Michel Weststrate',
     tags: ['MobX', 'React', 'mobx-state-tree', 'Typescript', 'Open Source'],
     email: null,
@@ -2754,7 +2754,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 116,
+    objectID: 'narendra_shetty',
     fullName: 'Narendra Shetty',
     tags: ['React', 'Progressive Web Apps'],
     email: null,
@@ -2774,7 +2774,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 117,
+    objectID: 'ppk',
     fullName: 'Peter-Paul Koch',
     tags: ['HTML', 'CSS', 'JavaScript', 'Cross-Browser Compatibility'],
     email: null,
@@ -2794,7 +2794,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 118,
+    objectID: 'detonite',
     fullName: 'Job van Achterberg',
     tags: ['Accessibility'],
     email: null,
@@ -2814,7 +2814,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 119,
+    objectID: 'rowdyrabouw',
     fullName: 'Rowdy Rabouw',
     tags: ['NativeScript', 'Browser APIs'],
     email: null,
@@ -2834,7 +2834,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 120,
+    objectID: 'NorbertdeLangen',
     fullName: 'Norbert de Langen',
     tags: [
       'Component Libraries',
@@ -2860,7 +2860,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 121,
+    objectID: 'kejt_bw',
     fullName: 'Kasia Jastrzębska',
     tags: ['React', 'Redux', 'Async', 'CSS-in-JS', 'ClojureScript'],
     email: null,
@@ -2880,7 +2880,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 122,
+    objectID: 'thekitze',
     fullName: 'Kitze',
     tags: ['MobX', 'State Management', 'GraphQL', 'CSS-in-JS'],
     email: 'kristijan.mkd@gmail.com',
@@ -2900,7 +2900,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 123,
+    objectID: 'szynszyliszys',
     fullName: 'Anna Migas',
     tags: ['HTML', 'CSS', 'JavaScript', 'Web Animations', 'Web Performance'],
     email: null,
@@ -2920,7 +2920,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 124,
+    objectID: 'kaapa_s',
     fullName: 'Kacper Sokołowski',
     tags: ['JavaScript', 'Security', 'Service Workers'],
     email: null,
@@ -2940,7 +2940,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 125,
+    objectID: 'kdzwinel',
     fullName: 'Konrad Dzwinel',
     tags: ['Developer Tools', 'JavaScript'],
     email: null,
@@ -2960,7 +2960,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 126,
+    objectID: 'tlakomy',
     fullName: 'Tomasz Łakomy',
     tags: ['React', 'Virtual Reality', 'jQuery'],
     email: null,
@@ -2980,7 +2980,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 127,
+    objectID: 'aganaplocha',
     fullName: 'Aga Naplocha',
     tags: ['CSS', 'Teaching Web Technologies'],
     email: null,
@@ -3000,7 +3000,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 128,
+    objectID: 'ferrannp',
     fullName: 'Ferran Negre',
     tags: ['React Native', 'React', 'Testing', 'JavaScript', 'Android'],
     email: null,
@@ -3020,7 +3020,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 129,
+    objectID: 'grabbou',
     fullName: 'Mike Grabowski',
     tags: ['React Native', 'JavaScript', 'Tooling'],
     email: null,
@@ -3040,7 +3040,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 130,
+    objectID: 'thymikee',
     fullName: 'Michał Pierzchała',
     tags: ['React Native', 'Jest', 'Testing', 'CSS'],
     email: null,
@@ -3060,7 +3060,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 131,
+    objectID: 'michal_chudziak',
     fullName: 'Mike Chudziak',
     tags: ['React', 'React Native', 'iOS', 'Android'],
     email: null,
@@ -3080,7 +3080,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 132,
+    objectID: 'satya164',
     fullName: 'Satyajit Sahoo',
     tags: ['React', 'React Native', 'CSS-in-JS', 'Tooling'],
     email: null,
@@ -3100,7 +3100,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 133,
+    objectID: 'sericaia',
     fullName: 'Daniela Matos de Carvalho',
     tags: ['HTTP/2', 'JavaScript', 'React', 'Offline First'],
     email: null,
@@ -3120,7 +3120,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 134,
+    objectID: 'daviddias',
     fullName: 'David Dias',
     tags: ['IPFS', 'Peer to Peer', 'JavaScript', 'Node.js'],
     email: null,
@@ -3140,7 +3140,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 135,
+    objectID: 'maskedwarrior',
     fullName: 'Miguel Andrade',
     tags: ['Ember', 'JavaScript'],
     email: null,
@@ -3160,7 +3160,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 136,
+    objectID: 'martonkodok',
     fullName: 'Márton Kodok',
     tags: [
       'BigQuery',
@@ -3186,7 +3186,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 137,
+    objectID: 'nikitonsky',
     fullName: 'Nikita Prokopov',
     tags: ['Clojure', 'DataScript', 'Rum', 'FiraCode', 'AnyBar'],
     email: null,
@@ -3206,7 +3206,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 138,
+    objectID: 'chicoxyzzy',
     fullName: 'Sergey Rubanov',
     tags: ['Standards', 'Web Assembly'],
     email: null,
@@ -3226,7 +3226,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 139,
+    objectID: 'elixir_lang_mos',
     fullName: 'Nikita Sobolev',
     tags: ['Elixir', 'Python'],
     email: null,
@@ -3246,7 +3246,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 140,
+    objectID: 'ai_boy',
     fullName: 'Oleksii Okhrymenko',
     tags: ['Angular', 'JavaScript', 'RxJS', 'i18n', 'HTML', 'CSS'],
     email: null,
@@ -3266,7 +3266,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 141,
+    objectID: 'pepelsbey',
     fullName: 'Vadim Makeev',
     tags: ['HTML', 'CSS', 'Web Standards', 'Accessibility'],
     email: null,
@@ -3286,7 +3286,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 142,
+    objectID: 'simalexan',
     fullName: 'Aleksandar Simovic',
     tags: ['Serverless'],
     email: null,
@@ -3306,7 +3306,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 143,
+    objectID: 'slobodan',
     fullName: 'Slobodan Stojanović',
     tags: ['Serverless', 'Offline Web', 'Chat Bots'],
     email: null,
@@ -3326,7 +3326,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 144,
+    objectID: 'flaviocorpa',
     fullName: 'Flavio Corpa',
     tags: ['JavaScript', 'Functional Programming'],
     email: null,
@@ -3346,7 +3346,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 145,
+    objectID: 'javivelasco',
     fullName: 'Javi Velasco',
     tags: ['React', 'CSS-in-JS', 'React Toolbox'],
     email: null,
@@ -3366,7 +3366,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 146,
+    objectID: 'D3DVincent',
     fullName: 'Vincenzo Chianese',
     tags: ['WebAPI', 'Microservices', 'JavaScript'],
     email: null,
@@ -3386,7 +3386,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 147,
+    objectID: 'erikras',
     fullName: 'Erik Rasmussen',
     tags: ['React', 'Redux', 'Redux-Form', 'Forms'],
     email: null,
@@ -3406,7 +3406,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 148,
+    objectID: 'g33konaut',
     fullName: 'Martin Splitt',
     tags: ['Virtual Reality', 'Web Performance'],
     email: null,
@@ -3426,7 +3426,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 149,
+    objectID: 'thefubhy',
     fullName: 'Sebastian Siemssen',
     tags: ['React', 'GraphQL', 'Tooling'],
     email: null,
@@ -3446,7 +3446,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 150,
+    objectID: 'denysdovhan',
     fullName: 'Denys Dovhan',
     tags: ['JavaScript', 'DevTools', 'Shell scripting'],
     email: null,
@@ -3466,7 +3466,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 151,
+    objectID: 'xanf_ua',
     fullName: 'Illya Klymov',
     tags: ['Teaching', 'Coaching', 'JavaScript'],
     email: null,
@@ -3486,7 +3486,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 152,
+    objectID: 'shvaikalesh',
     fullName: 'Aleksey Shvayka',
     tags: [
       'Browsers',
@@ -3512,7 +3512,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 153,
+    objectID: 'listochkin',
     fullName: 'Andrey Listochkin',
     tags: ['Rust', 'JavaScript', 'Skills', 'Architecture'],
     email: null,
@@ -3532,7 +3532,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 154,
+    objectID: 'eagleeye_s',
     fullName: 'Andrii Shumada',
     tags: ['JavaScript', 'Node.js', 'Streams'],
     email: null,
@@ -3552,7 +3552,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 155,
+    objectID: 'SilentImp',
     fullName: 'Anton Nemtsev',
     tags: ['HTML', 'CSS', 'Web Standards'],
     email: null,
@@ -3572,7 +3572,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 156,
+    objectID: 'yavorsky',
     fullName: 'Artem Yavorsky',
     tags: ['Babel', 'ECMAScript', 'Compilers'],
     email: null,
@@ -3592,7 +3592,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 157,
+    objectID: 'roman01la',
     fullName: 'Roman Liutikov',
     tags: ['ClojureScript', 'React', 'Compilers'],
     email: null,
@@ -3612,7 +3612,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 158,
+    objectID: 'mourner',
     fullName: 'Vladimir Agafonkin',
     tags: ['Maps', 'Algorithms'],
     email: null,
@@ -3632,7 +3632,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 159,
+    objectID: 'akella',
     fullName: 'Yuri Artyukh',
     tags: ['HTML', 'CSS', 'JavaScript', 'WebGL'],
     email: null,
@@ -3652,7 +3652,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 160,
+    objectID: 'kettanaito',
     fullName: 'Artem Zakharchenko',
     tags: ['React', 'Forms', 'CSS Grid'],
     email: null,
@@ -3672,7 +3672,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 161,
+    objectID: 'denar90',
     fullName: 'Artem Denysov',
     tags: ['Performance', 'Dev Tools'],
     email: null,
@@ -3692,7 +3692,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 162,
+    objectID: 'geek_timofey',
     fullName: 'Timofey Lavrenyuk',
     tags: ['Progressive Web Apps', 'Modern Browser APIs'],
     email: null,
@@ -3712,7 +3712,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 163,
+    objectID: 'brucel',
     fullName: 'Bruce Lawson',
     tags: ['Standards', 'Performance'],
     email: null,
@@ -3732,7 +3732,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 164,
+    objectID: 'adactio',
     fullName: 'Jeremy Keith',
     tags: [
       'Standards',
@@ -3758,7 +3758,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 165,
+    objectID: 'paulrobertlloyd',
     fullName: 'Paul Robert Lloyd',
     tags: ['Design', 'Web Design', 'Architecture', 'Design Systems', 'Trains'],
     email: null,
@@ -3778,7 +3778,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 166,
+    objectID: 'LeonieWatson',
     fullName: 'Léonie Watson',
     tags: ['Accessibility', 'Web Standards', 'Screen Readers'],
     email: null,
@@ -3798,7 +3798,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 167,
+    objectID: 'rachelandrew',
     fullName: 'Rachel Andrew',
     tags: ['CSS'],
     email: null,
@@ -3818,7 +3818,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 168,
+    objectID: 'Rumyra',
     fullName: 'Ruth John',
     tags: ['Browser Technologies', 'Web Audio', 'Web MIDI'],
     email: null,
@@ -3838,7 +3838,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 169,
+    objectID: 'cjforms',
     fullName: 'Caroline Jarrett',
     tags: ['Forms Usability', 'User Research'],
     email: null,
@@ -3858,7 +3858,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 170,
+    objectID: 'LukeB_UK',
     fullName: 'Luke Bonaccorsi',
     tags: ['Node', 'JavaScript', 'Automation'],
     email: null,
@@ -3878,7 +3878,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 171,
+    objectID: 'lady_ada_king',
     fullName: 'Ada Rose Cannon',
     tags: [
       'HTML',
@@ -3905,7 +3905,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 172,
+    objectID: 'cirpo',
     fullName: 'Alessandro Cinelli',
     tags: ['JavaScript'],
     email: null,
@@ -3925,7 +3925,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 173,
+    objectID: 'alex_lobera',
     fullName: 'Alex Lobera',
     tags: ['JavaScript', 'React', 'Redux', 'GraphQL'],
     email: null,
@@ -3945,7 +3945,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 174,
+    objectID: 'iotwatch',
     fullName: 'Alexandra Deschamps-Sonsino',
     tags: ['Internet of Things', 'Smart Homes', 'Connected Devices'],
     email: null,
@@ -3965,7 +3965,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 175,
+    objectID: 'craftui',
     fullName: 'Alla Kholmatova',
     tags: ['Design Systems'],
     email: null,
@@ -3985,7 +3985,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 176,
+    objectID: 'triblondon',
     fullName: 'Andrew Betts',
     tags: ['Networks', 'Performance', 'Web'],
     email: null,
@@ -4005,7 +4005,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 177,
+    objectID: 'lithinn',
     fullName: 'Anna Doubková',
     tags: ['React', 'Testing'],
     email: null,
@@ -4025,7 +4025,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 178,
+    objectID: 'bodil',
     fullName: 'Bodil Stokke',
     tags: ['Programming', 'Functional Programming'],
     email: null,
@@ -4045,7 +4045,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 179,
+    objectID: 'chris_noring',
     fullName: 'Chris Noring',
     tags: ['JavaScript', 'RxJS', 'Angular', 'React'],
     email: null,
@@ -4065,7 +4065,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 180,
+    objectID: 'areaweb',
     fullName: 'Cristiano Rastelli',
     tags: ['CSS', 'CSS-in-JS'],
     email: null,
@@ -4085,7 +4085,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 181,
+    objectID: 'dan_abramov',
     fullName: 'Dan Abramov',
     tags: ['JavaScript', 'React', 'Redux', 'Tooling'],
     email: null,
@@ -4105,7 +4105,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 182,
+    objectID: 'Folletto',
     fullName: 'Davide "Folletto" Casali',
     tags: ['Design', 'User Experience', 'Management', 'Leadership', 'Startups'],
     email: null,
@@ -4125,7 +4125,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 183,
+    objectID: 'gerardsans',
     fullName: 'Gerard Sans',
     tags: ['Angular', 'React', 'GraphQL', 'CSS Animations', 'RxJS'],
     email: null,
@@ -4145,7 +4145,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 184,
+    objectID: 'gojkoadzic',
     fullName: 'Gojko Adzic',
     tags: ['Testing', 'Requirements', 'Serverless'],
     email: null,
@@ -4165,7 +4165,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 185,
+    objectID: 'MicheleBertoli',
     fullName: 'Michele Bertoli',
     tags: ['React', 'Testing'],
     email: null,
@@ -4185,7 +4185,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 186,
+    objectID: '_philpl',
     fullName: 'Phil Plückthun',
     tags: ['React', 'CSS-in-JS'],
     email: null,
@@ -4205,7 +4205,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 187,
+    objectID: 'saniyusuf',
     fullName: 'Sani Yusuf',
     tags: ['Ionic', 'Angular', 'JavaScript', 'Progressive Web Apps'],
     email: null,
@@ -4225,7 +4225,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 188,
+    objectID: 'sebawita',
     fullName: 'Sebastian Witalec',
     tags: ['NativeScript', 'Angular', 'Bots', 'JavaScript'],
     email: null,
@@ -4245,7 +4245,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 189,
+    objectID: 'yaili',
     fullName: 'Inayaili de León',
     tags: [
       'Design Systems',
@@ -4270,7 +4270,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 190,
+    objectID: 'heydonworks',
     fullName: 'Heydon Pickering',
     tags: ['Accessibility', 'Performance', 'Web'],
     email: null,
@@ -4290,7 +4290,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 191,
+    objectID: 'ninjanails',
     fullName: 'Seren Davies',
     tags: ['Accessibility'],
     email: null,
@@ -4310,7 +4310,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 192,
+    objectID: 'svinkle',
     fullName: 'Scott Vinkle',
     tags: ['Accessibility'],
     email: null,
@@ -4330,7 +4330,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 193,
+    objectID: 'AurelienLoyer',
     fullName: 'Aurélien Loyer',
     tags: ['JavaScript', 'Angular', 'Vue.js', 'Node.js', 'TypeScript', 'IoT'],
     email: null,
@@ -4350,7 +4350,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 194,
+    objectID: 'shehackspurple',
     fullName: 'Tanya Janca',
     tags: ['InfoSec', 'Web App Security'],
     email: null,
@@ -4370,7 +4370,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 195,
+    objectID: 'brnnbrn',
     fullName: "Brenna O'Brien",
     tags: ['Motivation', 'Psychology', 'Developer Culture', 'Public Speaking'],
     email: null,
@@ -4390,7 +4390,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 196,
+    objectID: 'halathinkeths',
     fullName: 'Hala Anwar',
     tags: ['Accessibility'],
     email: null,
@@ -4410,7 +4410,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 197,
+    objectID: 'tiffcodes',
     fullName: 'Tiff Nogueira',
     tags: ['CSS Grids', 'React', 'Redux', 'Firebase', 'Flexbox'],
     email: null,
@@ -4430,7 +4430,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 198,
+    objectID: 'wesbos',
     fullName: 'Wes Bos',
     tags: ['Fullstack Dev', 'JavaScript', 'CSS', 'Node', 'React'],
     email: 'hey@wesbos.com',
@@ -4450,7 +4450,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 199,
+    objectID: 'ericwbailey',
     fullName: 'Eric Bailey',
     tags: ['Accessibility'],
     email: null,
@@ -4470,7 +4470,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 200,
+    objectID: 'bahmutov',
     fullName: 'Gleb Bahmutov',
     tags: ['Computer Science', 'JavaScript', 'Reactive Programming'],
     email: null,
@@ -4490,7 +4490,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 201,
+    objectID: 'leaverou',
     fullName: 'Lea Verou',
     tags: ['CSS', 'HTML'],
     email: null,
@@ -4510,7 +4510,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 202,
+    objectID: 'aardrian',
     fullName: 'Adrian Roselli',
     tags: ['Accessibility'],
     email: null,
@@ -4530,7 +4530,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 203,
+    objectID: 'addyosmani',
     fullName: 'Addy Osmani',
     tags: [
       'Google Chrome devtool',
@@ -4555,7 +4555,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 204,
+    objectID: 'mjackson',
     fullName: 'Michael Jackson',
     tags: ['React', 'JavaScript', 'React Router'],
     email: null,
@@ -4575,7 +4575,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 205,
+    objectID: 'levibostian',
     fullName: 'Levi Bostian',
     tags: [
       'Android',
@@ -4605,7 +4605,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 206,
+    objectID: 'gigasquid',
     fullName: 'Carin Meier',
     tags: ['Clojure', 'Machine Learning', 'Programming'],
     email: null,
@@ -4625,7 +4625,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 207,
+    objectID: 'shepazu',
     fullName: 'Doug Schepers',
     tags: ['Data visualization', 'Accessibility', 'SVG'],
     email: null,
@@ -4645,7 +4645,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 208,
+    objectID: 'KarlLHughes',
     fullName: 'Karl Hughes',
     tags: ['Microservices', 'PHP', 'JavaScript', 'Docker'],
     email: null,
@@ -4665,7 +4665,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 209,
+    objectID: 'mirisuzanne',
     fullName: 'Miriam Suzanne',
     tags: ['CSS', 'Sass', 'Architecture', 'Design Systems'],
     email: null,
@@ -4685,7 +4685,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 210,
+    objectID: 'cariefisher',
     fullName: 'Carie Fisher',
     tags: ['Accessibility'],
     email: null,
@@ -4705,7 +4705,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 211,
+    objectID: 'Aimee_Knight',
     fullName: 'Aimee Knight',
     tags: ['JavaScript', 'CSS', 'Angular', 'Growing Junior Developers'],
     email: null,
@@ -4725,7 +4725,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 212,
+    objectID: 'ken_wheeler',
     fullName: 'Ken Wheeler',
     tags: ['React', 'React Native', 'ReasonML'],
     email: null,
@@ -4745,7 +4745,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 213,
+    objectID: 'GantLaborde',
     fullName: 'Gant Laborde',
     tags: [
       'JavaScript',
@@ -4773,7 +4773,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 214,
+    objectID: 'thegreengreek',
     fullName: 'Sia Karamalegos',
     tags: ['React', 'JavaScript', 'React Native', 'Front-End Performance'],
     email: null,
@@ -4793,7 +4793,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 215,
+    objectID: 'sitnikcode',
     fullName: 'Andrey Sitnik',
     tags: ['PostCSS', 'CRDT'],
     email: 'andrey@sitnik.ru',
@@ -4813,7 +4813,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 216,
+    objectID: 'swannodette',
     fullName: 'David Nolen',
     tags: [
       'Clojure',
@@ -4839,7 +4839,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 217,
+    objectID: 'broccolini',
     fullName: 'Diana Mounter',
     tags: ['Design Systems', 'CSS', 'Product Design'],
     email: null,
@@ -4859,7 +4859,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 218,
+    objectID: 'left_pad',
     fullName: 'Henry Zhu',
     tags: ['Open Source', 'Babel'],
     email: null,
@@ -4879,7 +4879,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 219,
+    objectID: 'jensimmons',
     fullName: 'Jen Simmons',
     tags: ['Design', 'CSS', 'HTML', 'Web'],
     email: null,
@@ -4899,7 +4899,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 220,
+    objectID: 'lara_hogan',
     fullName: 'Lara Hogan',
     tags: [
       'Design',
@@ -4924,7 +4924,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 221,
+    objectID: 'kurtiskemple',
     fullName: 'Kurtis Kemple',
     tags: ['React', 'React Native', 'GraphQL', 'Universal Components'],
     email: null,
@@ -4944,7 +4944,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 222,
+    objectID: 'kosamari',
     fullName: 'Mariko Kosaka',
     tags: ['HTML', 'CSS', 'JavaScript', 'Web'],
     email: null,
@@ -4964,7 +4964,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 223,
+    objectID: 'peggyrayzis',
     fullName: 'Peggy Rayzis',
     tags: [
       'React',
@@ -4991,7 +4991,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 224,
+    objectID: 'una',
     fullName: 'Una Kravets',
     tags: ['CSS', 'Web'],
     email: null,
@@ -5011,7 +5011,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 225,
+    objectID: 'jaredpalmer',
     fullName: 'Jared Palmer',
     tags: [
       'React',
@@ -5038,7 +5038,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 226,
+    objectID: 'courtneyxann',
     fullName: 'Courtney Heitman',
     tags: ['UX Development', 'Usability', 'Accessibility', 'Scrum', 'Agile'],
     email: null,
@@ -5058,7 +5058,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 227,
+    objectID: 'paul_irish',
     fullName: 'Paul Irish',
     tags: ['Developer Tools'],
     email: null,
@@ -5078,7 +5078,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 228,
+    objectID: '_chenglou',
     fullName: 'Cheng Lou',
     tags: ['ReasonML', 'React', 'Software Philosophy'],
     email: null,
@@ -5098,7 +5098,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 229,
+    objectID: 'lispardi',
     fullName: 'Lis Pardi',
     tags: ['Web'],
     email: null,
@@ -5118,7 +5118,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 230,
+    objectID: 'rtfeldman',
     fullName: 'Richard Feldman',
     tags: ['Elm'],
     email: null,
@@ -5138,7 +5138,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 231,
+    objectID: 'brad_frost',
     fullName: 'Brad Frost',
     tags: ['Web Design', 'Atomic Design', 'Web Development'],
     email: null,
@@ -5158,7 +5158,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 232,
+    objectID: 'linclark',
     fullName: 'Lin Clark',
     tags: ['React', 'WebAssembly', 'Browsers Internals'],
     email: null,
@@ -5178,7 +5178,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 233,
+    objectID: 'shanselman',
     fullName: 'Scott Hanselman',
     tags: ['.NET', 'Azure'],
     email: 'scott@hanselman.com',
@@ -5198,7 +5198,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 234,
+    objectID: 'kyleshevlin',
     fullName: 'Kyle Shevlin',
     tags: ['React', 'Redux', 'JavaScript'],
     email: null,
@@ -5218,7 +5218,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 235,
+    objectID: 'micahgodbolt',
     fullName: 'Micah Godbolt',
     tags: ['Front-End Architecture', 'CSS', 'Design Systems'],
     email: null,
@@ -5238,7 +5238,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 236,
+    objectID: 'micahgodbolt',
     fullName: 'Violet Peña',
     tags: ['React', 'Socket.IO', 'Storybook', 'Accessibility'],
     email: 'violetpena@gmail.com',
@@ -5258,7 +5258,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 237,
+    objectID: 'jessebeach',
     fullName: 'Jesse Beach',
     tags: ['Accessibility', 'React'],
     email: null,
@@ -5278,7 +5278,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 238,
+    objectID: 'kentcdodds',
     fullName: 'Kent C. Dodds',
     tags: ['OSS', 'React', 'Testing'],
     email: null,
@@ -5298,7 +5298,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 239,
+    objectID: 'AnjanaVakil',
     fullName: 'Anjana Vakil',
     tags: [
       'Programming Language Paradigms',
@@ -5321,7 +5321,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 240,
+    objectID: 'bethdean',
     fullName: 'Beth Dean',
     tags: ['Design', 'Illustration'],
     email: null,
@@ -5341,7 +5341,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 241,
+    objectID: 'adammenges',
     fullName: 'Adam Menges',
     tags: ['Artificial Intelligence', 'Design', 'Computer Science'],
     email: null,
@@ -5361,7 +5361,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 242,
+    objectID: 'bcherny',
     fullName: 'Boris Cherny',
     tags: ['TypeScript', 'React', 'Computer Science'],
     email: null,
@@ -5381,7 +5381,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 243,
+    objectID: 'brynn',
     fullName: 'Brynn Evans',
     tags: ['Design', 'Management'],
     email: null,
@@ -5401,7 +5401,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 244,
+    objectID: 'cordeliadillon',
     fullName: 'Cordelia Dillon',
     tags: ['Accessibility'],
     email: null,
@@ -5421,7 +5421,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 245,
+    objectID: 'standardista',
     fullName: 'Estelle Weyl',
     tags: ['CSS', 'Performance', 'Responsive Web Design'],
     email: null,
@@ -5441,7 +5441,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 246,
+    objectID: 'AGambit95',
     fullName: 'Gregory Shehet',
     tags: ['Functional Reactive Programming', 'MobX', 'CSS-in-JS', 'React'],
     email: null,
@@ -5461,7 +5461,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 247,
+    objectID: 'jhusain',
     fullName: 'Jafar Husain',
     tags: [
       'JavaScript',
@@ -5487,7 +5487,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 248,
+    objectID: 'mybluewristband',
     fullName: 'Jennifer Wong',
     tags: ['Design Systems'],
     email: null,
@@ -5507,7 +5507,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 249,
+    objectID: 'jongold',
     fullName: 'Jon Gold',
     tags: ['Design', 'Design Systems', 'React', 'Artificial Intelligence'],
     email: null,
@@ -5527,7 +5527,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 250,
+    objectID: 'lisaychuang',
     fullName: 'Lisa Huang',
     tags: ['AMP', 'Offline-First Mobile Apps', 'React'],
     email: null,
@@ -5547,7 +5547,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 251,
+    objectID: 'mike_matas',
     fullName: 'Mike Matas',
     tags: ['Human Interface Design'],
     email: null,
@@ -5567,7 +5567,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 252,
+    objectID: 'MinaMarkham',
     fullName: 'Mina Markham',
     tags: ['CSS Architecture', 'Sass', 'Community', 'Design Systems'],
     email: null,
@@ -5587,7 +5587,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 253,
+    objectID: 'notwaldorfStapleton',
     fullName: 'Monica Dinculescu',
     tags: ['Web Components', 'Polymer', 'Emoji'],
     email: null,
@@ -5607,7 +5607,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 254,
+    objectID: 'gdi2290',
     fullName: 'Patrick Stapleton',
     tags: [
       'OSS',
@@ -5635,7 +5635,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 255,
+    objectID: 'iam_preethi',
     fullName: 'Preethi Kasireddy',
     tags: ['Machine Learning', 'Natural Language Processing', 'React'],
     email: null,
@@ -5655,7 +5655,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 256,
+    objectID: 'sarah_edo',
     fullName: 'Sarah Drasner',
     tags: ['CSS', 'SVG', 'Animations', 'Vue.js', 'React'],
     email: null,
@@ -5675,7 +5675,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 257,
+    objectID: 'sgrove',
     fullName: 'Sean Grove',
     tags: ['GraphQL', 'ReasonML', 'OCaml'],
     email: null,
@@ -5695,7 +5695,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 258,
+    objectID: 'stefsull',
     fullName: 'Stephanie Rewis',
     tags: ['Design Systems', 'CSS'],
     email: null,
@@ -5715,7 +5715,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 259,
+    objectID: 'ladyleet',
     fullName: 'Tracy Lee',
     tags: ['Reactive Programming', 'Angular', 'Ember.js'],
     email: null,
@@ -5735,7 +5735,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 260,
+    objectID: 'rauchg',
     fullName: 'Guillermo Rauch',
     tags: ['Zeit', 'Now.sh', 'Next.js', 'Serverless'],
     email: 'rauchg@gmail.com',
@@ -5755,7 +5755,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 261,
+    objectID: 'DevWithTheHair',
     fullName: 'Jaime Lopez',
     tags: ['iOS', 'Swift', 'Software Architecture', 'Development Processes'],
     email: null,
@@ -5775,7 +5775,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 262,
+    objectID: 'ShellELittle',
     fullName: 'Shell Little',
     tags: ['Accessibility'],
     email: null,
@@ -5795,7 +5795,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 263,
+    objectID: 'evaferreira92',
     fullName: 'Evangelina Ferreira',
     tags: ['CSS', 'Animations'],
     email: null,
@@ -5815,7 +5815,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 264,
+    objectID: 'obetomuniz',
     fullName: 'Beto Muniz',
     tags: [
       'React',
@@ -5841,7 +5841,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 265,
+    objectID: 'fdaciuk',
     fullName: 'Fernando Daciuk',
     tags: ['React', 'JavaScript'],
     email: null,
@@ -5861,7 +5861,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 266,
+    objectID: 'nexwire',
     fullName: 'Marcelo Camargo',
     tags: [
       'Functional Programming',
@@ -5887,7 +5887,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 267,
+    objectID: 'raphamorims',
     fullName: 'Raphael Amorim',
     tags: ['React', 'JavaScript', 'jQuery'],
     email: null,
@@ -5907,7 +5907,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 268,
+    objectID: 'carolcode',
     fullName: 'Caroline Soares',
     tags: ['Frontend development', "Woman's inspiration", 'JavaScript', 'CSS'],
     email: null,
@@ -5927,7 +5927,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 269,
+    objectID: 'Feh_Bernardo',
     fullName: 'Fernanda Bernardo',
     tags: ['CSS', 'JavaScript', 'HTML'],
     email: null,
@@ -5947,7 +5947,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 270,
+    objectID: 'JoaoVictor_AC',
     fullName: 'João Victor Dias',
     tags: ['Computer Vision', 'Keras', 'CNN', 'R', 'Data Science path'],
     email: null,
@@ -5967,7 +5967,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 271,
+    objectID: 'sseraphini',
     fullName: 'Sibelius Seraphini',
     tags: [
       'React',
@@ -5996,7 +5996,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 272,
+    objectID: 'bitandbang',
     fullName: 'Tierney Cyren',
     tags: [
       'Node.js',
@@ -6023,7 +6023,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 273,
+    objectID: 'joe_sepi',
     fullName: 'Joe Sepi',
     tags: ['Open Source', 'Community', 'Node.js', 'JavaScript'],
     email: null,

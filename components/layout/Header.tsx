@@ -1,9 +1,12 @@
+// import Link from 'next/link';
 import React from 'react';
+import GithubCorner from 'react-github-corner';
 import styled from 'styled-components';
 
-const FooterWrapper = styled.div`
+const HeaderWrapper = styled.div`
   text-align: center;
   padding: 50px 0 25px;
+  background: #ffffff;
 `;
 
 const Logo = styled.h1`
@@ -15,18 +18,12 @@ const Logo = styled.h1`
 `;
 
 const Header = () => (
-  <FooterWrapper>
-    <Logo>ConfCitizens</Logo>(
-    <a
-      href="https://github.com/yakovlevyuri/confcitizens"
-      title="Source code on Github"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      source code
-    </a>
-    )
-  </FooterWrapper>
+  <HeaderWrapper>
+    {/* <Link href="/"> */}
+    <Logo>ConfCitizens</Logo>
+    {/* </Link> */}
+    <GithubCorner href="https://github.com/yakovlevyuri/confcitizens" />
+  </HeaderWrapper>
 );
 
 export default Header;

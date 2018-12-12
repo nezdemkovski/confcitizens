@@ -14,7 +14,8 @@ const Wrapper = styled.div`
   grid-gap: 20px;
   grid-template-columns: auto 1fr;
   grid-template-areas: 'image content' 'links links';
-  background: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
   padding: 15px 20px;
 
   @media (min-width: 768px) {
@@ -59,7 +60,21 @@ const Flag = styled.span`
 
 const TagWrapper = styled(Tag)`
   margin-bottom: 10px;
+  background: #fff;
+  border-style: solid;
 `;
+
+const generateTitle = ({ fullName, currentLocation }) => (
+  <Title>
+    {fullName}
+    <Tooltip title={`${currentLocation.country}, ${currentLocation.city}`}>
+      <Flag>
+        {countries[currentLocation.country] &&
+          countries[currentLocation.country].emoji}
+      </Flag>
+    </Tooltip>
+  </Title>
+);
 
 const Card = ({ hit }: Props) => (
   <Wrapper>
@@ -71,21 +86,17 @@ const Card = ({ hit }: Props) => (
     />
 
     <Content>
-      <Title>
-        {hit.fullName}
-        <Tooltip
-          title={`${hit.currentLocation.country}, ${hit.currentLocation.city}`}
-        >
-          <Flag>
-            {countries[hit.currentLocation.country] &&
-              countries[hit.currentLocation.country].emoji}
-          </Flag>
-        </Tooltip>
-      </Title>
+      {hit.talks.length ? (
+        <Link as={`/${hit.objectID}`} href={`/detail?username=${hit.objectID}`}>
+          {generateTitle(hit)}
+        </Link>
+      ) : (
+        generateTitle(hit)
+      )}
 
       <div>
         {hit.tags.map((tag, id) => (
-          <TagWrapper color="blue" key={id}>
+          <TagWrapper key={id}>
             <Link href={{ pathname: '/', query: { search: tag } }}>
               <a>{tag}</a>
             </Link>

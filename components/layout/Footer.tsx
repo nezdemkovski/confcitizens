@@ -7,21 +7,34 @@ const AlgoliaLogo = require('./assets/algolia.svg') as string;
 const FooterWrapper = styled(Layout.Footer)`
   text-align: center;
   padding: 50px 0;
+  background: #ffffff;
+`;
+
+const Link = styled.a`
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 const Footer = () => (
   <FooterWrapper>
     <p>
-      We ♥{' '}
-      <a
+      <Link
         href="https://github.com/yakovlevyuri/confcitizens"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Open Source
-      </a>
+        GitHub
+      </Link>
+      {' • '}
+      <Link
+        href="https://twitter.com/yakovlevyuri"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Twitter
+      </Link>
     </p>
-    <p>2018. Website works until the last visitor leaves</p>
 
     <AlgoliaLogo />
   </FooterWrapper>
