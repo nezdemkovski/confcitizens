@@ -71,17 +71,21 @@ const Card = ({ hit }: Props) => (
     />
 
     <Content>
-      <Title>
-        {hit.fullName}
-        <Tooltip
-          title={`${hit.currentLocation.country}, ${hit.currentLocation.city}`}
-        >
-          <Flag>
-            {countries[hit.currentLocation.country] &&
-              countries[hit.currentLocation.country].emoji}
-          </Flag>
-        </Tooltip>
-      </Title>
+      <Link as={`/${hit.objectID}`} href={`/detail?username=${hit.objectID}`}>
+        <Title>
+          {hit.fullName}
+          <Tooltip
+            title={`${hit.currentLocation.country}, ${
+              hit.currentLocation.city
+            }`}
+          >
+            <Flag>
+              {countries[hit.currentLocation.country] &&
+                countries[hit.currentLocation.country].emoji}
+            </Flag>
+          </Tooltip>
+        </Title>
+      </Link>
 
       <div>
         {hit.tags.map((tag, id) => (

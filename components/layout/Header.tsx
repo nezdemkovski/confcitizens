@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -16,7 +17,10 @@ const Logo = styled.h1`
 
 const Header = () => (
   <FooterWrapper>
-    <Logo>ConfCitizens</Logo>(
+    <Link href="/">
+      <Logo>ConfCitizens</Logo>
+    </Link>
+    (
     <a
       href="https://github.com/yakovlevyuri/confcitizens"
       title="Source code on Github"

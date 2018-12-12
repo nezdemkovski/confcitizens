@@ -17,9 +17,10 @@
     "antd": "^3.11.2",
     "babel-plugin-import": "^1.11.0",
     "dotenv": "^6.2.0",
+    "express": "^4.16.4",
     "lodash.debounce": "^4.0.8",
     "lodash.orderby": "^4.6.0",
-    "next": "^7.0.2-canary.41",
+    "next": "^7.0.2-canary.42",
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2",
     "react-ga": "^2.5.6",
@@ -46,9 +47,9 @@
     "typescript": "^3.2.2"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "lint": "tsc --noEmit -p tsconfig.json && tslint -c tslint.json -p tsconfig.json",
     "lint:fix": "tslint -c tslint.json -p tsconfig.json --fix",
     "test-ci": "yarn lint",
