@@ -6043,7 +6043,7 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 274,
+    objectID: 'dotenorio',
     fullName: 'Fernando Migliorini Tenório',
     tags: ['Open Source', 'Community', 'Node.js', 'JavaScript', 'Now', 'Zeit', 'Serverless', 'Angular'],
     email: null,
