@@ -21,7 +21,11 @@ app.prepare().then(() => {
   });
 
   server.listen(port, err => {
-    if (err) throw err;
+    if (err) {
+      throw err;
+    }
+
+    /* tslint:disable-next-line:no-console */
     console.log(`> Ready on http://localhost:${port}`);
   });
 });

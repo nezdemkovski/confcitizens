@@ -13,7 +13,7 @@ export interface Speaker {
   talks: Array<{
     title: string;
     description: string;
-    event: string;
+    eventName: string;
     date: string;
     videoUrl: string;
     slidesUrl: string;
@@ -1444,7 +1444,7 @@ const speakers: Speaker[] = [
       {
         title: 'We need to talk about Preact',
         description: null,
-        event: 'EnterJS',
+        eventName: 'EnterJS',
         date: '2018-06-20',
         videoUrl: null,
         slidesUrl: null,
@@ -1458,7 +1458,7 @@ const speakers: Speaker[] = [
         title: 'GraphQL + Apollo + Vue = Magic',
         description:
           "We all here love GraphQL and we have seen how amazing Apollo can be in combination with React. But what about Vue? Vue is by itself reactive and that makes it so perfect for GraphQL and Apollo. Let's look at how to use this awesome combination to make awesomer things.",
-        event: 'Graphql Europe',
+        eventName: 'Graphql Europe',
         date: '2018-06-15',
         videoUrl: null,
         slidesUrl: null,
@@ -1471,7 +1471,7 @@ const speakers: Speaker[] = [
       {
         title: null,
         description: null,
-        event: 'Frontend United',
+        eventName: 'Frontend United',
         date: '2018-05-31',
         videoUrl: null,
         slidesUrl: null,
@@ -1484,7 +1484,7 @@ const speakers: Speaker[] = [
       {
         title: 'Testing React Applications',
         description: null,
-        event: 'React Finland',
+        eventName: 'React Finland',
         date: '2018-04-25',
         videoUrl: null,
         slidesUrl: null,
@@ -1497,7 +1497,7 @@ const speakers: Speaker[] = [
       {
         title: null,
         description: null,
-        event: 'JSHeroes',
+        eventName: 'JSHeroes',
         date: '2018-04-18',
         videoUrl: null,
         slidesUrl: null,
@@ -1510,7 +1510,7 @@ const speakers: Speaker[] = [
       {
         title: "Your brain doesn't have a --fix flag",
         description: null,
-        event: 'Front End NE',
+        eventName: 'Front End NE',
         date: '2018-04-05',
         videoUrl: null,
         slidesUrl: 'https://brain-fix.now.sh',
@@ -1523,7 +1523,7 @@ const speakers: Speaker[] = [
       {
         title: 'The lonely and dark road to Styling in React',
         description: null,
-        event: 'React Fest',
+        eventName: 'React Fest',
         date: '2018-03-09',
         videoUrl: null,
         slidesUrl: null,
@@ -1536,7 +1536,7 @@ const speakers: Speaker[] = [
       {
         title: "Your brain doesn't have a --fix flag",
         description: null,
-        event: 'Agent Conf',
+        eventName: 'Agent Conf',
         date: '2018-01-25',
         videoUrl: null,
         slidesUrl: 'https://brain-fix.now.sh',
@@ -1549,7 +1549,7 @@ const speakers: Speaker[] = [
       {
         title: 'We need to talk about Preact',
         description: null,
-        event: 'React Day Berlin',
+        eventName: 'React Day Berlin',
         date: '2017-12-02',
         videoUrl: 'https://www.youtube.com/watch?v=jqXRSvXWYf8',
         slidesUrl:
@@ -1563,7 +1563,7 @@ const speakers: Speaker[] = [
       {
         title: 'CSS Hates You',
         description: null,
-        event: 'Formidable & Friends Birthday Bash!',
+        eventName: 'Formidable & Friends Birthday Bash!',
         date: '2017-11-17',
         videoUrl: null,
         slidesUrl:
@@ -1577,7 +1577,7 @@ const speakers: Speaker[] = [
       {
         title: 'We need to talk about Preact',
         description: null,
-        event: 'JS Roundabout',
+        eventName: 'JS Roundabout',
         date: '2017-11-08',
         videoUrl: 'https://www.youtube.com/watch?v=Bb3Vyj0KTd4',
         slidesUrl:
@@ -1591,7 +1591,7 @@ const speakers: Speaker[] = [
       {
         title: 'Styleguide Driven Development',
         description: null,
-        event: 'React Alicante',
+        eventName: 'React Alicante',
         date: '2017-10-30',
         videoUrl: 'https://www.youtube.com/watch?v=JjXnmhNW8Cs',
         slidesUrl:
@@ -1605,7 +1605,7 @@ const speakers: Speaker[] = [
       {
         title: 'Styleguide Driven Development',
         description: null,
-        event: 'React Girls London',
+        eventName: 'React Girls London',
         date: '2017-09-26',
         videoUrl: null,
         slidesUrl:
@@ -1619,7 +1619,7 @@ const speakers: Speaker[] = [
       {
         title: "There's a whole new world offline",
         description: null,
-        event: 'Require("lx")',
+        eventName: 'Require("lx")',
         date: '2017-07-06',
         videoUrl: 'https://www.youtube.com/watch?v=ZvA41uuyujA',
         slidesUrl:
@@ -1633,7 +1633,7 @@ const speakers: Speaker[] = [
       {
         title: 'CSS Hates You',
         description: null,
-        event: 'Mtalks',
+        eventName: 'Mtalks',
         date: '2017-06-14',
         videoUrl: 'https://youtu.be/gwW36kV9TV4?t=10s',
         slidesUrl:
@@ -1647,7 +1647,7 @@ const speakers: Speaker[] = [
       {
         title: 'We need to talk about Preact',
         description: null,
-        event: 'React Vienna',
+        eventName: 'React Vienna',
         date: '2017-01-18',
         videoUrl: 'https://www.youtube.com/watch?v=bYdeMvr5Aus',
         slidesUrl:
@@ -1661,7 +1661,7 @@ const speakers: Speaker[] = [
       {
         title: "The Hitchhiker's Guide to the Webpack",
         description: null,
-        event: 'Codemotion Amsterdam',
+        eventName: 'Codemotion Amsterdam',
         date: '2016-05-16',
         videoUrl: 'https://www.youtube.com/watch?v=Zor8E6_ZoVA',
         slidesUrl:
@@ -1675,7 +1675,7 @@ const speakers: Speaker[] = [
       {
         title: 'CSS3 Layouts: Flexbox vs CSS Grid',
         description: null,
-        event: 'Codemotion Milan',
+        eventName: 'Codemotion Milan',
         date: '2015-11-20',
         videoUrl: 'https://www.youtube.com/watch?v=b-in0QpvDiQ',
         slidesUrl:
@@ -1689,7 +1689,7 @@ const speakers: Speaker[] = [
       {
         title: 'Front-end Tools and Workflows',
         description: null,
-        event: 'QCon London 2015',
+        eventName: 'QCon London 2015',
         date: '2015-06-20',
         videoUrl:
           'https://www.infoq.com/presentations/front-end-tools-workflows',
@@ -1703,7 +1703,7 @@ const speakers: Speaker[] = [
       {
         title: 'CSS as a programming language',
         description: null,
-        event: 'Front Trends',
+        eventName: 'Front Trends',
         date: '2014-05-20',
         videoUrl: 'https://vimeo.com/105956446',
         slidesUrl:

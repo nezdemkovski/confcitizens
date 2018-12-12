@@ -16,6 +16,7 @@
     "algoliasearch": "^3.31.0",
     "antd": "^3.11.2",
     "babel-plugin-import": "^1.11.0",
+    "dayjs": "^1.7.7",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "lodash.debounce": "^4.0.8",
@@ -24,6 +25,7 @@
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2",
     "react-ga": "^2.5.6",
+    "react-github-corner": "^2.3.0",
     "react-instantsearch-dom": "^5.3.2",
     "styled-components": "^4.1.2"
   },

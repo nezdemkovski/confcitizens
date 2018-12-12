@@ -20,7 +20,7 @@ const SpeakersList = ({ resultsState, searchState, onSearchStateChange }) => (
     onSearchStateChange={onSearchStateChange}
     searchState={searchState}
   >
-    <Configure hitsPerPage={10} />
+    <Configure hitsPerPage={15} />
     <SearchBox />
     <RefinementList
       attribute="currentLocation.continent"
