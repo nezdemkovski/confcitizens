@@ -6279,6 +6279,79 @@ const speakers: Speaker[] = [
       city: 'San Francisco',
     },
   },
+  {
+    objectID: 'nhoizey',
+    fullName: 'Nicolas Hoizey',
+    tags: ['progressive enhancement', 'PWA', 'performance', 'responsive image','RWD'],
+    email: null,
+    website: 'https://nicolas-hoizey.com',
+    social: {
+      twitter: 'nhoizey',
+      github: 'nhoizey',
+      blog: null,
+      linkedin: 'https://www.linkedin.com/in/nicolas-hoizey/',
+    },
+    talks: [
+      {
+        title: 'Optimiser la performance par un choix optimal des dimensions des images responsives',
+        description: null,
+        eventName: 'We Love Speed',
+        date: '2018-10-09',
+        videoUrl: 'https://www.youtube.com/watch?v=JsahUtZwp94',
+        slidesUrl: 'https://talks.nicolas-hoizey.com/U7c3zE/optimiser-la-performance-par-un-choix-optimal-des-dimensions-des-images-responsives',
+        location: {
+          continent: 'Europe',
+          country: 'France',
+          city: 'Bordeaux',
+        },
+      },
+      {
+        title: 'La petite clinique des images responsives',
+        description: null,
+        eventName: 'Paris Web',
+        date: '2018-10-06',
+        videoUrl: 'https://www.youtube.com/watch?v=4VRJqOqtWpw',
+        slidesUrl: 'https://talks.nicolas-hoizey.com/b23Bwm/la-petite-clinique-des-images-responsives',
+        location: {
+          continent: 'Europe',
+          country: 'France',
+          city: 'Paris',
+        },
+      },
+      {
+        title: 'Quelques solutions facilitant la bonne mise en œuvre des images responsives',
+        description: null,
+        eventName: 'Paris Webperf Meetup',
+        date: '2018-03-28',
+        videoUrl: 'https://www.youtube.com/watch?v=wj84C3VNAmI',
+        slidesUrl: 'https://talks.nicolas-hoizey.com/Vr3Sme/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives',
+        location: {
+          continent: 'Europe',
+          country: 'France',
+          city: 'Paris',
+        },
+      },
+      {
+        title: 'How Cloudinary eases Responsive Web Design, and more',
+        description: null,
+        eventName: "Cloudinary's Customers Dinner",
+        date: '2017-10-18',
+        videoUrl: null,
+        slidesUrl: 'https://talks.nicolas-hoizey.com/QQdc6Y/how-cloudinary-eases-responsive-web-design-and-more',
+        location: {
+          continent: 'Europe',
+          country: 'United Kingdom',
+          city: 'London',
+        },
+      },
+    ],
+    availableForHire: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'France',
+      city: 'Paris',
+    },
+  },
 ];
 
 export default speakers;
