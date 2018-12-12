@@ -6058,7 +6058,7 @@ const speakers: Speaker[] = [
       {
         title: 'Electron - Construa aplicativos desktop multiplataforma com JavaScript, HTML e CSS',
         description: 'Vamos descobrir como construir aplicativos desktop multiplataforma com JavaScript, HTML e CSS e se isso é realmente tão bom quanto parece ser.',
-        event: 'FLISol',
+        eventName: 'FLISol',
         date: '2018-04-28',
         videoUrl: null,
         slidesUrl: 'https://docs.google.com/presentation/d/16fBGVzqy7EtUTE7G8bFyp7h54yvIhQwiW_bh4TEb68k/edit?usp=sharing',
@@ -6071,7 +6071,7 @@ const speakers: Speaker[] = [
       {
         title: 'Electron - Construa aplicativos desktop multiplataforma com JavaScript, HTML e CSS',
         description: 'Vamos descobrir como construir aplicativos desktop multiplataforma com JavaScript, HTML e CSS e se isso é realmente tão bom quanto parece ser.',
-        event: '7º Encontro Backend Meetup Group Maringá',
+        eventName: '7º Encontro Backend Meetup Group Maringá',
         date: '2018-05-10',
         videoUrl: null,
         slidesUrl: 'https://docs.google.com/presentation/d/16fBGVzqy7EtUTE7G8bFyp7h54yvIhQwiW_bh4TEb68k/edit?usp=sharing',
@@ -6084,7 +6084,7 @@ const speakers: Speaker[] = [
       {
         title: 'Electron - Construa aplicativos desktop multiplataforma com JavaScript, HTML e CSS',
         description: 'Vamos descobrir como construir aplicativos desktop multiplataforma com JavaScript, HTML e CSS e se isso é realmente tão bom quanto parece ser.',
-        event: 'Tech Talk - TecnoSpeed',
+        eventName: 'Tech Talk - TecnoSpeed',
         date: '2018-05-10',
         videoUrl: null,
         slidesUrl: 'https://docs.google.com/presentation/d/16fBGVzqy7EtUTE7G8bFyp7h54yvIhQwiW_bh4TEb68k/edit?usp=sharing',
@@ -6097,7 +6097,7 @@ const speakers: Speaker[] = [
       {
         title: 'AMP - Accelerated mobile pages',
         description: 'O projeto AMP é uma iniciativa de código aberto com o objetivo de criar uma Web melhor para todos. O projeto possibilita a criação de websites e anúncios rápidos, atraentes e de alto desempenho em vários dispositivos e plataformas de distribuição.',
-        event: 'FEMUG-MGA #12',
+        eventName: 'FEMUG-MGA #12',
         date: '2018-04-07',
         videoUrl: null,
         slidesUrl: 'https://docs.google.com/presentation/d/10N5rdemoXsjKjcJ_7BiTyFkNCSzWPSUX3vDW9ulY-BA/edit?usp=sharing',
@@ -6110,7 +6110,7 @@ const speakers: Speaker[] = [
       {
         title: 'Expressões Regulares - Uma abordagem divertida',
         description: 'Nesta palestra pretendo trazer o significado de cada metacaractere que compõe uma expressão regular. E se tudo der certo, alguns exemplos práticos :D',
-        event: '4º Encontro Backend Meetup Group Maringá',
+        eventName: '4º Encontro Backend Meetup Group Maringá',
         date: '2018-03-20',
         videoUrl: null,
         slidesUrl: 'https://docs.google.com/presentation/d/11ncOrDuzaaAGOny-7qdbm-MzodFwsZa70ap0TPIMd9M/edit?usp=sharing',
@@ -6123,7 +6123,7 @@ const speakers: Speaker[] = [
       {
         title: 'Expressões Regulares - Uma abordagem divertida',
         description: 'Nesta palestra pretendo trazer o significado de cada metacaractere que compõe uma expressão regular. E se tudo der certo, alguns exemplos práticos :D',
-        event: 'Tech Talk - TecnoSpeed',
+        eventName: 'Tech Talk - TecnoSpeed',
         date: '2018-05-10',
         videoUrl: null,
         slidesUrl: 'https://docs.google.com/presentation/d/11ncOrDuzaaAGOny-7qdbm-MzodFwsZa70ap0TPIMd9M/edit?usp=sharing',
@@ -6136,7 +6136,7 @@ const speakers: Speaker[] = [
       {
         title: 'Software Livre: chegou a sua hora de contribuir!',
         description: 'Bom, usamos os famosos software, bibliotecas, posts, etc.. livres todos os dias o tempo todo, mas será que devolvemos algo para comunidade?? Talvez já tenha passado a hora de você contribuir de alguma forma.. Acredite! Um simples ponto pode deixar o dono do repositório imensamente grato.',
-        event: '11º Encontro Backend Meetup Group Maringá',
+        eventName: '11º Encontro Backend Meetup Group Maringá',
         date: '2018-08-02',
         videoUrl: null,
         slidesUrl: 'https://docs.google.com/presentation/d/14GJyMmO-uiFbhA4dCIKfUDkEqRk7GPNKrVtEoyukmO0/edit?usp=sharing',
@@ -6149,7 +6149,7 @@ const speakers: Speaker[] = [
       {
         title: 'Hexo, só mais um projeto javascript para agilizar as coisas',
         description: 'Bom, nessa talk pretendo mostrar como o Hexo funciona, do que ele é feito e outras coisinhas a mais. Quem sabe você use ele no futuro smile',
-        event: 'FEMUG-MGA #16',
+        eventName: 'FEMUG-MGA #16',
         date: '2018-09-29',
         videoUrl: null,
         slidesUrl: 'https://docs.google.com/presentation/d/15QyzJ1lD8TYPcKNEfBmIrDDhe_OsLTRJtV8TbQzfVrc/edit',
@@ -6162,7 +6162,7 @@ const speakers: Speaker[] = [
       {
         title: '▲ now - Vou lhes apresentar um novo conceito para serverless, agora!',
         description: '▲ now - Vou lhes apresentar um novo conceito para serverless, agora!',
-        event: '4º Encontro Backend Meetup Group Maringá',
+        eventName: '4º Encontro Backend Meetup Group Maringá',
         date: '2018-09-29',
         videoUrl: null,
         slidesUrl: 'https://docs.google.com/presentation/d/19wtuEkX2YGNlw5K0-gix5zmd_jHwMmR4x37gukVwVNg/edit?usp=sharing',
@@ -6175,7 +6175,7 @@ const speakers: Speaker[] = [
       {
         title: '▲ now - Vou lhes apresentar um novo conceito para serverless, agora!',
         description: 'Vou falar um pouco do now e sobre minha experiência com ele.',
-        event: 'GDG DevFest Paraná 2018 - Beyond Serverless',
+        eventName: 'GDG DevFest Paraná 2018 - Beyond Serverless',
         date: '2018-11-24',
         videoUrl: null,
         slidesUrl: 'https://docs.google.com/presentation/d/19wtuEkX2YGNlw5K0-gix5zmd_jHwMmR4x37gukVwVNg/edit?usp=sharing',
