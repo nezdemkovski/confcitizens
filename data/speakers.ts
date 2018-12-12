@@ -6042,6 +6042,92 @@ const speakers: Speaker[] = [
       city: 'New York',
     },
   },
+  {
+    objectID: 'gergelyke',
+    fullName: 'Gergely Nemeth',
+    tags: ['Node.js Security', 'Design Systems', 'Node.js', 'JavaScript'],
+    email: null,
+    website: 'https://nemethgergely.com/',
+    social: {
+      twitter: 'nthgergo',
+      github: 'gergelyke',
+      blog: null,
+      linkedin: 'https://www.linkedin.com/in/nthgergo/',
+    },
+    talks: [
+      {
+        title: 'Deploying Node.js Applications with Confidence using Kubernetes',
+        description: null,
+        eventName: 'NodeSummit',
+        date: '2018-07-23',
+        videoUrl: null,
+        slidesUrl: 'https://speakerdeck.com/gergelyke/deploying-node-dot-js-applications-with-confidence-using-kubernetes',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'San Francisco',
+        },
+      },
+      {
+        title: 'The Evolution of a Node.js Service',
+        description: null,
+        eventName: 'Fluent Conf',
+        date: '2018-06-11',
+        videoUrl: null,
+        slidesUrl: 'https://speakerdeck.com/gergelyke/the-evolution-of-a-node-dot-js-service',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'San Jose',
+        },
+      },
+      {
+        title: 'Node.js Production Checklist',
+        description: null,
+        eventName: 'NodeFest',
+        date: '2017-11-25',
+        videoUrl: null,
+        slidesUrl: 'https://speakerdeck.com/gergelyke/node-dot-js-production-checklist',
+        location: {
+          continent: 'Asia',
+          country: 'Japan',
+          city: 'Tokyo',
+        },
+      },
+      {
+        title: 'Threat Modelling Node.js Applications',
+        description: null,
+        eventName: 'FullStack Conference',
+        date: '2017-07-10',
+        videoUrl: 'https://skillsmatter.com/skillscasts/10353-threat-modelling-node-js-applications',
+        slidesUrl: null,
+        location: {
+          continent: 'Europe',
+          country: 'United Kingdom',
+          city: 'London',
+        },
+      },
+      {
+        title: 'Surviving Web Security',
+        description: null,
+        eventName: 'Node.js Interactive',
+        date: '2016-12-10',
+        videoUrl: 'https://www.youtube.com/watch?v=80LbyikAUqI',
+        slidesUrl: null,
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'Austin',
+        },
+      },
+    ],
+    availableForHire: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'United States',
+      city: 'San Francisco',
+    },
+  },
 ];
 
 export default speakers;
