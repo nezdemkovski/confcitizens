@@ -19,7 +19,9 @@ export interface Speaker {
     slidesUrl: string;
     location: Location;
   }>;
+  talkLanguages: string[];
   availableForHire: boolean;
+  readyToTravelAtOwnExpense: boolean,
   currentLocation: Location;
 }
 
@@ -51,7 +53,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/chris-nwamba-032b04b2/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
@@ -67,7 +71,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/iaderinokun/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
@@ -91,7 +97,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/prosperotemuyiwa/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
@@ -107,7 +115,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Africa',
       country: 'South Africa',
@@ -135,7 +145,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/ahsanayaz/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Pakistan',
@@ -160,7 +172,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/mashhoodr/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Pakistan',
@@ -190,7 +204,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/smkamranqadri/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Pakistan',
@@ -219,7 +235,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/narainsagar/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Pakistan',
@@ -247,7 +265,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/nasirhm/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Pakistan',
@@ -273,7 +293,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/ashrithkulai/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -293,7 +315,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/kranirudha',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -313,7 +337,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/siddharthkp/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -342,7 +368,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/jayeshkattar/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -362,7 +390,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/manjula-dube-9b5b3550/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -382,7 +412,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/neehar-venugopal-97278334/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -402,7 +434,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -422,7 +456,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/arunmichaeldsouza/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'India',
@@ -442,7 +478,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Lebanon',
@@ -462,7 +500,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/aysha-anggraini-a05a8249/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Singapore',
@@ -482,7 +522,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/huijingchen/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Singapore',
@@ -502,7 +544,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/weekeat/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Singapore',
@@ -522,7 +566,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/glenmaddern/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Oceania',
       country: 'Australia',
@@ -542,7 +588,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/karolinaszczur/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Oceania',
       country: 'Australia',
@@ -562,7 +610,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/markdalgleish/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Oceania',
       country: 'Australia',
@@ -582,7 +632,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/philnash/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Oceania',
       country: 'Australia',
@@ -602,7 +654,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/stefan-baumgartner-bb621564/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -622,7 +676,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/elisabeth-wieser-linhart/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -642,7 +698,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -662,7 +720,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -682,7 +742,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/christophrumpel/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -702,7 +764,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/eva-lettner-23997094/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -722,7 +786,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/glnnrys/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -749,7 +815,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/mrozilla/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -769,7 +837,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/juhovepsalainen/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -789,7 +859,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/manuel-matuzovi%C4%87-829a03a6/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -809,7 +881,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -829,7 +903,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/max-stoiber-46698678/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -849,7 +925,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -869,7 +947,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -889,7 +969,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -909,7 +991,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/ferakpeter/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -929,7 +1013,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/timo-obereder-11b65167/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -949,7 +1035,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/sambellen/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Belgium',
@@ -969,7 +1057,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Bulgaria',
@@ -989,7 +1079,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/mathiasbuus/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Denmark',
@@ -1009,7 +1101,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/olgadmitricenko/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Denmark',
@@ -1029,7 +1123,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/terezasokol/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Denmark',
@@ -1057,7 +1153,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://linkedin.com/in/pakastin/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Finland',
@@ -1077,7 +1175,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/varyastepanova/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Finland',
@@ -1104,7 +1204,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://linkedin.com/in/emmanueldemey/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'France',
@@ -1133,7 +1235,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/wassimchegham/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'France',
@@ -1152,16 +1256,18 @@ const speakers: Speaker[] = [
       'Ops',
       'Computer Science',
     ],
-    email: null,
-    website: null,
+    email: 'sven@sauleau.com',
+    website: 'https://sauleau.com/',
     social: {
       twitter: 'svensauleau',
-      github: null,
+      github: 'xtuc',
       blog: null,
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'France',
@@ -1172,7 +1278,7 @@ const speakers: Speaker[] = [
     objectID: 'yakovlevyuri',
     fullName: 'Yuri Yakovlev',
     tags: ['JavaScript', 'GraphQL', 'Apollo Server', 'Apollo Client'],
-    email: null,
+    email: 'hi@mynameisyuri.com',
     website: 'https://mynameisyuri.com',
     social: {
       twitter: 'yakovlevyuri',
@@ -1180,8 +1286,26 @@ const speakers: Speaker[] = [
       blog: null,
       linkedin: 'https://linkedin.com/in/yakovlevyuri',
     },
-    talks: [],
+    talks: [
+      {
+        title: 'Apollo. The client we deserve',
+        description:
+          "Apollo Client is a community-driven, powerful and flexible GraphQL client which brings an entire new world of data management to your applications. Let's talk about its cons and pros and compare to Facebook’s Relay Modern.",
+        eventName: 'BarcelonaJS',
+        date: '2018-02-20',
+        videoUrl: null,
+        slidesUrl:
+          'https://www.slideshare.net/YuriYakovlev1/apollo-the-client-we-deserve',
+        location: {
+          continent: 'Europe',
+          country: 'Spain',
+          city: 'Barcelona',
+        },
+      },
+    ],
+    talkLanguages: ['English', 'Russian'],
     availableForHire: true,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Czech Republic',
@@ -1191,7 +1315,7 @@ const speakers: Speaker[] = [
   {
     objectID: 'alexedev',
     fullName: 'Alex Alexeev',
-    tags: ['JavaScript', 'GraphQL'],
+    tags: ['JavaScript', 'GraphQL', 'Relay Modern', 'Apollo Client'],
     email: null,
     website: 'https://alexedev.github.io/',
     social: {
@@ -1200,8 +1324,26 @@ const speakers: Speaker[] = [
       blog: null,
       linkedin: 'https://linkedin.com/in/alex-alexeev-ma-62550a1b',
     },
-    talks: [],
+    talks: [
+      {
+        title: 'Relay Modern: architecture and workflow',
+        description:
+          'Facebook open sourced Relay quite long ago and it was changed a lot since then. We chose Relay (Modern) as a GraphQL client for one of our latest projects and it works well so far. Learn the essential concepts of Relay, understand its pros and cons and decide whether it may fit your next stack.',
+        eventName: 'BarcelonaJS',
+        date: '2018-02-20',
+        videoUrl: null,
+        slidesUrl:
+          'https://www.slideshare.net/alexbuduguru/relay-modern-architecture-and-workflow',
+        location: {
+          continent: 'Europe',
+          country: 'Spain',
+          city: 'Barcelona',
+        },
+      },
+    ],
+    talkLanguages: ['English', 'Russian'],
     availableForHire: true,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Czech Republic',
@@ -1212,16 +1354,18 @@ const speakers: Speaker[] = [
     objectID: 'Jhnnns',
     fullName: 'Johannes Ewald',
     tags: ['Tooling', 'Standards', 'Webpack'],
-    email: null,
+    email: 'mail@johannesewald.de',
     website: null,
     social: {
       twitter: 'Jhnnns',
-      github: null,
+      github: 'jhnns',
       blog: null,
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1241,7 +1385,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1261,7 +1407,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1281,7 +1429,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1301,7 +1451,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1321,7 +1473,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1341,7 +1495,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1361,7 +1517,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1381,7 +1539,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1401,7 +1561,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1421,7 +1583,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1715,7 +1879,9 @@ const speakers: Speaker[] = [
         },
       },
     ],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1735,7 +1901,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1762,7 +1930,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1782,7 +1952,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1802,7 +1974,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1822,7 +1996,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1842,7 +2018,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1862,7 +2040,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1882,7 +2062,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1902,7 +2084,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1922,7 +2106,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1942,7 +2128,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1962,7 +2150,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Germany',
@@ -1982,7 +2172,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Greece',
@@ -2002,7 +2194,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2022,7 +2216,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2042,7 +2238,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2068,7 +2266,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2088,7 +2288,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2108,7 +2310,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2128,7 +2332,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2148,7 +2354,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2168,7 +2376,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2188,7 +2398,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2208,7 +2420,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2228,7 +2442,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2248,7 +2464,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2268,7 +2486,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2294,7 +2514,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2314,7 +2536,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2334,7 +2558,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2354,7 +2580,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2374,7 +2602,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2394,7 +2624,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2414,7 +2646,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2434,7 +2668,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2454,7 +2690,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2474,7 +2712,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2494,7 +2734,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2514,7 +2756,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2534,7 +2778,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2554,7 +2800,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2574,7 +2822,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ireland',
@@ -2594,7 +2844,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/nirgn/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Israel',
@@ -2614,7 +2866,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Israel',
@@ -2639,7 +2893,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Asia',
       country: 'Israel',
@@ -2659,7 +2915,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Italy',
@@ -2679,7 +2937,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Italy',
@@ -2699,7 +2959,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2726,7 +2988,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2746,7 +3010,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2766,7 +3032,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2786,7 +3054,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2806,7 +3076,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2826,7 +3098,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2852,7 +3126,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Netherlands',
@@ -2872,7 +3148,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2892,7 +3170,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2912,7 +3192,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2932,7 +3214,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2952,7 +3236,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2972,7 +3258,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -2992,7 +3280,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -3012,7 +3302,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -3032,7 +3324,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -3052,7 +3346,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -3072,7 +3368,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -3092,7 +3390,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Poland',
@@ -3112,7 +3412,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Portugal',
@@ -3132,7 +3434,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Portugal',
@@ -3152,7 +3456,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Portugal',
@@ -3178,7 +3484,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Romania',
@@ -3198,7 +3506,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Russia',
@@ -3218,7 +3528,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Russia',
@@ -3238,7 +3550,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Russia',
@@ -3258,7 +3572,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Russia',
@@ -3278,7 +3594,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Russia',
@@ -3298,7 +3616,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Serbia',
@@ -3318,7 +3638,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Serbia',
@@ -3338,7 +3660,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Spain',
@@ -3358,7 +3682,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Spain',
@@ -3378,7 +3704,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Spain',
@@ -3398,7 +3726,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Spain',
@@ -3418,7 +3748,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Switzerland',
@@ -3438,7 +3770,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Switzerland',
@@ -3458,7 +3792,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ukraine',
@@ -3478,7 +3814,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ukraine',
@@ -3504,7 +3842,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ukraine',
@@ -3524,7 +3864,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ukraine',
@@ -3544,7 +3886,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ukraine',
@@ -3564,7 +3908,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ukraine',
@@ -3584,7 +3930,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ukraine',
@@ -3604,7 +3952,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ukraine',
@@ -3624,7 +3974,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ukraine',
@@ -3644,7 +3996,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ukraine',
@@ -3664,7 +4018,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ukraine',
@@ -3684,7 +4040,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ukraine',
@@ -3704,7 +4062,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'Ukraine',
@@ -3724,7 +4084,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -3750,7 +4112,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -3770,7 +4134,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -3790,7 +4156,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -3810,7 +4178,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -3830,7 +4200,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -3850,7 +4222,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -3870,7 +4244,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -3897,7 +4273,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -3917,7 +4295,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -3937,7 +4317,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -3957,7 +4339,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -3977,7 +4361,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -3997,7 +4383,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4017,7 +4405,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4037,7 +4427,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4057,7 +4449,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4077,7 +4471,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4097,7 +4493,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4117,7 +4515,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4137,7 +4537,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4157,7 +4559,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4177,7 +4581,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4197,7 +4603,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4217,7 +4625,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4237,7 +4647,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4262,7 +4674,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4282,7 +4696,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4302,7 +4718,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'United Kingdom',
@@ -4322,7 +4740,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'Canada',
@@ -4342,7 +4762,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'Canada',
@@ -4362,7 +4784,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'Canada',
@@ -4382,7 +4806,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'Canada',
@@ -4402,7 +4828,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'Canada',
@@ -4422,7 +4850,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'Canada',
@@ -4442,7 +4872,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'Canada',
@@ -4462,7 +4894,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4482,7 +4916,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4502,7 +4938,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4522,7 +4960,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4547,7 +4987,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4567,7 +5009,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4597,7 +5041,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4617,7 +5063,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4637,7 +5085,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4657,7 +5107,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4677,7 +5129,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4697,7 +5151,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4717,7 +5173,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4737,7 +5195,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4765,7 +5225,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4785,7 +5247,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4805,7 +5269,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4831,7 +5297,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4851,7 +5319,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4871,7 +5341,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4891,7 +5363,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4916,7 +5390,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4936,7 +5412,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4956,7 +5434,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -4983,7 +5463,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/peggyrayzis',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5003,7 +5485,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5030,7 +5514,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5050,7 +5536,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5070,7 +5558,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5090,7 +5580,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5110,7 +5602,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5130,7 +5624,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5150,7 +5646,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5170,7 +5668,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/linclark/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5190,7 +5690,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://linkedin.com/in/scotthanselman',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5210,7 +5712,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5230,7 +5734,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5250,7 +5756,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://linkedin.com/in/violet-peña-b02b0163',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5270,7 +5778,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5290,7 +5800,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5313,7 +5825,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5333,7 +5847,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5353,7 +5869,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5373,7 +5891,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5393,7 +5913,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5413,7 +5935,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5433,7 +5957,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5453,7 +5979,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5479,7 +6007,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5499,7 +6029,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5519,7 +6051,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5539,7 +6073,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5559,7 +6095,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5579,7 +6117,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5599,7 +6139,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5627,7 +6169,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5647,7 +6191,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5667,7 +6213,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5687,7 +6235,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5707,7 +6257,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5727,7 +6279,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5747,7 +6301,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5767,7 +6323,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5787,7 +6345,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -5807,7 +6367,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'South America',
       country: 'Argentina',
@@ -5833,7 +6395,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://linkedin.com/in/obetomuniz',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'South America',
       country: 'Brazil',
@@ -5853,7 +6417,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'South America',
       country: 'Brazil',
@@ -5879,7 +6445,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'South America',
       country: 'Brazil',
@@ -5899,7 +6467,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'South America',
       country: 'Brazil',
@@ -5919,7 +6489,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'South America',
       country: 'Brazil',
@@ -5939,7 +6511,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'South America',
       country: 'Brazil',
@@ -5959,7 +6533,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'South America',
       country: 'Brazil',
@@ -5988,7 +6564,9 @@ const speakers: Speaker[] = [
       linkedin: null,
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'South America',
       country: 'Brazil',
@@ -6015,7 +6593,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/bitandbang/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -6035,7 +6615,9 @@ const speakers: Speaker[] = [
       linkedin: 'http://www.linkedin.com/in/joesepi/',
     },
     talks: [],
+    talkLanguages: [],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -6045,7 +6627,16 @@ const speakers: Speaker[] = [
   {
     objectID: 'dotenorio',
     fullName: 'Fernando Migliorini Tenório',
-    tags: ['Open Source', 'Community', 'Node.js', 'JavaScript', 'Now', 'Zeit', 'Serverless', 'Angular'],
+    tags: [
+      'Open Source',
+      'Community',
+      'Node.js',
+      'JavaScript',
+      'Now',
+      'Zeit',
+      'Serverless',
+      'Angular',
+    ],
     email: null,
     website: 'https://dotenorio.com/',
     social: {
@@ -6056,12 +6647,15 @@ const speakers: Speaker[] = [
     },
     talks: [
       {
-        title: 'Electron - Construa aplicativos desktop multiplataforma com JavaScript, HTML e CSS',
-        description: 'Vamos descobrir como construir aplicativos desktop multiplataforma com JavaScript, HTML e CSS e se isso é realmente tão bom quanto parece ser.',
+        title:
+          'Electron - Construa aplicativos desktop multiplataforma com JavaScript, HTML e CSS',
+        description:
+          'Vamos descobrir como construir aplicativos desktop multiplataforma com JavaScript, HTML e CSS e se isso é realmente tão bom quanto parece ser.',
         eventName: 'FLISol',
         date: '2018-04-28',
         videoUrl: null,
-        slidesUrl: 'https://docs.google.com/presentation/d/16fBGVzqy7EtUTE7G8bFyp7h54yvIhQwiW_bh4TEb68k/edit?usp=sharing',
+        slidesUrl:
+          'https://docs.google.com/presentation/d/16fBGVzqy7EtUTE7G8bFyp7h54yvIhQwiW_bh4TEb68k/edit?usp=sharing',
         location: {
           continent: 'South America',
           country: 'Brazil',
@@ -6069,12 +6663,15 @@ const speakers: Speaker[] = [
         },
       },
       {
-        title: 'Electron - Construa aplicativos desktop multiplataforma com JavaScript, HTML e CSS',
-        description: 'Vamos descobrir como construir aplicativos desktop multiplataforma com JavaScript, HTML e CSS e se isso é realmente tão bom quanto parece ser.',
+        title:
+          'Electron - Construa aplicativos desktop multiplataforma com JavaScript, HTML e CSS',
+        description:
+          'Vamos descobrir como construir aplicativos desktop multiplataforma com JavaScript, HTML e CSS e se isso é realmente tão bom quanto parece ser.',
         eventName: '7º Encontro Backend Meetup Group Maringá',
         date: '2018-05-10',
         videoUrl: null,
-        slidesUrl: 'https://docs.google.com/presentation/d/16fBGVzqy7EtUTE7G8bFyp7h54yvIhQwiW_bh4TEb68k/edit?usp=sharing',
+        slidesUrl:
+          'https://docs.google.com/presentation/d/16fBGVzqy7EtUTE7G8bFyp7h54yvIhQwiW_bh4TEb68k/edit?usp=sharing',
         location: {
           continent: 'South America',
           country: 'Brazil',
@@ -6082,12 +6679,15 @@ const speakers: Speaker[] = [
         },
       },
       {
-        title: 'Electron - Construa aplicativos desktop multiplataforma com JavaScript, HTML e CSS',
-        description: 'Vamos descobrir como construir aplicativos desktop multiplataforma com JavaScript, HTML e CSS e se isso é realmente tão bom quanto parece ser.',
+        title:
+          'Electron - Construa aplicativos desktop multiplataforma com JavaScript, HTML e CSS',
+        description:
+          'Vamos descobrir como construir aplicativos desktop multiplataforma com JavaScript, HTML e CSS e se isso é realmente tão bom quanto parece ser.',
         eventName: 'Tech Talk - TecnoSpeed',
         date: '2018-05-10',
         videoUrl: null,
-        slidesUrl: 'https://docs.google.com/presentation/d/16fBGVzqy7EtUTE7G8bFyp7h54yvIhQwiW_bh4TEb68k/edit?usp=sharing',
+        slidesUrl:
+          'https://docs.google.com/presentation/d/16fBGVzqy7EtUTE7G8bFyp7h54yvIhQwiW_bh4TEb68k/edit?usp=sharing',
         location: {
           continent: 'South America',
           country: 'Brazil',
@@ -6096,11 +6696,13 @@ const speakers: Speaker[] = [
       },
       {
         title: 'AMP - Accelerated mobile pages',
-        description: 'O projeto AMP é uma iniciativa de código aberto com o objetivo de criar uma Web melhor para todos. O projeto possibilita a criação de websites e anúncios rápidos, atraentes e de alto desempenho em vários dispositivos e plataformas de distribuição.',
+        description:
+          'O projeto AMP é uma iniciativa de código aberto com o objetivo de criar uma Web melhor para todos. O projeto possibilita a criação de websites e anúncios rápidos, atraentes e de alto desempenho em vários dispositivos e plataformas de distribuição.',
         eventName: 'FEMUG-MGA #12',
         date: '2018-04-07',
         videoUrl: null,
-        slidesUrl: 'https://docs.google.com/presentation/d/10N5rdemoXsjKjcJ_7BiTyFkNCSzWPSUX3vDW9ulY-BA/edit?usp=sharing',
+        slidesUrl:
+          'https://docs.google.com/presentation/d/10N5rdemoXsjKjcJ_7BiTyFkNCSzWPSUX3vDW9ulY-BA/edit?usp=sharing',
         location: {
           continent: 'South America',
           country: 'Brazil',
@@ -6109,11 +6711,13 @@ const speakers: Speaker[] = [
       },
       {
         title: 'Expressões Regulares - Uma abordagem divertida',
-        description: 'Nesta palestra pretendo trazer o significado de cada metacaractere que compõe uma expressão regular. E se tudo der certo, alguns exemplos práticos :D',
+        description:
+          'Nesta palestra pretendo trazer o significado de cada metacaractere que compõe uma expressão regular. E se tudo der certo, alguns exemplos práticos :D',
         eventName: '4º Encontro Backend Meetup Group Maringá',
         date: '2018-03-20',
         videoUrl: null,
-        slidesUrl: 'https://docs.google.com/presentation/d/11ncOrDuzaaAGOny-7qdbm-MzodFwsZa70ap0TPIMd9M/edit?usp=sharing',
+        slidesUrl:
+          'https://docs.google.com/presentation/d/11ncOrDuzaaAGOny-7qdbm-MzodFwsZa70ap0TPIMd9M/edit?usp=sharing',
         location: {
           continent: 'South America',
           country: 'Brazil',
@@ -6122,11 +6726,13 @@ const speakers: Speaker[] = [
       },
       {
         title: 'Expressões Regulares - Uma abordagem divertida',
-        description: 'Nesta palestra pretendo trazer o significado de cada metacaractere que compõe uma expressão regular. E se tudo der certo, alguns exemplos práticos :D',
+        description:
+          'Nesta palestra pretendo trazer o significado de cada metacaractere que compõe uma expressão regular. E se tudo der certo, alguns exemplos práticos :D',
         eventName: 'Tech Talk - TecnoSpeed',
         date: '2018-05-10',
         videoUrl: null,
-        slidesUrl: 'https://docs.google.com/presentation/d/11ncOrDuzaaAGOny-7qdbm-MzodFwsZa70ap0TPIMd9M/edit?usp=sharing',
+        slidesUrl:
+          'https://docs.google.com/presentation/d/11ncOrDuzaaAGOny-7qdbm-MzodFwsZa70ap0TPIMd9M/edit?usp=sharing',
         location: {
           continent: 'South America',
           country: 'Brazil',
@@ -6135,11 +6741,13 @@ const speakers: Speaker[] = [
       },
       {
         title: 'Software Livre: chegou a sua hora de contribuir!',
-        description: 'Bom, usamos os famosos software, bibliotecas, posts, etc.. livres todos os dias o tempo todo, mas será que devolvemos algo para comunidade?? Talvez já tenha passado a hora de você contribuir de alguma forma.. Acredite! Um simples ponto pode deixar o dono do repositório imensamente grato.',
+        description:
+          'Bom, usamos os famosos software, bibliotecas, posts, etc.. livres todos os dias o tempo todo, mas será que devolvemos algo para comunidade?? Talvez já tenha passado a hora de você contribuir de alguma forma.. Acredite! Um simples ponto pode deixar o dono do repositório imensamente grato.',
         eventName: '11º Encontro Backend Meetup Group Maringá',
         date: '2018-08-02',
         videoUrl: null,
-        slidesUrl: 'https://docs.google.com/presentation/d/14GJyMmO-uiFbhA4dCIKfUDkEqRk7GPNKrVtEoyukmO0/edit?usp=sharing',
+        slidesUrl:
+          'https://docs.google.com/presentation/d/14GJyMmO-uiFbhA4dCIKfUDkEqRk7GPNKrVtEoyukmO0/edit?usp=sharing',
         location: {
           continent: 'South America',
           country: 'Brazil',
@@ -6148,11 +6756,13 @@ const speakers: Speaker[] = [
       },
       {
         title: 'Hexo, só mais um projeto javascript para agilizar as coisas',
-        description: 'Bom, nessa talk pretendo mostrar como o Hexo funciona, do que ele é feito e outras coisinhas a mais. Quem sabe você use ele no futuro smile',
+        description:
+          'Bom, nessa talk pretendo mostrar como o Hexo funciona, do que ele é feito e outras coisinhas a mais. Quem sabe você use ele no futuro smile',
         eventName: 'FEMUG-MGA #16',
         date: '2018-09-29',
         videoUrl: null,
-        slidesUrl: 'https://docs.google.com/presentation/d/15QyzJ1lD8TYPcKNEfBmIrDDhe_OsLTRJtV8TbQzfVrc/edit',
+        slidesUrl:
+          'https://docs.google.com/presentation/d/15QyzJ1lD8TYPcKNEfBmIrDDhe_OsLTRJtV8TbQzfVrc/edit',
         location: {
           continent: 'South America',
           country: 'Brazil',
@@ -6160,12 +6770,15 @@ const speakers: Speaker[] = [
         },
       },
       {
-        title: '▲ now - Vou lhes apresentar um novo conceito para serverless, agora!',
-        description: '▲ now - Vou lhes apresentar um novo conceito para serverless, agora!',
+        title:
+          '▲ now - Vou lhes apresentar um novo conceito para serverless, agora!',
+        description:
+          '▲ now - Vou lhes apresentar um novo conceito para serverless, agora!',
         eventName: '4º Encontro Backend Meetup Group Maringá',
         date: '2018-09-29',
         videoUrl: null,
-        slidesUrl: 'https://docs.google.com/presentation/d/19wtuEkX2YGNlw5K0-gix5zmd_jHwMmR4x37gukVwVNg/edit?usp=sharing',
+        slidesUrl:
+          'https://docs.google.com/presentation/d/19wtuEkX2YGNlw5K0-gix5zmd_jHwMmR4x37gukVwVNg/edit?usp=sharing',
         location: {
           continent: 'South America',
           country: 'Brazil',
@@ -6173,20 +6786,25 @@ const speakers: Speaker[] = [
         },
       },
       {
-        title: '▲ now - Vou lhes apresentar um novo conceito para serverless, agora!',
-        description: 'Vou falar um pouco do now e sobre minha experiência com ele.',
+        title:
+          '▲ now - Vou lhes apresentar um novo conceito para serverless, agora!',
+        description:
+          'Vou falar um pouco do now e sobre minha experiência com ele.',
         eventName: 'GDG DevFest Paraná 2018 - Beyond Serverless',
         date: '2018-11-24',
         videoUrl: null,
-        slidesUrl: 'https://docs.google.com/presentation/d/19wtuEkX2YGNlw5K0-gix5zmd_jHwMmR4x37gukVwVNg/edit?usp=sharing',
+        slidesUrl:
+          'https://docs.google.com/presentation/d/19wtuEkX2YGNlw5K0-gix5zmd_jHwMmR4x37gukVwVNg/edit?usp=sharing',
         location: {
           continent: 'South America',
           country: 'Brazil',
           city: 'Maringá',
         },
-      }, 
+      },
     ],
+    talkLanguages: ['Portuguese'],
     availableForHire: false,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'South America',
       country: 'Brazil',
@@ -6207,12 +6825,14 @@ const speakers: Speaker[] = [
     },
     talks: [
       {
-        title: 'Deploying Node.js Applications with Confidence using Kubernetes',
+        title:
+          'Deploying Node.js Applications with Confidence using Kubernetes',
         description: null,
         eventName: 'NodeSummit',
         date: '2018-07-23',
         videoUrl: null,
-        slidesUrl: 'https://speakerdeck.com/gergelyke/deploying-node-dot-js-applications-with-confidence-using-kubernetes',
+        slidesUrl:
+          'https://speakerdeck.com/gergelyke/deploying-node-dot-js-applications-with-confidence-using-kubernetes',
         location: {
           continent: 'North America',
           country: 'United States',
@@ -6225,7 +6845,8 @@ const speakers: Speaker[] = [
         eventName: 'Fluent Conf',
         date: '2018-06-11',
         videoUrl: null,
-        slidesUrl: 'https://speakerdeck.com/gergelyke/the-evolution-of-a-node-dot-js-service',
+        slidesUrl:
+          'https://speakerdeck.com/gergelyke/the-evolution-of-a-node-dot-js-service',
         location: {
           continent: 'North America',
           country: 'United States',
@@ -6238,7 +6859,8 @@ const speakers: Speaker[] = [
         eventName: 'NodeFest',
         date: '2017-11-25',
         videoUrl: null,
-        slidesUrl: 'https://speakerdeck.com/gergelyke/node-dot-js-production-checklist',
+        slidesUrl:
+          'https://speakerdeck.com/gergelyke/node-dot-js-production-checklist',
         location: {
           continent: 'Asia',
           country: 'Japan',
@@ -6250,7 +6872,8 @@ const speakers: Speaker[] = [
         description: null,
         eventName: 'FullStack Conference',
         date: '2017-07-10',
-        videoUrl: 'https://skillsmatter.com/skillscasts/10353-threat-modelling-node-js-applications',
+        videoUrl:
+          'https://skillsmatter.com/skillscasts/10353-threat-modelling-node-js-applications',
         slidesUrl: null,
         location: {
           continent: 'Europe',
@@ -6272,7 +6895,9 @@ const speakers: Speaker[] = [
         },
       },
     ],
+    talkLanguages: ['English'],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -6282,7 +6907,13 @@ const speakers: Speaker[] = [
   {
     objectID: 'nhoizey',
     fullName: 'Nicolas Hoizey',
-    tags: ['progressive enhancement', 'PWA', 'performance', 'responsive image','RWD'],
+    tags: [
+      'progressive enhancement',
+      'PWA',
+      'performance',
+      'responsive image',
+      'RWD',
+    ],
     email: null,
     website: 'https://nicolas-hoizey.com',
     social: {
@@ -6293,12 +6924,14 @@ const speakers: Speaker[] = [
     },
     talks: [
       {
-        title: 'Optimiser la performance par un choix optimal des dimensions des images responsives',
+        title:
+          'Optimiser la performance par un choix optimal des dimensions des images responsives',
         description: null,
         eventName: 'We Love Speed',
         date: '2018-10-09',
         videoUrl: 'https://www.youtube.com/watch?v=JsahUtZwp94',
-        slidesUrl: 'https://talks.nicolas-hoizey.com/U7c3zE/optimiser-la-performance-par-un-choix-optimal-des-dimensions-des-images-responsives',
+        slidesUrl:
+          'https://talks.nicolas-hoizey.com/U7c3zE/optimiser-la-performance-par-un-choix-optimal-des-dimensions-des-images-responsives',
         location: {
           continent: 'Europe',
           country: 'France',
@@ -6311,7 +6944,8 @@ const speakers: Speaker[] = [
         eventName: 'Paris Web',
         date: '2018-10-06',
         videoUrl: 'https://www.youtube.com/watch?v=4VRJqOqtWpw',
-        slidesUrl: 'https://talks.nicolas-hoizey.com/b23Bwm/la-petite-clinique-des-images-responsives',
+        slidesUrl:
+          'https://talks.nicolas-hoizey.com/b23Bwm/la-petite-clinique-des-images-responsives',
         location: {
           continent: 'Europe',
           country: 'France',
@@ -6319,12 +6953,14 @@ const speakers: Speaker[] = [
         },
       },
       {
-        title: 'Quelques solutions facilitant la bonne mise en œuvre des images responsives',
+        title:
+          'Quelques solutions facilitant la bonne mise en œuvre des images responsives',
         description: null,
         eventName: 'Paris Webperf Meetup',
         date: '2018-03-28',
         videoUrl: 'https://www.youtube.com/watch?v=wj84C3VNAmI',
-        slidesUrl: 'https://talks.nicolas-hoizey.com/Vr3Sme/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives',
+        slidesUrl:
+          'https://talks.nicolas-hoizey.com/Vr3Sme/quelques-solutions-facilitant-la-bonne-mise-en-oeuvre-des-images-responsives',
         location: {
           continent: 'Europe',
           country: 'France',
@@ -6337,7 +6973,8 @@ const speakers: Speaker[] = [
         eventName: "Cloudinary's Customers Dinner",
         date: '2017-10-18',
         videoUrl: null,
-        slidesUrl: 'https://talks.nicolas-hoizey.com/QQdc6Y/how-cloudinary-eases-responsive-web-design-and-more',
+        slidesUrl:
+          'https://talks.nicolas-hoizey.com/QQdc6Y/how-cloudinary-eases-responsive-web-design-and-more',
         location: {
           continent: 'Europe',
           country: 'United Kingdom',
@@ -6345,7 +6982,9 @@ const speakers: Speaker[] = [
         },
       },
     ],
+    talkLanguages: ['French', 'English'],
     availableForHire: null,
+    readyToTravelAtOwnExpense: null,
     currentLocation: {
       continent: 'Europe',
       country: 'France',
