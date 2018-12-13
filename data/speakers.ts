@@ -1277,11 +1277,8 @@ const speakers: Speaker[] = [
     fullName: 'Sven Sauleau',
     tags: [
       'JavaScript',
-      'Babel',
-      'Artificial Intelligence',
-      'Linux',
-      'Cloud',
-      'Ops',
+      'WebAssembly',
+      'compilers',
       'Computer Science',
     ],
     email: 'sven@sauleau.com',
