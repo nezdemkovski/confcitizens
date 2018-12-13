@@ -61,19 +61,26 @@ const speakers: Speaker[] = [
   {
     objectID: 'ireaderinokun',
     fullName: 'Ire Aderinokun',
-    tags: ['Progressive Web Apps', 'CSS', 'Standards'],
+    tags: [
+      'Progressive Web Apps', 
+      'HTML', 
+      'CSS', 
+      'Javascript', 
+      'Standards', 
+      'Accessibility'
+    ],
     email: null,
-    website: 'https://ireaderinokun.com/',
+    website: 'https://ireaderinokun.com',
     social: {
       twitter: 'ireaderinokun',
       github: 'ireade',
-      blog: 'https://medium.com/@ireade',
-      linkedin: 'https://www.linkedin.com/in/iaderinokun/',
+      blog: 'https://bitsofco.de',
+      linkedin: 'https://www.linkedin.com/in/iaderinokun',
     },
     talks: [],
-    talkLanguages: [],
-    availableForHire: null,
-    readyToTravelAtOwnExpense: null,
+    talkLanguages: ['English'],
+    availableForHire: false,
+    readyToTravelAtOwnExpense: false,
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
