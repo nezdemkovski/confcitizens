@@ -831,7 +831,7 @@ const speakers: Speaker[] = [
   },
   {
     objectID: 'mrozilla',
-    fullName: 'Jan Hruby',
+    fullName: 'Jan Hrubý',
     tags: [
       'React',
       'Redux',
@@ -849,9 +849,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/mrozilla/',
     },
     talks: [],
-    talkLanguages: [],
-    availableForHire: null,
-    readyToTravelAtOwnExpense: null,
+    talkLanguages: ['English', 'Czech', 'Slovak'],
+    availableForHire: true,
+    readyToTravelAtOwnExpense: false,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
