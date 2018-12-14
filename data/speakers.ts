@@ -327,14 +327,13 @@ const speakers: Speaker[] = [
   {
     objectID: 'siddharthkp',
     fullName: 'Siddharth Kshetrapal',
-    tags: ['CSS', 'Web Performance', 'React', 'CSS-in-JS', 'Node', 'Testing'],
+    tags: ['React', 'Design Systems', 'Web Performance'],
     email: null,
     website: 'https://sid.studio/',
     social: {
       twitter: 'siddharthkp',
       github: 'siddharthkp',
-      blog: 'https://medium.com/@siddharthkp',
-      linkedin: 'https://www.linkedin.com/in/siddharthkp/',
+      blog: 'https://sid.studio/newsletter'
     },
     talks: [],
     talkLanguages: [],
