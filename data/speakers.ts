@@ -1059,9 +1059,9 @@ const speakers: Speaker[] = [
   {
     objectID: 'sambego',
     fullName: 'Sam Bellen',
-    tags: ['Web Audio', 'Browser APIs'],
-    email: null,
-    website: null,
+    tags: ['Identity', 'Authentication', 'Web Audio', 'Browser APIs'],
+    email: 'hey@sambego.be',
+    website: 'https://sambego.tech',
     social: {
       twitter: 'sambego',
       github: 'Sambego',
@@ -1069,9 +1069,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/sambellen/',
     },
     talks: [],
-    talkLanguages: [],
+    talkLanguages: ['English', 'Dutch'],
     availableForHire: null,
-    readyToTravelAtOwnExpense: null,
+    readyToTravelAtOwnExpense: true,
     currentLocation: {
       continent: 'Europe',
       country: 'Belgium',
