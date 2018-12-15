@@ -446,7 +446,7 @@ const speakers: Speaker[] = [
   {
     objectID: 'amdsouza92',
     fullName: 'Arun Michael Dsouza',
-    tags: ['Webpack', 'React', 'ES6', 'Tooling', 'CSS'],
+    tags: ['JavaScript', 'Modern Browser APIs', 'Web Performance', 'React', 'Webpack', 'ES6', 'Tooling', 'CSS', 'Open Source'],
     email: 'amdsouza92@gmail.com',
     website: 'https://arunmichaeldsouza.com/',
     social: {
@@ -456,7 +456,7 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/arunmichaeldsouza/',
     },
     talks: [],
-    talkLanguages: [],
+    talkLanguages: ['English'],
     availableForHire: null,
     readyToTravelAtOwnExpense: null,
     currentLocation: {
