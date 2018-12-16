@@ -574,8 +574,7 @@ const speakers: Speaker[] = [
     social: {
       twitter: 'zellwk',
       github: 'zellwk',
-      blog: 'https://medium.com/@zellwk',
-      linkedin: 'https://www.linkedin.com/in/weekeat/',
+      blog: 'https://zellwk.com/blog'
     },
     talks: [],
     talkLanguages: [],
