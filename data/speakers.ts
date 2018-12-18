@@ -776,13 +776,13 @@ const speakers: Speaker[] = [
   {
     objectID: 'glnnrys',
     fullName: 'Glenn Reyes',
-    tags: ['Code Splitting', 'React'],
+    tags: ['React', 'GraphQL', 'JavaScript'],
     email: 'glenn@glennreyes.com',
     website: 'https://glennreyes.com/',
     social: {
       twitter: 'glnnrys',
       github: 'glennreyes',
-      blog: null,
+      blog: 'https://medium.com/@glnnrys',
       linkedin: 'https://www.linkedin.com/in/glnnrys/',
     },
     talks: [],
