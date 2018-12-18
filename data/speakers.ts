@@ -455,7 +455,34 @@ const speakers: Speaker[] = [
       blog: 'https://arunmichaeldsouza.com/blog',
       linkedin: 'https://www.linkedin.com/in/arunmichaeldsouza/',
     },
-    talks: [],
+    talks: [
+      {
+        title: 'Houdini - What lies ahead',
+        description: null,
+        eventName: 'JSConf Iceland 2018',
+        date: '2018-03-02',
+        videoUrl: 'https://www.youtube.com/watch?v=BalUlHBwwlM',
+        slidesUrl: 'https://speakerdeck.com/arunmichaeldsouza/houdini-what-lies-ahead-jsconf-iceland-2018',
+        location: {
+          continent: 'Europe',
+          country: 'Iceland',
+          city: 'Reykjavik',
+        },
+      },
+      {
+        title: 'The Era of Module Bundlers',
+        description: null,
+        eventName: 'JSConf Belgium 2017',
+        date: '2017-06-29',
+        videoUrl: 'https://www.youtube.com/watch?v=umqy8Fu3j0Q',
+        slidesUrl: 'https://speakerdeck.com/arunmichaeldsouza/the-era-of-module-bundlers-jsconf-belgium-2017',
+        location: {
+          continent: 'Europe',
+          country: 'Belgium',
+          city: 'Brugge',
+        },
+      }
+    ],
     talkLanguages: ['English'],
     availableForHire: null,
     readyToTravelAtOwnExpense: null,
