@@ -959,7 +959,7 @@ const speakers: Speaker[] = [
   {
     objectID: 'ryyppy',
     fullName: 'Patrick Stapfer',
-    tags: ['ReasonML', 'Static Typing', 'Flow'],
+    tags: ['ReasonML', 'Static Typing', 'OCaml', 'Tooling'],
     email: null,
     website: null,
     social: {
