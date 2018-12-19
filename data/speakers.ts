@@ -333,7 +333,8 @@ const speakers: Speaker[] = [
     social: {
       twitter: 'siddharthkp',
       github: 'siddharthkp',
-      blog: 'https://sid.studio/newsletter'
+      blog: 'https://sid.studio/newsletter',
+      linkedin: null,
     },
     talks: [],
     talkLanguages: [],
