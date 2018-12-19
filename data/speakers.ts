@@ -540,7 +540,8 @@ const speakers: Speaker[] = [
     social: {
       twitter: 'zellwk',
       github: 'zellwk',
-      blog: 'https://zellwk.com/blog'
+      blog: 'https://zellwk.com/blog',
+      linkedin: null,
     },
     talks: [],
     talkLanguages: [],
