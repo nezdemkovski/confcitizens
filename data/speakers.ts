@@ -7085,6 +7085,157 @@ const speakers: Speaker[] = [
       city: 'Paris',
     },
   },
+  {
+    objectID: 'munter',
+    fullName: 'Peter Brandt Müller',
+    email: 'munter@fumle.dk',
+    website: 'https://mntr.dk',
+    tags: [
+      'JavaScript',
+      'Continuous Integration',
+      'Tooling',
+      'HTML',
+      'CSS',
+      'AssetGraph',
+      'Testing',
+      'Web Performance',
+      'Web Fonts',
+    ],
+    social: {
+      github: 'munter',
+      twitter: '_munter_',
+      blog: 'https://mntr.dk',
+      linkedin: 'https://dk.linkedin.com/in/petermuller'
+    },
+    talks: [
+      {
+        title: 'High Performance Web Fonts',
+        description:
+          `Web fonts and web performance are diametrical opposites. Your time to meaningful paint suffers from inefficient loading. Web fonts are also empowering your designers to improve legibility and keep brand consistency. Choose one: Performance or design? I'm here to tell you how you can have both`,
+        eventName: 'CSS-Minsk-JS',
+        date: '2018-09-21',
+        videoUrl: null,
+        slidesUrl: 'https://slides.com/munter/high-performance-web-fonts-3-5',
+        location: {
+          continent: 'Europe',
+          country: 'Belarus',
+          city: 'Minsk',
+        },
+      },
+      {
+        title: 'High Performance Web Fonts',
+        description:
+          `Web fonts and web performance are diametrical opposites. Your time to meaningful paint suffers from inefficient loading. Web fonts are also empowering your designers to improve legibility and keep brand consistency. Choose one: Performance or design? I'm here to tell you how you can have both`,
+        eventName: 'ScotlandCCC 2018',
+        date: '2018-07-18',
+        videoUrl: 'https://www.youtube.com/watch?v=eEO77MiGOCc',
+        slidesUrl: 'https://slides.com/munter/high-performance-web-fonts-scotlandcss',
+        location: {
+          continent: 'Europe',
+          country: 'Scotland',
+          city: 'Edinburgh',
+        },
+      },
+      {
+        title: 'High Performance Web Fonts',
+        description:
+          `Web fonts and web performance are diametrical opposites. Web fonts slow down your time to meaningful paint because they have an inefficient loading behavior. Web fonts are also empowering your designers to improve legibility and keep brand consistency on your web pages. What do you choose: Performance or design?
+
+          What if I told you we could solve this problem? You can get fast loading web pages with full web font expressivity!
+
+          I will explain the web font loading issues and walk you through the required steps to make them performant, and how you can automate this process with new research and tools`,
+        eventName: 'Front-Trends 2018',
+        date: '2018-05-24',
+        videoUrl: null,
+        slidesUrl: 'https://slides.com/munter/high-performance-web-fonts-3/#/',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Warsaw',
+        },
+      },
+      {
+        title: 'Check your links with hyperlink',
+        description:
+          'You know that feeling where you have spent months hand-crafting an artisinal webpage only to discover that there are broken lionks on the page just after you launched it? I have a tool that can help you discover those mistakes',
+        eventName: 'JSUnconf 2018',
+        date: '2018-04-22',
+        videoUrl: 'https://www.youtube.com/watch?v=1AAp2fn7yCU',
+        slidesUrl: null,
+        location: {
+          continent: 'Europe',
+          country: 'Germany',
+          city: 'Hamburg',
+        },
+      },
+      {
+        title: 'Transpiling recomposed',
+        description: `Modern web developers have become heavily dependent on abstractions like jade, sass or ES6. These are powerful tools, but to themselves require new abstractions, wrappers and runners. The rate at which new tools, workflows and even languages are appearing is staggering. Each iteration adds more complexity and less interoperability.
+
+          So how do we expect newcomers to be able to enter our field when we can hardly keep up ourself?
+
+          This will be an exploration of our tool chains with a focus on transpilers. The mission: To identify moving parts, recompose and simplify for the good of the current and future generation of developers.`,
+        eventName: 'JSConf.eu 2015',
+        date: '2015-09-24',
+        videoUrl: 'https://www.youtube.com/watch?v=MptY6ff4tOQ',
+        slidesUrl: 'https://munter.github.io/talk-transpiling-recomposed/#/',
+        location: {
+          continent: 'Europe',
+          country: 'Germany',
+          city: 'Berlin',
+        },
+      },
+      {
+        title: 'Making development workflows simple',
+        description:
+          'In a world of ever-increasing complexity in compilers, build systems, tests and tools that all have to integrate with each other, it seems that developers have lost their intuition of what is simple. Getting into web development has never had a steeper learning curve and nobody seems to be addressing the fact that this might hurt our community in the long run by scaring newcomers.',
+        eventName: 'Front-Trends 2015',
+        date: '2015-05-08',
+        videoUrl: 'https://www.youtube.com/watch?v=yBtQBvOv1z8',
+        slidesUrl: null,
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Warsaw',
+        },
+      },
+      {
+        title: 'The no build system build system',
+        description: null,
+        eventName: 'EmpireJS 2014',
+        date: '2014-05-05',
+        videoUrl: 'https://www.youtube.com/watch?v=N_gRlmmF4Rc',
+        slidesUrl: 'https://munter.github.io/no-build-system/#/',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'New York',
+        },
+      },
+      {
+        title: 'One-color - Easy JS colors',
+        description:
+          'One-color.js is an immutable color object that gives you gettters, setters and adjustment methods for all channels in all the supported color spaces which currently are RGB, HSV, HSL and CMYK. Color space conversions are implicit',
+        eventName: 'CopenhagenJS, October 2011',
+        date: '2011-10-11',
+        videoUrl: 'https://vimeo.com/49026951',
+        slidesUrl: null,
+        location: {
+          continent: 'Europe',
+          country: 'Denmark',
+          city: 'Copenhagen',
+        },
+      },
+    ],
+    talkLanguages: ['English', 'Danish'],
+    availableForHire: null,
+    readyToTravelAtOwnExpense: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Denmark',
+      city: 'Copenhagen',
+    },
+  },
 ];
 
 export default speakers;
