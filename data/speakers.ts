@@ -85,7 +85,7 @@ const speakers: Speaker[] = [
   },
   {
     objectID: 'unicodeveloper',
-    fullName: 'Otemuyiwa Prosper',
+    fullName: 'Prosper Otemuyiwa',
     tags: [
       'JavaScript',
       'React',
@@ -103,7 +103,7 @@ const speakers: Speaker[] = [
       blog: null,
       linkedin: 'https://www.linkedin.com/in/prosperotemuyiwa/',
     },
-    talks: [],
+    talks: ['https://youtu.be/_uUaU84XNtQ','https://youtu.be/usPzBRsxo2s','https://youtu.be/j03sjWhfpZA','https://youtu.be/bo4BbGwZsWo','https://youtu.be/4kHPcDqTRfI'],
     talkLanguages: [],
     availableForHire: null,
     readyToTravelAtOwnExpense: null,
