@@ -7349,6 +7349,263 @@ const speakers: Speaker[] = [
       city: 'Copenhagen',
     },
   },
+  {
+    objectID: 'tomasz_ducin',
+    fullName: 'Tomasz Ducin',
+    tags: ['JavaScript', 'TypeScript', 'React', 'Angular', 'RxJS', 'Async', 'Architecture'],
+    email: 'tomasz@ducin.it',
+    website: 'http://ducin.it',
+    social: {
+      twitter: 'tomasz_ducin',
+      github: 'ducin',
+      blog: 'http://ducin.it/blog',
+      linkedin: 'https://www.linkedin.com/in/tomasz-ducin-82234a4b/',
+    },
+    talks: [
+      {
+        "title": "What if we don't have API",
+        "description": null,
+        "eventName": "WarsawJS #2",
+        "date": "2014-10-28",
+        "videoUrl": "https://www.youtube.com/watch?v=QJZtl6vZHvc",
+        "slidesUrl": "http://slides.com/ducin/what-if-we-don-t-have-api",
+        "location": {
+          "continent": "Europe",
+          "country": "Poland",
+          "city": "Warsaw"
+        }
+      },
+      {
+        "title": "Enterprise Interface Architecture: JSON Schema",
+        "description": null,
+        "eventName": "WarsawJS #10",
+        "date": "2015-06-17",
+        "videoUrl": "https://www.youtube.com/watch?v=TkqiUG3j_Xw",
+        "slidesUrl": "http://slides.com/ducin/json-schema",
+        "location": {
+          "continent": "Europe",
+          "country": "Poland",
+          "city": "Warsaw"
+        }
+      },
+      {
+        "title": "Enterprise Interface Architecture: Seeking Scalable Design",
+        "description": null,
+        "eventName": "WarsawJS #14",
+        "date": "2015-10-21",
+        "videoUrl": "https://www.youtube.com/watch?v=a6kIeFimgxA",
+        "slidesUrl": "http://slides.com/ducin/seeking-scalable-design",
+        "location": {
+          "continent": "Europe",
+          "country": "Poland",
+          "city": "Warsaw"
+        }
+      },
+      {
+        "title": "Enterprise Interface Architecture",
+        "description": null,
+        "eventName": "FullStack London",
+        "date": "2015-10-28",
+        "videoUrl": "https://skillsmatter.com/skillscasts/6780-enterprise-interface-architecture",
+        "slidesUrl": "http://slides.com/ducin/enterprise-interface-architecture",
+        "location": {
+          "continent": "Europe",
+          "country": "United Kingdom",
+          "city": "London"
+        }
+      },
+      {
+        "title": "Backend-less Development Revisited",
+        "description": null,
+        "eventName": "Geecon",
+        "date": "2016-05-13",
+        "videoUrl": "https://vimeo.com/170796171",
+        "slidesUrl": "http://slides.com/ducin/backend-less-development",
+        "location": {
+          "continent": "Europe",
+          "country": "Poland",
+          "city": "Kraków"
+        }
+      },
+      {
+        "title": "JavaScript + Java = TypeScript",
+        "description": null,
+        "eventName": "WarsawJS #22",
+        "date": "2016-06-08",
+        "videoUrl": "https://www.youtube.com/watch?v=jtdIHM24LwQ",
+        "slidesUrl": "http://slides.com/ducin/javascript-plus-java-equals-typescript",
+        "location": {
+          "continent": "Europe",
+          "country": "Poland",
+          "city": "Warsaw"
+        }
+      },
+      {
+        "title": "Backend-less Development Revisited",
+        "description": null,
+        "eventName": "FullStack London",
+        "date": "2016-07-15",
+        "videoUrl": "https://skillsmatter.com/skillscasts/8173-let-s-liberate-frontend-backend-less-development-revisited",
+        "slidesUrl": "http://slides.com/ducin/backend-less-development",
+        "location": {
+          "continent": "Europe",
+          "country": "United Kingdom",
+          "city": "London"
+        }
+      },
+      {
+        "title": "Backend-less Development Revisited",
+        "description": null,
+        "eventName": "DevDay",
+        "date": "2016-09-15",
+        "videoUrl": "https://www.youtube.com/watch?v=K8QLEJ8E-Ss",
+        "slidesUrl": "http://slides.com/ducin/backend-less-development",
+        "location": {
+          "continent": "Europe",
+          "country": "Poland",
+          "city": "Kraków"
+        }
+      },
+      {
+        "title": "JavaScript + Java = TypeScript",
+        "description": null,
+        "eventName": "WebExpo",
+        "date": "2016-09-23",
+        "videoUrl": "https://www.webexpo.net/prague2016/talk/javascript-java-typescript/",
+        "slidesUrl": "http://slides.com/ducin/javascript-plus-java-equals-typescript",
+        "location": {
+          "continent": "Europe",
+          "country": "Czech Republic",
+          "city": "Praha"
+        }
+      },
+      {
+        "title": "Backend-less Development Revisited",
+        "description": null,
+        "eventName": "JDD (Java Developer Day)",
+        "date": "2016-10-11",
+        "videoUrl": "https://www.youtube.com/watch?v=WxtcSjsGQaM",
+        "slidesUrl": "http://slides.com/ducin/backend-less-development",
+        "location": {
+          "continent": "Europe",
+          "country": "Poland",
+          "city": "Kraków"
+        }
+      },
+      {
+        "title": "ng-enterprise",
+        "description": null,
+        "eventName": "NG Poland",
+        "date": "2016-11-22",
+        "videoUrl": "https://www.youtube.com/watch?v=n_llOL3QMgQ",
+        "slidesUrl": "http://slides.com/ducin/ng-enterprise",
+        "location": {
+          "continent": "Europe",
+          "country": "Poland",
+          "city": "Warsaw"
+        }
+      },
+      {
+        "title": "5 architectures of asynchronous JavaScript",
+        "description": null,
+        "eventName": "4Developers",
+        "date": "2017-04-03",
+        "videoUrl": "https://www.youtube.com/watch?v=1_p7nWMNczU",
+        "slidesUrl": "http://slides.com/ducin/5-architectures-of-asynchronous-javascript",
+        "location": {
+          "continent": "Europe",
+          "country": "Poland",
+          "city": "Warsaw"
+        }
+      },
+      {
+        "title": "Async Functions Awaiting You",
+        "description": null,
+        "eventName": "JS-Poland",
+        "date": "2017-06-19",
+        "videoUrl": "https://www.youtube.com/watch?v=IYikhsDVvic",
+        "slidesUrl": "http://slides.com/ducin/async-functions-awaiting-you",
+        "location": {
+          "continent": "Europe",
+          "country": "Poland",
+          "city": "Warsaw"
+        }
+      },
+      {
+        "title": "5 architectures of Asynchronous JavaScript",
+        "description": null,
+        "eventName": "DevoxxPL",
+        "date": "2017-06-22",
+        "videoUrl": "https://www.youtube.com/watch?v=9hgic_ccxgs",
+        "slidesUrl": "http://slides.com/ducin/5-architectures-of-asynchronous-javascript",
+        "location": {
+          "continent": "Europe",
+          "country": "Poland",
+          "city": "Kraków"
+        }
+      },
+      {
+        "title": "5 architectures of Asynchronous JavaScript",
+        "description": null,
+        "eventName": "FullStack London",
+        "date": "2017-07-13",
+        "videoUrl": "https://skillsmatter.com/skillscasts/10371-5-architectures-of-asynchronous-javascript",
+        "slidesUrl": "http://slides.com/ducin/5-architectures-of-asynchronous-javascript",
+        "location": {
+          "continent": "Europe",
+          "country": "United Kingdom",
+          "city": "London"
+        }
+      },
+      {
+        "title": "5 architectures of Asynchronous JavaScript",
+        "description": null,
+        "eventName": "Nordic.js",
+        "date": "2017-09-07",
+        "videoUrl": "https://www.youtube.com/watch?v=YXo4YOLDK1k",
+        "slidesUrl": "http://slides.com/ducin/5-architectures-of-asynchronous-javascript",
+        "location": {
+          "continent": "Europe",
+          "country": "Sweden",
+          "city": "Stockholm"
+        }
+      },
+      {
+        "title": "5 architectures of Asynchronous JavaScript (1/2)",
+        "description": null,
+        "eventName": "WarsawJS #38",
+        "date": "2017-10-11",
+        "videoUrl": "https://www.youtube.com/watch?v=mc0ZxuDTjVY",
+        "slidesUrl": "http://slides.com/ducin/5-architectures-of-asynchronous-javascript",
+        "location": {
+          "continent": "Europe",
+          "country": "Poland",
+          "city": "Warsaw"
+        }
+      },
+      {
+        "title": "RxJS: Everything is a Stream",
+        "description": null,
+        "eventName": "4developers",
+        "date": "2018-04-09",
+        "videoUrl": "https://www.youtube.com/watch?v=IB5yxGGVEGk",
+        "slidesUrl": "https://slides.com/ducin/everything-is-a-stream",
+        "location": {
+          "continent": "Europe",
+          "country": "Poland",
+          "city": "Warsaw"
+        }
+      }
+    ],
+    talkLanguages: ['English', 'Polish'],
+    availableForHire: null,
+    readyToTravelAtOwnExpense: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Poland',
+      city: 'Warsaw',
+    },
+  },
 ];
 
 export default speakers;
