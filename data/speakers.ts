@@ -1779,7 +1779,7 @@ const speakers: Speaker[] = [
         },
       },
       {
-        title: null,
+        title: 'We need to talk about Preact',
         description: null,
         eventName: 'Frontend United',
         date: '2018-05-31',
@@ -1802,19 +1802,6 @@ const speakers: Speaker[] = [
           continent: 'Europe',
           country: 'Finland',
           city: 'Helsinki',
-        },
-      },
-      {
-        title: null,
-        description: null,
-        eventName: 'JSHeroes',
-        date: '2018-04-18',
-        videoUrl: null,
-        slidesUrl: null,
-        location: {
-          continent: 'Europe',
-          country: 'Romania',
-          city: 'Cluj-Napoca',
         },
       },
       {
