@@ -8,5 +8,9 @@
       "use": "@now/next",
       "config": { "newPipeline": true }
     }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/index" },
+    { "src": "/(.*)", "dest": "/detail?username=$1" }
   ]
 }
