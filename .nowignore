@@ -3,3 +3,4 @@ LICENSE
 .next
 build
 content
+node_modules

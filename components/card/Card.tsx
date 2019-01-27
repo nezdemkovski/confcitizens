@@ -86,13 +86,15 @@ const Card = ({ hit }: Props) => (
     />
 
     <Content>
-      {hit.talks.length ? (
+      {/* {hit.talks.length ? (
         <Link as={`/${hit.objectID}`} href={`/detail?username=${hit.objectID}`}>
           {generateTitle(hit)}
         </Link>
       ) : (
         generateTitle(hit)
-      )}
+      )} */}
+
+      {generateTitle(hit)}
 
       <div>
         {hit.tags.map((tag, id) => (
