@@ -59,6 +59,24 @@ const speakers: Speaker[] = [
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
+    objectID: 'opesanyaadebayo',
+    fullName: 'Adebayo Opesanya',
+    tags: ['JavaScript', 'Node.js', 'TypeScript', 'Testing'],
+    email: 'bayoopesanya@gmail.com',
+    website: null,
+    social: {
+      twitter: 'onejsninja',
+      github: 'OpesanyaAdebayo',
+      blog: null,
+      linkedin: 'https://www.linkedin.com/in/adebayo-opesanya-16166bb0/',
+    },
+    talks: [],
+    talkLanguages: [],
+    availableForHire: null,
+    readyToTravelAtOwnExpense: null,
+    currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
+  },
+  {
     objectID: 'ireaderinokun',
     fullName: 'Ire Aderinokun',
     tags: [
