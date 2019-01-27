@@ -21,7 +21,7 @@ export interface Speaker {
   }>;
   talkLanguages: string[];
   availableForHire: boolean;
-  readyToTravelAtOwnExpense: boolean,
+  readyToTravelAtOwnExpense: boolean;
   currentLocation: Location;
 }
 
@@ -67,7 +67,7 @@ const speakers: Speaker[] = [
       'CSS',
       'Javascript',
       'Standards',
-      'Accessibility'
+      'Accessibility',
     ],
     email: null,
     website: 'https://ireaderinokun.com',
@@ -453,7 +453,17 @@ const speakers: Speaker[] = [
   {
     objectID: 'amdsouza92',
     fullName: 'Arun Michael Dsouza',
-    tags: ['JavaScript', 'Modern Browser APIs', 'Web Performance', 'React', 'Webpack', 'ES6', 'Tooling', 'CSS', 'Open Source'],
+    tags: [
+      'JavaScript',
+      'Modern Browser APIs',
+      'Web Performance',
+      'React',
+      'Webpack',
+      'ES6',
+      'Tooling',
+      'CSS',
+      'Open Source',
+    ],
     email: 'amdsouza92@gmail.com',
     website: 'https://arunmichaeldsouza.com/',
     social: {
@@ -469,7 +479,8 @@ const speakers: Speaker[] = [
         eventName: 'JSConf Iceland 2018',
         date: '2018-03-02',
         videoUrl: 'https://www.youtube.com/watch?v=BalUlHBwwlM',
-        slidesUrl: 'https://speakerdeck.com/arunmichaeldsouza/houdini-what-lies-ahead-jsconf-iceland-2018',
+        slidesUrl:
+          'https://speakerdeck.com/arunmichaeldsouza/houdini-what-lies-ahead-jsconf-iceland-2018',
         location: {
           continent: 'Europe',
           country: 'Iceland',
@@ -482,13 +493,14 @@ const speakers: Speaker[] = [
         eventName: 'JSConf Belgium 2017',
         date: '2017-06-29',
         videoUrl: 'https://www.youtube.com/watch?v=umqy8Fu3j0Q',
-        slidesUrl: 'https://speakerdeck.com/arunmichaeldsouza/the-era-of-module-bundlers-jsconf-belgium-2017',
+        slidesUrl:
+          'https://speakerdeck.com/arunmichaeldsouza/the-era-of-module-bundlers-jsconf-belgium-2017',
         location: {
           continent: 'Europe',
           country: 'Belgium',
           city: 'Brugge',
         },
-      }
+      },
     ],
     talkLanguages: ['English'],
     availableForHire: null,
@@ -1282,12 +1294,7 @@ const speakers: Speaker[] = [
   {
     objectID: 'svensauleau',
     fullName: 'Sven Sauleau',
-    tags: [
-      'JavaScript',
-      'WebAssembly',
-      'compilers',
-      'Computer Science',
-    ],
+    tags: ['JavaScript', 'WebAssembly', 'compilers', 'Computer Science'],
     email: 'sven@sauleau.com',
     website: 'https://sauleau.com/',
     social: {
@@ -3070,11 +3077,14 @@ const speakers: Speaker[] = [
       },
       {
         title: 'Inclusive Design. You+Me+Everyone',
-        description: "The talk's focus is on accessibility on the web, why it’s important and tips to help your design become more inclusive.",
-        eventName: 'Google World Usability Day - Lagos (Nigeria) & Nairobi (Kenya)',
+        description:
+          "The talk's focus is on accessibility on the web, why it’s important and tips to help your design become more inclusive.",
+        eventName:
+          'Google World Usability Day - Lagos (Nigeria) & Nairobi (Kenya)',
         date: '2017-11-27',
         videoUrl: null,
-        slidesUrl: 'https://speakerdeck.com/udezekene/inclusive-design-you-plus-me-plus-everyone',
+        slidesUrl:
+          'https://speakerdeck.com/udezekene/inclusive-design-you-plus-me-plus-everyone',
         location: {
           continent: 'Africa',
           country: 'Nigeria',
@@ -7086,6 +7096,89 @@ const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 'ryanchenkie',
+    fullName: 'Ryan Chenkie',
+    tags: [
+      'JavaScript',
+      'React',
+      'Vue',
+      'Angular',
+      'GraphQL',
+      'Authentication',
+      'Security',
+    ],
+    email: 'ryan@elevatedigital.io',
+    website: 'https://ryanchenkie.com',
+    social: {
+      twitter: 'ryanchenkie',
+      github: 'chenkie',
+      blog: 'https://ryanchenkie.com',
+      linkedin: 'https://www.linkedin.com/in/ryan-chenkie-a6665890',
+    },
+    talks: [
+      {
+        title: 'Supercharge Your Schemas with Custom Directives',
+        description: null,
+        eventName: 'GraphQL Summit 2018',
+        date: '2018-11-08',
+        videoUrl: 'https://youtu.be/Gc8bSXX7oyU',
+        slidesUrl: 'http://bit.ly/schema-directives',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'San Francisco',
+        },
+      },
+      {
+        title: 'Optimizing GraphQL Applications',
+        description: null,
+        eventName: 'ReactiveConf 2018',
+        date: '2018-10-29',
+        videoUrl: 'https://youtu.be/BwxIBV792r0',
+        slidesUrl: null,
+        location: {
+          continent: 'Europe',
+          country: 'Czech Republic',
+          city: 'Prague',
+        },
+      },
+      {
+        title: 'Use the Custom Operator Force; Become an RxJS Jedi',
+        description: null,
+        eventName: 'ng-conf 2018',
+        date: '2018-04-19',
+        videoUrl: 'https://youtu.be/UaTLlcS9klU',
+        slidesUrl: 'http://bit.ly/custom-operators',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'Salt Lake City',
+        },
+      },
+      {
+        title: 'Handling Authentication and Authorization in GraphQL',
+        description: null,
+        eventName: 'GraphQL Summit 2017',
+        date: '2017-10-26',
+        videoUrl: 'https://youtu.be/4_Bcw7BULC8',
+        slidesUrl: 'bit.ly/graphql-auth',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'San Francisco',
+        },
+      },
+    ],
+    talkLanguages: ['English'],
+    availableForHire: null,
+    readyToTravelAtOwnExpense: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'Canada',
+      city: 'Ottawa',
+    },
+  },
+  {
     objectID: 'munter',
     fullName: 'Peter Brandt Müller',
     email: 'munter@fumle.dk',
@@ -7105,13 +7198,12 @@ const speakers: Speaker[] = [
       github: 'munter',
       twitter: '_munter_',
       blog: 'https://mntr.dk',
-      linkedin: 'https://dk.linkedin.com/in/petermuller'
+      linkedin: 'https://www.linkedin.com/in/petermuller/',
     },
     talks: [
       {
         title: 'High Performance Web Fonts',
-        description:
-          `Web fonts and web performance are diametrical opposites. Your time to meaningful paint suffers from inefficient loading. Web fonts are also empowering your designers to improve legibility and keep brand consistency. Choose one: Performance or design? I'm here to tell you how you can have both`,
+        description: `Web fonts and web performance are diametrical opposites. Your time to meaningful paint suffers from inefficient loading. Web fonts are also empowering your designers to improve legibility and keep brand consistency. Choose one: Performance or design? I'm here to tell you how you can have both`,
         eventName: 'CSS-Minsk-JS',
         date: '2018-09-21',
         videoUrl: null,
@@ -7124,12 +7216,12 @@ const speakers: Speaker[] = [
       },
       {
         title: 'High Performance Web Fonts',
-        description:
-          `Web fonts and web performance are diametrical opposites. Your time to meaningful paint suffers from inefficient loading. Web fonts are also empowering your designers to improve legibility and keep brand consistency. Choose one: Performance or design? I'm here to tell you how you can have both`,
+        description: `Web fonts and web performance are diametrical opposites. Your time to meaningful paint suffers from inefficient loading. Web fonts are also empowering your designers to improve legibility and keep brand consistency. Choose one: Performance or design? I'm here to tell you how you can have both`,
         eventName: 'ScotlandCCC 2018',
         date: '2018-07-18',
         videoUrl: 'https://www.youtube.com/watch?v=eEO77MiGOCc',
-        slidesUrl: 'https://slides.com/munter/high-performance-web-fonts-scotlandcss',
+        slidesUrl:
+          'https://slides.com/munter/high-performance-web-fonts-scotlandcss',
         location: {
           continent: 'Europe',
           country: 'Scotland',
@@ -7138,8 +7230,7 @@ const speakers: Speaker[] = [
       },
       {
         title: 'High Performance Web Fonts',
-        description:
-          `Web fonts and web performance are diametrical opposites. Web fonts slow down your time to meaningful paint because they have an inefficient loading behavior. Web fonts are also empowering your designers to improve legibility and keep brand consistency on your web pages. What do you choose: Performance or design?
+        description: `Web fonts and web performance are diametrical opposites. Web fonts slow down your time to meaningful paint because they have an inefficient loading behavior. Web fonts are also empowering your designers to improve legibility and keep brand consistency on your web pages. What do you choose: Performance or design?
 
           What if I told you we could solve this problem? You can get fast loading web pages with full web font expressivity!
 
