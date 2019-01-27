@@ -21,7 +21,7 @@ export interface Speaker {
   }>;
   talkLanguages: string[];
   availableForHire: boolean;
-  readyToTravelAtOwnExpense: boolean,
+  readyToTravelAtOwnExpense: boolean;
   currentLocation: Location;
 }
 
@@ -67,7 +67,7 @@ const speakers: Speaker[] = [
       'CSS',
       'Javascript',
       'Standards',
-      'Accessibility'
+      'Accessibility',
     ],
     email: null,
     website: 'https://ireaderinokun.com',
@@ -103,11 +103,100 @@ const speakers: Speaker[] = [
       blog: null,
       linkedin: 'https://www.linkedin.com/in/prosperotemuyiwa/',
     },
-    talks: ['https://youtu.be/_uUaU84XNtQ','https://youtu.be/usPzBRsxo2s','https://youtu.be/j03sjWhfpZA','https://youtu.be/bo4BbGwZsWo','https://youtu.be/4kHPcDqTRfI'],
-    talkLanguages: [],
+    talks: [
+      {
+        title: 'Authentication and Authorization in Next.js',
+        description: null,
+        eventName: 'ZEIT Day',
+        date: '2018-04-28',
+        videoUrl: 'https://www.youtube.com/watch?v=bo4BbGwZsWo',
+        slidesUrl:
+          'https://speakerdeck.com/unicodeveloper/authentication-and-authorization-in-next-dot-js',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'San Francisco',
+        },
+      },
+      {
+        title: 'Webpack 4: Lighting The Fire',
+        description: `Elon's Falcon Heavy Rocket had side boosters that launched it powerfully into space and returned back to Earth. Webpack is a build booster that can skyrocket your app's performance if understood and harnessed properly. With Webpack 4, your app will be on a Falcon Heavy rollercoaster. I'll share the state of the union with Webpack 4 and how you can leverage its simplicity and power in your apps!`,
+        eventName: 'CodeFest',
+        date: '2018-04-01',
+        videoUrl: 'https://www.youtube.com/watch?v=usPzBRsxo2s',
+        slidesUrl:
+          'https://speakerdeck.com/codefest/codefest-2018-prosper-otemuyiwa-unicode-labs-llc-webpack-4-lighting-the-fire',
+        location: {
+          continent: 'Europe',
+          country: 'Russia',
+          city: 'Moscow',
+        },
+      },
+      {
+        title: 'Making Rich Media Smarter',
+        description: `The web's ubiquity is making it possible to distribute engaging media experiences to users around the world.  In this talk, Prosper will show the audience how to leverage different techniques to serve images and videos with optimal performance with Angular.`,
+        eventName: 'AngularNYC',
+        date: '2017-10-31',
+        videoUrl: 'https://www.youtube.com/watch?v=4kHPcDqTRfI',
+        slidesUrl:
+          'https://speakerdeck.com/unicodeveloper/making-rich-media-smarter',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'New York',
+        },
+      },
+      {
+        title: 'Building Modern Media Experiences in React Apps',
+        description: null,
+        eventName: 'ReactNYC',
+        date: '2017-10-30',
+        videoUrl: 'https://www.youtube.com/watch?v=_uUaU84XNtQ',
+        slidesUrl:
+          'https://speakerdeck.com/unicodeveloper/building-a-modern-media-experience-in-react-apps',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'New York',
+        },
+      },
+      {
+        title: 'Progressive Web Apps For CakePHP Developers',
+        description: null,
+        eventName: 'CakeFest 2017',
+        date: '2017-06-10',
+        videoUrl: 'https://www.youtube.com/watch?v=j03sjWhfpZA',
+        slidesUrl:
+          'https://speakerdeck.com/unicodeveloper/progressive-web-apps-for-cakephp-developers-1',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'New York',
+        },
+      },
+    ],
+    talkLanguages: ['English'],
     availableForHire: null,
     readyToTravelAtOwnExpense: null,
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
+  },
+  {
+    objectID: 'olivierjm',
+    fullName: 'Olivier JM Maniraho',
+    tags: ['JavaScript', 'React', 'Functional Programming'],
+    email: 'manolivier93@gmail.com',
+    website: null,
+    social: {
+      twitter: 'olivierjmm',
+      github: 'olivierjm',
+      blog: 'https://medium.com/@olivierjm',
+      linkedin: 'https://www.linkedin.com/in/olivierjm/',
+    },
+    talks: [],
+    talkLanguages: [],
+    availableForHire: true,
+    readyToTravelAtOwnExpense: null,
+    currentLocation: { continent: 'Africa', country: 'Zambia', city: 'Lusaka' },
   },
   {
     objectID: 'riggaroo',
@@ -453,7 +542,17 @@ const speakers: Speaker[] = [
   {
     objectID: 'amdsouza92',
     fullName: 'Arun Michael Dsouza',
-    tags: ['JavaScript', 'Modern Browser APIs', 'Web Performance', 'React', 'Webpack', 'ES6', 'Tooling', 'CSS', 'Open Source'],
+    tags: [
+      'JavaScript',
+      'Modern Browser APIs',
+      'Web Performance',
+      'React',
+      'Webpack',
+      'ES6',
+      'Tooling',
+      'CSS',
+      'Open Source',
+    ],
     email: 'amdsouza92@gmail.com',
     website: 'https://arunmichaeldsouza.com/',
     social: {
@@ -469,7 +568,8 @@ const speakers: Speaker[] = [
         eventName: 'JSConf Iceland 2018',
         date: '2018-03-02',
         videoUrl: 'https://www.youtube.com/watch?v=BalUlHBwwlM',
-        slidesUrl: 'https://speakerdeck.com/arunmichaeldsouza/houdini-what-lies-ahead-jsconf-iceland-2018',
+        slidesUrl:
+          'https://speakerdeck.com/arunmichaeldsouza/houdini-what-lies-ahead-jsconf-iceland-2018',
         location: {
           continent: 'Europe',
           country: 'Iceland',
@@ -482,13 +582,14 @@ const speakers: Speaker[] = [
         eventName: 'JSConf Belgium 2017',
         date: '2017-06-29',
         videoUrl: 'https://www.youtube.com/watch?v=umqy8Fu3j0Q',
-        slidesUrl: 'https://speakerdeck.com/arunmichaeldsouza/the-era-of-module-bundlers-jsconf-belgium-2017',
+        slidesUrl:
+          'https://speakerdeck.com/arunmichaeldsouza/the-era-of-module-bundlers-jsconf-belgium-2017',
         location: {
           continent: 'Europe',
           country: 'Belgium',
           city: 'Brugge',
         },
-      }
+      },
     ],
     talkLanguages: ['English'],
     availableForHire: null,
@@ -656,8 +757,8 @@ const speakers: Speaker[] = [
   {
     objectID: 'philnash',
     fullName: 'Phil Nash',
-    tags: ['JavaScript', 'Web Development', 'Progressive Web Apps'],
-    email: null,
+    tags: ['JavaScript', 'Web Development', 'Progressive Web Apps', 'Ruby'],
+    email: 'philnash@twilio.com',
     website: 'https://philna.sh/',
     social: {
       twitter: 'philnash',
@@ -666,9 +767,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/philnash/',
     },
     talks: [],
-    talkLanguages: [],
+    talkLanguages: ['English'],
     availableForHire: null,
-    readyToTravelAtOwnExpense: null,
+    readyToTravelAtOwnExpense: true,
     currentLocation: {
       continent: 'Oceania',
       country: 'Australia',
@@ -1282,12 +1383,7 @@ const speakers: Speaker[] = [
   {
     objectID: 'svensauleau',
     fullName: 'Sven Sauleau',
-    tags: [
-      'JavaScript',
-      'WebAssembly',
-      'compilers',
-      'Computer Science',
-    ],
+    tags: ['JavaScript', 'WebAssembly', 'compilers', 'Computer Science'],
     email: 'sven@sauleau.com',
     website: 'https://sauleau.com/',
     social: {
@@ -3070,11 +3166,14 @@ const speakers: Speaker[] = [
       },
       {
         title: 'Inclusive Design. You+Me+Everyone',
-        description: "The talk's focus is on accessibility on the web, why it’s important and tips to help your design become more inclusive.",
-        eventName: 'Google World Usability Day - Lagos (Nigeria) & Nairobi (Kenya)',
+        description:
+          "The talk's focus is on accessibility on the web, why it’s important and tips to help your design become more inclusive.",
+        eventName:
+          'Google World Usability Day - Lagos (Nigeria) & Nairobi (Kenya)',
         date: '2017-11-27',
         videoUrl: null,
-        slidesUrl: 'https://speakerdeck.com/udezekene/inclusive-design-you-plus-me-plus-everyone',
+        slidesUrl:
+          'https://speakerdeck.com/udezekene/inclusive-design-you-plus-me-plus-everyone',
         location: {
           continent: 'Africa',
           country: 'Nigeria',
@@ -5885,18 +5984,18 @@ const speakers: Speaker[] = [
     objectID: 'kentcdodds',
     fullName: 'Kent C. Dodds',
     tags: ['OSS', 'React', 'Testing'],
-    email: null,
-    website: null,
+    email: 'kent+confcitizens@doddsfamily.us',
+    website: 'https://kentcdodds.com',
     social: {
       twitter: 'kentcdodds',
-      github: null,
-      blog: null,
-      linkedin: null,
+      github: 'kentcdodds',
+      blog: 'https://blog.kentcdodds.com',
+      linkedin: 'https://www.linkedin.com/in/kentcdodds',
     },
     talks: [],
-    talkLanguages: [],
-    availableForHire: null,
-    readyToTravelAtOwnExpense: null,
+    talkLanguages: ['English'],
+    availableForHire: false,
+    readyToTravelAtOwnExpense: false,
     currentLocation: {
       continent: 'North America',
       country: 'United States',
@@ -7083,6 +7182,238 @@ const speakers: Speaker[] = [
       continent: 'Europe',
       country: 'France',
       city: 'Paris',
+    },
+  },
+  {
+    objectID: 'ryanchenkie',
+    fullName: 'Ryan Chenkie',
+    tags: [
+      'JavaScript',
+      'React',
+      'Vue',
+      'Angular',
+      'GraphQL',
+      'Authentication',
+      'Security',
+    ],
+    email: 'ryan@elevatedigital.io',
+    website: 'https://ryanchenkie.com',
+    social: {
+      twitter: 'ryanchenkie',
+      github: 'chenkie',
+      blog: 'https://ryanchenkie.com',
+      linkedin: 'https://www.linkedin.com/in/ryan-chenkie-a6665890',
+    },
+    talks: [
+      {
+        title: 'Supercharge Your Schemas with Custom Directives',
+        description: null,
+        eventName: 'GraphQL Summit 2018',
+        date: '2018-11-08',
+        videoUrl: 'https://youtu.be/Gc8bSXX7oyU',
+        slidesUrl: 'http://bit.ly/schema-directives',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'San Francisco',
+        },
+      },
+      {
+        title: 'Optimizing GraphQL Applications',
+        description: null,
+        eventName: 'ReactiveConf 2018',
+        date: '2018-10-29',
+        videoUrl: 'https://youtu.be/BwxIBV792r0',
+        slidesUrl: null,
+        location: {
+          continent: 'Europe',
+          country: 'Czech Republic',
+          city: 'Prague',
+        },
+      },
+      {
+        title: 'Use the Custom Operator Force; Become an RxJS Jedi',
+        description: null,
+        eventName: 'ng-conf 2018',
+        date: '2018-04-19',
+        videoUrl: 'https://youtu.be/UaTLlcS9klU',
+        slidesUrl: 'http://bit.ly/custom-operators',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'Salt Lake City',
+        },
+      },
+      {
+        title: 'Handling Authentication and Authorization in GraphQL',
+        description: null,
+        eventName: 'GraphQL Summit 2017',
+        date: '2017-10-26',
+        videoUrl: 'https://youtu.be/4_Bcw7BULC8',
+        slidesUrl: 'bit.ly/graphql-auth',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'San Francisco',
+        },
+      },
+    ],
+    talkLanguages: ['English'],
+    availableForHire: null,
+    readyToTravelAtOwnExpense: null,
+    currentLocation: {
+      continent: 'North America',
+      country: 'Canada',
+      city: 'Ottawa',
+    },
+  },
+  {
+    objectID: 'munter',
+    fullName: 'Peter Brandt Müller',
+    email: 'munter@fumle.dk',
+    website: 'https://mntr.dk',
+    tags: [
+      'JavaScript',
+      'Continuous Integration',
+      'Tooling',
+      'HTML',
+      'CSS',
+      'AssetGraph',
+      'Testing',
+      'Web Performance',
+      'Web Fonts',
+    ],
+    social: {
+      github: 'munter',
+      twitter: '_munter_',
+      blog: 'https://mntr.dk',
+      linkedin: 'https://www.linkedin.com/in/petermuller/',
+    },
+    talks: [
+      {
+        title: 'High Performance Web Fonts',
+        description: `Web fonts and web performance are diametrical opposites. Your time to meaningful paint suffers from inefficient loading. Web fonts are also empowering your designers to improve legibility and keep brand consistency. Choose one: Performance or design? I'm here to tell you how you can have both`,
+        eventName: 'CSS-Minsk-JS',
+        date: '2018-09-21',
+        videoUrl: null,
+        slidesUrl: 'https://slides.com/munter/high-performance-web-fonts-3-5',
+        location: {
+          continent: 'Europe',
+          country: 'Belarus',
+          city: 'Minsk',
+        },
+      },
+      {
+        title: 'High Performance Web Fonts',
+        description: `Web fonts and web performance are diametrical opposites. Your time to meaningful paint suffers from inefficient loading. Web fonts are also empowering your designers to improve legibility and keep brand consistency. Choose one: Performance or design? I'm here to tell you how you can have both`,
+        eventName: 'ScotlandCCC 2018',
+        date: '2018-07-18',
+        videoUrl: 'https://www.youtube.com/watch?v=eEO77MiGOCc',
+        slidesUrl:
+          'https://slides.com/munter/high-performance-web-fonts-scotlandcss',
+        location: {
+          continent: 'Europe',
+          country: 'Scotland',
+          city: 'Edinburgh',
+        },
+      },
+      {
+        title: 'High Performance Web Fonts',
+        description: `Web fonts and web performance are diametrical opposites. Web fonts slow down your time to meaningful paint because they have an inefficient loading behavior. Web fonts are also empowering your designers to improve legibility and keep brand consistency on your web pages. What do you choose: Performance or design?
+
+          What if I told you we could solve this problem? You can get fast loading web pages with full web font expressivity!
+
+          I will explain the web font loading issues and walk you through the required steps to make them performant, and how you can automate this process with new research and tools`,
+        eventName: 'Front-Trends 2018',
+        date: '2018-05-24',
+        videoUrl: null,
+        slidesUrl: 'https://slides.com/munter/high-performance-web-fonts-3/#/',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Warsaw',
+        },
+      },
+      {
+        title: 'Check your links with hyperlink',
+        description:
+          'You know that feeling where you have spent months hand-crafting an artisinal webpage only to discover that there are broken lionks on the page just after you launched it? I have a tool that can help you discover those mistakes',
+        eventName: 'JSUnconf 2018',
+        date: '2018-04-22',
+        videoUrl: 'https://www.youtube.com/watch?v=1AAp2fn7yCU',
+        slidesUrl: null,
+        location: {
+          continent: 'Europe',
+          country: 'Germany',
+          city: 'Hamburg',
+        },
+      },
+      {
+        title: 'Transpiling recomposed',
+        description: `Modern web developers have become heavily dependent on abstractions like jade, sass or ES6. These are powerful tools, but to themselves require new abstractions, wrappers and runners. The rate at which new tools, workflows and even languages are appearing is staggering. Each iteration adds more complexity and less interoperability.
+
+          So how do we expect newcomers to be able to enter our field when we can hardly keep up ourself?
+
+          This will be an exploration of our tool chains with a focus on transpilers. The mission: To identify moving parts, recompose and simplify for the good of the current and future generation of developers.`,
+        eventName: 'JSConf.eu 2015',
+        date: '2015-09-24',
+        videoUrl: 'https://www.youtube.com/watch?v=MptY6ff4tOQ',
+        slidesUrl: 'https://munter.github.io/talk-transpiling-recomposed/#/',
+        location: {
+          continent: 'Europe',
+          country: 'Germany',
+          city: 'Berlin',
+        },
+      },
+      {
+        title: 'Making development workflows simple',
+        description:
+          'In a world of ever-increasing complexity in compilers, build systems, tests and tools that all have to integrate with each other, it seems that developers have lost their intuition of what is simple. Getting into web development has never had a steeper learning curve and nobody seems to be addressing the fact that this might hurt our community in the long run by scaring newcomers.',
+        eventName: 'Front-Trends 2015',
+        date: '2015-05-08',
+        videoUrl: 'https://www.youtube.com/watch?v=yBtQBvOv1z8',
+        slidesUrl: null,
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Warsaw',
+        },
+      },
+      {
+        title: 'The no build system build system',
+        description: null,
+        eventName: 'EmpireJS 2014',
+        date: '2014-05-05',
+        videoUrl: 'https://www.youtube.com/watch?v=N_gRlmmF4Rc',
+        slidesUrl: 'https://munter.github.io/no-build-system/#/',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'New York',
+        },
+      },
+      {
+        title: 'One-color - Easy JS colors',
+        description:
+          'One-color.js is an immutable color object that gives you gettters, setters and adjustment methods for all channels in all the supported color spaces which currently are RGB, HSV, HSL and CMYK. Color space conversions are implicit',
+        eventName: 'CopenhagenJS, October 2011',
+        date: '2011-10-11',
+        videoUrl: 'https://vimeo.com/49026951',
+        slidesUrl: null,
+        location: {
+          continent: 'Europe',
+          country: 'Denmark',
+          city: 'Copenhagen',
+        },
+      },
+    ],
+    talkLanguages: ['English', 'Danish'],
+    availableForHire: null,
+    readyToTravelAtOwnExpense: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Denmark',
+      city: 'Copenhagen',
     },
   },
 ];
