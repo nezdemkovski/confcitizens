@@ -656,8 +656,8 @@ const speakers: Speaker[] = [
   {
     objectID: 'philnash',
     fullName: 'Phil Nash',
-    tags: ['JavaScript', 'Web Development', 'Progressive Web Apps'],
-    email: null,
+    tags: ['JavaScript', 'Web Development', 'Progressive Web Apps', 'Ruby'],
+    email: 'philnash@twilio.com',
     website: 'https://philna.sh/',
     social: {
       twitter: 'philnash',
@@ -666,9 +666,9 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/philnash/',
     },
     talks: [],
-    talkLanguages: [],
+    talkLanguages: ['English'],
     availableForHire: null,
-    readyToTravelAtOwnExpense: null,
+    readyToTravelAtOwnExpense: true,
     currentLocation: {
       continent: 'Oceania',
       country: 'Australia',
