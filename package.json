@@ -21,7 +21,7 @@
     "express": "^4.16.4",
     "lodash.debounce": "^4.0.8",
     "lodash.orderby": "^4.6.0",
-    "next": "^8.0.0-canary.15",
+    "next": "^8.0.0-canary.17",
     "pluralize": "^7.0.0",
     "react": "^16.8.0-alpha.1",
     "react-dom": "^16.8.0-alpha.1",

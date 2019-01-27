@@ -1,6 +1,6 @@
 import { Tooltip } from 'antd';
 import Link from 'next/link';
-import React, { Fragment } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 import { countries } from '../../data/countries';
