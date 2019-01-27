@@ -112,11 +112,7 @@ const speakers: Speaker[] = [
   {
     objectID: 'olivierjm',
     fullName: 'Olivier JM Maniraho',
-    tags: [
-      'JavaScript',
-      'React',
-      'Functional Programming',
-    ],
+    tags: ['JavaScript', 'React', 'Functional Programming'],
     email: 'manolivier93@gmail.com',
     website: null,
     social: {
@@ -536,8 +532,8 @@ const speakers: Speaker[] = [
   {
     objectID: 'sarasoueidan',
     fullName: 'Sara Soueidan',
-    tags: ['Animations', 'CSS', 'SVG'],
-    email: null,
+    tags: ['CSS', 'SVG', 'UI', 'Accessibility'],
+    email: 'soueidan.sara@gmail.com',
     website: 'https://www.sarasoueidan.com/',
     social: {
       twitter: 'sarasoueidan',
@@ -547,8 +543,8 @@ const speakers: Speaker[] = [
     },
     talks: [],
     talkLanguages: [],
-    availableForHire: null,
-    readyToTravelAtOwnExpense: null,
+    availableForHire: true,
+    readyToTravelAtOwnExpense: false,
     currentLocation: {
       continent: 'Asia',
       country: 'Lebanon',
