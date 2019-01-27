@@ -110,6 +110,28 @@ const speakers: Speaker[] = [
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
+    objectID: 'olivierjm',
+    fullName: 'Olivier JM Maniraho',
+    tags: [
+      'JavaScript',
+      'React',
+      'Functional Programming',
+    ],
+    email: 'manolivier93@gmail.com',
+    website: null,
+    social: {
+      twitter: 'olivierjmm',
+      github: 'olivierjm',
+      blog: 'https://medium.com/@olivierjm',
+      linkedin: 'https://www.linkedin.com/in/olivierjm/',
+    },
+    talks: [],
+    talkLanguages: [],
+    availableForHire: true,
+    readyToTravelAtOwnExpense: null,
+    currentLocation: { continent: 'Africa', country: 'Zambia', city: 'Lusaka' },
+  },
+  {
     objectID: 'riggaroo',
     fullName: 'Rebecca Franks',
     tags: ['Android', 'Android Things', 'Firebase', 'IoT'],
