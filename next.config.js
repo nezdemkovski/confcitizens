@@ -19,5 +19,5 @@ module.exports = (phase, { defaultConfig }) => {
   const withTypescript = require('@zeit/next-typescript');
   const withCss = require('@zeit/next-css');
 
-  return withTypescript(withCss());
+  return withTypescript(withCss({ target: 'serverless' }));
 };
