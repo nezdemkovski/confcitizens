@@ -103,7 +103,7 @@ const speakers: Speaker[] = [
   },
   {
     objectID: 'unicodeveloper',
-    fullName: 'Otemuyiwa Prosper',
+    fullName: 'Prosper Otemuyiwa',
     tags: [
       'JavaScript',
       'React',
@@ -121,8 +121,79 @@ const speakers: Speaker[] = [
       blog: null,
       linkedin: 'https://www.linkedin.com/in/prosperotemuyiwa/',
     },
-    talks: [],
-    talkLanguages: [],
+    talks: [
+      {
+        title: 'Authentication and Authorization in Next.js',
+        description: null,
+        eventName: 'ZEIT Day',
+        date: '2018-04-28',
+        videoUrl: 'https://www.youtube.com/watch?v=bo4BbGwZsWo',
+        slidesUrl:
+          'https://speakerdeck.com/unicodeveloper/authentication-and-authorization-in-next-dot-js',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'San Francisco',
+        },
+      },
+      {
+        title: 'Webpack 4: Lighting The Fire',
+        description: `Elon's Falcon Heavy Rocket had side boosters that launched it powerfully into space and returned back to Earth. Webpack is a build booster that can skyrocket your app's performance if understood and harnessed properly. With Webpack 4, your app will be on a Falcon Heavy rollercoaster. I'll share the state of the union with Webpack 4 and how you can leverage its simplicity and power in your apps!`,
+        eventName: 'CodeFest',
+        date: '2018-04-01',
+        videoUrl: 'https://www.youtube.com/watch?v=usPzBRsxo2s',
+        slidesUrl:
+          'https://speakerdeck.com/codefest/codefest-2018-prosper-otemuyiwa-unicode-labs-llc-webpack-4-lighting-the-fire',
+        location: {
+          continent: 'Europe',
+          country: 'Russia',
+          city: 'Moscow',
+        },
+      },
+      {
+        title: 'Making Rich Media Smarter',
+        description: `The web's ubiquity is making it possible to distribute engaging media experiences to users around the world.  In this talk, Prosper will show the audience how to leverage different techniques to serve images and videos with optimal performance with Angular.`,
+        eventName: 'AngularNYC',
+        date: '2017-10-31',
+        videoUrl: 'https://www.youtube.com/watch?v=4kHPcDqTRfI',
+        slidesUrl:
+          'https://speakerdeck.com/unicodeveloper/making-rich-media-smarter',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'New York',
+        },
+      },
+      {
+        title: 'Building Modern Media Experiences in React Apps',
+        description: null,
+        eventName: 'ReactNYC',
+        date: '2017-10-30',
+        videoUrl: 'https://www.youtube.com/watch?v=_uUaU84XNtQ',
+        slidesUrl:
+          'https://speakerdeck.com/unicodeveloper/building-a-modern-media-experience-in-react-apps',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'New York',
+        },
+      },
+      {
+        title: 'Progressive Web Apps For CakePHP Developers',
+        description: null,
+        eventName: 'CakeFest 2017',
+        date: '2017-06-10',
+        videoUrl: 'https://www.youtube.com/watch?v=j03sjWhfpZA',
+        slidesUrl:
+          'https://speakerdeck.com/unicodeveloper/progressive-web-apps-for-cakephp-developers-1',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'New York',
+        },
+      },
+    ],
+    talkLanguages: ['English'],
     availableForHire: null,
     readyToTravelAtOwnExpense: null,
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
