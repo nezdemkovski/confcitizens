@@ -37,12 +37,12 @@ const speakers: Speaker[] = [
     fullName: 'Alex Sanders',
     tags: ['JavaScript', 'Progressive Web Apps', 'CSS', 'Performance'],
     email: null,
-    website: 'snd.rs',
+    website: null,
     social: {
       twitter: 'asanders',
-      github: 'sndrs',
+      github: null,
       blog: null,
-      linkedin: 'https://www.linkedin.com/in/sndrs',
+      linkedin: null,
     },
     talks: [
       {
