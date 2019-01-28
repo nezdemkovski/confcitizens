@@ -8030,6 +8030,49 @@ const speakers: Speaker[] = [
       city: 'Warsaw',
     },
   },
+  {
+    objectID: 'trojan',
+    fullName: 'Michael Okoh',
+    tags: [
+      'JavaScript',
+      'Go',
+      'PHP',
+      'Laravel',
+      'node',
+      'Docker',
+    ],
+    email: 'michael@okoh.co.uk',
+    website: 'https://okoh.co.uk',
+    social: {
+      twitter: 'trojanokoh',
+      github: 'ichtrojan',
+      blog: 'https://medium.com/@trojan',
+      linkedin: 'https://www.linkedin.com/in/ichtrojan',
+    },
+    talks: [
+      {
+        title: "Microservices in Go",
+        description: null,
+        eventName: 'Golang Meetup',
+        date: '2018-09-22',
+        videoUrl: null,
+        slidesUrl: null,
+        location: {
+          continent: 'Africa',
+          country: 'Nigeria',
+          city: 'Lagos',
+        },
+      },
+    ],
+    talkLanguages: ['English', 'German'],
+    availableForHire: true,
+    readyToTravelAtOwnExpense: null,
+    currentLocation: {
+      continent: 'Africa',
+      country: 'Nigeria',
+      city: 'Lagos',
+    },
+  },
 ];
 
 export default speakers;
