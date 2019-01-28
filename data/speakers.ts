@@ -35,12 +35,7 @@ const speakers: Speaker[] = [
   {
     objectID: 'sndrs',
     fullName: 'Alex Sanders',
-    tags: [
-      'JavaScript',
-      'Progressive Web Apps',
-      'CSS',
-      'Performance',
-    ],
+    tags: ['JavaScript', 'Progressive Web Apps', 'CSS', 'Performance'],
     email: null,
     website: 'snd.rs',
     social: {
@@ -49,24 +44,30 @@ const speakers: Speaker[] = [
       blog: null,
       linkedin: 'https://www.linkedin.com/in/sndrs',
     },
-    talks: [{
-      title: 'Progressive Webapps at the Guardian',
-      description: null,
-      eventName: 'WebProgressions',
-      date: '2016-05-09',
-      videoUrl: 'https://www.youtube.com/watch?v=-r1kH7s6tMg',
-      slidesUrl:
-        'https://speakerdeck.com/sndrs/progressive-webapps-at-the-guardian',
-      location: {
-        continent: 'Europe',
-        country: 'United Kingdom',
-        city: 'London',
+    talks: [
+      {
+        title: 'Progressive Webapps at the Guardian',
+        description: null,
+        eventName: 'WebProgressions',
+        date: '2016-05-09',
+        videoUrl: 'https://www.youtube.com/watch?v=-r1kH7s6tMg',
+        slidesUrl:
+          'https://speakerdeck.com/sndrs/progressive-webapps-at-the-guardian',
+        location: {
+          continent: 'Europe',
+          country: 'United Kingdom',
+          city: 'London',
+        },
       },
-    }],
+    ],
     talkLanguages: ['English'],
     availableForHire: null,
     readyToTravelAtOwnExpense: null,
-    currentLocation: { continent: 'Europe', country: 'United Kingdom', city: 'Norwich' },
+    currentLocation: {
+      continent: 'Europe',
+      country: 'United Kingdom',
+      city: 'Norwich',
+    },
   },
   {
     objectID: 'codebeast',
@@ -963,21 +964,195 @@ const speakers: Speaker[] = [
     },
   },
   {
-    objectID: 'glnnrys',
+    objectID: 'glennreyes',
     fullName: 'Glenn Reyes',
     tags: ['React', 'GraphQL', 'JavaScript'],
     email: 'glenn@glennreyes.com',
-    website: 'https://glennreyes.com/',
+    website: 'https://glennreyes.com',
     social: {
       twitter: 'glnnrys',
       github: 'glennreyes',
       blog: 'https://medium.com/@glnnrys',
-      linkedin: 'https://www.linkedin.com/in/glnnrys/',
+      linkedin: 'https://www.linkedin.com/in/glnnrys',
     },
-    talks: [],
-    talkLanguages: [],
-    availableForHire: null,
-    readyToTravelAtOwnExpense: null,
+    talks: [
+      {
+        date: '2019-04-25',
+        description: '',
+        eventName: `React Finland`,
+        location: { continent: 'Europe', city: 'Helsinki', country: 'Finland' },
+        slidesUrl: '',
+        title: 'tbd',
+        videoUrl: '',
+      },
+      {
+        date: '2019-04-05',
+        description: '',
+        eventName: `JS Fest`,
+        location: { continent: 'Europe', city: 'Kiev', country: 'Ukraine' },
+        slidesUrl: '',
+        title: 'With great power comes great React hooks!',
+        videoUrl: '',
+      },
+      {
+        date: '2019-02-26',
+        description: '',
+        eventName: `React Houston`,
+        location: {
+          continent: 'America',
+          city: 'Houston, Texas',
+          country: 'United States',
+        },
+        slidesUrl: '',
+        title: 'Building tools for GraphQL',
+        videoUrl: '',
+      },
+      {
+        date: '2019-02-06',
+        description: '',
+        eventName: `c't webdev`,
+        location: { continent: 'Europe', city: 'Cologne', country: 'Germany' },
+        slidesUrl: '',
+        title: 'From learning to thinking in GraphQL',
+        videoUrl: '',
+      },
+      {
+        date: '2018-12-07',
+        description: '',
+        eventName: 'React Munich',
+        location: { continent: 'Europe', city: 'Munich', country: 'Germany' },
+        slidesUrl:
+          'https://speakerdeck.com/glennreyes/building-tools-for-graphql-4a17e4a1-799a-4a4c-a74d-74eb25a70445',
+        title: 'Building tools for GraphQL',
+        videoUrl: 'https://youtu.be/r7qssDPLwYU',
+      },
+      {
+        date: '2018-12-05',
+        description: '',
+        eventName: 'FrontEnd Connect',
+        location: { continent: 'Europe', city: 'Warsaw', country: 'Poland' },
+        slidesUrl:
+          'https://speakerdeck.com/glennreyes/from-learning-to-thinking-in-graphql',
+        title: 'From learning to thinking in GraphQL',
+        videoUrl: 'https://youtu.be/y-OrNiyH2yM',
+      },
+      {
+        date: '2018-11-16',
+        description: '',
+        eventName: 'JS Poland',
+        location: { continent: 'Europe', city: 'Warsaw', country: 'Poland' },
+        slidesUrl:
+          'https://speakerdeck.com/glennreyes/from-learning-to-thinking-in-graphql-ed8e82f2-b1f8-47f7-8541-4163d4d609be',
+        title: 'From learning to thinking in GraphQL',
+        videoUrl: '',
+      },
+      {
+        date: '2018-10-19',
+        description: '',
+        eventName: 'GraphQL Finland',
+        location: { continent: 'Europe', city: 'Helsinki', country: 'Finland' },
+        slidesUrl:
+          'https://speakerdeck.com/glennreyes/building-tools-for-graphql-ecf48ce8-07c6-44e0-a5b9-b2beb09127ed',
+        title: 'Building tools for GraphQL',
+        videoUrl: 'https://youtu.be/BeQ5CjzCaUg',
+      },
+      {
+        date: '2018-10-11',
+        description: '',
+        eventName: 'React Vienna',
+        location: { continent: 'Europe', city: 'Vienna', country: 'Austria' },
+        slidesUrl:
+          'https://speakerdeck.com/glennreyes/building-tools-for-graphql',
+        title: 'Building tools for GraphQL',
+        videoUrl: '',
+      },
+      {
+        date: '2017-11-28',
+        description: '',
+        eventName: 'ViennaJS',
+        location: { continent: 'Europe', city: 'Vienna', country: 'Austria' },
+        slidesUrl:
+          'https://speakerdeck.com/glennreyes/optimizing-react-apps-with-code-splitting',
+        title: 'Why we should care about Code Splitting',
+        videoUrl: 'https://youtu.be/iSit-m6kjFI',
+      },
+      {
+        date: '2017-11-25',
+        description: '',
+        eventName: 'DevFest Vienna',
+        location: { continent: 'Europe', city: 'Vienna', country: 'Austria' },
+        slidesUrl:
+          'https://speakerdeck.com/glennreyes/optimizing-react-apps-with-code-splitting',
+        title: 'Optimizing React apps with Code Splitting',
+        videoUrl: '',
+      },
+      {
+        date: '2017-09-30',
+        description: '',
+        eventName: 'React Alicante',
+        location: { continent: 'Europe', city: 'Alicante', country: 'Spain' },
+        slidesUrl:
+          'https://speakerdeck.com/glennreyes/code-splitting-in-react-apps',
+        title: 'Leveraging Code Splitting in React apps',
+        videoUrl: 'https://youtu.be/GOziMLQm7q0',
+      },
+      {
+        date: '2017-09-22',
+        description: '',
+        eventName: 'FrontEnd Connect',
+        location: { continent: 'Europe', city: 'Warsaw', country: 'Poland' },
+        slidesUrl:
+          'https://speakerdeck.com/glennreyes/leveraging-code-splitting-in-react-apps',
+        title: 'Leveraging Code Splitting in React apps',
+        videoUrl: 'https://youtu.be/8jS6gS2aa_c',
+      },
+      {
+        date: '2017-05-24',
+        description: '',
+        eventName: 'ReactEurope',
+        location: { continent: 'Europe', city: 'Paris', country: 'France' },
+        slidesUrl:
+          'https://glennreyes.github.io/talks/packages/2017-05-19-leveraging-code-splitting-in-react-apps',
+        title: 'Leveraging Code Splitting in React apps',
+        videoUrl: 'https://youtu.be/lj1WTv1Qq1c',
+      },
+      {
+        date: '2017-05-03',
+        description: '',
+        eventName: 'ViennaJS',
+        location: { continent: 'Europe', city: 'Vienna', country: 'Austria' },
+        slidesUrl:
+          'https://glennreyes.github.io/talks/packages/2017-05-03-leveraging-code-splitting-in-react-apps',
+        title: 'Leveraging Code Splitting in React apps',
+        videoUrl:
+          'https://pusher.com/sessions/meetup/viennajs/leveraging-code-splitting-in-react-apps',
+      },
+      {
+        date: '2017-01-25',
+        description: '',
+        eventName: 'React Zurich',
+        location: {
+          continent: 'Europe',
+          city: 'Zurich',
+          country: 'Switzerland',
+        },
+        slidesUrl: 'https://speakerdeck.com/glennreyes/react-fiber',
+        title: 'React Fiber',
+        videoUrl: '',
+      },
+      {
+        date: '2017-01-18',
+        description: '',
+        eventName: 'React Vienna',
+        location: { continent: 'Europe', city: 'Vienna', country: 'Austria' },
+        slidesUrl: 'https://speakerdeck.com/glennreyes/react-fiber',
+        title: 'React Fiber',
+        videoUrl: 'https://youtu.be/mbdX6xweKnc',
+      },
+    ],
+    talkLanguages: ['English'],
+    availableForHire: true,
+    readyToTravelAtOwnExpense: false,
     currentLocation: {
       continent: 'Europe',
       country: 'Austria',
@@ -7460,7 +7635,15 @@ const speakers: Speaker[] = [
   {
     objectID: 'tomasz_ducin',
     fullName: 'Tomasz Ducin',
-    tags: ['JavaScript', 'TypeScript', 'React', 'Angular', 'RxJS', 'Async', 'Architecture'],
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Angular',
+      'RxJS',
+      'Async',
+      'Architecture',
+    ],
     email: 'tomasz@ducin.it',
     website: 'http://ducin.it',
     social: {
@@ -7471,239 +7654,250 @@ const speakers: Speaker[] = [
     },
     talks: [
       {
-        "title": "What if we don't have API",
-        "description": null,
-        "eventName": "WarsawJS #2",
-        "date": "2014-10-28",
-        "videoUrl": "https://www.youtube.com/watch?v=QJZtl6vZHvc",
-        "slidesUrl": "http://slides.com/ducin/what-if-we-don-t-have-api",
-        "location": {
-          "continent": "Europe",
-          "country": "Poland",
-          "city": "Warsaw"
-        }
+        title: "What if we don't have API",
+        description: null,
+        eventName: 'WarsawJS #2',
+        date: '2014-10-28',
+        videoUrl: 'https://www.youtube.com/watch?v=QJZtl6vZHvc',
+        slidesUrl: 'http://slides.com/ducin/what-if-we-don-t-have-api',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Warsaw',
+        },
       },
       {
-        "title": "Enterprise Interface Architecture: JSON Schema",
-        "description": null,
-        "eventName": "WarsawJS #10",
-        "date": "2015-06-17",
-        "videoUrl": "https://www.youtube.com/watch?v=TkqiUG3j_Xw",
-        "slidesUrl": "http://slides.com/ducin/json-schema",
-        "location": {
-          "continent": "Europe",
-          "country": "Poland",
-          "city": "Warsaw"
-        }
+        title: 'Enterprise Interface Architecture: JSON Schema',
+        description: null,
+        eventName: 'WarsawJS #10',
+        date: '2015-06-17',
+        videoUrl: 'https://www.youtube.com/watch?v=TkqiUG3j_Xw',
+        slidesUrl: 'http://slides.com/ducin/json-schema',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Warsaw',
+        },
       },
       {
-        "title": "Enterprise Interface Architecture: Seeking Scalable Design",
-        "description": null,
-        "eventName": "WarsawJS #14",
-        "date": "2015-10-21",
-        "videoUrl": "https://www.youtube.com/watch?v=a6kIeFimgxA",
-        "slidesUrl": "http://slides.com/ducin/seeking-scalable-design",
-        "location": {
-          "continent": "Europe",
-          "country": "Poland",
-          "city": "Warsaw"
-        }
+        title: 'Enterprise Interface Architecture: Seeking Scalable Design',
+        description: null,
+        eventName: 'WarsawJS #14',
+        date: '2015-10-21',
+        videoUrl: 'https://www.youtube.com/watch?v=a6kIeFimgxA',
+        slidesUrl: 'http://slides.com/ducin/seeking-scalable-design',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Warsaw',
+        },
       },
       {
-        "title": "Enterprise Interface Architecture",
-        "description": null,
-        "eventName": "FullStack London",
-        "date": "2015-10-28",
-        "videoUrl": "https://skillsmatter.com/skillscasts/6780-enterprise-interface-architecture",
-        "slidesUrl": "http://slides.com/ducin/enterprise-interface-architecture",
-        "location": {
-          "continent": "Europe",
-          "country": "United Kingdom",
-          "city": "London"
-        }
+        title: 'Enterprise Interface Architecture',
+        description: null,
+        eventName: 'FullStack London',
+        date: '2015-10-28',
+        videoUrl:
+          'https://skillsmatter.com/skillscasts/6780-enterprise-interface-architecture',
+        slidesUrl: 'http://slides.com/ducin/enterprise-interface-architecture',
+        location: {
+          continent: 'Europe',
+          country: 'United Kingdom',
+          city: 'London',
+        },
       },
       {
-        "title": "Backend-less Development Revisited",
-        "description": null,
-        "eventName": "Geecon",
-        "date": "2016-05-13",
-        "videoUrl": "https://vimeo.com/170796171",
-        "slidesUrl": "http://slides.com/ducin/backend-less-development",
-        "location": {
-          "continent": "Europe",
-          "country": "Poland",
-          "city": "Kraków"
-        }
+        title: 'Backend-less Development Revisited',
+        description: null,
+        eventName: 'Geecon',
+        date: '2016-05-13',
+        videoUrl: 'https://vimeo.com/170796171',
+        slidesUrl: 'http://slides.com/ducin/backend-less-development',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Kraków',
+        },
       },
       {
-        "title": "JavaScript + Java = TypeScript",
-        "description": null,
-        "eventName": "WarsawJS #22",
-        "date": "2016-06-08",
-        "videoUrl": "https://www.youtube.com/watch?v=jtdIHM24LwQ",
-        "slidesUrl": "http://slides.com/ducin/javascript-plus-java-equals-typescript",
-        "location": {
-          "continent": "Europe",
-          "country": "Poland",
-          "city": "Warsaw"
-        }
+        title: 'JavaScript + Java = TypeScript',
+        description: null,
+        eventName: 'WarsawJS #22',
+        date: '2016-06-08',
+        videoUrl: 'https://www.youtube.com/watch?v=jtdIHM24LwQ',
+        slidesUrl:
+          'http://slides.com/ducin/javascript-plus-java-equals-typescript',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Warsaw',
+        },
       },
       {
-        "title": "Backend-less Development Revisited",
-        "description": null,
-        "eventName": "FullStack London",
-        "date": "2016-07-15",
-        "videoUrl": "https://skillsmatter.com/skillscasts/8173-let-s-liberate-frontend-backend-less-development-revisited",
-        "slidesUrl": "http://slides.com/ducin/backend-less-development",
-        "location": {
-          "continent": "Europe",
-          "country": "United Kingdom",
-          "city": "London"
-        }
+        title: 'Backend-less Development Revisited',
+        description: null,
+        eventName: 'FullStack London',
+        date: '2016-07-15',
+        videoUrl:
+          'https://skillsmatter.com/skillscasts/8173-let-s-liberate-frontend-backend-less-development-revisited',
+        slidesUrl: 'http://slides.com/ducin/backend-less-development',
+        location: {
+          continent: 'Europe',
+          country: 'United Kingdom',
+          city: 'London',
+        },
       },
       {
-        "title": "Backend-less Development Revisited",
-        "description": null,
-        "eventName": "DevDay",
-        "date": "2016-09-15",
-        "videoUrl": "https://www.youtube.com/watch?v=K8QLEJ8E-Ss",
-        "slidesUrl": "http://slides.com/ducin/backend-less-development",
-        "location": {
-          "continent": "Europe",
-          "country": "Poland",
-          "city": "Kraków"
-        }
+        title: 'Backend-less Development Revisited',
+        description: null,
+        eventName: 'DevDay',
+        date: '2016-09-15',
+        videoUrl: 'https://www.youtube.com/watch?v=K8QLEJ8E-Ss',
+        slidesUrl: 'http://slides.com/ducin/backend-less-development',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Kraków',
+        },
       },
       {
-        "title": "JavaScript + Java = TypeScript",
-        "description": null,
-        "eventName": "WebExpo",
-        "date": "2016-09-23",
-        "videoUrl": "https://www.webexpo.net/prague2016/talk/javascript-java-typescript/",
-        "slidesUrl": "http://slides.com/ducin/javascript-plus-java-equals-typescript",
-        "location": {
-          "continent": "Europe",
-          "country": "Czech Republic",
-          "city": "Praha"
-        }
+        title: 'JavaScript + Java = TypeScript',
+        description: null,
+        eventName: 'WebExpo',
+        date: '2016-09-23',
+        videoUrl:
+          'https://www.webexpo.net/prague2016/talk/javascript-java-typescript/',
+        slidesUrl:
+          'http://slides.com/ducin/javascript-plus-java-equals-typescript',
+        location: {
+          continent: 'Europe',
+          country: 'Czech Republic',
+          city: 'Praha',
+        },
       },
       {
-        "title": "Backend-less Development Revisited",
-        "description": null,
-        "eventName": "JDD (Java Developer Day)",
-        "date": "2016-10-11",
-        "videoUrl": "https://www.youtube.com/watch?v=WxtcSjsGQaM",
-        "slidesUrl": "http://slides.com/ducin/backend-less-development",
-        "location": {
-          "continent": "Europe",
-          "country": "Poland",
-          "city": "Kraków"
-        }
+        title: 'Backend-less Development Revisited',
+        description: null,
+        eventName: 'JDD (Java Developer Day)',
+        date: '2016-10-11',
+        videoUrl: 'https://www.youtube.com/watch?v=WxtcSjsGQaM',
+        slidesUrl: 'http://slides.com/ducin/backend-less-development',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Kraków',
+        },
       },
       {
-        "title": "ng-enterprise",
-        "description": null,
-        "eventName": "NG Poland",
-        "date": "2016-11-22",
-        "videoUrl": "https://www.youtube.com/watch?v=n_llOL3QMgQ",
-        "slidesUrl": "http://slides.com/ducin/ng-enterprise",
-        "location": {
-          "continent": "Europe",
-          "country": "Poland",
-          "city": "Warsaw"
-        }
+        title: 'ng-enterprise',
+        description: null,
+        eventName: 'NG Poland',
+        date: '2016-11-22',
+        videoUrl: 'https://www.youtube.com/watch?v=n_llOL3QMgQ',
+        slidesUrl: 'http://slides.com/ducin/ng-enterprise',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Warsaw',
+        },
       },
       {
-        "title": "5 architectures of asynchronous JavaScript",
-        "description": null,
-        "eventName": "4Developers",
-        "date": "2017-04-03",
-        "videoUrl": "https://www.youtube.com/watch?v=1_p7nWMNczU",
-        "slidesUrl": "http://slides.com/ducin/5-architectures-of-asynchronous-javascript",
-        "location": {
-          "continent": "Europe",
-          "country": "Poland",
-          "city": "Warsaw"
-        }
+        title: '5 architectures of asynchronous JavaScript',
+        description: null,
+        eventName: '4Developers',
+        date: '2017-04-03',
+        videoUrl: 'https://www.youtube.com/watch?v=1_p7nWMNczU',
+        slidesUrl:
+          'http://slides.com/ducin/5-architectures-of-asynchronous-javascript',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Warsaw',
+        },
       },
       {
-        "title": "Async Functions Awaiting You",
-        "description": null,
-        "eventName": "JS-Poland",
-        "date": "2017-06-19",
-        "videoUrl": "https://www.youtube.com/watch?v=IYikhsDVvic",
-        "slidesUrl": "http://slides.com/ducin/async-functions-awaiting-you",
-        "location": {
-          "continent": "Europe",
-          "country": "Poland",
-          "city": "Warsaw"
-        }
+        title: 'Async Functions Awaiting You',
+        description: null,
+        eventName: 'JS-Poland',
+        date: '2017-06-19',
+        videoUrl: 'https://www.youtube.com/watch?v=IYikhsDVvic',
+        slidesUrl: 'http://slides.com/ducin/async-functions-awaiting-you',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Warsaw',
+        },
       },
       {
-        "title": "5 architectures of Asynchronous JavaScript",
-        "description": null,
-        "eventName": "DevoxxPL",
-        "date": "2017-06-22",
-        "videoUrl": "https://www.youtube.com/watch?v=9hgic_ccxgs",
-        "slidesUrl": "http://slides.com/ducin/5-architectures-of-asynchronous-javascript",
-        "location": {
-          "continent": "Europe",
-          "country": "Poland",
-          "city": "Kraków"
-        }
+        title: '5 architectures of Asynchronous JavaScript',
+        description: null,
+        eventName: 'DevoxxPL',
+        date: '2017-06-22',
+        videoUrl: 'https://www.youtube.com/watch?v=9hgic_ccxgs',
+        slidesUrl:
+          'http://slides.com/ducin/5-architectures-of-asynchronous-javascript',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Kraków',
+        },
       },
       {
-        "title": "5 architectures of Asynchronous JavaScript",
-        "description": null,
-        "eventName": "FullStack London",
-        "date": "2017-07-13",
-        "videoUrl": "https://skillsmatter.com/skillscasts/10371-5-architectures-of-asynchronous-javascript",
-        "slidesUrl": "http://slides.com/ducin/5-architectures-of-asynchronous-javascript",
-        "location": {
-          "continent": "Europe",
-          "country": "United Kingdom",
-          "city": "London"
-        }
+        title: '5 architectures of Asynchronous JavaScript',
+        description: null,
+        eventName: 'FullStack London',
+        date: '2017-07-13',
+        videoUrl:
+          'https://skillsmatter.com/skillscasts/10371-5-architectures-of-asynchronous-javascript',
+        slidesUrl:
+          'http://slides.com/ducin/5-architectures-of-asynchronous-javascript',
+        location: {
+          continent: 'Europe',
+          country: 'United Kingdom',
+          city: 'London',
+        },
       },
       {
-        "title": "5 architectures of Asynchronous JavaScript",
-        "description": null,
-        "eventName": "Nordic.js",
-        "date": "2017-09-07",
-        "videoUrl": "https://www.youtube.com/watch?v=YXo4YOLDK1k",
-        "slidesUrl": "http://slides.com/ducin/5-architectures-of-asynchronous-javascript",
-        "location": {
-          "continent": "Europe",
-          "country": "Sweden",
-          "city": "Stockholm"
-        }
+        title: '5 architectures of Asynchronous JavaScript',
+        description: null,
+        eventName: 'Nordic.js',
+        date: '2017-09-07',
+        videoUrl: 'https://www.youtube.com/watch?v=YXo4YOLDK1k',
+        slidesUrl:
+          'http://slides.com/ducin/5-architectures-of-asynchronous-javascript',
+        location: {
+          continent: 'Europe',
+          country: 'Sweden',
+          city: 'Stockholm',
+        },
       },
       {
-        "title": "5 architectures of Asynchronous JavaScript (1/2)",
-        "description": null,
-        "eventName": "WarsawJS #38",
-        "date": "2017-10-11",
-        "videoUrl": "https://www.youtube.com/watch?v=mc0ZxuDTjVY",
-        "slidesUrl": "http://slides.com/ducin/5-architectures-of-asynchronous-javascript",
-        "location": {
-          "continent": "Europe",
-          "country": "Poland",
-          "city": "Warsaw"
-        }
+        title: '5 architectures of Asynchronous JavaScript (1/2)',
+        description: null,
+        eventName: 'WarsawJS #38',
+        date: '2017-10-11',
+        videoUrl: 'https://www.youtube.com/watch?v=mc0ZxuDTjVY',
+        slidesUrl:
+          'http://slides.com/ducin/5-architectures-of-asynchronous-javascript',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Warsaw',
+        },
       },
       {
-        "title": "RxJS: Everything is a Stream",
-        "description": null,
-        "eventName": "4developers",
-        "date": "2018-04-09",
-        "videoUrl": "https://www.youtube.com/watch?v=IB5yxGGVEGk",
-        "slidesUrl": "https://slides.com/ducin/everything-is-a-stream",
-        "location": {
-          "continent": "Europe",
-          "country": "Poland",
-          "city": "Warsaw"
-        }
-      }
+        title: 'RxJS: Everything is a Stream',
+        description: null,
+        eventName: '4developers',
+        date: '2018-04-09',
+        videoUrl: 'https://www.youtube.com/watch?v=IB5yxGGVEGk',
+        slidesUrl: 'https://slides.com/ducin/everything-is-a-stream',
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Warsaw',
+        },
+      },
     ],
     talkLanguages: ['English', 'Polish'],
     availableForHire: null,
