@@ -42,12 +42,12 @@ const speakers: Speaker[] = [
       'Performance',
     ],
     email: null,
-    website: 'snd.rs',
+    website: null,
     social: {
       twitter: 'asanders',
-      github: 'sndrs',
+      github: null,
       blog: null,
-      linkedin: 'https://www.linkedin.com/in/sndrs',
+      linkedin: null,
     },
     talks: [{
       title: 'Progressive Webapps at the Guardian',
