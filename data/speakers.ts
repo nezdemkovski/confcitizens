@@ -59,14 +59,14 @@ const speakers: Speaker[] = [
         'https://speakerdeck.com/sndrs/progressive-webapps-at-the-guardian',
       location: {
         continent: 'Europe',
-        country: 'UK',
+        country: 'United Kingdom',
         city: 'London',
       },
     }],
     talkLanguages: ['English'],
     availableForHire: null,
     readyToTravelAtOwnExpense: null,
-    currentLocation: { continent: 'Europe', country: 'UK', city: 'Norwich' },
+    currentLocation: { continent: 'Europe', country: 'United Kingdom', city: 'Norwich' },
   },
   {
     objectID: 'codebeast',
