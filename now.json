@@ -11,6 +11,9 @@
   ],
   "routes": [
     { "src": "/", "dest": "/index" },
-    { "src": "/(.*)", "dest": "/detail?username=$1" }
+    {
+      "src": "^/(?!_next/|favicon[.]ico)(?<username>.+)$",
+      "dest": "/detail?username=$username"
+    }
   ]
 }
