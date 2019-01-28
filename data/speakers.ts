@@ -71,7 +71,7 @@ const speakers: Speaker[] = [
         }
       },
       {
-        title: 'Building AR Apps with React Native - Vladimir Novick',
+        title: 'Building AR Apps with React Native',
         description: 'With the release of ARKit and ARCore by Apple and Google we see various Augmented reality apps created for iOS and Android. Have you ever wondered how you can create such apps in React Native? In this talk we will see how it can be done fairly easily.',
         eventName: 'Byteconf',
         date: 'August 31 2018',
@@ -80,7 +80,7 @@ const speakers: Speaker[] = [
         location: null
       },
       {
-        title: 'Chain React 2018: Building AR Apps with React Native by Vladimir Novick',
+        title: 'Building AR Apps with React Native',
         description: 'With the release of ARKit and ARCore by Apple and Google we see various Augmented reality apps created for iOS and Android. Have you ever wondered how you can create such apps in React Native? In this talk we will see how it can be done fairly easily.',
         eventName: 'Chain React',
         date: '11-12 July 2018',
