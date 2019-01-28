@@ -33,6 +33,42 @@ interface Location {
 
 const speakers: Speaker[] = [
   {
+    objectID: 'sndrs',
+    fullName: 'Alex Sanders',
+    tags: [
+      'JavaScript',
+      'Progressive Web Apps',
+      'CSS',
+      'Performance',
+    ],
+    email: null,
+    website: 'snd.rs',
+    social: {
+      twitter: 'asanders',
+      github: 'sndrs',
+      blog: null,
+      linkedin: 'https://www.linkedin.com/in/sndrs',
+    },
+    talks: [{
+      title: 'Progressive Webapps at the Guardian',
+      description: null,
+      eventName: 'WebProgressions',
+      date: '2016-05-09',
+      videoUrl: 'https://www.youtube.com/watch?v=-r1kH7s6tMg',
+      slidesUrl:
+        'https://speakerdeck.com/sndrs/progressive-webapps-at-the-guardian',
+      location: {
+        continent: 'Europe',
+        country: 'United Kingdom',
+        city: 'London',
+      },
+    }],
+    talkLanguages: ['English'],
+    availableForHire: null,
+    readyToTravelAtOwnExpense: null,
+    currentLocation: { continent: 'Europe', country: 'United Kingdom', city: 'Norwich' },
+  },
+  {
     objectID: 'codebeast',
     fullName: 'Christian Nwamba',
     tags: [
