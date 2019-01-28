@@ -20,6 +20,7 @@ const Wrapper = styled.div`
   border: 1px solid #d9d9d9;
   border-radius: 4px;
   padding: 15px 20px;
+  transition: all 0.3s;
 
   @media (min-width: 768px) {
     grid-template-columns: auto 1fr auto;
@@ -28,6 +29,8 @@ const Wrapper = styled.div`
 
   &:hover {
     cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    border-color: rgba(0, 0, 0, 0.14);
   }
 `;
 
