@@ -45,105 +45,106 @@ const speakers: Speaker[] = [
       'Angular',
       'VR',
       'AR',
-      'IoT'
+      'IoT',
     ],
     email: 'vnovick@gmail.com',
-    website: 'vnovick.com',
+    website: 'https://vnovick.com/',
     social: {
       twitter: 'VladimirNovick',
       github: 'vnovick',
       blog: 'https://medium.com/@VladimirNovick',
-      linkedin: 'https://www.linkedin.com/in/vnovick/'
-
+      linkedin: 'https://www.linkedin.com/in/vnovick/',
     },
     talks: [
       {
-        title: 'Demystifying complex animations creation process in React Native',
-        description: 'While Animations can be created in React Native pretty easily, real world mobile apps require a combination of several layers of animations, gestures and micro interaction animations to make user experience stand out. In this talk we will walk through the process from defining complex animation, to implementing it by going through all stages of animation creation process.',
+        title:
+          'Demystifying complex animations creation process in React Native',
+        description:
+          'While Animations can be created in React Native pretty easily, real world mobile apps require a combination of several layers of animations, gestures and micro interaction animations to make user experience stand out. In this talk we will walk through the process from defining complex animation, to implementing it by going through all stages of animation creation process.',
         eventName: 'React Native EU',
-        date: 'September 5-6 2018',
-        videoUrl: 'https://www.youtube.com/watch?v=PAbHIsRoqb8&index=2&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=148s',
+        date: '2018-09-05',
+        videoUrl:
+          'https://www.youtube.com/watch?v=PAbHIsRoqb8&index=2&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=148s',
         slidesUrl: null,
         location: {
           continent: 'Europe',
           country: 'Poland',
-          city: 'Wroclaw'
-        }
+          city: 'Wroclaw',
+        },
       },
       {
         title: 'Building AR Apps with React Native',
-        description: 'With the release of ARKit and ARCore by Apple and Google we see various Augmented reality apps created for iOS and Android. Have you ever wondered how you can create such apps in React Native? In this talk we will see how it can be done fairly easily.',
-        eventName: 'Byteconf',
-        date: 'August 31 2018',
-        videoUrl: 'https://www.youtube.com/watch?v=1GToikXnNaw&index=3&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=0s',
-        slidesUrl: null,
-        location: null
-      },
-      {
-        title: 'Building AR Apps with React Native',
-        description: 'With the release of ARKit and ARCore by Apple and Google we see various Augmented reality apps created for iOS and Android. Have you ever wondered how you can create such apps in React Native? In this talk we will see how it can be done fairly easily.',
+        description:
+          'With the release of ARKit and ARCore by Apple and Google we see various Augmented reality apps created for iOS and Android. Have you ever wondered how you can create such apps in React Native? In this talk we will see how it can be done fairly easily.',
         eventName: 'Chain React',
-        date: '11-12 July 2018',
-        videoUrl: 'https://www.youtube.com/watch?v=WYCZgWEnHkg&index=5&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=1s',
+        date: '2018-07-11',
+        videoUrl:
+          'https://www.youtube.com/watch?v=WYCZgWEnHkg&index=5&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=1s',
         slidesUrl: null,
         location: {
           continent: 'North America',
-          country: 'USA',
-          city: 'Portland'
-        }
+          country: 'United States',
+          city: 'Portland',
+        },
       },
       {
         title: 'Let`s write React Native in Reason',
         description: null,
         eventName: 'ReasonConf',
-        date: '5 Juny 2018',
-        videoUrl: 'https://www.youtube.com/watch?v=fuOxPzoqfz8&index=7&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=0s',
+        date: '2018-06-05',
+        videoUrl:
+          'https://www.youtube.com/watch?v=fuOxPzoqfz8&index=7&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=0s',
         slidesUrl: null,
         location: {
           continent: 'Europe',
           country: 'Austria',
-          city: 'Vienna'
-        }
+          city: 'Vienna',
+        },
       },
       {
         title: 'Controlling Smart Homes With React Native',
-        description: 'Smart homes become more and more popular. With this we still use applications that come with smart products to control them. In this talk I will show you an alternative how you can create your own apps with React Native, that control smart home appliances.',
+        description:
+          'Smart homes become more and more popular. With this we still use applications that come with smart products to control them. In this talk I will show you an alternative how you can create your own apps with React Native, that control smart home appliances.',
         eventName: 'React Amsterdam',
-        date: '13 April 2018',
-        videoUrl: 'https://www.youtube.com/watch?v=HW9zpD4q82E&index=9&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=0s',
+        date: '2018-04-13',
+        videoUrl:
+          'https://www.youtube.com/watch?v=HW9zpD4q82E&index=9&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=0s',
         slidesUrl: null,
         location: {
           continent: 'Europe',
           country: 'Netherlands',
-          city: 'Amsterdam'
-        }
-      },
-      {
-        title: 'Things You Didn`t Know You Can Do With React Native',
-        description: 'React Native framework is a popular solution nowadays of creating real Native apps with React. But what are it’s limits? In this talk I will cover things you probably haven’t thought about creating in React Native. We will see how Native code can be easily bridged into JavaScript world to create stunning visuals, connecting to wearables and much more.',
-        eventName: 'ReactNext',
-        date: '15 September 2017',
-        videoUrl: 'https://www.youtube.com/watch?v=1InokWxYGnE&index=12&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=0s',
-        slidesUrl: null,
-        location: {
-          continent: 'Asia',
-          country: 'Israel',
-          city: 'Tel Aviv'
-        }
+          city: 'Amsterdam',
+        },
       },
       {
         title: 'React Native bridging into a physical world',
         description: null,
         eventName: 'ReactNative Camp',
-        date: '31 March 2018',
-        videoUrl: 'https://www.youtube.com/watch?v=kcg2CKSUMl4&index=10&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=2s',
+        date: '2018-03-31',
+        videoUrl:
+          'https://www.youtube.com/watch?v=kcg2CKSUMl4&index=10&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=2s',
         slidesUrl: null,
         location: {
           continent: 'Europe',
           country: 'Ukraine',
-          city: 'Kiev'
-        }
-      }
+          city: 'Kiev',
+        },
+      },
+      {
+        title: 'Things You Didn`t Know You Can Do With React Native',
+        description:
+          'React Native framework is a popular solution nowadays of creating real Native apps with React. But what are it’s limits? In this talk I will cover things you probably haven’t thought about creating in React Native. We will see how Native code can be easily bridged into JavaScript world to create stunning visuals, connecting to wearables and much more.',
+        eventName: 'ReactNext',
+        date: '2017-09-15',
+        videoUrl:
+          'https://www.youtube.com/watch?v=1InokWxYGnE&index=12&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=0s',
+        slidesUrl: null,
+        location: {
+          continent: 'Asia',
+          country: 'Israel',
+          city: 'Tel Aviv',
+        },
+      },
     ],
     talkLanguages: ['English', 'Hebrew', 'Russian'],
     availableForHire: null,
@@ -151,8 +152,8 @@ const speakers: Speaker[] = [
     currentLocation: {
       continent: 'Asia',
       country: 'Israel',
-      city: null
-    }
+      city: null,
+    },
   },
   {
     objectID: 'sndrs',
