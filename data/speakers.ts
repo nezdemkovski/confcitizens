@@ -8074,6 +8074,73 @@ const speakers: Speaker[] = [
       city: 'Lagos',
     },
   },
+  {
+    objectID: 'danielruf',
+    fullName: 'Daniel Ruf',
+    tags: [
+      'JavaScript',
+      'node',
+      'Security',
+      'Web Performance',
+    ],
+    email: 'kontakt@daniel-ruf.de',
+    website: 'https://daniel-ruf.de',
+    social: {
+      twitter: 'danielrufde',
+      github: 'DanielRuf',
+      blog: 'https://bitspeicher.blog/author/daniel/',
+      linkedin: 'https://www.linkedin.com/in/danielruf',
+    },
+    talks: [
+      {
+        title: 'testing accessibility',
+        description: null,
+        eventName: 'Frontend Rhein-Neckar',
+        date: '2018-07-25',
+        videoUrl: null,
+        slidesUrl: 'https://github.com/DanielRuf/talks/blob/master/01_a11y/slides.pdf',
+        location: {
+          continent: 'Europe',
+          country: 'Germany',
+          city: 'Mannheim',
+        },
+      },
+      {
+        title: 'Web Performance Optimierung (WPO) für OXID-Shops (Frontend)',
+        description: null,
+        eventName: 'OXID User Group Rhein-Main',
+        date: '2018-09-25',
+        videoUrl: null,
+        slidesUrl: 'https://github.com/DanielRuf/talks/blob/master/02_oxid_wpo/slides.pdf',
+        location: {
+          continent: 'Europe',
+          country: 'Germany',
+          city: 'Friedrichsfeld',
+        },
+      },
+      {
+        title: 'Web Performance Optimierung (WPO) am Beispiel eines OXID-Shops',
+        description: null,
+        eventName: 'unKonf',
+        date: '2018-10-13',
+        videoUrl: null,
+        slidesUrl: 'https://github.com/DanielRuf/talks/blob/master/03_wpo_unkonf_2018/slides.pdf',
+        location: {
+          continent: 'Europe',
+          country: 'Germany',
+          city: 'Mannheim',
+        },
+      },
+    ],
+    talkLanguages: ['English', 'German'],
+    availableForHire: true,
+    readyToTravelAtOwnExpense: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Germany',
+      city: 'Mannheim',
+    },
+  },
 ];
 
 export default speakers;
