@@ -1,0 +1,24 @@
+{
+  "name": "og-image",
+  "version": "1.0.0",
+  "description": "Generate an open graph image for twitter/facebook/etc",
+  "license": "MIT",
+  "main": "src/card.ts",
+  "dependencies": {
+    "chrome-aws-lambda": "1.11.2",
+    "marked": "^0.6.0",
+    "puppeteer-core": "1.11.0"
+  },
+  "devDependencies": {
+    "@types/marked": "^0.6.0",
+    "@types/puppeteer-core": "^1.9.0",
+    "typescript": "^3.2.4"
+  },
+  "scripts": {
+    "start": "node dist/card.js",
+    "build": "tsc",
+    "now-build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "nodemon -e js,ts,tsx -x 'ts-node dist/card.js' -w src"
+  }
+}

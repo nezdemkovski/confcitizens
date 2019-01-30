@@ -43,9 +43,13 @@ As you can see now, it's a very simple page. I'll be super happy if you have som
 
 Also project is looking for a new fancy logo :)
 
-## Thank you Thank you Thank you
+## Initial data source
 
 I want to thank [@karlhorky](https://github.com/karlhorky) and every contributor for an amazing job you did for [awesome-speakers](https://github.com/karlhorky/awesome-speakers). ConfCitizens is based on the `awesome-speakers` data.
+
+## Open Graph Image Generator
+
+I also want to thank Steven ([@styfle](https://github.com/styfle)) from [ZEIT](https://zeit.co) for creating an awesome service that generates dynamic [Open Graph](http://ogp.me) images.
 
 ## Licensing
 

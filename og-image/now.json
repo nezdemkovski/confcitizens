@@ -1,0 +1,19 @@
+{
+  "name": "confcitizens-og-image",
+  "alias": "og-image.confcitizens.com",
+  "version": 2,
+  "regions": ["all"],
+  "builds": [
+    { "src": "public/*", "use": "@now/static" },
+    {
+      "src": "src/card.ts",
+      "use": "@now/node@canary",
+      "config": { "maxLambdaSize": "40mb" }
+    }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/public/index.html" },
+    { "src": "/favicon.ico", "dest": "/public/favicon.ico" },
+    { "src": "/(.+)", "dest": "/src/card.ts" }
+  ]
+}

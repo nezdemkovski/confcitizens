@@ -1,7 +1,8 @@
 {
-  "version": 2,
   "name": "confcitizens",
-  "alias": "confcitizens.com",
+  "alias": ["www.confcitizens.com"],
+  "version": 2,
+  "regions": ["all"],
   "builds": [
     {
       "src": "next.config.js",
@@ -10,6 +11,11 @@
     }
   ],
   "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://confcitizens.com/$1" }
+    },
     { "src": "/", "dest": "/index" },
     {
       "src": "^/(?!_next/|favicon[.]ico)(?<username>.+)$",

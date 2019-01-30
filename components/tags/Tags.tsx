@@ -11,10 +11,8 @@ const TagWrapper = styled.div`
   margin-right: 8px;
   margin-bottom: 10px;
   background: #fff;
-  border-style: solid;
   display: inline-block;
   color: rgba(0, 0, 0, 0.65);
-  padding: 0;
   line-height: 20px;
   padding: 0 7px;
   border-radius: 4px;
