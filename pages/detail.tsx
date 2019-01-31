@@ -47,7 +47,7 @@ const ProfilePage = ({ data }: Props) => {
           content={generateOgImage({
             baseUrl: 'https://og-image.confcitizens.com',
             speaker: data,
-            theme: 'dark',
+            theme: 'light',
           })}
         />
       </Head>

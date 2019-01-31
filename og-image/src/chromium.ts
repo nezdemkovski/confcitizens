@@ -1,5 +1,7 @@
 import * as chromeAws from 'chrome-aws-lambda';
 import { launch, Page } from 'puppeteer-core';
+
+import { FileType } from './types';
 let _page: Page | null;
 
 async function getPage() {

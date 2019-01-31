@@ -19,6 +19,6 @@
     "build": "tsc",
     "now-build": "tsc",
     "watch": "tsc --watch",
-    "dev": "nodemon -e js,ts,tsx -x 'ts-node dist/card.js' -w src"
+    "dev": "nodemon -e js,ts,tsx -x 'ts-node src/card.ts' -w src"
   }
 }
