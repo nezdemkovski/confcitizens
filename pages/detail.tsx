@@ -42,6 +42,13 @@ const ProfilePage = ({ data }: Props) => {
     <Fragment>
       <Head>
         <title>{data.fullName} | ConfCitizens</title>
+        <meta name="description" content="" />
+        <meta property="og:title" content="ConfCitizens" />
+        <meta property="og:url" content="https://confcitizens.com/" />
+        <meta
+          property="og:description"
+          content="A place where all speakers come together!"
+        />
         <meta
           property="og:image"
           content={generateOgImage({
@@ -50,6 +57,8 @@ const ProfilePage = ({ data }: Props) => {
             theme: 'light',
           })}
         />
+        <meta property="og:site_name" content="ConfCitizens" />
+        <meta property="og:type" content="website" />
       </Head>
       <Profile data={data} />
     </Fragment>
