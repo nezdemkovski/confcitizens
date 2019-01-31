@@ -3,7 +3,11 @@ import { parse } from 'url';
 
 export function parseRequest(req: IncomingMessage) {
   console.log('HTTP ' + req.url);
-  const { pathname = '/', query = {} } = parse(req.url || '', true);
+  const { pathname = '/', query = {} } = parse(
+    (req.url && decodeURIComponent(req.url)) || '',
+    true,
+  );
+
   const { fontSize, images, theme, md, tags } = query;
 
   if (Array.isArray(fontSize)) {
