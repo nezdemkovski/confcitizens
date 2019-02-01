@@ -116,15 +116,20 @@ export function getHtml(parsedReq: ParsedRequest) {
     <body>
         <div>
             <div class="spacer">
-            <div class="img-wrapper">
-                <img class="logo" src="${sanitizeHtml(images[0])}" />
-                ${images.slice(1).map(img => {
-                  return `<div class="plus">+</div><img class="logo" src="${sanitizeHtml(
-                    img,
-                  )}" />`;
-                })}
-            </div>
-            <div class="spacer">
+            ${
+              images.length
+                ? `<div class="img-wrapper">
+            <img class="logo" src="${sanitizeHtml(images[0])}" />
+            ${images.slice(1).map(img => {
+              return `<div class="plus">+</div><img class="logo" src="${sanitizeHtml(
+                img,
+              )}" />`;
+            })}
+        </div>
+        <div class="spacer">`
+                : ''
+            }
+            
             <div class="heading">${md ? marked(text) : sanitizeHtml(text)}
             <div class="tags">${tags
               .map(tag => {

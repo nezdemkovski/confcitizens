@@ -43,11 +43,13 @@ const ProfilePage = ({ data }: Props) => {
       <Head>
         <title>{data.fullName} | ConfCitizens</title>
         <meta name="description" content="" />
-        <meta property="og:title" content="ConfCitizens" />
+        <meta property="og:title" content={`${data.fullName} | ConfCitizens`} />
         <meta property="og:url" content="https://confcitizens.com/" />
         <meta
           property="og:description"
-          content="A place where all speakers come together!"
+          content={`Hi, I'm ${
+            data.fullName
+          } and I'm an expert in ${data.tags.join(', ')}`}
         />
         <meta
           property="og:image"

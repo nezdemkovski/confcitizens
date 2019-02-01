@@ -1,5 +1,6 @@
+import Head from 'next/head';
 import Router from 'next/router';
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 
 import SpeakersList from '../components/SpeakersList';
 import { findResultsState } from '../utils/instantSearch';
@@ -39,15 +40,36 @@ const Index = ({ searchState, resultsState }) => {
   };
 
   return (
-    <SpeakersList
-      resultsState={resultsState}
-      onSearchStateChange={onSearchStateChange}
-      searchState={
-        urlState.state && urlState.state.searchState
-          ? urlState.state.searchState
-          : searchState
-      }
-    />
+    <Fragment>
+      <Head>
+        <title>ConfCitizens</title>
+        <meta name="description" content="" />
+        <meta property="og:title" content="ConfCitizens" />
+        <meta property="og:url" content="https://confcitizens.com/" />
+        <meta
+          property="og:description"
+          content="ConfCitizens is a place where all speakers come together!"
+        />
+        <meta
+          property="og:image"
+          content={`https://og-image.confcitizens.com/${encodeURIComponent(
+            '**ConfCitizens**<br/>A place where all speakers come together!.png?theme=light&md=1',
+          )}`}
+        />
+        <meta property="og:site_name" content="ConfCitizens" />
+        <meta property="og:type" content="website" />
+      </Head>
+
+      <SpeakersList
+        resultsState={resultsState}
+        onSearchStateChange={onSearchStateChange}
+        searchState={
+          urlState.state && urlState.state.searchState
+            ? urlState.state.searchState
+            : searchState
+        }
+      />
+    </Fragment>
   );
 };
 
