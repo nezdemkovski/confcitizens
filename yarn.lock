@@ -898,10 +898,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/react@^16.7.22":
-  version "16.7.22"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.22.tgz#5bc6d166d5ac34b835756f0b736c7b1af0043e81"
-  integrity sha512-j/3tVoY09kHcTfbia4l67ofQn9xvktUvlC/4QN0KuBHAXlbU/wuGKMb8WfEb/vIcWxsOxHv559uYprkFDFfP8Q==
+"@types/react@^16.8.1":
+  version "16.8.1"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.1.tgz#b431b104ecc6febda170b718caa9f50be66a6750"
+  integrity sha512-tD1ETKJcuhANOejRc/p7OgQ16DKnbGi0M3LccelKlPnUCDp2a5koVxZFoRN9HN+A+m84HB5VGN7I+r3nNhS3PA==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -2446,10 +2446,15 @@ date-now@^0.1.4:
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
   integrity sha1-6vQ5/U1ISK105cx9vvIAZyueNFs=
 
-dayjs@^1.7.7, dayjs@^1.8.0:
+dayjs@^1.7.7:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.0.tgz#507963ac3023f4b1f9f399a278356946fc4c9ae9"
   integrity sha512-2ofInmfMKLLR5R02q3WEUuDt86UK33VQQTaEeJudF+C04ZUaekCP3VpB0NJPiyPDCGJWq9XYhHX2AemdxA8+dg==
+
+dayjs@^1.8.2:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.2.tgz#8668e50c1e048e1b1638ebe6c3552187a34ffa64"
+  integrity sha512-iHNxe5kIbxmPgzJFjks9TFMokOu3TQcUUSagb/Ff7GZNi7ulYF0qaAZ61trZEFOONgrp4jvKVpBJ86qy4UsSoA==
 
 debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8:
   version "2.6.9"
@@ -4528,10 +4533,10 @@ normalize-url@^4.1.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.1.0.tgz#307e74c87473efa81969ad1b4bb91f1990178904"
   integrity sha512-X781mkWeK6PDMAZJfGn/wnwil4dV6pIdF9euiNqtA89uJvZuNDJO2YyJxiwpPhTQcF5pYUU1v+kcOxzYV6rZlA==
 
-now@^13.2.0-canary.2:
-  version "13.2.0-canary.2"
-  resolved "https://registry.yarnpkg.com/now/-/now-13.2.0-canary.2.tgz#ec6bd205ad8cf17bbd98d014378599c0ce77c679"
-  integrity sha512-rdSUkau8nvmCAQeV9OZoXqzqebOq1+rW1F8sSm7kdJI81DBlpT76raUR5ePklTep31jR47OtMsgLVhmHi/cbfw==
+now@^13.2.0-canary.4:
+  version "13.2.0-canary.4"
+  resolved "https://registry.yarnpkg.com/now/-/now-13.2.0-canary.4.tgz#2dd96011abb5f6ecc2b917f432a8a53fe0e78d0d"
+  integrity sha512-FZwp10qldPP3FGxmuJ4JCItdYQc7deFIM2E+dQuKvd9oGt/ee8Y/E77qoRDF8Yk/yKc1lVCRUBdIPbUQutcZMA==
 
 npm-bundled@^1.0.1:
   version "1.0.5"
