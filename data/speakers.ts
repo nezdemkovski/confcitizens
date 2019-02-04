@@ -57,14 +57,117 @@ const speakers: Speaker[] = [
     },
     talks: [
       {
-        title:
-          'Demystifying complex animations creation process in React Native',
+        title: 'Redux Reconfiguration in Runtime Techniques',
+        description: null,
+        eventName: 'ReactNext',
+        date: '2016-09-15',
+        videoUrl:
+          'https://www.youtube.com/watch?v=ZvbZTXs3Y3E&index=22&list=PL28aKhmSneX8KsmkaSFFZWJCHqw4deSf5',
+        slidesUrl: null,
+        location: {
+          continent: 'Asia',
+          country: 'Israel',
+          city: 'Tel Aviv',
+        },
+      },
+      {
+        title: 'Getting into Physical web with React of Things',
+        description: 'Physical Web taking the world by a storm. More and more applications interact with physical devices using Beacons and low energy bluetooth. In this talk I will cover how to interact with physical world from inside React Native application.',
+        eventName: 'React Native EU',
+        date: '2017-09-06',
+        videoUrl:
+          'https://www.youtube.com/watch?v=m3J-vOouaB4&index=17&list=PL28aKhmSneX8KsmkaSFFZWJCHqw4deSf5',
+        slidesUrl: null,
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Wroclaw',
+        },
+      },
+      {
+        title: 'Building data driven mobile applications with React Native and GraphQL',
+        description: null,
+        eventName: 'DevExperience',
+        date: '2018-09-15',
+        videoUrl:
+          'https://www.youtube.com/watch?v=4Q1ElPWh2w8&index=12&list=PL28aKhmSneX8KsmkaSFFZWJCHqw4deSf5',
+        slidesUrl: null,
+        location: {
+          continent: 'Europe',
+          country: 'Romania',
+          city: 'Iasi'
+        },
+      },
+      {
+        title: 'State of WebVR',
+        description: null,
+        eventName: 'DevTalks Romania',
+        date: '2018-09-18',
+        videoUrl:
+          'https://www.youtube.com/watch?v=54_iK9ruP7E&index=10&list=PL28aKhmSneX8KsmkaSFFZWJCHqw4deSf5',
+        slidesUrl: null,
+        location: {
+          continent: 'Europe',
+          country: 'Romania',
+          city: 'Bucharest'
+        },
+      },
+      {
+        title: 'Building AR Apps with React Native',
+        description:'With the release of ARKit and ARCore by Apple and Google we see various Augmented reality apps created for iOS and Android. Have you ever wondered how you can create such apps in React Native? In this talk we will see how it can be done fairly easily.',
+        eventName: 'Byteconf',
+        date: '2018-08-31',
+        videoUrl:
+          'https://www.youtube.com/watch?v=1GToikXnNaw&index=7&list=PL28aKhmSneX8KsmkaSFFZWJCHqw4deSf5',
+        slidesUrl: null,
+        location: null,
+      },
+      {
+        title: 'Building AR Apps with React Native',
+        description:'With the release of ARKit and ARCore by Apple and Google we see various Augmented reality apps created for iOS and Android. In this talk we will see how we can build AR apps with React Native, ARKit and ARCore.',
+        eventName: 'React Boston',
+        date: '2018-09-30',
+        videoUrl:
+          'https://www.youtube.com/watch?v=lN1DnHhludY&index=5&list=PL28aKhmSneX8KsmkaSFFZWJCHqw4deSf5',
+        slidesUrl: null,
+        location: {
+          continent: 'North America',
+          country: 'USA',
+          city: 'Boston',
+        },
+      },
+      {
+        title: 'Reasonable GraphQL',
+        description:'ReasonML and GraphQL is a match made in heaven. Imagine getting type error if you have mistake in your GraphQL type even before compiling your client code. How cool is that? In this talk we will see how you can use GraphQL with Reason and what benefits it will bring.',
+        eventName: 'Byteconf',
+        date: '2018-11-30',
+        videoUrl:
+          'https://www.youtube.com/watch?v=wEjUjlZwbGU&index=3&list=PL28aKhmSneX8KsmkaSFFZWJCHqw4deSf5',
+        slidesUrl: null,
+        location: null,
+      },
+      {
+        title: 'Building AR apps with React Native',
+        description:null,
+        eventName: 'FRONTEND CON',
+        date: '2018-12-04',
+        videoUrl:
+          'https://www.youtube.com/watch?v=gWKUtXiskW0&index=2&list=PL28aKhmSneX8KsmkaSFFZWJCHqw4deSf5',
+        slidesUrl: null,
+        location: {
+          continent: 'Europe',
+          country: 'Poland',
+          city: 'Wroclaw',
+        },
+      },
+      {
+        title: 'Demystifying complex animations creation process in React Native',
         description:
           'While Animations can be created in React Native pretty easily, real world mobile apps require a combination of several layers of animations, gestures and micro interaction animations to make user experience stand out. In this talk we will walk through the process from defining complex animation, to implementing it by going through all stages of animation creation process.',
         eventName: 'React Native EU',
         date: '2018-09-05',
         videoUrl:
-          'https://www.youtube.com/watch?v=PAbHIsRoqb8&index=2&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=148s',
+          'https://www.youtube.com/watch?v=PAbHIsRoqb8&index=2&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn',
         slidesUrl: null,
         location: {
           continent: 'Europe',
@@ -79,7 +182,7 @@ const speakers: Speaker[] = [
         eventName: 'Chain React',
         date: '2018-07-11',
         videoUrl:
-          'https://www.youtube.com/watch?v=WYCZgWEnHkg&index=5&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=1s',
+          'https://www.youtube.com/watch?v=WYCZgWEnHkg&index=5&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn',
         slidesUrl: null,
         location: {
           continent: 'North America',
@@ -93,7 +196,7 @@ const speakers: Speaker[] = [
         eventName: 'ReasonConf',
         date: '2018-06-05',
         videoUrl:
-          'https://www.youtube.com/watch?v=fuOxPzoqfz8&index=7&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=0s',
+          'https://www.youtube.com/watch?v=fuOxPzoqfz8&index=7&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn',
         slidesUrl: null,
         location: {
           continent: 'Europe',
@@ -108,7 +211,7 @@ const speakers: Speaker[] = [
         eventName: 'React Amsterdam',
         date: '2018-04-13',
         videoUrl:
-          'https://www.youtube.com/watch?v=HW9zpD4q82E&index=9&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=0s',
+          'https://www.youtube.com/watch?v=HW9zpD4q82E&index=9&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn',
         slidesUrl: null,
         location: {
           continent: 'Europe',
@@ -122,7 +225,7 @@ const speakers: Speaker[] = [
         eventName: 'ReactNative Camp',
         date: '2018-03-31',
         videoUrl:
-          'https://www.youtube.com/watch?v=kcg2CKSUMl4&index=10&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=2s',
+          'https://www.youtube.com/watch?v=kcg2CKSUMl4&index=10&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn',
         slidesUrl: null,
         location: {
           continent: 'Europe',
@@ -137,7 +240,7 @@ const speakers: Speaker[] = [
         eventName: 'ReactNext',
         date: '2017-09-15',
         videoUrl:
-          'https://www.youtube.com/watch?v=1InokWxYGnE&index=12&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn&t=0s',
+          'https://www.youtube.com/watch?v=1InokWxYGnE&index=12&list=PL28aKhmSneX--DLlOysrzAHXCJpES2Otn',
         slidesUrl: null,
         location: {
           continent: 'Asia',
