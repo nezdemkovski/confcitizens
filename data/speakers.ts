@@ -17,7 +17,7 @@ export interface Speaker {
     date: string;
     videoUrl: string;
     slidesUrl: string;
-    location: Location;
+    location: Location | null;
   }>;
   talkLanguages: string[];
   availableForHire: boolean;
