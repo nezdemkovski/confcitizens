@@ -340,6 +340,24 @@ const speakers: Speaker[] = [
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
+    objectID: 'realbakari',
+    fullName: 'Bakari Mustafa',
+    tags: ['JavaScript', 'Python', 'JavaScript'],
+    email: 'contact@bakarimustafa.com',
+    website: 'https://bakarimustafa.com',
+    social: {
+      twitter: 'realbakari',
+      github: 'realbakari',
+      blog: null,
+      linkedin: 'https://www.linkedin.com/in/realbakari/',
+    },
+    talks: [],
+    talkLanguages: [],
+    availableForHire: null,
+    readyToTravelAtOwnExpense: null,
+    currentLocation: { continent: 'Asia', country: 'Australia', city: 'Brisbane' },
+  },
+  {
     objectID: 'ireaderinokun',
     fullName: 'Ire Aderinokun',
     tags: [
