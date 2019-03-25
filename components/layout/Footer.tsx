@@ -34,6 +34,15 @@ const Footer = () => (
       >
         Twitter
       </Link>
+      {' • '}
+      Data from{' '}
+      <Link
+        href="https://github.com/karlhorky/awesome-speakers"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Awesome Speakers
+      </Link>
     </p>
 
     <AlgoliaLogo />
