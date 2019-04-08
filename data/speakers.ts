@@ -72,7 +72,8 @@ const speakers: Speaker[] = [
       },
       {
         title: 'Getting into Physical web with React of Things',
-        description: 'Physical Web taking the world by a storm. More and more applications interact with physical devices using Beacons and low energy bluetooth. In this talk I will cover how to interact with physical world from inside React Native application.',
+        description:
+          'Physical Web taking the world by a storm. More and more applications interact with physical devices using Beacons and low energy bluetooth. In this talk I will cover how to interact with physical world from inside React Native application.',
         eventName: 'React Native EU',
         date: '2017-09-06',
         videoUrl:
@@ -85,7 +86,8 @@ const speakers: Speaker[] = [
         },
       },
       {
-        title: 'Building data driven mobile applications with React Native and GraphQL',
+        title:
+          'Building data driven mobile applications with React Native and GraphQL',
         description: null,
         eventName: 'DevExperience',
         date: '2018-09-15',
@@ -95,7 +97,7 @@ const speakers: Speaker[] = [
         location: {
           continent: 'Europe',
           country: 'Romania',
-          city: 'Iasi'
+          city: 'Iasi',
         },
       },
       {
@@ -109,12 +111,13 @@ const speakers: Speaker[] = [
         location: {
           continent: 'Europe',
           country: 'Romania',
-          city: 'Bucharest'
+          city: 'Bucharest',
         },
       },
       {
         title: 'Building AR Apps with React Native',
-        description:'With the release of ARKit and ARCore by Apple and Google we see various Augmented reality apps created for iOS and Android. Have you ever wondered how you can create such apps in React Native? In this talk we will see how it can be done fairly easily.',
+        description:
+          'With the release of ARKit and ARCore by Apple and Google we see various Augmented reality apps created for iOS and Android. Have you ever wondered how you can create such apps in React Native? In this talk we will see how it can be done fairly easily.',
         eventName: 'Byteconf',
         date: '2018-08-31',
         videoUrl:
@@ -124,7 +127,8 @@ const speakers: Speaker[] = [
       },
       {
         title: 'Building AR Apps with React Native',
-        description:'With the release of ARKit and ARCore by Apple and Google we see various Augmented reality apps created for iOS and Android. In this talk we will see how we can build AR apps with React Native, ARKit and ARCore.',
+        description:
+          'With the release of ARKit and ARCore by Apple and Google we see various Augmented reality apps created for iOS and Android. In this talk we will see how we can build AR apps with React Native, ARKit and ARCore.',
         eventName: 'React Boston',
         date: '2018-09-30',
         videoUrl:
@@ -138,7 +142,8 @@ const speakers: Speaker[] = [
       },
       {
         title: 'Reasonable GraphQL',
-        description:'ReasonML and GraphQL is a match made in heaven. Imagine getting type error if you have mistake in your GraphQL type even before compiling your client code. How cool is that? In this talk we will see how you can use GraphQL with Reason and what benefits it will bring.',
+        description:
+          'ReasonML and GraphQL is a match made in heaven. Imagine getting type error if you have mistake in your GraphQL type even before compiling your client code. How cool is that? In this talk we will see how you can use GraphQL with Reason and what benefits it will bring.',
         eventName: 'Byteconf',
         date: '2018-11-30',
         videoUrl:
@@ -148,7 +153,7 @@ const speakers: Speaker[] = [
       },
       {
         title: 'Building AR apps with React Native',
-        description:null,
+        description: null,
         eventName: 'FRONTEND CON',
         date: '2018-12-04',
         videoUrl:
@@ -161,7 +166,8 @@ const speakers: Speaker[] = [
         },
       },
       {
-        title: 'Demystifying complex animations creation process in React Native',
+        title:
+          'Demystifying complex animations creation process in React Native',
         description:
           'While Animations can be created in React Native pretty easily, real world mobile apps require a combination of several layers of animations, gestures and micro interaction animations to make user experience stand out. In this talk we will walk through the process from defining complex animation, to implementing it by going through all stages of animation creation process.',
         eventName: 'React Native EU',
