@@ -8034,14 +8034,7 @@ const speakers: Speaker[] = [
   {
     objectID: 'trojan',
     fullName: 'Michael Okoh',
-    tags: [
-      'JavaScript',
-      'Go',
-      'PHP',
-      'Laravel',
-      'node',
-      'Docker',
-    ],
+    tags: ['JavaScript', 'Go', 'PHP', 'Laravel', 'node', 'Docker'],
     email: 'michael@okoh.co.uk',
     website: 'https://okoh.co.uk',
     social: {
@@ -8052,7 +8045,7 @@ const speakers: Speaker[] = [
     },
     talks: [
       {
-        title: "Microservices in Go",
+        title: 'Microservices in Go',
         description: null,
         eventName: 'Golang Meetup',
         date: '2018-09-22',
@@ -8077,12 +8070,7 @@ const speakers: Speaker[] = [
   {
     objectID: 'danielruf',
     fullName: 'Daniel Ruf',
-    tags: [
-      'JavaScript',
-      'node',
-      'Security',
-      'Web Performance',
-    ],
+    tags: ['JavaScript', 'node', 'Security', 'Web Performance'],
     email: 'kontakt@daniel-ruf.de',
     website: 'https://daniel-ruf.de',
     social: {
@@ -8098,7 +8086,8 @@ const speakers: Speaker[] = [
         eventName: 'Frontend Rhein-Neckar',
         date: '2018-07-25',
         videoUrl: null,
-        slidesUrl: 'https://github.com/DanielRuf/talks/blob/master/01_a11y/slides.pdf',
+        slidesUrl:
+          'https://github.com/DanielRuf/talks/blob/master/01_a11y/slides.pdf',
         location: {
           continent: 'Europe',
           country: 'Germany',
@@ -8111,7 +8100,8 @@ const speakers: Speaker[] = [
         eventName: 'OXID User Group Rhein-Main',
         date: '2018-09-25',
         videoUrl: null,
-        slidesUrl: 'https://github.com/DanielRuf/talks/blob/master/02_oxid_wpo/slides.pdf',
+        slidesUrl:
+          'https://github.com/DanielRuf/talks/blob/master/02_oxid_wpo/slides.pdf',
         location: {
           continent: 'Europe',
           country: 'Germany',
@@ -8124,7 +8114,8 @@ const speakers: Speaker[] = [
         eventName: 'unKonf',
         date: '2018-10-13',
         videoUrl: null,
-        slidesUrl: 'https://github.com/DanielRuf/talks/blob/master/03_wpo_unkonf_2018/slides.pdf',
+        slidesUrl:
+          'https://github.com/DanielRuf/talks/blob/master/03_wpo_unkonf_2018/slides.pdf',
         location: {
           continent: 'Europe',
           country: 'Germany',
@@ -8139,6 +8130,59 @@ const speakers: Speaker[] = [
       continent: 'Europe',
       country: 'Germany',
       city: 'Mannheim',
+    },
+  },
+  {
+    objectID: 'fvcproductions',
+    fullName: 'Frances Coronel',
+    tags: ['JavaScript', 'TypeScript', 'Progressive Web Apps', 'Web Design'],
+    email: 'hello@fvcproductions.com',
+    website: 'https://fvcproductions.com/',
+    social: {
+      twitter: 'fvcproductions',
+      github: 'fvcproductions',
+      blog: 'https://fvcproductions.com/blog/',
+      linkedin: 'https://www.linkedin.com/in/fvcproductions/',
+    },
+    talks: [
+      {
+        title: 'Progressive Web Apps 101',
+        description:
+          'Throughout this course, we will explore the wide array of companies that have already benefited from the many enhancements PWAs offer and I will walk you through the steps of transforming an existing website into a Progressive Web App from the bottom up.',
+        eventName: 'GDG DevFest 2018',
+        date: '2018-10-28',
+        videoUrl: null,
+        slidesUrl:
+          'https://www.slideshare.net/FVCproductions/gdg-devfest-2018-progressive-web-apps-101',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'San Francisco',
+        },
+      },
+      {
+        title: 'TypeScript 101',
+        description:
+          'A brief class that introduces the benefits TypeScript provides to large scale projects.',
+        eventName: 'WE Rise Tech Conference',
+        date: '2018-06-21',
+        videoUrl: 'https://www.recallact.com/presentation/typescript-101',
+        slidesUrl:
+          'https://www.slideshare.net/FVCproductions/typescript-101-we-rise-tech-conference',
+        location: {
+          continent: 'North America',
+          country: 'United States',
+          city: 'Atlanta',
+        },
+      },
+    ],
+    talkLanguages: ['English'],
+    availableForHire: true,
+    readyToTravelAtOwnExpense: false,
+    currentLocation: {
+      continent: 'North America',
+      country: 'United States',
+      city: 'San Francisco',
     },
   },
 ];
