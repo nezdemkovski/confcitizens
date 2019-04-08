@@ -64,7 +64,7 @@ const TalkItem = ({
     </TalkItemTitle>
     <TalkItemDate>
       <span>{dayjs(date).format('D MMMM YYYY')}</span> at {eventName} (
-      {`${location.country}, ${location.city}`})
+      {location ? `${location.country}, ${location.city}` : 'Online'})
     </TalkItemDate>
     {description && <p>{description}</p>}
     <span>

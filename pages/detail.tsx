@@ -44,7 +44,11 @@ const ProfilePage = ({ data }: Props) => {
         <title>{data.fullName} | ConfCitizens</title>
         <meta name="description" content="" />
         <meta property="og:title" content={`${data.fullName} | ConfCitizens`} />
-        <meta property="og:url" content="https://confcitizens.com/" />
+        <meta
+          property="og:url"
+          content={`https://confcitizens.com/${data.objectID}`}
+        />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta
           property="og:description"
           content={`Hi, I'm ${
