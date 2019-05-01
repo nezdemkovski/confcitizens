@@ -2,6 +2,7 @@
   "version": 2,
   "name": "confcitizens",
   "alias": "confcitizens.com",
+  "scope": "yakovlevyuri",
   "regions": ["all"],
   "builds": [
     {
@@ -11,9 +12,6 @@
   ],
   "routes": [
     { "src": "/", "dest": "/index" },
-    {
-      "src": "^/(?!_next/|favicon[.]ico)(?<username>.+)$",
-      "dest": "/detail?username=$username"
-    }
+    { "src": "/(?<username>[^/]*)", "dest": "/detail?username=$username" }
   ]
 }
