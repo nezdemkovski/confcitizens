@@ -1,13 +1,12 @@
 {
+  "version": 2,
   "name": "confcitizens",
   "alias": "confcitizens.com",
-  "version": 2,
   "regions": ["all"],
   "builds": [
     {
-      "src": "next.config.js",
-      "use": "@now/next",
-      "config": { "newPipeline": true }
+      "src": "package.json",
+      "use": "@now/next"
     }
   ],
   "routes": [

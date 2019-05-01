@@ -14,9 +14,6 @@ notifications:
 
 stages:
   - test
-  - build
-  - name: deploy
-    if: (NOT type IN (pull_request)) AND (branch = master)
   - name: update-algolia
     if: (NOT type IN (pull_request)) AND (branch = master)
 
@@ -25,16 +22,6 @@ jobs:
     - stage: test
       script:
         - yarn test-ci
-
-    - stage: build
-      script:
-        - yarn build
-
-    - stage: deploy
-      script: yarn deploy
-      after_script:
-        - yarn alias
-        - yarn clear-deployments
 
     - stage: update-algolia
       script: yarn update-speakers
