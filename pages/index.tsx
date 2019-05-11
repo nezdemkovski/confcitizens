@@ -5,7 +5,7 @@ import React, { useState, Fragment } from 'react';
 import SpeakersList from '../components/SpeakersList';
 import { findResultsState } from '../utils/instantSearch';
 
-const useUrlState = initial => {
+const useUrlState = (initial: any) => {
   const [state, setState] = useState(initial);
 
   return {
@@ -14,10 +14,10 @@ const useUrlState = initial => {
   };
 };
 
-const Index = ({ searchState, resultsState }) => {
+const Index = ({ searchState, resultsState }: any) => {
   const urlState = useUrlState({});
 
-  const changeRoute = state => {
+  const changeRoute = (state: any) => {
     const href = {
       pathname: '/',
       query: {
@@ -31,10 +31,11 @@ const Index = ({ searchState, resultsState }) => {
       },
     };
 
+    // @ts-ignore
     Router.push(href, href, { shallow: true });
   };
 
-  const onSearchStateChange = state => {
+  const onSearchStateChange = (state: any) => {
     changeRoute(state);
     urlState.setState({ searchState: state });
   };
@@ -73,7 +74,7 @@ const Index = ({ searchState, resultsState }) => {
   );
 };
 
-Index.getInitialProps = async ({ query }) => {
+Index.getInitialProps = async ({ query }: any) => {
   const searchState = {
     ...(query.search && { query: query.search }),
     ...(query.continents && {

@@ -71,7 +71,13 @@ const ProfilePage = ({ data }: Props) => {
   );
 };
 
-ProfilePage.getInitialProps = async ({ query }) => {
+ProfilePage.getInitialProps = async ({
+  query,
+}: {
+  query: {
+    username: string;
+  };
+}) => {
   try {
     const data = await algolia.getObject(query.username);
 

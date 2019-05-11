@@ -11,7 +11,11 @@ import RefinementList from './RefinementList';
 import SearchBox from './SearchBox';
 import Cards from './card/Cards';
 
-const SpeakersList = ({ resultsState, searchState, onSearchStateChange }) => (
+const SpeakersList = ({
+  resultsState,
+  searchState,
+  onSearchStateChange,
+}: any) => (
   <InstantSearch
     appId={ALGOLIA_APPLICATION_ID}
     apiKey={ALGOLIA_SEARCH_ONLY_API_KEY}

@@ -19,12 +19,13 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export default class MyDocument extends Document {
-  public static async getInitialProps(ctx) {
+  public static async getInitialProps(ctx: any) {
     const sheet = new ServerStyleSheet();
 
     const originalRenderPage = ctx.renderPage;
     ctx.renderPage = () =>
       originalRenderPage({
+        // @ts-ignore
         enhanceApp: App => props =>
           sheet.collectStyles(
             <React.Fragment>

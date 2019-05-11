@@ -53,7 +53,7 @@ const Flag = styled.span`
   margin-left: 10px;
 `;
 
-const generateTitle = ({ fullName, currentLocation }) => (
+const generateTitle = ({ fullName, currentLocation }: Speaker) => (
   <Title>
     {fullName}
     <Tooltip title={`${currentLocation.country}, ${currentLocation.city}`}>

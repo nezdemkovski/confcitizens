@@ -1,4 +1,9 @@
-export const countries = {
+export const countries: {
+  [key: string]: {
+    emoji: string;
+    unicode: string;
+  };
+} = {
   Andorra: {
     emoji: '🇦🇩',
     unicode: 'U+1F1E6 U+1F1E9',

@@ -2,33 +2,33 @@ export interface Speaker {
   objectID: string;
   fullName: string;
   tags: string[];
-  email?: string;
-  website?: string;
+  email: string | null;
+  website: string | null;
   social: {
-    twitter?: string;
-    github?: string;
-    blog?: string;
-    linkedin?: string;
+    twitter: string | null;
+    github: string | null;
+    blog: string | null;
+    linkedin: string | null;
   };
   talks: Array<{
     title: string;
-    description: string;
+    description: string | null;
     eventName: string;
     date: string;
-    videoUrl: string;
-    slidesUrl: string;
+    videoUrl: string | null;
+    slidesUrl: string | null;
     location: Location | null;
   }>;
   talkLanguages: string[];
-  availableForHire: boolean;
-  readyToTravelAtOwnExpense: boolean;
+  availableForHire: boolean | null;
+  readyToTravelAtOwnExpense: boolean | null;
   currentLocation: Location;
 }
 
 interface Location {
   continent: string;
   country: string;
-  city: string;
+  city: string | null;
 }
 
 const speakers: Speaker[] = [

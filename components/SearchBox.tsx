@@ -8,16 +8,16 @@ const StyledInput = styled(Input.Search)`
   padding: 20px 0;
 `;
 
-const onChange = (refine, value) => {
+const onChange = (refine: any, value: any) => {
   refine(value);
 };
 
 const debounced = debounce(onChange, 500);
 
-const SearchBox = ({ refine, currentRefinement }) => {
+const SearchBox = ({ refine, currentRefinement }: any) => {
   const [state, setState] = useState({ value: currentRefinement });
 
-  const onChangeDebounced = event => {
+  const onChangeDebounced = (event: any) => {
     setState({ value: event.currentTarget.value });
     debounced(refine, event.currentTarget.value);
   };
