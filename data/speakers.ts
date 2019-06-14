@@ -3705,6 +3705,28 @@ const speakers: Speaker[] = [
     },
   },
   {
+    objectID: 'chidinmako',
+    fullName: 'Chidinma Kalu',
+    tags: ['JavaScript', 'Typescript', 'Python', 'Machine Learning'],
+    email: null,
+    website: null,
+    social: {
+      twitter: 'chidinmako',
+      github: 'chidinmako',
+      blog: null,
+      linkedin: 'chidinmako',
+    },
+    talks: [],
+    talkLanguages: [],
+    availableForHire: null,
+    readyToTravelAtOwnExpense: null,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Netherlands',
+      city: 'Amsterdam',
+    },
+  },
+  {
     objectID: 'detonite',
     fullName: 'Job van Achterberg',
     tags: ['Accessibility'],
