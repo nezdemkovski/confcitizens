@@ -24,11 +24,11 @@ const Cards = connectInfiniteHits(
   ({
     hits,
     hasMore,
-    refine,
+    refineNext,
   }: {
     hits: Speaker[];
     hasMore: boolean;
-    refine: any;
+    refineNext: (...args: any[]) => any;
   }) => (
     <React.Fragment>
       {hits.length ? (
@@ -48,7 +48,7 @@ const Cards = connectInfiniteHits(
             size="large"
             onClick={() => {
               if (hasMore) {
-                refine();
+                refineNext();
               }
             }}
           >
