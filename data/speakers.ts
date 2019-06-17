@@ -371,6 +371,32 @@ const speakers: Speaker[] = [
     currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
   },
   {
+    objectID: 'alexasomba',
+    fullName: 'Alexander Asomba',
+    tags: [
+      'Progressive Web Apps',
+      'Javascript',
+      'React',
+      'React Native',
+      'Node.js',
+      'Accessibility',
+      'Python',
+    ],
+    email: 'alexanderasomba@gmail.com',
+    website: 'http://alexasomba.com',
+    social: {
+      twitter: 'alexasomba',
+      github: 'alexasomba',
+      blog: 'http://alexasomba.com',
+      linkedin: 'https://www.linkedin.com/in/alexasomba',
+    },
+    talks: [],
+    talkLanguages: ['English'],
+    availableForHire: true,
+    readyToTravelAtOwnExpense: false,
+    currentLocation: { continent: 'Africa', country: 'Nigeria', city: 'Lagos' },
+  },
+  {
     objectID: 'unicodeveloper',
     fullName: 'Prosper Otemuyiwa',
     tags: [
