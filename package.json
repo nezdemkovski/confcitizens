@@ -3,6 +3,9 @@
   "description": "Conference citizens",
   "version": "1.0.0",
   "license": "MIT",
+  "engines": {
+    "node": ">=10.x"
+  },
   "contributors": [
     {
       "name": "Yuri Yakovlev",
@@ -13,38 +16,38 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "algoliasearch": "^3.33.0",
-    "antd": "^3.19.5",
+    "antd": "^3.20.0",
     "babel-plugin-import": "^1.12.0",
     "dayjs": "^1.8.14",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "lodash.debounce": "^4.0.8",
     "lodash.orderby": "^4.6.0",
-    "next": "^8.1.1-canary.52",
+    "next": "^8.1.1-canary.69",
     "pluralize": "^8.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-ga": "^2.5.7",
+    "react-ga": "^2.6.0",
     "react-github-corner": "^2.3.0",
     "react-instantsearch-dom": "^5.7.0",
-    "styled-components": "^5.0.0-beta.2"
+    "styled-components": "^5.0.0-beta.8"
   },
   "devDependencies": {
     "@types/algoliasearch": "^3.30.12",
     "@types/dotenv": "^6.1.1",
     "@types/lodash.debounce": "^4.0.6",
     "@types/lodash.orderby": "^4.6.6",
-    "@types/node": "^12.0.8",
+    "@types/node": "^12.0.12",
     "@types/pluralize": "^0.0.29",
-    "@types/react": "^16.8.20",
+    "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4",
     "@types/react-instantsearch-dom": "^5.2.5",
     "@types/styled-components": "^4.1.16",
     "babel-plugin-inline-react-svg": "^1.1.0",
-    "babel-plugin-styled-components": "^1.10.1",
-    "now": "^15.5.0",
+    "babel-plugin-styled-components": "^1.10.6",
+    "now": "^15.7.0",
     "ts-node": "^8.3.0",
-    "tslint": "^5.17.0",
+    "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-react": "^4.0.0",
     "typescript": "^3.5.2"

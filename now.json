@@ -4,14 +4,6 @@
   "alias": ["confcitizens.com", "www.confcitizens.com"],
   "scope": "yakovlevyuri",
   "regions": ["all"],
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@now/next"
-    }
-  ],
-  "routes": [
-    { "src": "/", "dest": "/index" },
-    { "src": "/(?<username>[^/]*)", "dest": "/detail?username=$username" }
-  ]
+  "builds": [{ "src": "package.json", "use": "@now/next@canary" }],
+  "routes": []
 }

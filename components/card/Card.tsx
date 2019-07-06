@@ -67,7 +67,7 @@ const generateTitle = ({ fullName, currentLocation }: Speaker) => (
 
 const Card = ({ hit }: Props) => (
   <Wrapper>
-    <Link as={`/${hit.objectID}`} href={`/detail?username=${hit.objectID}`}>
+    <Link href="/[speaker]/" as={`/${hit.objectID}`}>
       <Image
         src={`https://avatars.io/twitter/${hit.social.twitter}/medium`}
         width={70}
@@ -76,7 +76,7 @@ const Card = ({ hit }: Props) => (
       />
     </Link>
 
-    <Link as={`/${hit.objectID}`} href={`/detail?username=${hit.objectID}`}>
+    <Link href="/[speaker]/" as={`/${hit.objectID}`}>
       <Content>
         {generateTitle(hit)}
 

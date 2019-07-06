@@ -75,11 +75,11 @@ ProfilePage.getInitialProps = async ({
   query,
 }: {
   query: {
-    username: string;
+    speaker: string;
   };
 }) => {
   try {
-    const data = await algolia.getObject(query.username);
+    const data = await algolia.getObject(query.speaker);
 
     return { data };
   } catch (error) {
