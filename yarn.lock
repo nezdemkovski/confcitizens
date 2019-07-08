@@ -25,10 +25,10 @@
     "@ant-design/colors" "^3.1.0"
     babel-runtime "^6.26.0"
 
-"@ant-design/icons@~2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@ant-design/icons/-/icons-2.1.0.tgz#06b8ea9a02cbe331d523a20453fa5ee224328b11"
-  integrity sha512-o2q2GeamZ99dQEIsuls3zGkeAlUH/z9pJt9Kt3zrTdbFQlJtyFH2NjPXobcExINsg/2cYd8zvLcoSQ69UBvOeg==
+"@ant-design/icons@~2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@ant-design/icons/-/icons-2.1.1.tgz#7b9c08dffd4f5d41db667d9dbe5e0107d0bd9a4a"
+  integrity sha512-jCH+k2Vjlno4YWl6g535nHR09PwCEmTBKAG6VqF+rhkrSPRLfgpU2maagwbZPLjaHuU5Jd1DFQ2KJpQuI6uG8w==
 
 "@babel/code-frame@^7.0.0":
   version "7.0.0"
@@ -1246,13 +1246,13 @@ ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
-antd@^3.20.0:
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-3.20.0.tgz#da8b9b537dd27d2b8bea6b0b1518ed602e58783e"
-  integrity sha512-PnYXyCzB9S9SkWixYGi2D0u+FzAeDO2YJTD0x+/8zGZvcCrPahNuvZkLkjMxLd7eJnbfsg6yWHRB2ZRs6tJRZg==
+antd@^3.20.1:
+  version "3.20.1"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-3.20.1.tgz#b6274517bab290754a10907a87a23b2fd8e39417"
+  integrity sha512-4F1XvFUj6V6b2Aki65pkKd/WlwfeNeE2HftJG0jBB6D5QBWCHU/Csv0cVph8n9UCcGNOAErNpi2dA26GmjjRFw==
   dependencies:
     "@ant-design/create-react-context" "^0.2.4"
-    "@ant-design/icons" "~2.1.0"
+    "@ant-design/icons" "~2.1.1"
     "@ant-design/icons-react" "~2.0.1"
     "@types/react-slick" "^0.23.4"
     array-tree-filter "^2.1.0"
@@ -2242,10 +2242,10 @@ date-now@^0.1.4:
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
   integrity sha1-6vQ5/U1ISK105cx9vvIAZyueNFs=
 
-dayjs@^1.8.14:
-  version "1.8.14"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.14.tgz#43e4f62830c2c3342c3fcd25934dc9162dbe6f38"
-  integrity sha512-AVhDmRTe541iWirnoeFSSDDGvCT6HWaNQ4z2WmmzXMGZj6ph6ydao2teKq/eUtR43GPJXlYFD+C/SotG1P9wUQ==
+dayjs@^1.8.15:
+  version "1.8.15"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.15.tgz#7121bc04e6a7f2621ed6db566be4a8aaf8c3913e"
+  integrity sha512-HYHCI1nohG52B45vCQg8Re3hNDZbMroWPkhz50yaX7Lu0ATyjGsTdoYZBpjED9ar6chqTx2dmSmM8A51mojnAg==
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.9:
   version "2.6.9"
@@ -3927,10 +3927,10 @@ neo-async@^2.5.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-next-server@8.1.1-canary.69:
-  version "8.1.1-canary.69"
-  resolved "https://registry.yarnpkg.com/next-server/-/next-server-8.1.1-canary.69.tgz#6b3c12b9e243ceb160c7c9a7d56cf9031edda261"
-  integrity sha512-p/ARMpY3WwcWdp47M/v7u+d1hr6shpfc/tl5h1gy60e9r/ShjXmhTvyT+8cDNgkBbIICQTWJv2/rfJrPZr1glw==
+next-server@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/next-server/-/next-server-9.0.0.tgz#a90c6f7e10ce3b3d69cab17cbf9fbcb536c579c4"
+  integrity sha512-bKEuXxcY9Nv8GL4364rErlByRZzhfQbyBGrGvk1t6Nskp5fGhhSDXgH8oMP3DGx3w92sdA+tS2Zel4i9eWHSyw==
   dependencies:
     amp-toolbox-optimizer "1.2.0-alpha.1"
     content-type "1.0.4"
@@ -3946,10 +3946,10 @@ next-server@8.1.1-canary.69:
     styled-jsx "3.2.1"
     url "0.11.0"
 
-next@^8.1.1-canary.69:
-  version "8.1.1-canary.69"
-  resolved "https://registry.yarnpkg.com/next/-/next-8.1.1-canary.69.tgz#71359a8f29b939d5a9b05b7a495ece556ef42373"
-  integrity sha512-QO95YUEh++iRGiubBSFnfetva1ZqsTWVH9lPc8Tbo5UZ3UGtNZPglFqSnb9CzG78WN8xPHm62CVMw01s4FQz/A==
+next@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/next/-/next-9.0.0.tgz#c2cecdd279b5ff1df74b0f18c63fb04328ecd673"
+  integrity sha512-xMBVY3N/EAbjyb+7DbhP0JetJqZzCiYG44bJqDRh0QTYI+RYcYvW1Z+rxKQsm5CIyJuc2jCii+61DznKbpnrlA==
   dependencies:
     "@babel/core" "7.4.5"
     "@babel/plugin-proposal-class-properties" "7.4.4"
@@ -3977,7 +3977,7 @@ next@^8.1.1-canary.69:
     launch-editor "2.2.1"
     loader-utils "1.2.3"
     mkdirp "0.5.1"
-    next-server "8.1.1-canary.69"
+    next-server "9.0.0"
     prop-types "15.7.2"
     prop-types-exact "1.2.0"
     react-error-overlay "5.1.6"
