@@ -8341,6 +8341,46 @@ const speakers: Speaker[] = [
       country: 'United States',
       city: 'San Francisco',
     },
+  }
+     {
+    objectID: 'mikhailkuz',
+    fullName: 'Mikhail Kuznetcov',
+    tags: [
+      'Open Source',
+      'VueJS',
+      'Node.js',
+      'JavaScript',
+      'Blockchain',
+      'Microservices'
+    ],
+    email: 'michail.kuznetsov@gmail.com',
+    website: null,
+    social: {
+      twitter: 'legkoletat',
+      github: 'shershe08',
+      blog: null,
+      linkedin: 'https://www.linkedin.com/in/michailkuznetcov/',
+    },
+    talks: [
+          {
+            title:
+              'Smart contracts and DApps for JS developers',
+            eventName: 'Frontend conf Moscow',
+      },
+        {
+            title:
+              'Frontend microservices',
+            eventName: 'Voxxed Days',
+      }
+  ],
+    talkLanguages: ['English', 'Russian'],
+    availableForHire: true,
+    readyToTravelAtOwnExpense: true,
+    currentLocation: {
+      continent: 'Europe',
+      country: 'Netherlands',
+      city: 'Amsterdam',
+    },
   },
 ];
 
