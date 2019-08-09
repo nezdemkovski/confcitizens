@@ -8341,8 +8341,8 @@ const speakers: Speaker[] = [
       country: 'United States',
       city: 'San Francisco',
     },
-  }
-     {
+  },
+  {
     objectID: 'mikhailkuz',
     fullName: 'Mikhail Kuznetcov',
     tags: [
@@ -8351,7 +8351,7 @@ const speakers: Speaker[] = [
       'Node.js',
       'JavaScript',
       'Blockchain',
-      'Microservices'
+      'Microservices',
     ],
     email: 'michail.kuznetsov@gmail.com',
     website: null,
@@ -8362,17 +8362,22 @@ const speakers: Speaker[] = [
       linkedin: 'https://www.linkedin.com/in/michailkuznetcov/',
     },
     talks: [
-          {
-            title:
-              'Smart contracts and DApps for JS developers',
-            eventName: 'Frontend conf Moscow',
+      {
+        title: 'Developing a blockchain apps with JavaScript',
+        description:
+          'Intro what are Smart Contracts, Etherium and blockchain applications. Blockchain developer ecosystem - how to bootstrap, build, test and deploy. Using JS(Web3) to interact with smart contracts. Live coding demo.',
+        eventName: 'Devoxx Morocco',
+        date: '2018-11-29',
+        videoUrl: '',
+        slidesUrl:
+          'https://www.slideshare.net/michailkuznetsov/building-decentralised-apps-with-js-devoxx-morocco-2018',
+        location: {
+          continent: 'Africa',
+          country: 'Morocco',
+          city: 'Marrakech',
+        },
       },
-        {
-            title:
-              'Frontend microservices',
-            eventName: 'Voxxed Days',
-      }
-  ],
+    ],
     talkLanguages: ['English', 'Russian'],
     availableForHire: true,
     readyToTravelAtOwnExpense: true,

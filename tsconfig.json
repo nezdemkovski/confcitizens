@@ -15,5 +15,5 @@
     "jsx": "preserve"
   },
   "exclude": ["node_modules", "og-image", "scripts"],
-  "include": ["**/*.ts", "**/*.tsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
