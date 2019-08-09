@@ -62,6 +62,6 @@
     "lint": "tsc --noEmit -p tsconfig.json && tslint -c tslint.json -p tsconfig.json",
     "lint:fix": "tslint -c tslint.json -p tsconfig.json --fix",
     "test-ci": "yarn lint",
-    "update-speakers": "ts-node scripts/updateSpeakers.ts"
+    "update-speakers": "ts-node --project scripts/tsconfig.json scripts/updateSpeakers.ts"
   }
 }

@@ -1,5 +1,5 @@
 import algoliasearch from 'algoliasearch';
-import dotenv from 'dotenv';
+import * as dotenv from 'dotenv';
 
 import { ALGOLIA_APPLICATION_ID, ALGOLIA_INDEX_NAME } from '../config';
 import speakers from '../data/speakers';
