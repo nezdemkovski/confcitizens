@@ -49,16 +49,20 @@ const Index = ({ searchState, resultsState }: any) => {
         <meta property="og:url" content="https://confcitizens.com/" />
         <meta
           property="og:description"
-          content="ConfCitizens is a place where all speakers come together!"
+          content="ConfCitizens -- Open-source and crowd-sourced conference speakers website"
         />
         <meta
           property="og:image"
           content={`https://og-image.confcitizens.com/${encodeURIComponent(
-            '**ConfCitizens**<br/>A place where all speakers come together!.png?theme=light&md=1',
+            '**ConfCitizens**<br/>Open-source and crowd-sourced conference speakers website.png?theme=light&md=1',
           )}`}
         />
         <meta property="og:site_name" content="ConfCitizens" />
         <meta property="og:type" content="website" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
       </Head>
 
       <SpeakersList

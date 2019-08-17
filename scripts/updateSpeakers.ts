@@ -12,13 +12,13 @@ const updateSpeakers = () => {
   const client = algoliasearch(ALGOLIA_APPLICATION_ID, ALGOLIA_API_KEY);
   const index = client.initIndex(ALGOLIA_INDEX_NAME);
 
-  index.saveObjects(speakers, err => {
+  index.partialUpdateObjects(speakers, (err, content) => {
     if (err) {
       throw err;
     }
 
     /* tslint:disable-next-line:no-console */
-    console.log('Data updated successfully');
+    console.log(content);
   });
 };
 

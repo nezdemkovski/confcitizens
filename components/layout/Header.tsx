@@ -7,7 +7,6 @@ const HeaderWrapper = styled.div`
   text-align: center;
   padding: 50px 0 25px;
   background: #ffffff;
-  user-select: none;
 `;
 
 const Logo = styled.h1`
@@ -17,6 +16,7 @@ const Logo = styled.h1`
     Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol';
   cursor: pointer;
+  user-select: none;
 `;
 
 const Header = () => (
@@ -24,6 +24,7 @@ const Header = () => (
     <Link href="/">
       <Logo>ConfCitizens</Logo>
     </Link>
+    <p>Open-source and crowd-sourced conference speakers website</p>
     <GithubCorner href="https://github.com/yakovlevyuri/confcitizens" />
   </HeaderWrapper>
 );

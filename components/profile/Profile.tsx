@@ -3,6 +3,7 @@ import React, { Fragment } from 'react';
 import styled from 'styled-components';
 
 import { Speaker } from '../../data/speakers';
+import { generateLocation } from '../../utils/helpers';
 import Social from '../social/Social';
 import Tags from '../tags/Tags';
 import Talks from '../talks/Talks';
@@ -53,6 +54,10 @@ const Fullname = styled.h3`
   color: #a7928b;
 `;
 
+const CurrentLocation = styled.p`
+  color: #a7928b;
+`;
+
 const TalkCount = styled.h4`
   color: #a7928b;
   font-size: 1.17em;
@@ -83,6 +88,13 @@ const Profile = ({ data }: Props) => {
           <Username>{data.objectID}</Username>
           <Fullname>{data.fullName}</Fullname>
 
+          <CurrentLocation>
+            {generateLocation(
+              data.currentLocation.city,
+              data.currentLocation.country,
+            )}
+          </CurrentLocation>
+
           <Tags data={data.tags} />
 
           <TalkCount>
@@ -96,7 +108,7 @@ const Profile = ({ data }: Props) => {
         </SocialLinks>
       </Wrapper>
 
-      <Talks data={data.talks} />
+      <Talks data={data.talks} userId={data.objectID} />
     </Fragment>
   );
 };

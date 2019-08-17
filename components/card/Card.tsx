@@ -1,10 +1,11 @@
-import { Tooltip } from 'antd';
+// import { Tooltip } from 'antd';
 import Link from 'next/link';
 import React from 'react';
 import styled from 'styled-components';
 
-import { countries } from '../../data/countries';
+// import { countries } from '../../data/countries';
 import { Speaker } from '../../data/speakers';
+import { generateLocation } from '../../utils/helpers';
 import Social from '../social/Social';
 import Tags from '../tags/Tags';
 
@@ -56,12 +57,12 @@ const Flag = styled.span`
 const generateTitle = ({ fullName, currentLocation }: Speaker) => (
   <Title>
     {fullName}
-    <Tooltip title={`${currentLocation.country}, ${currentLocation.city}`}>
+    {/* <Tooltip title={`${currentLocation.country}, ${currentLocation.city}`}>
       <Flag>
         {countries[currentLocation.country] &&
           countries[currentLocation.country].emoji}
       </Flag>
-    </Tooltip>
+    </Tooltip> */}
   </Title>
 );
 
@@ -79,6 +80,13 @@ const Card = ({ hit }: Props) => (
     <Link href="/[speaker]/" as={`/${hit.objectID}`}>
       <Content>
         {generateTitle(hit)}
+
+        <p>
+          {generateLocation(
+            hit.currentLocation.city,
+            hit.currentLocation.country,
+          )}
+        </p>
 
         <Tags data={hit.tags} />
       </Content>

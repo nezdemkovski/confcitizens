@@ -65,6 +65,10 @@ const ProfilePage = ({ data }: Props) => {
         />
         <meta property="og:site_name" content="ConfCitizens" />
         <meta property="og:type" content="website" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
       </Head>
       <Profile data={data} />
     </Fragment>

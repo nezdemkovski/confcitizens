@@ -35,7 +35,7 @@ const Footer = () => (
         Twitter
       </Link>
       {' • '}
-      Based on data from{' '}
+      Initially based on data from{' '}
       <Link
         href="https://github.com/karlhorky/awesome-speakers"
         target="_blank"

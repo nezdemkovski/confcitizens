@@ -6,6 +6,7 @@ import { Speaker } from '../../data/speakers';
 
 interface Props {
   data: Speaker['talks'];
+  userId: string;
 }
 
 const TalksWrapper = styled.div`
@@ -83,7 +84,7 @@ const TalkItem = ({
   </TalkItemWrapper>
 );
 
-const Talks = ({ data }: Props) =>
+const Talks = ({ data, userId }: Props) =>
   data.length ? (
     <TalksWrapper>
       {data.map((talk, id) => (
@@ -92,15 +93,19 @@ const Talks = ({ data }: Props) =>
     </TalksWrapper>
   ) : (
     <div>
-      No talks yet :( Please add your first talk on{' '}
-      <Link
-        href="https://github.com/yakovlevyuri/confcitizens/blob/master/data/speakers.ts"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GitHub
-      </Link>
-      .
+      <p>⭐ Hey Legend! ⭐ It's in your hands making your profile shine!</p>
+      <p>
+        Please open this{' '}
+        <Link
+          href="https://github.com/yakovlevyuri/confcitizens/blob/master/data/speakers.ts"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          file
+        </Link>{' '}
+        and edit <b>{userId}</b> info or add the first talk to the list. Make
+        everybody happy!
+      </p>
     </div>
   );
 

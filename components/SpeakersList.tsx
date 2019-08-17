@@ -32,6 +32,7 @@ const SpeakersList = ({
         orderby(items, ['label', 'count'], ['asc', 'desc'])
       }
     />
+    {/* More filters coming soon! */}
     <Cards />
   </InstantSearch>
 );

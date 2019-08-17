@@ -4,7 +4,7 @@
 
 [https://confcitizens.com](https://confcitizens.com)
 
-> A place where all speakers come together!
+> Open-source and crowd-sourced conference speakers website
 
 ## Run Locally
 
