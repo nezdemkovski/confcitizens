@@ -1,4 +1,4 @@
-import { NextPage, GetStaticProps } from 'next';
+import { NextPage, GetStaticProps, GetStaticPaths } from 'next';
 
 import Profile from '@components/Profile';
 import SocialMeta from '@components/social-meta';
@@ -34,12 +34,10 @@ const generateOgImage = ({
   return `${baseUrl}/${encodeURIComponent(urlParams)}`;
 };
 
-const IndexPage: NextPage<Props> = ({ speaker }) => {
+const ProfilePage: NextPage<Props> = ({ speaker }) => {
   if (!speaker) {
     return <div>Speaker not found</div>;
   }
-
-  // console.log({ speaker });
 
   return (
     <>
@@ -61,17 +59,36 @@ const IndexPage: NextPage<Props> = ({ speaker }) => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
-  const { hits } = await algolia.search('yakovlevyuri');
+export const getStaticPaths: GetStaticPaths = async () => {
+  const { hits } = await algolia.search('');
 
-  // console.log({ hits });
+  const paths = hits.map((speaker) => ({
+    params: {
+      username: speaker.objectID,
+    },
+  }));
+
+  return {
+    paths,
+    fallback: false,
+  };
+};
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  const query = context.params?.username
+    ? String(context.params?.username)
+    : '';
+
+  const { hits } = await algolia.search(query);
 
   return {
     props: {
-      speaker: hits.find((speaker) => speaker.objectID === 'yakovlevyuri'),
+      speaker: hits.find(
+        (speaker) => speaker.objectID === context.params?.username,
+      ),
     },
     revalidate: 10,
   };
 };
 
-export default IndexPage;
+export default ProfilePage;

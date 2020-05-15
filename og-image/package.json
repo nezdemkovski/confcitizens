@@ -5,13 +5,13 @@
   "license": "MIT",
   "main": "src/card.ts",
   "dependencies": {
-    "chrome-aws-lambda": "1.14.0",
-    "marked": "^0.6.1",
-    "puppeteer-core": "1.14.0"
+    "chrome-aws-lambda": "2.1.1",
+    "marked": "^0.8.0",
+    "puppeteer-core": "2.1.1"
   },
   "devDependencies": {
-    "@types/marked": "^0.6.3",
-    "@types/puppeteer-core": "^1.9.0",
+    "@types/marked": "^0.7.2",
+    "@types/puppeteer-core": "^2.0.0",
     "typescript": "^3.3.4000"
   },
   "scripts": {

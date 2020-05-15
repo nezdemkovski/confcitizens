@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "lib": ["esnext", "dom", "dom.iterable"],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -12,7 +12,17 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"],
+      "@lib/*": ["lib/*"],
+      "@styles": ["styles/index.css"],
+      "@apiHooks/*": ["apiHooks/*"],
+      "@speakers": ["data/speakers.ts"],
+      "@config": ["config.ts"]
+    }
   },
   "exclude": ["node_modules", "og-image"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]

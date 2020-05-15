@@ -1,51 +1,35 @@
-import { Button } from 'antd';
-import React from 'react';
-import { connectInfiniteHits } from 'react-instantsearch-dom';
-import styled from 'styled-components';
+import { Speaker } from '@speakers';
+import Card from './Card';
 
-import { Speaker } from '../../data/speakers';
-import Card from '../card/Card';
+// const Wrapper = styled.div`
+//   display: grid;
+//   grid-gap: 10px;
+// `;
 
-const Wrapper = styled.div`
-  display: grid;
-  grid-gap: 10px;
-`;
+// const ButtonWrapper = styled.div`
+//   display: grid;
+//   margin-top: 25px;
 
-const ButtonWrapper = styled.div`
-  display: grid;
-  margin-top: 25px;
+//   @media (min-width: 992px) {
+//     justify-items: center;
+//   }
+// `;
 
-  @media (min-width: 992px) {
-    justify-items: center;
-  }
-`;
-
-const Cards = connectInfiniteHits(
-  ({
-    hits,
-    hasMore,
-    refineNext,
-  }: {
-    hits: Speaker[];
-    hasMore: boolean;
-    refineNext: (...args: any[]) => any;
-  }) => (
-    <React.Fragment>
-      {hits.length ? (
-        <Wrapper>
-          {hits.map(hit => (
-            <Card key={hit.objectID} hit={hit} />
-          ))}
-        </Wrapper>
-      ) : (
-        <div>No one found :(</div>
-      )}
-
+const Cards = ({ hits, hasMore }: { hits: Speaker[]; hasMore: boolean }) => (
+  <>
+    {hits.length ? (
+      <div className="space-y-6">
+        {hits.map((hit) => (
+          <Card key={hit.objectID} hit={hit} />
+        ))}
+      </div>
+    ) : (
+      <div>No one found :(</div>
+    )}
+    {/* 
       {hasMore && (
-        <ButtonWrapper>
-          <Button
-            type="primary"
-            size="large"
+        <div>
+          <button
             onClick={() => {
               if (hasMore) {
                 refineNext();
@@ -53,11 +37,10 @@ const Cards = connectInfiniteHits(
             }}
           >
             Load more speakers
-          </Button>
-        </ButtonWrapper>
-      )}
-    </React.Fragment>
-  ),
+          </button>
+        </div>
+      )} */}
+  </>
 );
 
 export default Cards;

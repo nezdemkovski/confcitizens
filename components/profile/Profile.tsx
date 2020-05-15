@@ -1,115 +1,107 @@
+import { FC } from 'react';
 import pluralize from 'pluralize';
-import React, { Fragment } from 'react';
-import styled from 'styled-components';
 
-import { Speaker } from '../../data/speakers';
-import { generateLocation } from '../../utils/helpers';
-import Social from '../social/Social';
-import Tags from '../tags/Tags';
-import Talks from '../talks/Talks';
+import { generateLocation } from '@utils/helpers';
+import Social from '@components/Social';
+import Tags from '@components/Tags';
+import Talks from '@components/Talks';
+
+import { Speaker } from '@speakers';
 
 interface Props {
   data: Speaker;
 }
 
-const Wrapper = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  margin-bottom: 50px;
-  justify-items: center;
+// const Wrapper = styled.div`
+//   display: grid;
+//   grid-template-columns: 1fr;
+//   margin-bottom: 50px;
+//   justify-items: center;
 
-  @media (min-width: 768px) {
-    grid-template-columns: auto 1fr auto;
-    justify-items: stretch;
-  }
-`;
+//   @media (min-width: 768px) {
+//     grid-template-columns: auto 1fr auto;
+//     justify-items: stretch;
+//   }
+// `;
 
-const ProfilePicture = styled.img`
-  border-radius: 50%;
-  margin-bottom: 25px;
+// const ProfilePicture = styled.img`
+//   border-radius: 50%;
+//   margin-bottom: 25px;
 
-  @media (min-width: 768px) {
-    margin-bottom: 0;
-  }
-`;
+//   @media (min-width: 768px) {
+//     margin-bottom: 0;
+//   }
+// `;
 
-const ProfileInfo = styled.div`
-  padding: 10px 20px;
-  text-align: center;
+// const ProfileInfo = styled.div`
+//   padding: 10px 20px;
+//   text-align: center;
 
-  @media (min-width: 768px) {
-    margin-bottom: 0;
-    text-align: left;
-  }
-`;
+//   @media (min-width: 768px) {
+//     margin-bottom: 0;
+//     text-align: left;
+//   }
+// `;
 
-const Username = styled.h2`
-  font-weight: 700;
-  font-size: 1.5em;
-  color: #4e4e52;
-  margin: 0;
-`;
+// const Fullname = styled.h3`
+//   color: #a7928b;
+// `;
 
-const Fullname = styled.h3`
-  color: #a7928b;
-`;
+// const CurrentLocation = styled.p`
+//   color: #a7928b;
+// `;
 
-const CurrentLocation = styled.p`
-  color: #a7928b;
-`;
+// const TalkCount = styled.h4`
+//   color: #a7928b;
+//   font-size: 1.17em;
 
-const TalkCount = styled.h4`
-  color: #a7928b;
-  font-size: 1.17em;
+//   & span {
+//     font-weight: 700;
+//     font-size: 1.5em;
+//     color: #4e4e52;
+//   }
+// `;
 
-  & span {
-    font-weight: 700;
-    font-size: 1.5em;
-    color: #4e4e52;
-  }
-`;
+// const SocialLinks = styled.div`
+//   padding: 10px 0;
+// `;
 
-const SocialLinks = styled.div`
-  padding: 10px 0;
-`;
-
-const Profile = ({ data }: Props) => {
+const Profile: FC<Props> = ({ data }) => {
   return (
-    <Fragment>
-      <Wrapper>
-        <ProfilePicture
-          src={`https://avatars.io/twitter/${data.social.twitter}/large`}
+    <>
+      <div>
+        <img
+          src={data.profileImageUrl}
           width={180}
           height={180}
           alt={data.fullName}
         />
 
-        <ProfileInfo>
-          <Username>{data.objectID}</Username>
-          <Fullname>{data.fullName}</Fullname>
+        <div>
+          <h2 className="text-2xl font-bold">{data.objectID}</h2>
+          <h3>{data.fullName}</h3>
 
-          <CurrentLocation>
+          <p>
             {generateLocation(
               data.currentLocation.city,
               data.currentLocation.country,
             )}
-          </CurrentLocation>
+          </p>
 
-          <Tags data={data.tags} />
+          <Tags tagList={data.tags} />
 
-          <TalkCount>
+          <h4>
             <span>{data.talks.length}</span>{' '}
             {pluralize('Talk', data.talks.length)}
-          </TalkCount>
-        </ProfileInfo>
-
-        <SocialLinks>
+          </h4>
+        </div>
+        <div>
           <Social data={data} />
-        </SocialLinks>
-      </Wrapper>
+        </div>
+      </div>
 
       <Talks data={data.talks} userId={data.objectID} />
-    </Fragment>
+    </>
   );
 };
 
