@@ -1,67 +1,33 @@
-import { Tooltip } from 'antd';
-import React from 'react';
-import styled from 'styled-components';
+import { FC } from 'react';
 
-import { Speaker } from '../../data/speakers';
-import Button from '../button/Button';
+import { Speaker } from '@speakers';
+import Button from '@components/Button';
 
 interface Props {
   data: Speaker;
 }
 
-const SocialWrapper = styled.div`
-  display: flex;
-  grid-area: links;
-  align-items: center;
-  justify-content: center;
-
-  & > a {
-    margin-right: 10px;
-
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-`;
-
-const Social = ({ data }: Props) => (
-  <SocialWrapper>
-    {data.social.blog && (
-      <Tooltip title="Blog">
-        <Button icon="book" href={data.social.blog} />
-      </Tooltip>
-    )}
+const Social: FC<Props> = ({ data }) => (
+  <div className="flex space-x-2">
+    {data.social.blog && <Button icon="book" href={data.social.blog} />}
 
     {data.social.linkedin && (
-      <Tooltip title="LinkedIn">
-        <Button icon="linkedin" href={data.social.linkedin} />
-      </Tooltip>
+      <Button icon="linkedin" href={data.social.linkedin} />
     )}
 
-    {data.website && (
-      <Tooltip title="Website">
-        <Button icon="global" href={data.website} />
-      </Tooltip>
-    )}
+    {data.website && <Button icon="global" href={data.website} />}
 
     {data.social.twitter && (
-      <Tooltip title="Twitter">
-        <Button
-          icon="twitter"
-          href={`https://twitter.com/${data.social.twitter}`}
-        />
-      </Tooltip>
+      <Button
+        icon="twitter"
+        href={`https://twitter.com/${data.social.twitter}`}
+      />
     )}
 
     {data.social.github && (
-      <Tooltip title="Github">
-        <Button
-          icon="github"
-          href={`https://github.com/${data.social.github}`}
-        />
-      </Tooltip>
+      <Button icon="github" href={`https://github.com/${data.social.github}`} />
     )}
-  </SocialWrapper>
+  </div>
 );
 
 export default Social;

@@ -1,52 +1,39 @@
-import { Layout } from 'antd';
-import React from 'react';
-import styled from 'styled-components';
-
 const AlgoliaLogo = require('./assets/algolia.svg') as string;
 
-const FooterWrapper = styled(Layout.Footer)`
-  text-align: center;
-  padding: 50px 0;
-  background: #ffffff;
-`;
-
-const Link = styled.a`
-  &:hover {
-    text-decoration: underline;
-  }
-`;
-
 const Footer = () => (
-  <FooterWrapper>
+  <footer className="text-center">
     <p>
-      <Link
+      <a
         href="https://github.com/yakovlevyuri/confcitizens"
         target="_blank"
         rel="noopener noreferrer"
+        className="hover:underline"
       >
         GitHub
-      </Link>
+      </a>
       {' • '}
-      <Link
+      <a
         href="https://twitter.com/yakovlevyuri"
         target="_blank"
         rel="noopener noreferrer"
+        className="hover:underline"
       >
         Twitter
-      </Link>
+      </a>
       {' • '}
       Initially based on data from{' '}
-      <Link
+      <a
         href="https://github.com/karlhorky/awesome-speakers"
         target="_blank"
         rel="noopener noreferrer"
+        className="hover:underline"
       >
         Awesome Speakers
-      </Link>
+      </a>
     </p>
 
     <AlgoliaLogo />
-  </FooterWrapper>
+  </footer>
 );
 
 export default Footer;

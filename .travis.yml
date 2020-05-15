@@ -13,15 +13,10 @@ notifications:
     on_failure: always
 
 stages:
-  - test
   - name: update-algolia
     if: (NOT type IN (pull_request)) AND (branch = master)
 
 jobs:
   include:
-    - stage: test
-      script:
-        - yarn test-ci
-
     - stage: update-algolia
       script: yarn update-speakers

@@ -23,6 +23,7 @@ export interface Speaker {
   availableForHire: boolean | null;
   readyToTravelAtOwnExpense: boolean | null;
   currentLocation: Location;
+  profileImageUrl?: string;
 }
 
 interface Location {

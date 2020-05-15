@@ -1,6 +1,6 @@
 import ReactGA from 'react-ga';
 
-import { GA_TRACKING_CODE } from '../config';
+import { GA_TRACKING_CODE } from '@config';
 
 export const initGA = () => {
   ReactGA.initialize(GA_TRACKING_CODE);
@@ -19,7 +19,6 @@ export const logEvent = (
   label: string = '',
 ) => {
   if (window.GA_INITIALIZED && category && action) {
-    // tslint:disable-next-line:no-console
     console.log(
       `Logging event with category "${category}", action "${action}" and label "${label}"`,
     );

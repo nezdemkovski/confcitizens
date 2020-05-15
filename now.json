@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "name": "confcitizens",
-  "alias": ["confcitizens.com", "www.confcitizens.com"],
-  "scope": "yakovlevyuri",
-  "regions": ["all"],
-  "builds": [{ "src": "package.json", "use": "@now/next" }]
-}

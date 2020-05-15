@@ -1,14 +1,8 @@
-import { Layout as AntLayout } from 'antd';
-import React, { useEffect } from 'react';
-import styled from 'styled-components';
+import { useEffect, FC } from 'react';
 
 import { initGA, logPageView } from '../../utils/analytics';
 import Footer from './Footer';
 import Header from './Header';
-
-interface Props {
-  children: JSX.Element;
-}
 
 declare global {
   interface Window {
@@ -16,20 +10,20 @@ declare global {
   }
 }
 
-const Content = styled(AntLayout.Content)`
-  padding: 0 15px;
-  background: #ffffff;
+// const Content = styled.div`
+//   padding: 0 15px;
+//   background: #ffffff;
 
-  @media (min-width: 992px) {
-    padding: 0 100px;
-  }
+//   @media (min-width: 992px) {
+//     padding: 0 100px;
+//   }
 
-  @media (min-width: 1200px) {
-    padding: 0 300px;
-  }
-`;
+//   @media (min-width: 1200px) {
+//     padding: 0 300px;
+//   }
+// `;
 
-const Layout = ({ children }: Props) => {
+const Layout: FC = ({ children }) => {
   useEffect(() => {
     if (process.env.NODE_ENV === 'production') {
       if (!window.GA_INITIALIZED) {
@@ -41,11 +35,11 @@ const Layout = ({ children }: Props) => {
   }, []);
 
   return (
-    <AntLayout>
+    <>
       <Header />
-      <Content>{children}</Content>
+      <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-16">{children}</div>
       <Footer />
-    </AntLayout>
+    </>
   );
 };
 
